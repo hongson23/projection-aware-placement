@@ -1,0 +1,18 @@
+{
+ "ten": "Bổ sung quy ước atlas khuôn (để bộ kiểm dựng lại trường khuôn AI chính xác)",
+ "ngay": "2026-11-12",
+ "nhan": "tham số số học, không phải luật",
+ "ly_do": "Bộ kiểm v3 báo khuôn AI KHONG_DUNG_LAI_DUOC_CHINH_XAC vì tệp khuon_thuc_vat_bo_sung_v1_2_20261111.json thiếu G, GB, cách nội suy. Tệp này bổ sung đúng các mục đó, chép từ đặc tả dac_ta/v12/*.json (tham_so_so_hoc) và quy ước tính đã đóng băng; không đổi gì của bộ dựng.",
+ "atlas_theo_dac_ta": {
+  "dong_vat_v12 (D1, D4, D4A2, D5)": {"G": 80, "GB": 2.0},
+  "thuc_vat_v12 (TVT)": {"G": 128, "GB": 2.0},
+  "thuc_vat_v12_ai (TVA)": {"G": 181, "GB": 1.25}
+ },
+ "luoi": "G điểm mỗi trục, đều trên [−GB, GB] (linspace, gồm hai đầu); chỉ số (i, j, k) ứng với (x, y, z)",
+ "gia_tri_luoi": "SDF có dấu (âm ở trong) của mesh vỏ kín khuôn trong khung chuẩn hoá: igl.signed_distance(điểm lưới, V, F) mặc định (pseudonormal), V/F là mesh khuôn sau trimesh(process=True), đảo mặt nếu thể tích âm. Khuôn giải tích cũng đi qua bước này: lấy marching cubes mức 0 trên lưới G của SDF giải tích rồi tính lại igl.signed_distance.",
+ "noi_suy": "tam tuyến tính (grid_sample, align_corners=True, padding border) tại q = clamp(p, −GB, GB)",
+ "ngoai_hop": "nếu p nằm ngoài hộp: a = ‖p − q‖, giá trị = sqrt(max(v(q), 0)² + a²)",
+ "kieu_so": "lưới lưu float32; tính toán khác float64",
+ "khung": "điểm thế giới x = t + s·R·y (y trong khung khuôn); SDF thế giới ψ(x) = s·φ̂(Rᵀ(x − t)/s)",
+ "mesh_khuon_AI": "theo danh sách và SHA-256 trong khuon_thuc_vat_bo_sung_v1_2_20261111.json (động vật: dong_vat_doi_chieu; thực vật: khuôn AI)"
+}

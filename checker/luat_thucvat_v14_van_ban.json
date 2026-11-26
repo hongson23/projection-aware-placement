@@ -1,0 +1,808 @@
+{
+ "nguong_tu_dat": [
+  {
+   "id": "2.2a",
+   "gia_tri": "hộp 60 × 30 × 30 µm, bo góc 3 µm",
+   "ly_do": "chọn trong dải thể tích đo được; dài gấp đôi rộng như tế bào mô giậu"
+  },
+  {
+   "id": "2.3b",
+   "gia_tri": "1–1,5 µm",
+   "ly_do": "phóng to ~7–10 lần để thấy được"
+  },
+  {
+   "id": "2.5b",
+   "gia_tri": "1 µm",
+   "ly_do": "phóng to ~10 lần; tính thể tích cho thấy chỉ dựng được khi lớp này dày 0,8–1,0 µm"
+  },
+  {
+   "id": "2.6b",
+   "gia_tri": "cách màng 0,3–0,5 µm",
+   "ly_do": "sát màng nhưng vẫn có khe chung 0,3 µm"
+  },
+  {
+   "id": "2.6f",
+   "gia_tri": "5,2–7 µm",
+   "ly_do": "gần SGK; cận dưới 5,2 để giữ 2.6e là luật cứng"
+  },
+  {
+   "id": "2.7b",
+   "gia_tri": "cách màng 0,3–0,5 µm",
+   "ly_do": "sát màng, vẫn giữ khe chung"
+  },
+  {
+   "id": "2.7d",
+   "gia_tri": "5–7 × 2–2,5 µm",
+   "ly_do": "nửa trên dải đo; to hơn nữa thì không bào xuống dưới 70 %"
+  },
+  {
+   "id": "2.7e",
+   "gia_tri": "30–50 cái",
+   "ly_do": "giảm 2–4 lần; nhiều hơn thì che nhân và không bào xuống dưới 70 %"
+  },
+  {
+   "id": "2.8",
+   "gia_tri": "5–10 cái, mặc định tắt",
+   "ly_do": "như tế bào động vật"
+  },
+  {
+   "id": "K.1",
+   "gia_tri": "0,3 µm (trong lục lạp 0,1 µm)",
+   "ly_do": "khe hiển thị; to hơn thật 4–30 lần"
+  },
+  {
+   "id": "M.d",
+   "gia_tri": "cách màng hoặc nhân ≤ 1 µm",
+   "ly_do": "bằng bề dày lớp chất tế bào mô hình"
+  },
+  {
+   "id": "5.1a",
+   "gia_tri": "1–2 cái",
+   "ly_do": "theo hình SGK; chưa có số thực vật"
+  },
+  {
+   "id": "5.2b",
+   "gia_tri": "30–50 lỗ, rộng 0,2–0,3 µm",
+   "ly_do": "như tế bào động vật"
+  },
+  {
+   "id": "5.3c",
+   "gia_tri": "10–20 cái",
+   "ly_do": "như tế bào động vật"
+  },
+  {
+   "id": "5.3e",
+   "gia_tri": "4–8 mào, dày 0,03–0,05 µm",
+   "ly_do": "ít hơn cận trên ~16; dày hơn thật"
+  },
+  {
+   "id": "5.4a",
+   "gia_tri": "vùng nối ≥ 1 µm²",
+   "ly_do": "đủ lớn để thấy chỗ nối"
+  },
+  {
+   "id": "5.5",
+   "gia_tri": "3 000–5 000 chấm, rộng 0,03–0,04 µm",
+   "ly_do": "như tế bào động vật"
+  },
+  {
+   "id": "5.6a",
+   "gia_tri": "các chồng cách nhau ≥ 2 µm",
+   "ly_do": "để thấy rõ là rải rác"
+  },
+  {
+   "id": "5.6b",
+   "gia_tri": "5–10 chồng",
+   "ly_do": "giảm số"
+  },
+  {
+   "id": "5.7a",
+   "gia_tri": "0,5–1 µm",
+   "ly_do": "nửa trên dải thật để nhìn thấy"
+  },
+  {
+   "id": "5.7c",
+   "gia_tri": "20–40 cái",
+   "ly_do": "giảm cùng mức với lục lạp"
+  },
+  {
+   "id": "10.1a",
+   "gia_tri": "khe hai màng 0,05 µm",
+   "ly_do": "chưa có số đo"
+  },
+  {
+   "id": "10.2a",
+   "gia_tri": "10–20 grana",
+   "ly_do": "giảm 2–6 lần"
+  },
+  {
+   "id": "2.3d",
+   "gia_tri": "0,15–0,25 µm",
+   "ly_do": "đủ dày để thấy màu riêng"
+  },
+  {
+   "id": "5.1b",
+   "gia_tri": "1–2 µm",
+   "ly_do": "chọn cho vừa nhân 5–7 µm"
+  },
+  {
+   "id": "5.2c",
+   "gia_tri": "0,15–0,2 µm",
+   "ly_do": "phóng to 2–5 lần"
+  },
+  {
+   "id": "5.3b",
+   "gia_tri": "1–2 × 0,5–1 µm",
+   "ly_do": "mượn số tế bào động vật"
+  },
+  {
+   "id": "5.6c",
+   "gia_tri": "4–6 túi; rộng 0,5–1 µm; túi 0,03–0,06 µm; khe 0,02–0,04 µm",
+   "ly_do": "chưa có số thực vật; cỡ suy từ thể tích"
+  },
+  {
+   "id": "5.7d",
+   "gia_tri": "cách lục lạp ≤ 1 µm",
+   "ly_do": "gợi ý, chưa có nguồn"
+  },
+  {
+   "id": "10.2c",
+   "gia_tri": "3–8 tấm",
+   "ly_do": "nửa dưới dải thật vì tấm vẽ dày hơn"
+  },
+  {
+   "id": "10.2d",
+   "gia_tri": "thylakoid 0,04–0,06 µm, khe 0,01–0,02 µm",
+   "ly_do": "phóng to 2–5 lần; chiều cao granum = số tấm × dày + (số tấm − 1) × khe"
+  },
+  {
+   "id": "10.5",
+   "gia_tri": "tối đa 40",
+   "ly_do": "tự đặt; cận dưới bắt buộc để hệ liền khối"
+  },
+  {
+   "id": "5.4b",
+   "gia_tri": "vành 0,5–1 µm; ống 0,1–0,2 µm ở độ sâu 0,3–0,6 µm",
+   "ly_do": "vành không bắt buộc phía màng vì nhân chỉ cách màng 0,3–0,5 µm"
+  },
+  {
+   "id": "2.7f",
+   "gia_tri": "lệch ≤ 30°",
+   "ly_do": "tự đặt"
+  },
+  {
+   "id": "10.3b",
+   "gia_tri": "vùng nối ≥ 0,005 µm²",
+   "ly_do": "cỡ tấm dày 0,05 µm chạm mép granum dài 0,1 µm"
+  }
+ ],
+ "luat": [
+  {
+   "id": "2.1",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào thực vật có thành tế bào ở ngoài cùng; bên trong là màng tế bào, chất tế bào, nhân; trong chất tế bào có không bào trung tâm và lục lạp.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "2.2a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mô hình là tế bào thịt lá trưởng thành, dài 60 µm, rộng 30 µm, cao 30 µm (khoảng 54 pL).",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "cùng bậc thể tích tế bào thịt lá Arabidopsis (mô xốp ~60 pL, mô giậu ~100 pL); SGK: tế bào nhân thực 10–100 µm",
+   "thuc_te_cho_giao_vien": "Tế bào thịt lá thật cỡ vài chục micromet; mô hình nằm trong dải thật."
+  },
+  {
+   "id": "2.2b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mô hình vẽ tế bào dạng hộp chữ nhật bo góc.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Tế bào mô giậu gần hình trụ, tế bào mô xốp tròn có thuỳ; hộp bo góc là cách vẽ gọn."
+  },
+  {
+   "id": "2.3a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Thành tế bào nằm ngoài màng tế bào và bao quanh toàn bộ tế bào.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "2.3b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Thành tế bào vẽ dày 1–1,5 µm (to hơn thật khoảng 7–10 lần).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "thành thịt lá cây thân thảo 0,14–0,19 µm; cây gỗ 0,17–0,79 µm",
+   "thuc_te_cho_giao_vien": "Thành tế bào lá thật chỉ dày khoảng 0,15 micromet."
+  },
+  {
+   "id": "2.3c",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng tế bào áp sát mặt trong thành tế bào (không có khe).",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Tài liệu chỉ nói thành nằm ngoài màng; chưa tìm được số đo khoảng cách màng–thành ở lá. Xin thầy/cô cho ý kiến."
+  },
+  {
+   "id": "2.4a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào trưởng thành có một không bào trung tâm, có màng riêng bao quanh.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào trưởng thành; tế bào non có thể có nhiều không bào nhỏ"
+  },
+  {
+   "id": "2.4b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Không bào trung tâm chiếm 70–85 % thể tích phía trong màng tế bào.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào thịt lá trưởng thành (Arabidopsis, cải bó xôi); tế bào mô phân sinh chỉ 30–40 %; cận trên chung khoảng 90 %",
+   "so_that": "SBF-SEM 3D ~83 %; TEM 2D 69–80 %; cải bó xôi 79 %",
+   "thuc_te_cho_giao_vien": "Không bào thật chiếm khoảng bốn phần năm tế bào lá trưởng thành; tế bào non thì ít hơn nhiều."
+  },
+  {
+   "id": "2.5b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Giữa không bào và màng tế bào luôn còn một lớp chất tế bào dày ít nhất 1 µm.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "thịt lá Arabidopsis ~0,1 µm; chất tế bào chỉ 3,5–7 % thể tích",
+   "thuc_te_cho_giao_vien": "Lớp chất tế bào thật rất mỏng (khoảng 0,1 micromet, trừ chỗ có lục lạp hay nhân); mô hình vẽ dày hơn khoảng 10 lần."
+  },
+  {
+   "id": "2.6a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào có một nhân.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "2.6b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân nằm trong lớp chất tế bào sát thành (thường ở mặt đáy tế bào; dời ra thành bên khi chiếu sáng mạnh), không ở giữa không bào; không bào lõm vào chỗ có nhân.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá và biểu bì Arabidopsis; vị trí cụ thể đổi theo ánh sáng",
+   "thuc_te_cho_giao_vien": "Ở tế bào lá trưởng thành nhân nằm sát thành, trong lớp chất tế bào mỏng. Hình SGK vẽ nhân lệch khỏi tâm nhưng chưa sát thành."
+  },
+  {
+   "id": "2.6f",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân vẽ hình cầu đường kính 5,2–7 µm.",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "so_that": "chưa có số đo đường kính nhân tế bào lá; SGK ghi nhân khoảng 5 µm (theo trang thứ cấp); nhân chiếm 0,16–2,3 % thể tích (2.6e)",
+   "thuc_te_cho_giao_vien": "Gần số SGK khoảng 5 µm. Cận dưới là 5,2 µm (không phải 5) để nhân không nhỏ hơn 0,16 % thể tích, mức nhỏ nhất đã đo."
+  },
+  {
+   "id": "2.7b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp nằm trong lớp chất tế bào sát màng tế bào, mặt dẹt hướng ra màng, nằm rải trên mặt trong tế bào (không trôi giữa không bào).",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá dưới ánh sáng yếu–vừa; ánh sáng mạnh lục lạp dồn ra thành bên",
+   "thuc_te_cho_giao_vien": "Lục lạp thật cách thành chỉ khoảng 0,1 micromet và phủ phần lớn mặt tế bào; mô hình chỉ phủ khoảng 9–28 % mặt trong."
+  },
+  {
+   "id": "2.7c",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp hình thấu kính (đĩa dẹt hai mặt lồi).",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "2.7d",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi lục lạp đường kính 5–7 µm, dày 2–2,5 µm.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thực vật bậc cao: điển hình ~5 × 2,5 µm, tuỳ loài tới ~10 µm; lục lạp mô giậu Arabidopsis to hơn (~93 fL)",
+   "so_that": "thể tích một lục lạp ~30 µm³ (cải bó xôi), ~93 µm³ (mô giậu Arabidopsis); mô hình 25–60 µm³",
+   "thuc_te_cho_giao_vien": "Cận trên 7 µm là số máy chọn: tài liệu ghi điển hình 4–6 µm, một tổng quan ghi 5–10 µm. Chọn to để lục lạp phủ được nhiều mặt tế bào hơn."
+  },
+  {
+   "id": "2.7e",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 30–50 lục lạp.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "Arabidopsis 80–120/tế bào thịt lá; dương 13–23; lục lạp chiếm 14–20 % thể tích (mô hình 2–7 %)",
+   "thuc_te_cho_giao_vien": "Tế bào lá Arabidopsis có khoảng 100 lục lạp; mô hình vẽ ít hơn 2–4 lần để còn thấy nhân và không bào."
+  },
+  {
+   "id": "2.8",
+   "lop": [
+    "KHTN6"
+   ],
+   "phat_bieu": "Ở lớp 6 không bắt buộc vẽ ti thể; nếu bật thì vẽ 5–10 ti thể.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true
+  },
+  {
+   "id": "2.9",
+   "lop": [
+    "KHTN6"
+   ],
+   "phat_bieu": "Lớp 6 vẽ lục lạp màu xanh đặc, không vẽ cấu tạo bên trong; không vẽ lưới nội chất, Golgi, peroxisome.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Các bào quan này có thật nhưng lớp 6 chưa học."
+  },
+  {
+   "id": "K.1",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Quy ước khe chung: các bộ phận nhìn thấy được vẽ tách nhau ít nhất 0,3 µm (với màng tế bào, không bào, nhân, giữa các bào quan với nhau); bên trong lục lạp khe là 0,1 µm. Trừ lưới nội chất nối liền màng nhân, ribosome bám lưới nội chất hoặc màng ngoài của nhân, tấm nối chạm grana.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "khoảng cách thật giữa bào quan thường 0,01–0,08 µm; lục lạp cách thành ~0,1 µm; một số lục lạp gắn vào nhân; chưa có số đo khe giữa các grana",
+   "thuc_te_cho_giao_vien": "Bào quan thật nằm rất sát nhau và sát màng; một số lục lạp còn gắn vào nhân. Mô hình tách ra để thấy từng cái."
+  },
+  {
+   "id": "M.d",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể, Golgi, peroxisome nằm sát màng tế bào hoặc sát nhân, không trôi giữa không bào.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào trưởng thành có không bào lớn: chất tế bào chỉ là lớp mỏng; chưa tra dải chất tế bào xuyên qua không bào"
+  },
+  {
+   "id": "M.g",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi bào quan là một vật riêng, ẩn/hiện được độc lập với các bộ phận khác.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — yêu cầu dạy học",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Yêu cầu dạy học (trưởng nhóm đã duyệt), không phải sự thật sinh học: để thầy/cô bật/tắt từng bào quan khi giảng. Lỗi vi phạm luật này được báo riêng, không tính vào lỗi sinh học."
+  },
+  {
+   "id": "M.h",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Hai bộ phận cùng loại không chồng lên nhau (được chạm, không được giao).",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "so_that": "bào quan thật là các khoang có màng riêng; chỗ tiếp xúc gần nhất vẫn cách ≥ 10 nm",
+   "thuc_te_cho_giao_vien": "Luật nền (trưởng nhóm duyệt, thêm sau rà soát). Luật riêng chặt hơn vẫn áp: lục lạp, ti thể, peroxisome, nhân con cách nhau 0,3 µm; grana và tấm nối 0,1 µm; thể Golgi 2 µm. Các tấm thylakoid trong một granum và các túi Golgi trong một chồng được vẽ cách nhau một khe nhỏ (0,01–0,04 µm), nên không giao nhau."
+  },
+  {
+   "id": "5.1a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong nhân có nhân con (hạch nhân), không có màng bao; mô hình vẽ 1–2 nhân con.",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "so_that": "'một hoặc nhiều' (GO); chưa có số đếm ở tế bào thực vật",
+   "thuc_te_cho_giao_vien": "Số 1–2 do máy chọn theo hình SGK (vẽ 1 nhân con)."
+  },
+  {
+   "id": "5.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng nhân gồm hai lớp, giữa là khoang hẹp (thật 20–50 nm), có nhiều lỗ nhân; màng ngoài nối liền lưới nội chất.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "5.2b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 30–50 lỗ nhân, mỗi lỗ rộng 0,2–0,3 µm (to hơn và ít hơn thật).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "lỗ thật ~0,1–0,12 µm; 7–16 lỗ/µm² đo ở tế bào động vật có vú; chưa có số ở tế bào thực vật",
+   "thuc_te_cho_giao_vien": "Nhân thật có hàng trăm đến hàng nghìn lỗ nhỏ; mô hình vẽ vài chục lỗ to."
+  },
+  {
+   "id": "5.3c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 10–20 ti thể dạng hạt rời.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "tế bào lá thật ~200–450 ti thể; mô hình ít hơn 10–40 lần (nhiều hơn hẳn mức giảm của lục lạp)",
+   "thuc_te_cho_giao_vien": "Tế bào lá thật có vài trăm ti thể. Ti thể giảm mạnh hơn lục lạp vì vẽ vài trăm hạt nhỏ sẽ che hết; xin thầy/cô cho ý kiến."
+  },
+  {
+   "id": "5.3e",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng trong ti thể gấp nếp thành mào; mô hình vẽ 4–8 mào mỗi ti thể.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Mào thật dày đặc hơn; mô hình vẽ ít mào và dày hơn."
+  },
+  {
+   "id": "5.4a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Có lưới nội chất hạt (có ribosome) và trơn; màng lưới nội chất nối liền màng ngoài của nhân.",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Lưới nội chất nối liền màng nhân, không có khe."
+  },
+  {
+   "id": "5.5",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ribosome vẽ thành chấm nhỏ bám trên lưới nội chất hạt hoặc màng ngoài của nhân.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "ribosome 80S ~25–30 nm; SGK KNTT (thứ cấp) ghi 150 Å"
+  },
+  {
+   "id": "5.6a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Bộ máy Golgi ở tế bào thực vật gồm nhiều thể Golgi (chồng túi dẹt) rời nhau, rải khắp chất tế bào; không gom thành một dải cạnh nhân.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "câu 'rải khắp' có nguồn chung cho tế bào thực vật; số đếm hàng trăm–nghìn chỉ ở tế bào nuôi cấy BY-2",
+   "thuc_te_cho_giao_vien": "Khác tế bào động vật: Golgi thực vật là nhiều chồng túi nhỏ rời."
+  },
+  {
+   "id": "5.6b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 5–10 thể Golgi.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "BY-2 hàng trăm–hàng nghìn; lá chưa có số đếm"
+  },
+  {
+   "id": "5.7a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Peroxisome là túi nhỏ hình tròn, đường kính 0,5–1 µm.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thật 0,1–1 µm; cải bó xôi 0,9 µm³ (khoảng 1,2 µm, tự tính); dạng tròn"
+  },
+  {
+   "id": "5.7c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 20–40 peroxisome.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "~92/tế bào mô xốp (số ước tính từ tỉ lệ thể tích), 'nhiều như lục lạp'",
+   "thuc_te_cho_giao_vien": "Peroxisome thật nhiều cỡ lục lạp; mô hình giảm cùng mức với lục lạp (2–5 lần)."
+  },
+  {
+   "id": "5.8",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Không vẽ lysosome riêng; không bào đảm nhận chức năng phân giải.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "lysosome là một dạng không bào phân giải; GO: 'found in most animal cells'",
+   "thuc_te_cho_giao_vien": "Lý do: chức năng phân giải ở tế bào thực vật do không bào đảm nhận; SGK CTST nói tế bào thực vật không có lysosome."
+  },
+  {
+   "id": "5.9",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Không có trung thể (trung tử).",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào sinh dưỡng thực vật có hoa; rêu, dương xỉ tạo trung tử khi sinh tinh",
+   "thuc_te_cho_giao_vien": "Lý do: tế bào lá cây có hoa không có trung tử."
+  },
+  {
+   "id": "5.10",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Không vẽ cầu sinh chất (các kênh nhỏ xuyên thành nối hai tế bào).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "có thật ở mọi thực vật bậc cao, rộng ~50 nm",
+   "thuc_te_cho_giao_vien": "Lý do: kênh quá nhỏ (khoảng 0,05 micromet) và mô hình chỉ có một tế bào; chưa thấy SGK Sinh 10 nhắc. Thầy/cô muốn vẽ (phóng to) thì đánh Sửa."
+  },
+  {
+   "id": "5.11",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Không vẽ khung xương tế bào.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Lý do: sợi quá mảnh và dày đặc, sẽ che các bào quan; khung xương có trên hình SGK. Thầy/cô muốn bật thì đánh Sửa."
+  },
+  {
+   "id": "10.1a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp có hai màng (màng ngoài, màng trong) bao quanh chất nền; chất nền có DNA và ribosome riêng.",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Khe giữa hai màng chưa có số đo; mô hình vẽ 0,05 µm. DNA và ribosome chưa vẽ."
+  },
+  {
+   "id": "10.1b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng trong lục lạp không gấp nếp (khác ti thể).",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "SGK nhấn mạnh điểm này (theo trang thứ cấp); chưa có câu trích từ tài liệu khoa học."
+  },
+  {
+   "id": "10.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong chất nền có các grana, mỗi granum là một chồng thylakoid dẹt; mô hình vẽ 10–20 grana mỗi lục lạp.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "thật 40–60 grana/lục lạp"
+  },
+  {
+   "id": "10.3a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Các grana nối với nhau bằng tấm thylakoid chất nền: toàn bộ hệ thylakoid là một khối màng liền.",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Hình vẽ grana rời nhau là đơn giản hoá sai (nhiều sách vẫn vẽ vậy)."
+  },
+  {
+   "id": "10.3c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Tấm nối vẽ phẳng, đi thẳng giữa hai granum kề nhau.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "thật quấn xoắn quanh granum (xoắn phải 20–25°)"
+  },
+  {
+   "id": "M.a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mọi bào quan nằm trong màng tế bào.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "2.3d",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng tế bào vẽ thành lớp màu riêng dày 0,15–0,25 µm.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "màng thật là lớp lipid kép rất mỏng; ghi chú nguồn chưa có số đo"
+  },
+  {
+   "id": "2.6e",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân chiếm 0,16–2,3 % thể tích phía trong màng.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá Arabidopsis, cải bó xôi",
+   "so_that": "nhân 5,2 µm cho ~0,17 % trong tế bào mô hình rộng nhất; nhân 5 µm chỉ ~0,15 %"
+  },
+  {
+   "id": "5.1b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân con đường kính 1–2 µm.",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true
+  },
+  {
+   "id": "5.2c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng nhân vẽ dày 0,15–0,2 µm (mỗi lớp 0,05 µm, khoang 0,05–0,1 µm).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "khoang thật 20–50 nm"
+  },
+  {
+   "id": "5.3b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi ti thể vẽ thành một hạt dài 1–2 µm, rộng 0,5–1 µm.",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "so_that": "ghi chú nguồn chưa có số đo cỡ ti thể thực vật"
+  },
+  {
+   "id": "5.6c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi thể Golgi gồm 4–6 túi dẹt, rộng 0,5–1 µm; chồng cao 0,18–0,56 µm (túi dày 0,03–0,06 µm, khe giữa túi 0,02–0,04 µm).",
+   "nhan": "chưa có nguồn",
+   "luat_cung": true,
+   "so_that": "chỉ có thể tích một dictyosome 0,03–0,3 µm³; chồng 0,5–1 µm × 0,2–0,3 µm cùng cỡ (tự tính); chưa có số túi ở tế bào thực vật"
+  },
+  {
+   "id": "5.7d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Peroxisome nằm gần lục lạp.",
+   "nhan": "chưa có nguồn",
+   "luat_cung": false,
+   "thuc_te_cho_giao_vien": "Chưa có câu nguồn; gợi ý, xin ý kiến."
+  },
+  {
+   "id": "10.2b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Granum đường kính 0,3–0,6 µm.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  },
+  {
+   "id": "10.2c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi granum vẽ 3–8 thylakoid.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thật 3–19 (TB ~9, rau diếp thích nghi tối)"
+  },
+  {
+   "id": "10.2d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Thylakoid vẽ dày 0,04–0,06 µm, khe giữa hai thylakoid 0,01–0,02 µm; granum cao 0,14–0,62 µm.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "chu kỳ xếp 15,7–19,1 nm, khe giữa hai thylakoid 3,2–3,6 nm; granum cao ~0,16 µm (± 0,09)"
+  },
+  {
+   "id": "10.5",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Số tấm nối mỗi lục lạp từ (số granum − 1) đến 40.",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "thylakoid chất nền chiếm 30–50 % diện tích màng thylakoid (BNID 107016)"
+  },
+  {
+   "id": "2.4c",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Không bào là vùng phụ thuộc, dựng sau cùng: phần bên trong màng, trừ lớp sát màng dày 1 µm, trừ mọi bộ phận đã dựng (nở thêm 0,3 µm).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "một khối elip đặt sẵn chỉ lấp ~52 % hộp nên không đạt 70–85 %"
+  },
+  {
+   "id": "5.4b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lưới nội chất là vùng phụ thuộc, dựng trước không bào: vành quanh nhân dày 0,5–1 µm (bỏ phần cách màng tế bào dưới 0,3 µm, nên phía màng có thể mỏng hoặc không có) cộng lưới ống đường kính 0,1–0,2 µm nằm cách màng 0,3–0,6 µm; trừ nhân, lục lạp, ti thể, Golgi, peroxisome (nở 0,3 µm, trừ nhân).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "ghi chú nguồn thực vật không có số thể tích lưới nội chất tin được"
+  },
+  {
+   "id": "2.7f",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp đặt mặt dẹt song song với màng tế bào.",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "ánh sáng yếu (lục lạp phủ mặt tế bào); góc là suy ra"
+  },
+  {
+   "id": "M.e",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi bào quan vẽ thành một khối liền (trừ Golgi gồm các túi rời; lưới nội chất và ribosome là vùng/chấm).",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true
+  },
+  {
+   "id": "10.3b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi granum có ít nhất một tấm nối chạm vào nó, phải còn đúng sau bước chiếu.",
+   "nhan": "sự thật",
+   "luat_cung": true
+  }
+ ]
+}

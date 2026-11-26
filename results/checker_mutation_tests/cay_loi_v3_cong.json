@@ -1,0 +1,384 @@
+{
+ "dong_vat": {
+  "nguon": [
+   "hn3_D1_td_1001_p0/cay_loi_ket_qua.json",
+   "hn3_D1_td_1001_p1/cay_loi_ket_qua.json",
+   "hn3_D4A2_td_1001_p0/cay_loi_ket_qua.json",
+   "hn3_D4A2_td_1001_p1/cay_loi_ket_qua.json",
+   "hn3_D4A2_td_1001_p2/cay_loi_ket_qua.json",
+   "hn3_D4A2_td_1001_p3/cay_loi_ket_qua.json"
+  ],
+  "ban_ghi": 157,
+  "dot_bien": 123,
+  "phat_hien": 116,
+  "dot_bien_muc_su_that": 65,
+  "phat_hien_su_that": 52,
+  "st_dat_ts_truot": 8,
+  "st_dat_ts_truot_dung": 8,
+  "doi_chung": 22,
+  "doi_chung_bao_gia": 2,
+  "khong_hop_le": 4,
+  "loi_cay": 0,
+  "v12": {
+   "dot_bien": 123,
+   "phat_hien_bat_ky": "116/123",
+   "phat_hien_su_that (tren dot bien co muc dich @su_that)": "52/65",
+   "phat_hien_tham_so (tren dot bien co muc dich @tham_so)": "74/103",
+   "bo_sot_co_muc_su_that (xem lai: dai v1.2 co the da hop le)": [
+    [
+     "D1_td_1001",
+     "rong_0_4",
+     "ti_the_4",
+     [
+      "4.3b@su_that",
+      "4.3b@tham_so"
+     ]
+    ],
+    [
+     "D1_td_1001",
+     "dai_2_3",
+     "ti_the_1",
+     [
+      "4.3b@su_that"
+     ]
+    ],
+    [
+     "D1_td_1001",
+     "rong_0_49_sat_nguong",
+     "ti_the_5",
+     [
+      "4.3b@su_that",
+      "4.3b@tham_so"
+     ]
+    ],
+    [
+     "D1_td_1001",
+     "ti_the_cong_dai_2_4",
+     "ti_the_7",
+     [
+      "4.3b@su_that"
+     ]
+    ],
+    [
+     "D4A2_td_1001",
+     "rong_0_4",
+     "ti_the_4",
+     [
+      "4.3b@su_that",
+      "4.3b@tham_so"
+     ]
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_lysosome_tat_ca_gan_nhan_4.6b",
+     "lysosome",
+     [
+      "4.6b@su_that"
+     ]
+    ],
+    [
+     "D4A2_td_1001",
+     "rong_0_49_sat_nguong",
+     "ti_the_5",
+     [
+      "4.3b@su_that",
+      "4.3b@tham_so"
+     ]
+    ]
+   ],
+   "st_dat_ts_truot": {
+    "so": 8,
+    "dung_ky_vong": 8,
+    "ca": [
+     [
+      "D1_td_1001",
+      "v12_nhan_con_4",
+      "nhan_con",
+      true
+     ],
+     [
+      "D1_td_1001",
+      "v12_ti_the_khe_0_2_M.h",
+      "ti_the_12",
+      true
+     ],
+     [
+      "D1_td_1001",
+      "v12_lysosome_canh_1.00",
+      "lysosome_5",
+      true
+     ],
+     [
+      "D1_td_1001",
+      "v12_lysosome_ti_the_khe_0_01_M.c0",
+      "lysosome_4",
+      true
+     ],
+     [
+      "D4A2_td_1001",
+      "v12_lysosome_ti_the_khe_0_01_M.c0",
+      "lysosome_59",
+      true
+     ],
+     [
+      "D4A2_td_1001",
+      "v12_nhan_con_4",
+      "nhan_con",
+      true
+     ],
+     [
+      "D4A2_td_1001",
+      "v12_lysosome_canh_1.00",
+      "lysosome_100",
+      true
+     ],
+     [
+      "D4A2_td_1001",
+      "v12_ti_the_khe_0_2_M.h",
+      "ti_the_137",
+      true
+     ]
+    ]
+   },
+   "M.c0": [
+    [
+     "D1_td_1001",
+     "v12_lysosome_chong_ti_the_M.c0",
+     "lysosome_1",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_er_lan_vao_nhan_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_er_loi_vao_nhan_0.02_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_lysosome_chong_ti_the_0.02_M.c0",
+     "lysosome_5",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_lysosome_ti_the_khe_0_01_M.c0",
+     "lysosome_4",
+     null,
+     "st_dat_ts_truot"
+    ],
+    [
+     "D1_td_1001",
+     "v12_golgi_chong_nhan_M.c0",
+     "golgi",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_er_loi_vao_nhan_0.05_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D1_td_1001",
+     "v12_er_loi_vao_nhan_0.005_M.c0",
+     "luoi_noi_chat",
+     null,
+     "sat_nguong_dat"
+    ],
+    [
+     "D1_td_1001",
+     "v12_lysosome_chong_ti_the_0.005_M.c0",
+     "lysosome_5",
+     null,
+     "sat_nguong_dat"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_lysosome_ti_the_khe_0_01_M.c0",
+     "lysosome_59",
+     null,
+     "st_dat_ts_truot"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_er_loi_vao_nhan_0.05_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_lysosome_chong_ti_the_0.005_M.c0",
+     "lysosome_51",
+     null,
+     "sat_nguong_dat"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_lysosome_chong_ti_the_M.c0",
+     "lysosome_44",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_er_loi_vao_nhan_0.02_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_golgi_chong_nhan_M.c0",
+     "golgi",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_er_loi_vao_nhan_0.005_M.c0",
+     "luoi_noi_chat",
+     null,
+     "sat_nguong_dat"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_er_lan_vao_nhan_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "D4A2_td_1001",
+     "v12_lysosome_chong_ti_the_0.02_M.c0",
+     "lysosome_51",
+     true,
+     "dot_bien"
+    ]
+   ]
+  }
+ },
+ "thuc_vat": {
+  "nguon": [
+   "hn3_TV1_p0/cay_loi_tv_ket_qua.json",
+   "hn3_TV1_p1/cay_loi_tv_ket_qua.json",
+   "hn3_TV2/cay_loi_tv_ket_qua.json",
+   "hn3_TV6_p0/cay_loi_tv_ket_qua.json",
+   "hn3_TV6_p1/cay_loi_tv_ket_qua.json"
+  ],
+  "ban_ghi": 111,
+  "dot_bien": 83,
+  "phat_hien": 81,
+  "dot_bien_muc_su_that": 43,
+  "phat_hien_su_that": 29,
+  "st_dat_ts_truot": 5,
+  "st_dat_ts_truot_dung": 5,
+  "doi_chung": 20,
+  "doi_chung_bao_gia": 1,
+  "khong_hop_le": 3,
+  "loi_cay": 0,
+  "v12": {
+   "dot_bien": 83,
+   "phat_hien_bat_ky": "81/83",
+   "phat_hien_su_that (tren dot bien co muc dich @su_that)": "29/43",
+   "phat_hien_tham_so (tren dot bien co muc dich @tham_so)": "59/77",
+   "bo_sot_co_muc_su_that (xem lai: dai v1.2 co the da hop le)": [
+    [
+     "TV1",
+     "keo_dai_ca_te_bao_x1_03",
+     "vach",
+     [
+      "2.2a@su_that"
+     ]
+    ],
+    [
+     "TV1",
+     "luc_lap_chi_4_mat",
+     "luc_lap",
+     [
+      "2.7b@su_that",
+      "2.7b@tham_so"
+     ]
+    ]
+   ],
+   "st_dat_ts_truot": {
+    "so": 5,
+    "dung_ky_vong": 5,
+    "ca": [
+     [
+      "TV1",
+      "v12_nhan_khe_mang_0.20",
+      "nhan",
+      true
+     ],
+     [
+      "TV1",
+      "v12_golgi_khe_1.0",
+      "golgi_1",
+      true
+     ],
+     [
+      "TV1",
+      "v12_luc_lap_duong_kinh_8.0",
+      "luc_lap_4",
+      true
+     ],
+     [
+      "TV1",
+      "v12_luc_lap_khe_mang_0.20",
+      "luc_lap_7",
+      true
+     ],
+     [
+      "TV1",
+      "v12_peroxisome_canh_0.35",
+      "peroxisome_1",
+      true
+     ]
+    ]
+   },
+   "M.c0": [
+    [
+     "TV1",
+     "v12_er_lan_vao_nhan_M.c0",
+     "luoi_noi_chat",
+     true,
+     "dot_bien"
+    ],
+    [
+     "TV1",
+     "v12_peroxisome_chong_luc_lap_0.02_M.c0",
+     "peroxisome_3",
+     true,
+     "dot_bien"
+    ],
+    [
+     "TV1",
+     "v12_peroxisome_chong_luc_lap_M.c0",
+     "peroxisome_2",
+     true,
+     "dot_bien"
+    ],
+    [
+     "TV1",
+     "v12_peroxisome_chong_luc_lap_0.005_M.c0",
+     "peroxisome_3",
+     null,
+     "sat_nguong_dat"
+    ]
+   ]
+  }
+ }
+}

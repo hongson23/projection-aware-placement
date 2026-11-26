@@ -1,0 +1,105 @@
+{
+ "khuon": [
+  {
+   "ten": "golgi_s2",
+   "loai": "golgi",
+   "so_manh_goc": 3101,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    1.01198284332318,
+    0.9317801763914633
+   ]
+  },
+  {
+   "ten": "lysosome_s1",
+   "loai": "lysosome",
+   "so_manh_goc": 2880,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.9923787812987559,
+    0.9412166226938993
+   ]
+  },
+  {
+   "ten": "lysosome_s2",
+   "loai": "lysosome",
+   "so_manh_goc": 2798,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.940569186916431,
+    0.9390740164061762
+   ]
+  },
+  {
+   "ten": "lysosome_s4",
+   "loai": "lysosome",
+   "so_manh_goc": 2990,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.9840226901666819,
+    0.9825402235034952
+   ]
+  },
+  {
+   "ten": "nhan_s1",
+   "loai": "nhan",
+   "so_manh_goc": 3724,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.996071395020785,
+    1.0155409647307987
+   ]
+  },
+  {
+   "ten": "nhan_s4",
+   "loai": "nhan",
+   "so_manh_goc": 5159,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    1.0066369649617717,
+    1.007603879599929
+   ]
+  },
+  {
+   "ten": "ti_the_s1",
+   "loai": "ti_the",
+   "so_manh_goc": 906,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.42331141971478886,
+    0.41231142243475355
+   ]
+  },
+  {
+   "ten": "ti_the_s2",
+   "loai": "ti_the",
+   "so_manh_goc": 2021,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.5441286842874632,
+    0.5464429466728356
+   ]
+  },
+  {
+   "ten": "ti_the_s4",
+   "loai": "ti_the",
+   "so_manh_goc": 1099,
+   "kin": true,
+   "ti_le": [
+    1.0,
+    0.389195011197646,
+    0.3671671625271907
+   ]
+  }
+ ],
+ "te_bao_ai": [],
+ "ghi_chu": "05/11: bỏ nhan_s2 (vỏ rỗng, V/Vcầu 0,32)"
+}

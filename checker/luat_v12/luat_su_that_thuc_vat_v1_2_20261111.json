@@ -1,0 +1,1619 @@
+{
+ "phien_ban": "su_that_thuc_vat_v1.2-20261111",
+ "trang_thai": "ĐÓNG BĂNG 11/11/2026 — đã qua 2 vòng rà soát chéo độc lập",
+ "sua_doi_so_voi_v1_va_v1_1": [
+  "SAI 1: 4.3b = đường kính tiết diện 0,2–1 µm (Stephan 2019, Siegmund 2018, BioNumbers); bỏ nguồn số đếm BNID 109409/Valm; dài 1–2 µm và hạt rời → tham số",
+  "SAI 2: 2.2a bỏ hệ số cùng bậc (= 1); tv.kich_thuoc_vach 68×30×30 (60.25 pL); tv.duong_kinh_nhan [5.4; 7] (cần ≥ 5.35); khả thi tính lại ở tv.kich_thuoc_vach.kiem_kha_thi",
+  "SAI 3: 10.2b 0,3–0,6 → 0,2–0,6 µm, ghi phạm vi (Bussi 278 ± 43 nm)",
+  "SAI 4: 2.6a → tham số tv.so_nhan (chưa có nguồn khoa học); 2.1 chỉ đòi ≥ 1 nhân",
+  "SAI 5: định nghĩa '*' ở cả hai JSON; M.a/M.c₀/M.h có loai_tru; 4.5b/4.6b/4.8b dùng vị từ tương đối (gan_tuong_doi, bao_quanh), ngưỡng µm chỉ là tham số bộ dựng; 4.8a goc_toi_thieu_do; 4.4a chạm diện tích > 0",
+  "SAI 6: thêm mau_thuan_mac_dinh_voi_su_that; dv.mien_cung_loai mặc định [] (theo M.h)",
+  "NÊN: 1.2a cận trên 30 µm → tham số; 1.5 phạm vi HeLa/COS-7; 2.4b 0,68–0,85 (Koffler); 2.7d thêm Liao 2025; 2.6b bỏ 'không bào lõm'; 2.7b vị từ 'rai'; 2.7f muc_suy_ra; 10.2c 3–100; màng nhân 20–50 nm ở M.d; thêm khong_the_hien_co_chu_dich và so_trong_van_ban cho mọi luật",
+  "--- v1.2 ---",
+  "1. 2.2a: vị từ trên thể tích TRONG màng 60–100 pL (PI); hộp 80×32×32 µm (61.96–68.14 pL); nhân [6.0; 7] µm; khả thi tính lại",
+  "2. 5.6a khe Golgi–Golgi > 0, 5.4a và 10.3b diện tích chạm > 0; ngưỡng 2 µm / 1 µm² / 0,005 µm² chỉ là phép kiểm tham số",
+  "3. trạng thái ĐÓNG BĂNG; SHA-256 ở DONG_BANG_LuatSuThat_v1_2.txt"
+ ],
+ "nghia_dau_sao": "'*' trong chua/roi/gan = mọi bộ phận có số lượng > 0 ở lớp đang dựng, trừ vach và mang; cặp tổ tiên–con cháu (vd. granum–lục lạp, thylakoid–màng trong lục lạp, tấm nối–lục lạp, lỗ nhân–nhân) không xét roi",
+ "mau_thuan_mac_dinh_voi_su_that": [
+  {
+   "luat": "2.2a",
+   "mac_dinh": "v1.4 hộp 60 × 30 × 30 µm (trong màng 39,5–43,9 pL)",
+   "vi_pham": "< 60 pL; v1.2 đổi tv.kich_thuoc_vach thành 80×32×32 (trong màng 61.96–68.14 pL)"
+  },
+  {
+   "luat": "2.6e",
+   "mac_dinh": "v1.4 nhân 5,2 µm",
+   "vi_pham": "với hộp v1.2 nhân 5,2 µm chỉ 0.108 % < 0,16 %; v1.2 đặt cận dưới 6.0 µm"
+  },
+  {
+   "luat": "(chung)",
+   "mac_dinh": "chưa có bộ dựng thật cho tế bào thực vật",
+   "vi_pham": "bộ kiểm thực vật mới thử trên 3 tế bào do chính bộ kiểm dựng (TV1, TV2, TV6)"
+  }
+ ],
+ "muc_dich": "Bộ luật chỉ gồm sự thật có nguồn cho Bài 1 (khoa học máy tính); quy ước dạy học là tham số (tham_so_quy_uoc_v1_2_20261111.json), không phải luật; không cần giáo viên duyệt.",
+ "tu_ban": "v1.4-20261105-te-bao-thuc-vat",
+ "nguon_vao_sha256_16": {
+  "luat_te_bao_dong_vat_v4_1_20261104.json": "683c3e595675b834",
+  "luat_te_bao_thuc_vat_v1_4_20261105.json": "064f46f78b3cf997",
+  "../ThuNghiem/bo_dung_chung/dac_ta/dong_vat_botri2.json": "da264d7be9ed5928",
+  "BoSung_LuatV4_2_DeXuat_20261105.md": "70e9202ae2bef8ee",
+  "lam_excel_gv.py": "dd7b7daa194fa1ca"
+ },
+ "sinh_boi": "tao_luat_su_that.py",
+ "don_vi": "µm; t_um = khe chứa, s_um = khe rời",
+ "quy_uoc_may": {
+  "chua": "a nằm trong b; khoảng cách bề mặt a tới mặt trong b ≥ t_um; a có thể là danh sách hoặc '*'",
+  "roi": "a và b không giao, khoảng cách bề mặt ≥ s_um; cung_loai=true: chỉ xét cặp hai bản sao cùng tên a (b phải bằng a); cung_loai=false: chỉ cặp khác tên; 'mien' = cặp bỏ qua; cặp tổ tiên–con cháu không xét; bo_cap_cung_trong = bỏ mọi cặp mà cả hai bộ phận cùng nằm trong một bản sao của bộ phận đó (bên trong lục lạp dùng khe 0,1 µm riêng)",
+  "gan": "khoảng cách bề mặt nhỏ nhất từ mỗi bản sao a tới b (b danh sách: tới bộ phận gần nhất) ≤ toi_da_um",
+  "tiep_xuc": "a chạm b, PHẢI còn đúng SAU bước chiếu/sửa cuối; dien_tich_toi_thieu_um2 hoặc ti_le_mat_a_toi_thieu = cỡ vùng chạm; moi_ban_sao = mọi bản sao a đều chạm; moi_ban_sao_cua = mọi bản sao bộ phận đó đều được chạm",
+  "lien_khoi": "hợp các bộ phận trong a (trong từng bản sao 'trong_moi' nếu có) là một khối liền; 'mien' = được nhiều mảnh",
+  "ti_le_the_tich": "V(a)/V(trong) ∈ khoang",
+  "kich_thuoc": "mỗi khoá dai/rong/duong_kinh/day ∈ [lo, hi] µm",
+  "so_luong": "số bản sao a trong mỗi bản sao cha ∈ khoang; 'lop' = chỉ áp cho lớp đó; toi_thieu_theo = cận dưới theo số bộ phận khác; bat_mac_dinh=false: tắt trừ khi giáo viên bật",
+  "hinh": "dạng quy ước: hop_bo_tron, thau_kinh, cau, tam_phang, tron_nhan_khong_gap",
+  "vo": "khối ngoài cùng, kích thước ngoài theo kich_thuoc_um",
+  "huong": "trục ngắn nhất của a lệch không quá 'lech_toi_da_do' độ so với pháp tuyến mặt gần nhất của b",
+  "nhom": "danh sách 'dieu_kien' gồm các vị từ thường; luật đạt khi mọi vị từ đạt",
+  "@": "giá trị bắt đầu bằng '@' là id trong tham_so_quy_uoc_v1_2_20261111.json (số quy ước/ngưỡng, không thuộc luật)",
+  "kich_thuoc.kiem_tren_mo_hinh=false": "số thật chỉ ghi để đối chiếu; mô hình cố ý phóng to theo tham số nêu ở ly_do; không dùng làm tiêu chí đạt/trượt",
+  "kich_thuoc.the_tich_pL": "thể tích khối ∈ [lo/he_so_cung_bac; hi·he_so_cung_bac] pL",
+  "hinh.chong_tam": "một chồng tấm dẹt song song, đồng trục (Golgi; granum)",
+  "roi.s_um=0": "không giao (thể tích giao ≤ eps_um3), được chạm; bo_cap_to_tien_con_chau: bỏ cặp lồng nhau theo quan hệ cha–con; khong_cham: đòi khe > 0",
+  "so_luong.khoang[1]=null": "không có cận trên",
+  "ap_dung_khi": "luật chỉ áp khi tham số được nêu là true",
+  "gan_tuong_doi": "khoảng cách bề mặt a–b < khoảng cách bề mặt a–so_voi (với thong_ke = trung_vi: dùng vị trí tương đối u = d(b)/(d(b)+d(so_voi)) tại tâm mỗi bản sao, trung vị u < 0,5; rai_ra_ngoai = có bản sao u ≥ 0,5)",
+  "bao_quanh": "tâm khối b nằm trong bao lồi của a",
+  "rai": "có bản sao a nằm sát (theo gan cùng luật) ít nhất so_mat_toi_thieu mặt của b (hộp)",
+  "huong.goc_toi_thieu_do": "góc giữa hai trục ≥ giá trị này thì coi là đạt goc_do",
+  "tiep_xuc.dien_tich_phai_duong": "vùng chạm (khe ≤ khe_toi_da_um) có diện tích > 0",
+  "loai_tru": "loại bộ phận bỏ khỏi '*' trong luật này"
+ },
+ "quy_uoc_nhan": {
+  "sự thật": "khẳng định có nguồn khoa học (hoặc nguyên lý vật lý hiển nhiên)",
+  "sự thật (có phạm vi)": "đúng trong phạm vi ghi kèm"
+ },
+ "dem": {
+  "giu": 24,
+  "tach_lai": 12,
+  "tach_tu_quy_uoc": 3,
+  "them": 1,
+  "chuyen_tham_so": 31,
+  "bo": 1
+ },
+ "phan_loai_luat_goc": {
+  "2.1": "giữ",
+  "2.2a": "giữ (tách)",
+  "2.2b": "→ tham số",
+  "2.3a": "giữ",
+  "2.3b": "→ tham số",
+  "2.3c": "→ tham số",
+  "2.4a": "giữ",
+  "2.4b": "giữ",
+  "2.5b": "→ tham số",
+  "2.6a": "→ tham số (đổi nhãn: chưa có nguồn khoa học (chỉ SGK qua tóm tắt vietjack, mức tin thấp theo ghi chú SGK; Iwabuchi 2007/Suetsugu 2016 chỉ nói vị trí nhân, không nói số nhân))",
+  "2.6b": "giữ (tách)",
+  "2.6f": "→ tham số",
+  "2.7b": "giữ (tách)",
+  "2.7c": "giữ",
+  "2.7d": "giữ (tách)",
+  "2.7e": "→ tham số",
+  "2.8": "→ tham số",
+  "2.9": "→ tham số",
+  "K.1": "→ tham số",
+  "M.d": "giữ (tách)",
+  "M.g": "→ tham số",
+  "M.h": "giữ",
+  "5.1a": "tách vế sự thật từ luật quy ước",
+  "5.2a": "giữ",
+  "5.2b": "→ tham số",
+  "5.3c": "→ tham số",
+  "5.3e": "tách vế sự thật từ luật quy ước",
+  "5.4a": "giữ (tách)",
+  "5.5": "→ tham số",
+  "5.6a": "giữ (tách)",
+  "5.6b": "→ tham số",
+  "5.7a": "giữ (tách)",
+  "5.7c": "→ tham số",
+  "5.8": "→ tham số",
+  "5.9": "giữ",
+  "5.10": "→ tham số",
+  "5.11": "→ tham số",
+  "10.1a": "giữ (tách)",
+  "10.1b": "→ tham số",
+  "10.2a": "tách vế sự thật từ luật quy ước",
+  "10.3a": "giữ",
+  "10.3c": "→ tham số",
+  "M.a": "giữ",
+  "2.3d": "→ tham số",
+  "2.6e": "giữ",
+  "5.1b": "→ tham số",
+  "5.2c": "→ tham số",
+  "5.3b": "→ tham số",
+  "5.6c": "→ tham số",
+  "5.7d": "bỏ",
+  "10.2b": "giữ",
+  "10.2c": "giữ (tách)",
+  "10.2d": "→ tham số",
+  "10.5": "→ tham số",
+  "2.4c": "→ tham số",
+  "5.4b": "→ tham số",
+  "2.7f": "giữ (tách)",
+  "M.e": "→ tham số",
+  "10.3b": "giữ (tách)",
+  "M.c₀": "thêm"
+ },
+ "luat_bo": {
+  "5.7d": "nhãn 'chưa có nguồn', luật mềm 'peroxisome gần lục lạp', nguon rỗng → bỏ khỏi bộ luật; ngưỡng 1 µm giữ ở tham số tv.gan_peroxisome_luc_lap để truy vết"
+ },
+ "so_luat": 28,
+ "luat": [
+  {
+   "id": "2.1",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào thực vật có thành tế bào ở ngoài cùng; bên trong là màng tế bào, chất tế bào, nhân; trong chất tế bào có không bào trung tâm và lục lạp.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005618 cell wall (\"lying outside the cell membrane\"); GO:0009505 plant-type cell wall; GO:0009530 primary cell wall (\"still able to expand\")",
+    "GO:0005886 plasma membrane",
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\"); không bào, lạp thể, ti thể, Golgi đều part_of GO:0005737",
+    "GO:0005634 nucleus",
+    "GO:0042807 central vacuole (\"takes up most of the volume of a mature plant cell\"); GO:0005773 vacuole (\"one or several vacuoles\"; part_of cytoplasm)",
+    "GO:0009507 chloroplast (\"thylakoids organized into grana and frets, or stroma thylakoids, and embedded in a stroma\"); GO:0009536 plastid part_of cytoplasm"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "vach",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "so_luong",
+      "a": "mang",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "so_luong",
+      "a": "nhan",
+      "khoang": [
+       1,
+       null
+      ]
+     },
+     {
+      "loai": "so_luong",
+      "a": "khong_bao",
+      "khoang": [
+       1,
+       null
+      ]
+     },
+     {
+      "loai": "so_luong",
+      "a": "luc_lap",
+      "khoang": [
+       1,
+       null
+      ]
+     },
+     {
+      "loai": "chua",
+      "a": "mang",
+      "b": "vach",
+      "t_um": 0.0
+     },
+     {
+      "loai": "chua",
+      "a": [
+       "nhan",
+       "khong_bao",
+       "luc_lap"
+      ],
+      "b": "mang",
+      "t_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "khong_hinh_hoc",
+    "ly_do": "liệt kê thành phần; hình học ở các luật sau"
+   },
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK KHTN 6 Bài 19; Sinh 10 (cả ba bộ)",
+    "noi_dung": "SGK KHTN 6 Bài 19; Sinh 10 (cả ba bộ)",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 2.1",
+   "so_trong_van_ban": [
+    "1 thành",
+    "1 màng",
+    "≥ 1 nhân",
+    "≥ 1 không bào",
+    "≥ 1 lục lạp"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.2a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào thịt lá trưởng thành có thể tích phía trong màng tế bào (phần sống) 60–100 pL (mô xốp ~60 pL, mô giậu ~100 pL).",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "cùng bậc thể tích tế bào thịt lá Arabidopsis (mô xốp ~60 pL, mô giậu ~100 pL); SGK: tế bào nhân thực 10–100 µm",
+   "nguon": [
+    "Tolleter et al. 2024 Quant Plant Biol, PMC10988163 (mô giậu ~100 pL, mô xốp ~60 pL; mô giậu mô hình hoá dạng trụ, mô xốp dạng cầu; thành 150 nm; nhân 0,2 % thể tích)"
+   ],
+   "phat_bieu_goc": "Mô hình là tế bào thịt lá trưởng thành, dài 60 µm, rộng 30 µm, cao 30 µm (khoảng 54 pL).",
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "mang",
+    "the_tich_trong_pL": [
+     60,
+     100
+    ],
+    "ghi_chu": "thể tích khối phía trong mặt trong của màng (PI 11/11); thành vẽ dày không tính"
+   },
+   "may_goc": {
+    "loai": "vo",
+    "a": "vach",
+    "hinh": "hop_bo_tron",
+    "kich_thuoc_um": {
+     "dai": 60,
+     "rong": 30,
+     "cao": 30,
+     "ban_kinh_bo": 3
+    }
+   },
+   "tach_ra_tham_so": [
+    "tv.kich_thuoc_vach"
+   ],
+   "ly_do_tach": "'dài 60, rộng 30, cao 30 µm' là giá trị chọn (nguong_tu_dat 2.2a); phần sự thật = bậc thể tích có nguồn",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 2.2a",
+   "so_trong_van_ban": [
+    "thể tích phía trong màng 60–100 pL"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.3a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Thành tế bào nằm ngoài màng tế bào và bao quanh toàn bộ tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005618 cell wall (\"lying outside the cell membrane\"); GO:0009505 plant-type cell wall; GO:0009530 primary cell wall (\"still able to expand\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "mang",
+    "b": "vach",
+    "t_um": 0.0,
+    "eps_um3": "@chung.eps_giao_um3"
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "mang",
+    "b": "vach",
+    "t_um": 0.0
+   },
+   "nguon_goc": "tv v1.4 luật 2.3a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": [
+    "thành thật 0,14–0,19 µm (thân thảo), mô hình 1–1,5 µm → tv.day_vach",
+    "màng thật là lớp lipid kép, mô hình 0,15–0,25 µm → tv.day_mang"
+   ]
+  },
+  {
+   "id": "2.4a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào trưởng thành có một không bào trung tâm, có màng riêng bao quanh.",
+   "loai": "so_luong",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào trưởng thành; tế bào non có thể có nhiều không bào nhỏ",
+   "nguon": [
+    "GO:0042807 central vacuole (\"takes up most of the volume of a mature plant cell\"); GO:0005773 vacuole (\"one or several vacuoles\"; part_of cytoplasm)",
+    "GO:0009705 plant-type vacuole membrane (tonoplast: \"separates its contents from the cytoplasm\")"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "khong_bao",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "'có màng riêng bao quanh' (tonoplast): định dạng không có bộ phận màng không bào"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "khong_bao",
+    "khoang": [
+     1,
+     1
+    ]
+   },
+   "nguon_goc": "tv v1.4 luật 2.4a",
+   "so_trong_van_ban": [
+    "1 không bào trung tâm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.4b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Không bào trung tâm chiếm 68–85 % thể tích phía trong màng tế bào.",
+   "loai": "ti_le",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào thịt lá trưởng thành (Arabidopsis 69–80 % 2D, ~83 % 3D; đào, lúa mạch, cần tây, cải bó xôi 68–85 %); mô phân sinh chỉ 30–40 %; cận trên chung ~90 %",
+   "so_that": "SBF-SEM 3D ~83 %; TEM 2D 69–80 %; cải bó xôi 79 %",
+   "nguon": [
+    "GO:0042807 central vacuole (\"takes up most of the volume of a mature plant cell\"); GO:0005773 vacuole (\"one or several vacuoles\"; part_of cytoplasm)",
+    "Seydel et al. 2025 Plant Physiol, PMC12225672 (SBF-SEM 3D thịt lá Arabidopsis: không bào ~83 %, lục lạp ~14 %, chất tế bào 3,5 %; 13 + 28 tế bào trong 2 khối nhựa, không có độ phân tán)",
+    "Koffler et al. 2013 Micron, PMC3553553 (TEM 2D Delesse, thịt lá Arabidopsis: không bào 69–80 %, lục lạp 14–20 %, nhân 0,16–2,28 %, ti thể 0,47–1,57 %, peroxisome 0,06–0,28 %)",
+    "BNID 104368 (không bào 79 %), 104369 (lục lạp 16 %), 104371 (ti thể 0,5 %), 104372 (nhân 0,3 %) — thịt lá cải bó xôi, gốc Winter, Robinson & Heldt 1994",
+    "BNID 108542 (không bào trung tâm tới 90 %, Nobel 2005)",
+    "Dünser et al. 2019 EMBO J, PMC6443208 (rễ Arabidopsis: tế bào mô phân sinh 30–40 %, tế bào dãn dài 80–90 %; n = 7–11)",
+    "Koffler et al. 2013 Micron, PMC3553553: \"Similar values for vacuoles (between 68 and 85%) have been found for mesophyll cells of leaves from peach, barley, celery, and spinach\""
+   ],
+   "phat_bieu_goc": "Không bào trung tâm chiếm 70–85 % thể tích phía trong màng tế bào.",
+   "may": {
+    "loai": "ti_le_the_tich",
+    "a": "khong_bao",
+    "trong": "mang",
+    "khoang": [
+     0.68,
+     0.85
+    ]
+   },
+   "may_goc": {
+    "loai": "ti_le_the_tich",
+    "a": "khong_bao",
+    "trong": "mang",
+    "khoang": [
+     0.7,
+     0.85
+    ]
+   },
+   "nguon_goc": "tv v1.4 luật 2.4b",
+   "so_trong_van_ban": [
+    "68–85 % thể tích phía trong màng (0,68–0,85)"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "lớp chất tế bào thật ~0,1 µm, mô hình 1 µm → tv.lop_chat_te_bao"
+   ]
+  },
+  {
+   "id": "2.6b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân nằm trong lớp chất tế bào sát thành (thường ở mặt đáy tế bào; dời ra thành bên khi chiếu sáng mạnh), không ở giữa không bào.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá và biểu bì Arabidopsis; vị trí cụ thể đổi theo ánh sáng",
+   "nguon": [
+    "Iwabuchi, Sakai & Takagi 2007 Plant Cell Physiol [tóm tắt] (thịt lá: tối nhân ở giữa mặt đáy, sáng xanh mạnh nhân ra thành bên); Iwabuchi, Minamino & Takagi 2010 Plant Physiol [tóm tắt]",
+    "Suetsugu et al. 2016 PLoS One, PMC4911103 (nhân ở mặt đáy khi tối, ra thành bên khi sáng; một số lục lạp gắn vào nhân; ánh sáng yếu lục lạp phủ mặt tế bào)"
+   ],
+   "phat_bieu_goc": "Nhân nằm trong lớp chất tế bào sát thành (thường ở mặt đáy tế bào; dời ra thành bên khi chiếu sáng mạnh), không ở giữa không bào; không bào lõm vào chỗ có nhân.",
+   "suy_ra_khong_nguon": "'không bào lõm vào chỗ có nhân' (v1.4) BỎ khỏi luật: chỉ suy ra từ hình học, không có câu nguồn (ghi chú thực vật §2.6(d))",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "roi",
+      "a": "nhan",
+      "b": "khong_bao",
+      "s_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     },
+     {
+      "loai": "gan",
+      "a": "nhan",
+      "b": "mang",
+      "toi_da_um": "@tv.gan_nhan_mang_toi_da"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "gan",
+    "a": "nhan",
+    "b": "mang",
+    "toi_da_um": 0.5
+   },
+   "tach_ra_tham_so": [
+    "tv.khe_nhan_mang",
+    "tv.gan_nhan_mang_toi_da"
+   ],
+   "ly_do_tach": "may.toi_da_um 0,5 và nguong_tu_dat 'cách màng 0,3–0,5' là số tự đặt",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "hình tế bào thực vật trong SGK (cả ba bộ)",
+    "noi_dung": "hình tế bào thực vật trong SGK (cả ba bộ)",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 2.6b",
+   "so_trong_van_ban": [
+    "khe nhân–màng ≤ tham số tv.gan_nhan_mang_toi_da"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.7b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp nằm trong lớp chất tế bào sát màng tế bào, nằm rải trên mặt trong tế bào (không trôi giữa không bào); hướng mặt dẹt ở 2.7f.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá dưới ánh sáng yếu–vừa; ánh sáng mạnh lục lạp dồn ra thành bên",
+   "nguon": [
+    "GO:0009507 chloroplast (\"thylakoids organized into grana and frets, or stroma thylakoids, and embedded in a stroma\"); GO:0009536 plastid part_of cytoplasm",
+    "Kadota et al. 2009 PNAS [tóm tắt] (lục lạp neo vào màng sinh chất bằng cp-actin)",
+    "Suetsugu et al. 2016 PLoS One, PMC4911103 (nhân ở mặt đáy khi tối, ra thành bên khi sáng; một số lục lạp gắn vào nhân; ánh sáng yếu lục lạp phủ mặt tế bào)",
+    "Xiong et al. 2017 Sci Rep, PMC5515944 (thịt lá Arabidopsis kiểu dại: thành 0,174–0,193 µm; lớp chất tế bào giữa lục lạp và thành T_cyt 0,097–0,100 µm; lục lạp dày 1,81–1,98 µm; TEM, SD 3 lần lặp)"
+   ],
+   "phat_bieu_goc": "Lục lạp nằm trong lớp chất tế bào sát màng tế bào, mặt dẹt hướng ra màng, nằm rải trên mặt trong tế bào (không trôi giữa không bào).",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "roi",
+      "a": "luc_lap",
+      "b": "khong_bao",
+      "s_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     },
+     {
+      "loai": "gan",
+      "a": "luc_lap",
+      "b": "mang",
+      "toi_da_um": "@tv.gan_luc_lap_mang_toi_da"
+     },
+     {
+      "loai": "rai",
+      "a": "luc_lap",
+      "tren": "mang",
+      "so_mat_toi_thieu": "@tv.so_mat_rai"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "gan",
+    "a": "luc_lap",
+    "b": "mang",
+    "toi_da_um": 0.5
+   },
+   "tach_ra_tham_so": [
+    "tv.khe_luc_lap_mang",
+    "tv.gan_luc_lap_mang_toi_da",
+    "tv.so_mat_rai"
+   ],
+   "ly_do_tach": "may.toi_da_um 0,5 và nguong_tu_dat 'cách màng 0,3–0,5' là số tự đặt",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 2.7b",
+   "so_trong_van_ban": [
+    "khe lục lạp–màng ≤ tv.gan_luc_lap_mang_toi_da",
+    "có lục lạp trên ≥ tv.so_mat_rai mặt"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "lục lạp thật 80–120 mỗi tế bào, mô hình 30–50 → tv.so_luc_lap",
+    "lục lạp cách thành thật ~0,1 µm, mô hình 0,3–0,5 → tv.khe_luc_lap_mang"
+   ]
+  },
+  {
+   "id": "2.7c",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp hình thấu kính (đĩa dẹt hai mặt lồi).",
+   "loai": "hinh",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "BNID 107012 (lục lạp hình thấu kính, đường kính ~5 µm, dày ~2,5 µm; Staehelin 2003); BioNumbers book \"How large are chloroplasts?\" (4–6 µm)"
+   ],
+   "may": {
+    "loai": "hinh",
+    "a": "luc_lap",
+    "dang": "thau_kinh",
+    "nguong_hinh": [
+     "@kiem.tv.TV_THAU_KINH",
+     "@kiem.tv.TV_NG_LOI",
+     "@kiem.tv.TV_NG_TRON_DIA"
+    ]
+   },
+   "may_goc": {
+    "loai": "hinh",
+    "a": "luc_lap",
+    "dang": "thau_kinh"
+   },
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK: 'hình bầu dục'",
+    "noi_dung": "SGK: 'hình bầu dục'",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 2.7c",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.7d",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp thực vật bậc cao đường kính khoảng 4–10 µm, dày khoảng 1,1–2,5 µm.",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thực vật bậc cao: đường kính 4–6 µm (BioNumbers), 5–10 µm (tổng quan PMC9478734); bề dày 1,11–2,45 µm ở 12 loài gỗ (Liao 2025), 1,81–1,98 µm ở thịt lá Arabidopsis (Xiong 2017), ~2,5 µm (BNID 107012)",
+   "so_that": "thể tích một lục lạp ~30 µm³ (cải bó xôi), ~93 µm³ (mô giậu Arabidopsis); mô hình 25–60 µm³",
+   "nguon": [
+    "BNID 107012 (lục lạp hình thấu kính, đường kính ~5 µm, dày ~2,5 µm; Staehelin 2003); BioNumbers book \"How large are chloroplasts?\" (4–6 µm)",
+    "BNID 104800 (31 µm³, cải bó xôi, dựng 3D TEM), 108551 (~30 µm³)",
+    "Xiong et al. 2017 Sci Rep, PMC5515944 (thịt lá Arabidopsis kiểu dại: thành 0,174–0,193 µm; lớp chất tế bào giữa lục lạp và thành T_cyt 0,097–0,100 µm; lục lạp dày 1,81–1,98 µm; TEM, SD 3 lần lặp)",
+    "Tổng quan PMC9478734 (2022): lục lạp thịt lá 20–100 cái, cỡ 5–10 µm (dẫn Lopez-Juez & Pyke 2005)",
+    "Tolleter et al. 2024, PMC10988163 (lục lạp mô giậu Arabidopsis trung bình 93 fL, dẫn Crumpton-Taylor 2012)",
+    "Liao, Wang & Wen 2025 Tree Physiol, PMC12363393 (12 loài gỗ: lục lạp dày 1,11–2,45 µm) — phạm vi: cận dưới 1,11 µm là cây gỗ; thịt lá Arabidopsis 1,81–1,98 µm (Xiong 2017)"
+   ],
+   "phat_bieu_goc": "Mỗi lục lạp đường kính 5–7 µm, dày 2–2,5 µm.",
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "luc_lap",
+    "duong_kinh": [
+     4,
+     10
+    ],
+    "day": [
+     1.11,
+     2.5
+    ],
+    "dung_sai_khoang": "@chung.dung_sai_khoang",
+    "ghi_chu": "dải hợp các nguồn trong luật: BioNumbers 4–6, tổng quan PMC9478734 5–10; dày Liao 2025 1,11–2,45, Xiong 2017 1,81–1,98, BNID 107012 ~2,5"
+   },
+   "may_goc": {
+    "loai": "kich_thuoc",
+    "a": "luc_lap",
+    "duong_kinh": [
+     5,
+     7
+    ],
+    "day": [
+     2.0,
+     2.5
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.kich_thuoc_luc_lap_ve"
+   ],
+   "ly_do_tach": "5–7 × 2–2,5 µm là 'nửa trên dải đo' (nguong_tu_dat 2.7d) = lựa chọn",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 2.7d",
+   "so_trong_van_ban": [
+    "đường kính 4–10 µm",
+    "dày 1,11–2,5 µm"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "lục lạp thật chiếm 14–20 % thể tích; mô hình vài % → tv.so_luc_lap"
+   ]
+  },
+  {
+   "id": "M.d",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể, Golgi, peroxisome nằm trong lớp chất tế bào (sát màng tế bào hoặc sát nhân), không trôi giữa không bào.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào trưởng thành có không bào lớn: chất tế bào chỉ là lớp mỏng; chưa tra dải chất tế bào xuyên qua không bào",
+   "nguon": [
+    "Xiong et al. 2017 Sci Rep, PMC5515944 (thịt lá Arabidopsis kiểu dại: thành 0,174–0,193 µm; lớp chất tế bào giữa lục lạp và thành T_cyt 0,097–0,100 µm; lục lạp dày 1,81–1,98 µm; TEM, SD 3 lần lặp)",
+    "Erickson et al. 2024 Plant Cell Physiol, PMC11094753 (biểu bì lá: lớp chất tế bào ~100 nm, hiếm khi > 300 nm)",
+    "Seydel et al. 2025 Plant Physiol, PMC12225672 (SBF-SEM 3D thịt lá Arabidopsis: không bào ~83 %, lục lạp ~14 %, chất tế bào 3,5 %; 13 + 28 tế bào trong 2 khối nhựa, không có độ phân tán)"
+   ],
+   "phat_bieu_goc": "Ti thể, Golgi, peroxisome nằm sát màng tế bào hoặc sát nhân, không trôi giữa không bào.",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "roi",
+      "a": [
+       "ti_the",
+       "golgi",
+       "peroxisome"
+      ],
+      "b": "khong_bao",
+      "s_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     },
+     {
+      "loai": "gan",
+      "a": [
+       "ti_the",
+       "golgi",
+       "peroxisome"
+      ],
+      "b": [
+       "mang",
+       "nhan"
+      ],
+      "toi_da_um": "@tv.gan_mang_hoac_nhan"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "gan",
+    "a": [
+     "ti_the",
+     "golgi",
+     "peroxisome"
+    ],
+    "b": [
+     "mang",
+     "nhan"
+    ],
+    "toi_da_um": 1.0
+   },
+   "tach_ra_tham_so": [
+    "tv.gan_mang_hoac_nhan"
+   ],
+   "ly_do_tach": "'≤ 1 µm' tự đặt (nguong_tu_dat M.d)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật M.d",
+   "so_trong_van_ban": [
+    "cách màng hoặc nhân ≤ tv.gan_mang_hoac_nhan"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "ti thể thật 200–450, Golgi hàng trăm, peroxisome ~92 → tv.so_ti_the, tv.so_golgi, tv.so_peroxisome"
+   ]
+  },
+  {
+   "id": "M.h",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Hai bộ phận cùng loại không chồng lên nhau (được chạm, không được giao).",
+   "loai": "roi",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "so_that": "bào quan thật là các khoang có màng riêng; chỗ tiếp xúc gần nhất vẫn cách ≥ 10 nm",
+   "nguon": [
+    "Nguyên lý vật lý: hai vật rắn không chiếm cùng một chỗ (luật hiển nhiên, không có số đo riêng)"
+   ],
+   "may": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "s_um": 0.0,
+    "cung_loai": true,
+    "eps_um3": "@chung.eps_giao_um3"
+   },
+   "may_goc": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "cung_loai": true,
+    "s_um": 0.0,
+    "ghi_chu": "khe quy ước giữa cùng loại, nếu có, theo luật riêng"
+   },
+   "nguon_goc": "tv v1.4 luật M.h",
+   "so_trong_van_ban": [
+    "khe ≥ 0"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.1a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong nhân có một hoặc nhiều nhân con (hạch nhân), không có màng bao.",
+   "phat_bieu_goc": "Trong nhân có nhân con (hạch nhân), không có màng bao; mô hình vẽ 1–2 nhân con.",
+   "loai": "so_luong",
+   "nhan": "sự thật",
+   "nhan_goc": "chưa có nguồn",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005730 nucleolus (\"one or more\", \"not bounded by a limiting membrane\")"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "chua",
+      "a": "nhan_con",
+      "b": "nhan",
+      "t_um": 0.0
+     },
+     {
+      "loai": "so_luong",
+      "a": "nhan_con",
+      "khoang": [
+       1,
+       null
+      ]
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "'không có màng bao': không có trên mặt bao"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "nhan_con",
+    "khoang": [
+     1,
+     2
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.so_nhan_con",
+    "tv.duong_kinh_nhan_con"
+   ],
+   "tach_tu_luat_nhan_quy_uoc": true,
+   "ly_do_tach": "vế đầu là sự thật có nguồn GO ngay trong luật; số vẽ chuyển sang tham số — CHỜ PI xác nhận việc nâng vế này lên luật",
+   "nguon_goc": "tv v1.4 luật 5.1a",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK: 'nhân con (hạch nhân)'",
+    "noi_dung": "SGK: 'nhân con (hạch nhân)'",
+    "giu_theo_quyet_dinh_PI_1111": false,
+    "nghia": "chỉ chờ đối chiếu thuật ngữ SGK"
+   },
+   "so_trong_van_ban": [
+    "≥ 1 nhân con"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng nhân gồm hai lớp, giữa là khoang hẹp (thật 20–50 nm), có nhiều lỗ nhân; màng ngoài nối liền lưới nội chất.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005635 nuclear envelope; GO:0005641 nuclear envelope lumen (\"20-40 nm wide\"); GO:0005643 nuclear pore (\"inner and outer nuclear membranes are joined\")",
+    "GO:0005640 nuclear outer membrane (\"continuous with the endoplasmic reticulum\"); GO:0042175 nuclear outer membrane-ER membrane network",
+    "Crisp et al. 2006 J Cell Biol, PMC2063530 (khoang quanh nhân ~50 nm ở HeLa đối chứng)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "mang_nhan",
+      "khoang": [
+       1,
+       1
+      ],
+      "cha": "nhan",
+      "ghi_chu": "vỏ hai lớp"
+     },
+     {
+      "loai": "so_luong",
+      "a": "lo_nhan",
+      "khoang": [
+       1,
+       null
+      ],
+      "cha": "mang_nhan"
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "mang_nhan",
+      "khoang": [
+       0.02,
+       0.05
+      ],
+      "kiem_tren_mo_hinh": false,
+      "ly_do": "mô hình phóng to có chủ đích (tham số tv.mang_nhan_ve); số thật chỉ ghi"
+     },
+     {
+      "loai": "tiep_xuc",
+      "a": "luoi_noi_chat",
+      "b": "mang_nhan",
+      "sau_chieu": true,
+      "xem": "5.4a"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "khong_hinh_hoc",
+    "ly_do": "cấu trúc; bề dày vẽ ở 5.2c, lỗ ở 5.2b, chỗ nối ở 5.4a"
+   },
+   "nguon_goc": "tv v1.4 luật 5.2a",
+   "so_trong_van_ban": [
+    "1 vỏ hai lớp",
+    "≥ 1 lỗ nhân",
+    "khoang 20–50 nm (0,02–0,05 µm), chỉ ghi, không kiểm trên mô hình"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "khoang thật 20–50 nm, mô hình 50–100 nm → tv.mang_nhan_ve",
+    "lỗ thật ~0,1–0,12 µm, mô hình 0,2–0,3 µm → tv.lo_nhan_ve"
+   ]
+  },
+  {
+   "id": "5.3e",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng trong ti thể gấp nếp thành mào.",
+   "phat_bieu_goc": "Màng trong ti thể gấp nếp thành mào; mô hình vẽ 4–8 mào mỗi ti thể.",
+   "loai": "cau_truc+so_luong",
+   "nhan": "sự thật",
+   "nhan_goc": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0030061 mitochondrial crista; GO:0005743 mitochondrial inner membrane (\"highly folded to form cristae\")"
+   ],
+   "may": {
+    "loai": "so_luong",
+    "a": "mao",
+    "khoang": [
+     1,
+     null
+    ],
+    "cha": "ti_the"
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "mao",
+    "khoang": [
+     4,
+     8
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.mao_ve"
+   ],
+   "tach_tu_luat_nhan_quy_uoc": true,
+   "ly_do_tach": "vế đầu là sự thật có nguồn GO ngay trong luật; số vẽ chuyển sang tham số — CHỜ PI xác nhận việc nâng vế này lên luật",
+   "nguon_goc": "tv v1.4 luật 5.3e",
+   "so_trong_van_ban": [
+    "≥ 1 mào mỗi ti thể"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.4a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Có lưới nội chất hạt (có ribosome) và trơn; màng lưới nội chất nối liền màng ngoài của nhân.",
+   "loai": "cau_truc+tiep_xuc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005640 nuclear outer membrane (\"continuous with the endoplasmic reticulum\"); GO:0042175 nuclear outer membrane-ER membrane network",
+    "GO:0005791 rough endoplasmic reticulum; GO:0005790 smooth endoplasmic reticulum"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "tiep_xuc",
+      "a": "luoi_noi_chat",
+      "b": "mang_nhan",
+      "sau_chieu": true,
+      "khe_toi_da_um": "@chung.tiep_xuc_toi_da_um",
+      "dien_tich_toi_thieu_um2": 0,
+      "dien_tich_phai_duong": true
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "có ER hạt (có ribosome) và ER trơn: không phân biệt được trên một vùng ER"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "tiep_xuc",
+    "a": "luoi_noi_chat",
+    "b": "mang_nhan",
+    "sau_chieu": true,
+    "dien_tich_toi_thieu_um2": 1.0
+   },
+   "tach_ra_tham_so": [
+    "tv.vung_noi_er_mang_nhan"
+   ],
+   "ly_do_tach": "'vùng nối ≥ 1 µm²' tự đặt (nguong_tu_dat 5.4a)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK KNTT, CD: 'nối trực tiếp với màng ngoài của nhân'",
+    "noi_dung": "SGK KNTT, CD: 'nối trực tiếp với màng ngoài của nhân'",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 5.4a",
+   "so_trong_van_ban": [
+    "ER chạm mặt ngoài màng nhân: khe ≤ chung.tiep_xuc_toi_da_um, diện tích chạm > 0"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.6a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Bộ máy Golgi ở tế bào thực vật gồm nhiều thể Golgi (chồng túi dẹt) rời nhau, rải khắp chất tế bào; không gom thành một dải cạnh nhân.",
+   "loai": "cau_truc+vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "câu 'rải khắp' có nguồn chung cho tế bào thực vật; số đếm hàng trăm–nghìn chỉ ở tế bào nuôi cấy BY-2",
+   "nguon": [
+    "GO:0005794 Golgi apparatus; GO:0005795 Golgi stack (đồng nghĩa hẹp \"dictyosome\")",
+    "Tago et al. 2024 Cell Struct Funct, PMC11930777 (\"Golgi stacks are known to be dispersed throughout the cytoplasm rather than connected to each other\")",
+    "Nebenführ et al. 1999 Plant Physiol [tóm tắt] (tế bào nuôi cấy BY-2: Golgi gồm nhiều đơn vị độc lập, \"several hundred to thousands\")"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "golgi",
+      "khoang": [
+       2,
+       null
+      ]
+     },
+     {
+      "loai": "roi",
+      "a": "golgi",
+      "b": "golgi",
+      "s_um": 0.0,
+      "cung_loai": true,
+      "khong_cham": true,
+      "ghi_chu": "sự thật: rời nhau = khe > 0; 2 µm là phép kiểm tham số tv.khe_golgi_golgi"
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "'rải khắp, không gom cạnh nhân': bộ kiểm dùng ngưỡng kiem.tv.TV_GOLGI_GAN_NHAN"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "roi",
+    "a": "golgi",
+    "b": "golgi",
+    "s_um": 2.0,
+    "cung_loai": true
+   },
+   "tach_ra_tham_so": [
+    "tv.khe_golgi_golgi",
+    "kiem.tv.TV_GOLGI_GAN_NHAN"
+   ],
+   "ly_do_tach": "may.s_um 2,0 tự đặt (nguong_tu_dat 5.6a)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK KNTT hình: 'Thể Golgi'",
+    "noi_dung": "SGK KNTT hình: 'Thể Golgi'",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 5.6a",
+   "so_trong_van_ban": [
+    "≥ 2 thể Golgi",
+    "khe giữa các thể > 0 (không chạm)"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.7a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Peroxisome là túi nhỏ một màng, dạng tròn (cầu hoặc bầu dục), đường kính 0,1–1 µm.",
+   "loai": "kich_thuoc+hinh",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thật 0,1–1 µm; cải bó xôi 0,9 µm³ (khoảng 1,2 µm, tự tính); dạng tròn",
+   "nguon": [
+    "GO:0005777 peroxisome (\"small organelle enclosed by a single membrane\"); GO:0042579 microbody (\"spherical or oval\")",
+    "BNID 106729 (peroxisome thực vật 0,1–1 µm, Hu 2010), 104803 (0,9 µm³, \"rounded form\", cải bó xôi); Tolleter 2024 (~92 peroxisome/tế bào mô xốp, số tính ra; \"as numerous as chloroplasts\")"
+   ],
+   "phat_bieu_goc": "Peroxisome là túi nhỏ hình tròn, đường kính 0,5–1 µm.",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "kich_thuoc",
+      "a": "peroxisome",
+      "duong_kinh": [
+       0.1,
+       1.0
+      ]
+     },
+     {
+      "loai": "hinh",
+      "a": "peroxisome",
+      "dang": "cau",
+      "nguong_hinh": "@kiem.tv.TV_NG_CAU",
+      "ghi_chu": "GO:0042579 'spherical or oval'"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "kich_thuoc",
+      "a": "peroxisome",
+      "duong_kinh": [
+       0.5,
+       1.0
+      ]
+     },
+     {
+      "loai": "hinh",
+      "a": "peroxisome",
+      "dang": "cau"
+     }
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.duong_kinh_peroxisome_ve",
+    "kiem.tv.TV_NG_CAU"
+   ],
+   "ly_do_tach": "0,5–1 µm là 'nửa trên dải thật' (nguong_tu_dat 5.7a)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK CD, CTST: peroxisome có trên hình tế bào thực vật",
+    "noi_dung": "SGK CD, CTST: peroxisome có trên hình tế bào thực vật",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 5.7a",
+   "so_trong_van_ban": [
+    "đường kính 0,1–1 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "5.9",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Không có trung thể (trung tử).",
+   "loai": "so_luong",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào sinh dưỡng thực vật có hoa; rêu, dương xỉ tạo trung tử khi sinh tinh",
+   "nguon": [
+    "Klink & Wolniak 2001 Mol Biol Cell, PMC30979 (tế bào thực vật sinh dưỡng không có trung tử; chỉ thực vật có tinh trùng có roi tạo trung tử de novo khi sinh tinh)"
+   ],
+   "may": {
+    "loai": "so_luong",
+    "a": "trung_the",
+    "khoang": [
+     0,
+     0
+    ]
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "trung_the",
+    "khoang": [
+     0,
+     0
+    ]
+   },
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK KNTT, CD: trung thể 'chỉ có ở tế bào động vật'",
+    "noi_dung": "SGK KNTT, CD: trung thể 'chỉ có ở tế bào động vật'",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 5.9",
+   "so_trong_van_ban": [
+    "0 trung thể"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "10.1a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp có hai màng (màng ngoài, màng trong) bao quanh chất nền; chất nền có DNA và ribosome riêng.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0009941 chloroplast envelope (double lipid bilayer, includes intermembrane space); GO:0009707 outer membrane; GO:0009706 inner membrane; GO:0031972 intermembrane space",
+    "GO:0009570 chloroplast stroma (\"excluding the thylakoid space. It contains DNA, ribosomes…\")",
+    "BNID 107012 (lục lạp hình thấu kính, đường kính ~5 µm, dày ~2,5 µm; Staehelin 2003); BioNumbers book \"How large are chloroplasts?\" (4–6 µm)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "mang_trong_lap",
+      "khoang": [
+       1,
+       1
+      ],
+      "cha": "luc_lap"
+     },
+     {
+      "loai": "chua",
+      "a": "mang_trong_lap",
+      "b": "luc_lap",
+      "t_um": 0.0
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "chất nền có DNA và ribosome riêng: không vẽ"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "mang_trong_lap",
+    "b": "luc_lap",
+    "t_um": 0.05
+   },
+   "tach_ra_tham_so": [
+    "tv.khe_mang_trong_lap"
+   ],
+   "ly_do_tach": "may.t_um 0,05 'chưa có số đo' (nguong_tu_dat 10.1a) → tham số",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 10.1a",
+   "so_trong_van_ban": [
+    "1 màng trong mỗi lục lạp"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "10.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong chất nền lục lạp có các grana; mỗi granum là một chồng thylakoid dẹt.",
+   "phat_bieu_goc": "Trong chất nền có các grana, mỗi granum là một chồng thylakoid dẹt; mô hình vẽ 10–20 grana mỗi lục lạp.",
+   "loai": "cau_truc+so_luong",
+   "nhan": "sự thật",
+   "nhan_goc": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0009515 granal stacked thylakoid; GO:0009579 thylakoid (\"dense stacks called grana\")"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "granum",
+      "khoang": [
+       1,
+       null
+      ],
+      "cha": "luc_lap"
+     },
+     {
+      "loai": "hinh",
+      "a": "granum",
+      "dang": "chong_tam",
+      "nguong_hinh": [
+       "@kiem.tv.TV_PHANG",
+       "@kiem.tv.TV_GOC_THANG",
+       "@kiem.tv.TV_LECH_CHONG"
+      ]
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "granum",
+    "khoang": [
+     10,
+     20
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.so_granum"
+   ],
+   "tach_tu_luat_nhan_quy_uoc": true,
+   "ly_do_tach": "vế đầu là sự thật có nguồn GO ngay trong luật; số vẽ chuyển sang tham số — CHỜ PI xác nhận việc nâng vế này lên luật",
+   "nguon_goc": "tv v1.4 luật 10.2a",
+   "so_trong_van_ban": [
+    "≥ 1 granum mỗi lục lạp"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "grana thật 40–60 mỗi lục lạp, mô hình 10–20 → tv.so_granum"
+   ]
+  },
+  {
+   "id": "10.3a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Các grana nối với nhau bằng tấm thylakoid chất nền: toàn bộ hệ thylakoid là một khối màng liền.",
+   "loai": "to_po",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0009533 chloroplast stromal thylakoid (\"Unstacked thylakoids that connect the grana stacks through the stroma\"); GO:0009534 chloroplast thylakoid (\"as interconnections between grana\")",
+    "Daum et al. 2010 Plant Cell [tóm tắt] (cryo-ET: chu kỳ xếp 15,7 nm; grana và thylakoid chất nền nối nhau ở mép grana)",
+    "Austin & Staehelin 2011 Plant Physiol [tóm tắt] (thylakoid chất nền quấn xoắn phải 20–25° quanh granum; hai miền \"interconnected\")",
+    "Bussi et al. 2019 PNAS, PMC6825288 (rau diếp, HPF/FS + tomography: granum 278 ± 43 nm (SD), cao 159 ± 94 nm, 3–19 thylakoid/chồng, TB 9,0 ± 5,4; thylakoid chất nền quấn xoắn quanh granum)"
+   ],
+   "may": {
+    "loai": "lien_khoi",
+    "a": [
+     "granum",
+     "thylakoid",
+     "tam_noi"
+    ],
+    "trong_moi": "luc_lap"
+   },
+   "may_goc": {
+    "loai": "lien_khoi",
+    "a": [
+     "granum",
+     "thylakoid",
+     "tam_noi"
+    ],
+    "trong_moi": "luc_lap"
+   },
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "hình lục lạp SGK có vẽ tấm nối không",
+    "noi_dung": "hình lục lạp SGK có vẽ tấm nối không",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "tv v1.4 luật 10.3a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "M.a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mọi bào quan nằm trong màng tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\"); không bào, lạp thể, ti thể, Golgi đều part_of GO:0005737"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.0,
+    "eps_um3": "@chung.eps_giao_um3",
+    "loai_tru": [
+     "vach",
+     "mang"
+    ]
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "nguon_goc": "tv v1.4 luật M.a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "2.6e",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân chiếm 0,16–2,3 % thể tích phía trong màng.",
+   "loai": "ti_le",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "thịt lá Arabidopsis, cải bó xôi",
+   "so_that": "nhân 5,2 µm cho ~0,17 % trong tế bào mô hình rộng nhất; nhân 5 µm chỉ ~0,15 %",
+   "nguon": [
+    "Koffler et al. 2013 Micron, PMC3553553 (TEM 2D Delesse, thịt lá Arabidopsis: không bào 69–80 %, lục lạp 14–20 %, nhân 0,16–2,28 %, ti thể 0,47–1,57 %, peroxisome 0,06–0,28 %)",
+    "BNID 104368 (không bào 79 %), 104369 (lục lạp 16 %), 104371 (ti thể 0,5 %), 104372 (nhân 0,3 %) — thịt lá cải bó xôi, gốc Winter, Robinson & Heldt 1994",
+    "Tolleter et al. 2024 Quant Plant Biol, PMC10988163 (mô giậu ~100 pL, mô xốp ~60 pL; mô giậu mô hình hoá dạng trụ, mô xốp dạng cầu; thành 150 nm; nhân 0,2 % thể tích)"
+   ],
+   "may": {
+    "loai": "ti_le_the_tich",
+    "a": "nhan",
+    "trong": "mang",
+    "khoang": [
+     0.0016,
+     0.023
+    ]
+   },
+   "may_goc": {
+    "loai": "ti_le_the_tich",
+    "a": "nhan",
+    "trong": "mang",
+    "khoang": [
+     0.0016,
+     0.023
+    ]
+   },
+   "nguon_goc": "tv v1.4 luật 2.6e",
+   "so_trong_van_ban": [
+    "0,16–2,3 % (0,0016–0,023)"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "10.2b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Granum đường kính khoảng 0,2–0,6 µm.",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "BNID 107013, 107014 (40–60 grana/lục lạp, đường kính 0,3–0,6 µm; <10 tới 100 thylakoid/chồng; Staehelin 2003); BNID 107143 (bán kính granum 220 nm)",
+    "Bussi et al. 2019 PNAS, PMC6825288 (rau diếp, HPF/FS + tomography: granum 278 ± 43 nm (SD), cao 159 ± 94 nm, 3–19 thylakoid/chồng, TB 9,0 ± 5,4; thylakoid chất nền quấn xoắn quanh granum)"
+   ],
+   "phat_bieu_goc": "Granum đường kính 0,3–0,6 µm.",
+   "pham_vi": "0,3–0,6 µm theo tổng quan (Staehelin 2003, BNID 107013/107014); đo 3D rau diếp thích nghi tối 278 ± 43 nm (SD, n = 68, Bussi 2019) nên cận dưới hạ về 0,2 µm (≈ trung bình − 2 SD, tự tính)",
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "granum",
+    "duong_kinh": [
+     0.2,
+     0.6
+    ]
+   },
+   "may_goc": {
+    "loai": "kich_thuoc",
+    "a": "granum",
+    "duong_kinh": [
+     0.3,
+     0.6
+    ]
+   },
+   "nguon_goc": "tv v1.4 luật 10.2b",
+   "so_trong_van_ban": [
+    "đường kính 0,2–0,6 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "10.2c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi granum gồm từ 3 tới khoảng 100 thylakoid (thường 3–19, trung bình ~9 ở rau diếp thích nghi tối; dưới 10 ở cây ưa sáng mạnh, tới 100 ở cây rất ưa bóng).",
+   "loai": "so_luong",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "Bussi 2019: 3–19 (rau diếp tối); Staehelin 2003 (BNID 107013/107014): <10 (sáng mạnh) tới 100 (Alocasia macrorhiza)",
+   "nguon": [
+    "Bussi et al. 2019 PNAS, PMC6825288 (rau diếp, HPF/FS + tomography: granum 278 ± 43 nm (SD), cao 159 ± 94 nm, 3–19 thylakoid/chồng, TB 9,0 ± 5,4; thylakoid chất nền quấn xoắn quanh granum)",
+    "BNID 107013, 107014 (40–60 grana/lục lạp, đường kính 0,3–0,6 µm; <10 tới 100 thylakoid/chồng; Staehelin 2003); BNID 107143 (bán kính granum 220 nm)"
+   ],
+   "phat_bieu_goc": "Mỗi granum vẽ 3–8 thylakoid.",
+   "may": {
+    "loai": "so_luong",
+    "a": "thylakoid",
+    "khoang": [
+     3,
+     100
+    ],
+    "cha": "granum"
+   },
+   "may_goc": {
+    "loai": "so_luong",
+    "a": "thylakoid",
+    "khoang": [
+     3,
+     8
+    ]
+   },
+   "tach_ra_tham_so": [
+    "tv.so_thylakoid_ve"
+   ],
+   "ly_do_tach": "'vẽ 3–8' là số vẽ; dải sự thật mở rộng theo Staehelin",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 10.2c",
+   "so_trong_van_ban": [
+    "3–100 thylakoid mỗi granum"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "thylakoid thật chu kỳ 15,7–19,1 nm, mô hình 0,04–0,06 µm → tv.thylakoid_ve"
+   ]
+  },
+  {
+   "id": "2.7f",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Lục lạp đặt mặt dẹt song song với màng tế bào.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "ánh sáng yếu (lục lạp phủ mặt tế bào); góc là suy ra",
+   "nguon": [
+    "Suetsugu et al. 2016 PLoS One, PMC4911103 (nhân ở mặt đáy khi tối, ra thành bên khi sáng; một số lục lạp gắn vào nhân; ánh sáng yếu lục lạp phủ mặt tế bào)",
+    "Kadota et al. 2009 PNAS [tóm tắt] (lục lạp neo vào màng sinh chất bằng cp-actin)"
+   ],
+   "muc_suy_ra": "góc là SUY RA: nguồn chỉ định tính ('lục lạp phủ mặt tế bào' dưới ánh sáng yếu, Suetsugu 2016; 'neo vào màng sinh chất bằng cp-actin', Kadota 2009); không có số đo góc → mức 'định tính → hướng', giá trị 30° là tham số",
+   "may": {
+    "loai": "huong",
+    "a": "luc_lap",
+    "truc_ngan_vuong_goc_voi": "mang",
+    "lech_toi_da_do": "@tv.lech_huong_luc_lap"
+   },
+   "may_goc": {
+    "loai": "huong",
+    "a": "luc_lap",
+    "truc_ngan_vuong_goc_voi": "mang",
+    "lech_toi_da_do": 30
+   },
+   "tach_ra_tham_so": [
+    "tv.lech_huong_luc_lap"
+   ],
+   "ly_do_tach": "30° tự đặt (nguong_tu_dat 2.7f)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 2.7f",
+   "so_trong_van_ban": [
+    "lệch ≤ tham số tv.lech_huong_luc_lap"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "10.3b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi granum có ít nhất một tấm nối chạm vào nó, phải còn đúng sau bước chiếu.",
+   "loai": "tiep_xuc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0009533 chloroplast stromal thylakoid (\"Unstacked thylakoids that connect the grana stacks through the stroma\"); GO:0009534 chloroplast thylakoid (\"as interconnections between grana\")",
+    "Daum et al. 2010 Plant Cell [tóm tắt] (cryo-ET: chu kỳ xếp 15,7 nm; grana và thylakoid chất nền nối nhau ở mép grana)"
+   ],
+   "may": {
+    "loai": "tiep_xuc",
+    "a": "tam_noi",
+    "b": "granum",
+    "sau_chieu": true,
+    "moi_ban_sao_cua": "granum",
+    "khe_toi_da_um": "@chung.tiep_xuc_toi_da_um",
+    "dien_tich_toi_thieu_um2": 0,
+    "dien_tich_phai_duong": true
+   },
+   "may_goc": {
+    "loai": "tiep_xuc",
+    "a": "tam_noi",
+    "b": "granum",
+    "sau_chieu": true,
+    "moi_ban_sao_cua": "granum",
+    "dien_tich_toi_thieu_um2": 0.005
+   },
+   "tach_ra_tham_so": [
+    "tv.vung_noi_tam_granum"
+   ],
+   "ly_do_tach": "0,005 µm² tự đặt (nguong_tu_dat 10.3b)",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "tv v1.4 luật 10.3b",
+   "so_trong_van_ban": [
+    "mỗi granum có ≥ 1 tấm nối chạm, diện tích chạm > 0"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "M.c₀",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Hai bộ phận khác loại không giao nhau (khe ≥ 0; được chạm).",
+   "loai": "roi",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "Nguyên lý vật lý: hai vật rắn không chiếm cùng một chỗ (luật hiển nhiên, không có số đo riêng)"
+   ],
+   "so_that": "tiếp xúc bào quan 10–80 nm (Scorrano et al. 2019 Nat Commun); lục lạp cách thành ~0,1 µm (Xiong 2017)",
+   "may": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "s_um": 0.0,
+    "cung_loai": false,
+    "bo_cap_to_tien_con_chau": true,
+    "eps_um3": "@chung.eps_giao_um3",
+    "ghi_chu": "'*' theo nghia_dau_sao_trong_luat_khac của v1.4 (trừ vach, mang); không miễn trừ: ER–màng nhân, ribosome–ER, tấm nối–granum được CHẠM nhưng không giao",
+    "loai_tru": [
+     "vach",
+     "mang"
+    ]
+   },
+   "nguon_goc": "thêm theo quyết định PI 11/11 (thay phần sự thật của K.1; khe 0,3/0,1 µm → tham số)",
+   "so_trong_van_ban": [
+    "khe ≥ 0 (không giao, được chạm)"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "tiếp xúc thật 10–80 nm; mô hình khe 0,3 µm (0,1 trong lục lạp) → chung.khe_roi, tv.khe_trong_luc_lap"
+   ]
+  }
+ ],
+ "cau_hoi_mo": [
+  "2.2a đã chốt (PI 11/11): thể tích TRONG màng; hộp và nhân v1.2 theo KKT_V12. Bộ kiểm 2.2a vẫn đo hộp ngoài cũ — cần sửa.",
+  "Tách vế sự thật từ luật nhãn quy ước (5.1a, 5.3e, 10.2a thực vật): PI chưa duyệt.",
+  "4.4a: vế 'ER trải khắp chất tế bào' là sự thật nhưng mô hình không thể hiện (ghi ở khong_the_hien_co_chu_dich). Cách nói trong bài?",
+  "Bộ kiểm phải chạy lại với dải v1.1 (4.3b 0,2–1; 2.4b 0,68–0,85; 10.2b 0,2–0,6; 10.2c 3–100; 2.2a 60–100 pL; 2.1 ≥ 1 nhân) và tách phán quyết sự thật / tham số (nhóm A).",
+  "M.c₀: bộ kiểm chưa có mục riêng; cặp miễn khe (ER–nhân, ribosome–ER ở dv; 9 cặp K.1 ở tv) chưa được kiểm giao.",
+  "Mặc định botri2 còn trái sự thật (mau_thuan_mac_dinh_voi_su_that): trung thể một cầu (4.8a), Golgi một khối (4.5a), mien_cung_loai = lysosome (M.h), nhân đặc (M.d), ti thể không mào (M.e). Sửa bộ dựng hay ghi là giới hạn?",
+  "10.2b cận dưới 0,2 µm ≈ trung bình − 2 SD của Bussi (tự tính); 10.2c cận trên 100 lấy từ câu tổng quan Staehelin (cây cực ưa bóng) — phạm vi có quá rộng cho tế bào lá thường không?",
+  "2.6a đã chuyển thành tham số (không có nguồn khoa học nói thẳng 'một nhân' trong ghi chú) — cần tra thêm nguồn nếu muốn giữ là luật."
+ ]
+}

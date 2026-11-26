@@ -1,0 +1,8880 @@
+{
+ "cap": {
+  "D4A2|U5b-P8": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.0036499999999999996,
+     "tv_hieu_tuong_doi": 8.1375,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.0031999999999999997,
+     "tv_hieu_tuong_doi": 12.5,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.012499999999999999,
+     "tv_hieu_tuong_doi": 42.13333333333333,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 1,
+     "thua": 8,
+     "hoa": 1,
+     "tv_hieu": 0.0015500000000000002,
+     "tv_hieu_tuong_doi": 850000.0,
+     "p_wilcoxon": 0.01171875
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 1,
+     "thua": 8,
+     "hoa": 1,
+     "tv_hieu": 0.0015500000000000002,
+     "tv_hieu_tuong_doi": 850000.0,
+     "p_wilcoxon": 0.01171875
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 1,
+     "thua": 8,
+     "hoa": 1,
+     "tv_hieu": 0.0015500000000000002,
+     "tv_hieu_tuong_doi": 850000.0,
+     "p_wilcoxon": 0.01171875
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.0031999999999999997,
+     "tv_hieu_tuong_doi": 12.5,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 9,
+     "hoa": 1,
+     "tv_hieu": 0.0005,
+     "tv_hieu_tuong_doi": 499999.99999999994,
+     "p_wilcoxon": 0.00390625
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 2,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -341.25000000000006,
+     "tv_hieu_tuong_doi": -0.47253843851496224,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -342.187,
+     "tv_hieu_tuong_doi": -0.517503172945887,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "D4A2|U5b-P4": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6515,
+    6518
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": 0.00025,
+     "tv_hieu_tuong_doi": 0.37323775388291525,
+     "p_wilcoxon": 0.4921875
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 1,
+     "thua": 4,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 1,
+     "thua": 4,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.00175,
+     "tv_hieu_tuong_doi": 0.9854838709677418,
+     "p_wilcoxon": 0.556640625
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 2,
+     "thua": 8,
+     "hoa": 0,
+     "tv_hieu": 0.0040999999999999995,
+     "tv_hieu_tuong_doi": 4.653846153846153,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.00155,
+     "tv_hieu_tuong_doi": 0.9854838709677418,
+     "p_wilcoxon": 0.556640625
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 1,
+     "thua": 8,
+     "hoa": 1,
+     "tv_hieu": 0.00039999999999999996,
+     "tv_hieu_tuong_doi": 100002.66666666667,
+     "p_wilcoxon": 0.0078125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 2,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.625
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 1,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 1,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -12.600000000000023,
+     "tv_hieu_tuong_doi": -0.03425865130988305,
+     "p_wilcoxon": 0.625
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -12.744499999999988,
+     "tv_hieu_tuong_doi": -0.04084580564232343,
+     "p_wilcoxon": 0.625
+    }
+   }
+  },
+  "D4A2|U5b-a1": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 3,
+     "thua": 6,
+     "hoa": 1,
+     "tv_hieu": 0.00115,
+     "tv_hieu_tuong_doi": 0.6749999999999999,
+     "p_wilcoxon": 0.25
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0020499999999999997,
+     "tv_hieu_tuong_doi": 2.057692307692308,
+     "p_wilcoxon": 0.083984375
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 1,
+     "thua": 3,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 2,
+     "thua": 8,
+     "hoa": 0,
+     "tv_hieu": 0.008499999999999999,
+     "tv_hieu_tuong_doi": 1.871175030599755,
+     "p_wilcoxon": 0.10546875
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 5,
+     "thua": 4,
+     "hoa": 1,
+     "tv_hieu": -0.00019999999999999998,
+     "tv_hieu_tuong_doi": -0.09999999999999999,
+     "p_wilcoxon": 0.93359375
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 2,
+     "thua": 1,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 5,
+     "thua": 4,
+     "hoa": 1,
+     "tv_hieu": -0.00019999999999999998,
+     "tv_hieu_tuong_doi": -0.09999999999999999,
+     "p_wilcoxon": 0.93359375
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 5,
+     "thua": 4,
+     "hoa": 1,
+     "tv_hieu": -0.00019999999999999998,
+     "tv_hieu_tuong_doi": -0.09999999999999999,
+     "p_wilcoxon": 0.93359375
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 2,
+     "thua": 1,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 2,
+     "thua": 1,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.0022500000000000003,
+     "tv_hieu_tuong_doi": 2.057692307692308,
+     "p_wilcoxon": 0.083984375
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 1,
+     "thua": 3,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 5,
+     "hoa": 1,
+     "tv_hieu": 4.999999999999997e-05,
+     "tv_hieu_tuong_doi": 0.09999999999999994,
+     "p_wilcoxon": 0.8203125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 2,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 47.25,
+     "tv_hieu_tuong_doi": 0.13070071415395154,
+     "p_wilcoxon": 0.375
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 47.911,
+     "tv_hieu_tuong_doi": 0.17545046000468634,
+     "p_wilcoxon": 0.322265625
+    }
+   }
+  },
+  "D4A2|U5b-l0": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6515,
+    6518
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": 0.00025,
+     "tv_hieu_tuong_doi": 0.37323775388291525,
+     "p_wilcoxon": 0.4921875
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 1,
+     "thua": 4,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 1,
+     "thua": 4,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.00175,
+     "tv_hieu_tuong_doi": 0.9854838709677418,
+     "p_wilcoxon": 0.556640625
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 2,
+     "thua": 8,
+     "hoa": 0,
+     "tv_hieu": 0.0040999999999999995,
+     "tv_hieu_tuong_doi": 4.653846153846153,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.00055,
+     "tv_hieu_tuong_doi": -0.48293811451706187,
+     "p_wilcoxon": 0.625
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.00155,
+     "tv_hieu_tuong_doi": 0.9854838709677418,
+     "p_wilcoxon": 0.556640625
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 1,
+     "thua": 8,
+     "hoa": 1,
+     "tv_hieu": 0.00039999999999999996,
+     "tv_hieu_tuong_doi": 100002.66666666667,
+     "p_wilcoxon": 0.0078125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 3,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 2,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.625
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 1,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 1,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -65.15000000000003,
+     "tv_hieu_tuong_doi": -0.1589678867801803,
+     "p_wilcoxon": 0.00390625
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -65.08850000000001,
+     "tv_hieu_tuong_doi": -0.1841258368643331,
+     "p_wilcoxon": 0.00390625
+    }
+   }
+  },
+  "D5|U5b-P8": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0718,
+     "tv_hieu_tuong_doi": -0.8686695134944671,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 2,
+     "thua": 2,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0586,
+     "tv_hieu_tuong_doi": -0.8500026515352388,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.021869999999999994,
+     "tv_hieu_tuong_doi": -0.9114109214479416,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0033499999999999997,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -4.6249,
+     "tv_hieu_tuong_doi": -0.9469181116150297,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0646,
+     "tv_hieu_tuong_doi": -0.8800301985932311,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.00745,
+     "tv_hieu_tuong_doi": -0.9468730380541548,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0274,
+     "tv_hieu_tuong_doi": -0.9677158999192896,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0646,
+     "tv_hieu_tuong_doi": -0.8800301985932311,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0646,
+     "tv_hieu_tuong_doi": -0.8800301985932311,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.00745,
+     "tv_hieu_tuong_doi": -0.9468730380541548,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.00745,
+     "tv_hieu_tuong_doi": -0.9468730380541548,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0274,
+     "tv_hieu_tuong_doi": -0.9677158999192896,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0274,
+     "tv_hieu_tuong_doi": -0.9677158999192896,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -0.00175,
+     "tv_hieu_tuong_doi": -0.5854908306364617,
+     "p_wilcoxon": 0.046875
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -0.00175,
+     "tv_hieu_tuong_doi": -0.5854908306364617,
+     "p_wilcoxon": 0.046875
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0599,
+     "tv_hieu_tuong_doi": -0.8591342922435812,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.026452499999999997,
+     "tv_hieu_tuong_doi": -0.9028792517693958,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0298,
+     "tv_hieu_tuong_doi": -0.8783656957928803,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.00797999999999999,
+     "tv_hieu_tuong_doi": -0.8483827657986134,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 2,
+     "thua": 2,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 2,
+     "thua": 2,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.06828864437279134,
+     "tv_hieu_tuong_doi": -0.9649271260070844,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08600310010631547,
+     "tv_hieu_tuong_doi": -0.9571957258733073,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.05466591591408912,
+     "tv_hieu_tuong_doi": -0.9906412276677372,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 2,
+     "thua": 4,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.6875
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -320.45000000000005,
+     "tv_hieu_tuong_doi": -0.4193638164938529,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -317.8585,
+     "tv_hieu_tuong_doi": -0.44104375346992586,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "D5|U5b-P4": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6515
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0774,
+     "tv_hieu_tuong_doi": -0.8887156489544767,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07300000000000001,
+     "tv_hieu_tuong_doi": -0.8849231083161742,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.02645,
+     "tv_hieu_tuong_doi": -0.9401730591322219,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.004,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -5.55335,
+     "tv_hieu_tuong_doi": -0.9522376672572068,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 7,
+     "thua": 2,
+     "hoa": 1,
+     "tv_hieu": -0.0005,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.1875
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 7,
+     "thua": 2,
+     "hoa": 1,
+     "tv_hieu": -0.0005,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.1875
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07300000000000001,
+     "tv_hieu_tuong_doi": -0.8887156489544767,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.02857999999999993,
+     "tv_hieu_tuong_doi": -0.9429632368120252,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.034499999999999996,
+     "tv_hieu_tuong_doi": -0.88666714360662,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.009582499999999989,
+     "tv_hieu_tuong_doi": -0.8894463470319636,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08701755080784901,
+     "tv_hieu_tuong_doi": -0.985797999924098,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.1027528652192305,
+     "tv_hieu_tuong_doi": -0.98328918064568,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.06444093320174393,
+     "tv_hieu_tuong_doi": -0.9965230890757619,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 2,
+     "thua": 2,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 43.60000000000002,
+     "tv_hieu_tuong_doi": 0.11224581274470016,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 46.35149999999999,
+     "tv_hieu_tuong_doi": 0.13588172849269192,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "D5|U5b-a1": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6515,
+    6520
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0037,
+     "tv_hieu_tuong_doi": 0.34662224264705876,
+     "p_wilcoxon": 0.064453125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0011500000000000004,
+     "tv_hieu_tuong_doi": 0.16292569659442724,
+     "p_wilcoxon": 0.275390625
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 9,
+     "hoa": 1,
+     "tv_hieu": 0.0010999999999999998,
+     "tv_hieu_tuong_doi": 0.7649999999999977,
+     "p_wilcoxon": 0.00390625
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 1,
+     "thua": 9,
+     "hoa": 0,
+     "tv_hieu": 0.14105,
+     "tv_hieu_tuong_doi": 0.7700331825098667,
+     "p_wilcoxon": 0.005859375
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.005449999999999999,
+     "tv_hieu_tuong_doi": 0.880396475770925,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 2,
+     "thua": 4,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 4,
+     "thua": 3,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.578125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.005449999999999999,
+     "tv_hieu_tuong_doi": 0.880396475770925,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.005449999999999999,
+     "tv_hieu_tuong_doi": 0.880396475770925,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 2,
+     "thua": 4,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 2,
+     "thua": 4,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 3,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.578125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 4,
+     "thua": 3,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.578125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 2,
+     "thua": 3,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 2,
+     "thua": 3,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.0007999999999999999,
+     "tv_hieu_tuong_doi": 0.1039136302294197,
+     "p_wilcoxon": 0.625
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.0014950000000000046,
+     "tv_hieu_tuong_doi": 0.7295454545454548,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 1,
+     "thua": 9,
+     "hoa": 0,
+     "tv_hieu": 0.0020499999999999997,
+     "tv_hieu_tuong_doi": 0.8544973544973544,
+     "p_wilcoxon": 0.00390625
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 1,
+     "thua": 9,
+     "hoa": 0,
+     "tv_hieu": 0.0011400000000000034,
+     "tv_hieu_tuong_doi": 3.14434426229509,
+     "p_wilcoxon": 0.00390625
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.002050482040974751,
+     "tv_hieu_tuong_doi": 2.662324714123516,
+     "p_wilcoxon": 0.083984375
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0029018439303718935,
+     "tv_hieu_tuong_doi": 2.2033984383838225,
+     "p_wilcoxon": 0.083984375
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 4,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.3125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 0,
+     "thua": 1,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -6.149999999999977,
+     "tv_hieu_tuong_doi": -0.014029239063042372,
+     "p_wilcoxon": 0.6953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -5.381500000000017,
+     "tv_hieu_tuong_doi": -0.013551316305042239,
+     "p_wilcoxon": 0.6953125
+    }
+   }
+  },
+  "D5|U5b-l0": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6515
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0774,
+     "tv_hieu_tuong_doi": -0.8887156489544767,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07300000000000001,
+     "tv_hieu_tuong_doi": -0.8849231083161742,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.02645,
+     "tv_hieu_tuong_doi": -0.9401730591322219,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.004,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -5.55335,
+     "tv_hieu_tuong_doi": -0.9522376672572068,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0812,
+     "tv_hieu_tuong_doi": -0.9150361097127371,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.00655,
+     "tv_hieu_tuong_doi": -0.956640322330699,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0287,
+     "tv_hieu_tuong_doi": -0.9881925726265348,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 7,
+     "thua": 2,
+     "hoa": 1,
+     "tv_hieu": -0.0005,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.1875
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 7,
+     "thua": 2,
+     "hoa": 1,
+     "tv_hieu": -0.0005,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.1875
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07300000000000001,
+     "tv_hieu_tuong_doi": -0.8887156489544767,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.02857999999999993,
+     "tv_hieu_tuong_doi": -0.9429632368120252,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.034499999999999996,
+     "tv_hieu_tuong_doi": -0.88666714360662,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.009582499999999989,
+     "tv_hieu_tuong_doi": -0.8894463470319636,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 4,
+     "hoa": 3,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.765625
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08701755080784901,
+     "tv_hieu_tuong_doi": -0.985797999924098,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.1027528652192305,
+     "tv_hieu_tuong_doi": -0.98328918064568,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.06444093320174393,
+     "tv_hieu_tuong_doi": -0.9965230890757619,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 2,
+     "thua": 2,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -14.250000000000028,
+     "tv_hieu_tuong_doi": -0.02976766198053714,
+     "p_wilcoxon": 0.013671875
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -8.676000000000016,
+     "tv_hieu_tuong_doi": -0.02019943323709997,
+     "p_wilcoxon": 0.01953125
+    }
+   }
+  },
+  "k08|U5b-P8": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.10015000000000002,
+     "tv_hieu_tuong_doi": -0.3256525839599388,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.88537,
+     "tv_hieu_tuong_doi": -0.9709217213899298,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.8122699999999998,
+     "tv_hieu_tuong_doi": -0.98775023917292,
+     "p_wilcoxon": 0.001953125
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 2,
+     "thua": 3,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.10800000000000001,
+     "tv_hieu_tuong_doi": -0.3883825512321173,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.086955,
+     "tv_hieu_tuong_doi": -0.4938046645229457,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.006700000000000001,
+     "tv_hieu_tuong_doi": -0.14918569104528312,
+     "p_wilcoxon": 0.02734375
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -17.980749999999993,
+     "tv_hieu_tuong_doi": -0.34025565975569727,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08969999999999999,
+     "tv_hieu_tuong_doi": -0.30028053147101463,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.06995,
+     "tv_hieu_tuong_doi": -0.4481448734322297,
+     "p_wilcoxon": 0.009765625
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.016999999999999994,
+     "tv_hieu_tuong_doi": -0.10052175337209437,
+     "p_wilcoxon": 0.375
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08969999999999999,
+     "tv_hieu_tuong_doi": -0.30028053147101463,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08969999999999999,
+     "tv_hieu_tuong_doi": -0.30028053147101463,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.06995,
+     "tv_hieu_tuong_doi": -0.4481448734322297,
+     "p_wilcoxon": 0.009765625
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.06995,
+     "tv_hieu_tuong_doi": -0.4481448734322297,
+     "p_wilcoxon": 0.009765625
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.016999999999999994,
+     "tv_hieu_tuong_doi": -0.10052175337209437,
+     "p_wilcoxon": 0.375
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.016999999999999994,
+     "tv_hieu_tuong_doi": -0.10052175337209437,
+     "p_wilcoxon": 0.375
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": -0.00024999999999999675,
+     "tv_hieu_tuong_doi": 0.00873860182370826,
+     "p_wilcoxon": 0.625
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": -0.00024999999999999675,
+     "tv_hieu_tuong_doi": 0.00873860182370826,
+     "p_wilcoxon": 0.625
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11860000000000002,
+     "tv_hieu_tuong_doi": -0.4081601570432546,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.09910749999999999,
+     "tv_hieu_tuong_doi": -0.5429682160707828,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07135,
+     "tv_hieu_tuong_doi": -0.30484871823454496,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.05771249999999997,
+     "tv_hieu_tuong_doi": -0.36417156722131105,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 2,
+     "thua": 3,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 2,
+     "thua": 3,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.1293902682129202,
+     "tv_hieu_tuong_doi": -0.3982808090295924,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -1.0209822403008004,
+     "tv_hieu_tuong_doi": -0.28407710129787195,
+     "p_wilcoxon": 0.00390625
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.6499755784629744,
+     "tv_hieu_tuong_doi": -0.6370061244970686,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 6,
+     "thua": 2,
+     "hoa": 2,
+     "tv_hieu": -1.5,
+     "tv_hieu_tuong_doi": -0.41666666666666663,
+     "p_wilcoxon": 0.0546875
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": -0.5,
+     "p_wilcoxon": 0.3125
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -582.15,
+     "tv_hieu_tuong_doi": -0.44895204980685,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -340.13699999999994,
+     "tv_hieu_tuong_doi": -0.41811476827747696,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "k08|U5b-P4": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.13795000000000002,
+     "tv_hieu_tuong_doi": -0.401015896898376,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.8018,
+     "tv_hieu_tuong_doi": -0.9837557841142384,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.6845,
+     "tv_hieu_tuong_doi": -0.9932848372298677,
+     "p_wilcoxon": 0.001953125
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 2,
+     "thua": 0,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 1,
+     "thua": 0,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.13945000000000002,
+     "tv_hieu_tuong_doi": -0.4186395482669245,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.10683749999999984,
+     "tv_hieu_tuong_doi": -0.5453321072821528,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.016625,
+     "tv_hieu_tuong_doi": -0.2909974320966091,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -28.3188,
+     "tv_hieu_tuong_doi": -0.43773963711027075,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.0407,
+     "tv_hieu_tuong_doi": -0.533550815902409,
+     "p_wilcoxon": 0.01953125
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.0407,
+     "tv_hieu_tuong_doi": -0.533550815902409,
+     "p_wilcoxon": 0.01953125
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.14195000000000002,
+     "tv_hieu_tuong_doi": -0.44186316541622006,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11617249999999993,
+     "tv_hieu_tuong_doi": -0.5775351433595801,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07195,
+     "tv_hieu_tuong_doi": -0.3102231929903844,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0792,
+     "tv_hieu_tuong_doi": -0.43163290010620464,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.917418386295309,
+     "tv_hieu_tuong_doi": -0.5241862754571555,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.1124444436199665,
+     "tv_hieu_tuong_doi": -0.4332052776114975,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.685180251073323,
+     "tv_hieu_tuong_doi": -0.6880126508310055,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -3.0,
+     "tv_hieu_tuong_doi": -0.696969696969697,
+     "p_wilcoxon": 0.001953125
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -1.0,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.0625
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -205.05000000000007,
+     "tv_hieu_tuong_doi": -0.2174483563837156,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 60.95750000000001,
+     "tv_hieu_tuong_doi": 0.14230189668778165,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "k08|U5b-a1": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11905,
+     "tv_hieu_tuong_doi": -0.399825440394095,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.40087,
+     "tv_hieu_tuong_doi": -0.9618990334971032,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.39297,
+     "tv_hieu_tuong_doi": -0.9820909902478738,
+     "p_wilcoxon": 0.001953125
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.251953125
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 0,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 3,
+     "thua": 0,
+     "hoa": 7,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.25
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12725,
+     "tv_hieu_tuong_doi": -0.4062168442832326,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07023249999999989,
+     "tv_hieu_tuong_doi": -0.43285349162872366,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 0.006024999999999999,
+     "tv_hieu_tuong_doi": 0.17717941761620554,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -6.688000000000001,
+     "tv_hieu_tuong_doi": -0.16018503822375935,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.012249999999999983,
+     "tv_hieu_tuong_doi": -0.0557712825530811,
+     "p_wilcoxon": 0.921875
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0212,
+     "tv_hieu_tuong_doi": 0.2898650913356795,
+     "p_wilcoxon": 0.232421875
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.03595000000000001,
+     "tv_hieu_tuong_doi": 0.2376099858751572,
+     "p_wilcoxon": 0.4921875
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.012249999999999983,
+     "tv_hieu_tuong_doi": -0.0557712825530811,
+     "p_wilcoxon": 0.921875
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 7,
+     "thua": 3,
+     "hoa": 0,
+     "tv_hieu": -0.012249999999999983,
+     "tv_hieu_tuong_doi": -0.0557712825530811,
+     "p_wilcoxon": 0.921875
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0212,
+     "tv_hieu_tuong_doi": 0.2898650913356795,
+     "p_wilcoxon": 0.232421875
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0212,
+     "tv_hieu_tuong_doi": 0.2898650913356795,
+     "p_wilcoxon": 0.232421875
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.03595000000000001,
+     "tv_hieu_tuong_doi": 0.2376099858751572,
+     "p_wilcoxon": 0.4921875
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.03595000000000001,
+     "tv_hieu_tuong_doi": 0.2376099858751572,
+     "p_wilcoxon": 0.4921875
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.024800000000000003,
+     "tv_hieu_tuong_doi": 0.6504511748414189,
+     "p_wilcoxon": 0.10546875
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 4,
+     "thua": 6,
+     "hoa": 0,
+     "tv_hieu": 0.024800000000000003,
+     "tv_hieu_tuong_doi": 0.6504511748414189,
+     "p_wilcoxon": 0.10546875
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.1424,
+     "tv_hieu_tuong_doi": -0.4395542769690005,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07225249999999994,
+     "tv_hieu_tuong_doi": -0.45607428414781226,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08149999999999999,
+     "tv_hieu_tuong_doi": -0.3378002776648109,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.06978000000000001,
+     "tv_hieu_tuong_doi": -0.3928055426302064,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.15,
+     "p_wilcoxon": 0.529296875
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 5,
+     "thua": 5,
+     "hoa": 0,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.15,
+     "p_wilcoxon": 0.529296875
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.0650200513919088,
+     "tv_hieu_tuong_doi": 0.030492597963178714,
+     "p_wilcoxon": 0.375
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.05536688185618188,
+     "tv_hieu_tuong_doi": 0.018681178273103796,
+     "p_wilcoxon": 0.4921875
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 3,
+     "thua": 7,
+     "hoa": 0,
+     "tv_hieu": 0.11290240431042803,
+     "tv_hieu_tuong_doi": 0.15835543286640896,
+     "p_wilcoxon": 0.16015625
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 7,
+     "thua": 1,
+     "hoa": 2,
+     "tv_hieu": -2.5,
+     "tv_hieu_tuong_doi": -0.5833333333333333,
+     "p_wilcoxon": 0.03125
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 7,
+     "thua": 0,
+     "hoa": 3,
+     "tv_hieu": -2.0,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.015625
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -214.04999999999995,
+     "tv_hieu_tuong_doi": -0.2309912634440781,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 12.433999999999997,
+     "tv_hieu_tuong_doi": 0.025993152303562257,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "k08|U5b-l0": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.13795000000000002,
+     "tv_hieu_tuong_doi": -0.401015896898376,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.8018,
+     "tv_hieu_tuong_doi": -0.9837557841142384,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.6845,
+     "tv_hieu_tuong_doi": -0.9932848372298677,
+     "p_wilcoxon": 0.001953125
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.375
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 2,
+     "thua": 0,
+     "hoa": 8,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.5
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 1,
+     "thua": 0,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.13945000000000002,
+     "tv_hieu_tuong_doi": -0.4186395482669245,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.10683749999999984,
+     "tv_hieu_tuong_doi": -0.5453321072821528,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.016625,
+     "tv_hieu_tuong_doi": -0.2909974320966091,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -28.3188,
+     "tv_hieu_tuong_doi": -0.43773963711027075,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12655,
+     "tv_hieu_tuong_doi": -0.37662316799906853,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11215,
+     "tv_hieu_tuong_doi": -0.5367057976200307,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.0435,
+     "tv_hieu_tuong_doi": -0.2536506528178941,
+     "p_wilcoxon": 0.048828125
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.0407,
+     "tv_hieu_tuong_doi": -0.533550815902409,
+     "p_wilcoxon": 0.01953125
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 8,
+     "thua": 2,
+     "hoa": 0,
+     "tv_hieu": -0.0407,
+     "tv_hieu_tuong_doi": -0.533550815902409,
+     "p_wilcoxon": 0.01953125
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.14195000000000002,
+     "tv_hieu_tuong_doi": -0.44186316541622006,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11617249999999993,
+     "tv_hieu_tuong_doi": -0.5775351433595801,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07195,
+     "tv_hieu_tuong_doi": -0.3102231929903844,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.0792,
+     "tv_hieu_tuong_doi": -0.43163290010620464,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 3,
+     "thua": 3,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.917418386295309,
+     "tv_hieu_tuong_doi": -0.5241862754571555,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.1124444436199665,
+     "tv_hieu_tuong_doi": -0.4332052776114975,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.685180251073323,
+     "tv_hieu_tuong_doi": -0.6880126508310055,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -3.0,
+     "tv_hieu_tuong_doi": -0.696969696969697,
+     "p_wilcoxon": 0.001953125
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -1.0,
+     "tv_hieu_tuong_doi": -1.0,
+     "p_wilcoxon": 0.0625
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -257.65000000000003,
+     "tv_hieu_tuong_doi": -0.25830357071626725,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 2,
+     "thua": 8,
+     "hoa": 0,
+     "tv_hieu": 7.074999999999989,
+     "tv_hieu_tuong_doi": 0.01570117756172718,
+     "p_wilcoxon": 0.083984375
+    }
+   }
+  },
+  "k08|U5b8-P8": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12725000000000003,
+     "tv_hieu_tuong_doi": -0.4101474710050372,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.88537,
+     "tv_hieu_tuong_doi": -0.9961063224133333,
+     "p_wilcoxon": 0.001953125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.8122699999999998,
+     "tv_hieu_tuong_doi": -0.9976687408779217,
+     "p_wilcoxon": 0.001953125
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -1.0,
+     "tv_hieu_tuong_doi": -0.375,
+     "p_wilcoxon": 0.09375
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.13965000000000002,
+     "tv_hieu_tuong_doi": -0.4335490284271518,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.10683499999999993,
+     "tv_hieu_tuong_doi": -0.5763090545489968,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.015200000000000002,
+     "tv_hieu_tuong_doi": -0.31561497725068993,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -25.976349999999996,
+     "tv_hieu_tuong_doi": -0.46338535569775285,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12090000000000002,
+     "tv_hieu_tuong_doi": -0.4171427456116452,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07529999999999999,
+     "tv_hieu_tuong_doi": -0.5172054549882845,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.027550000000000005,
+     "tv_hieu_tuong_doi": -0.21597317652097875,
+     "p_wilcoxon": 0.083984375
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12090000000000002,
+     "tv_hieu_tuong_doi": -0.4171427456116452,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.12090000000000002,
+     "tv_hieu_tuong_doi": -0.4171427456116452,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07529999999999999,
+     "tv_hieu_tuong_doi": -0.5172054549882845,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.07529999999999999,
+     "tv_hieu_tuong_doi": -0.5172054549882845,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.027550000000000005,
+     "tv_hieu_tuong_doi": -0.21597317652097875,
+     "p_wilcoxon": 0.083984375
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 9,
+     "thua": 1,
+     "hoa": 0,
+     "tv_hieu": -0.027550000000000005,
+     "tv_hieu_tuong_doi": -0.21597317652097875,
+     "p_wilcoxon": 0.083984375
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.012900000000000002,
+     "tv_hieu_tuong_doi": -0.32493737904420955,
+     "p_wilcoxon": 0.275390625
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 4,
+     "hoa": 0,
+     "tv_hieu": -0.012900000000000002,
+     "tv_hieu_tuong_doi": -0.32493737904420955,
+     "p_wilcoxon": 0.275390625
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.14730000000000004,
+     "tv_hieu_tuong_doi": -0.5217929967417514,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.11339249999999995,
+     "tv_hieu_tuong_doi": -0.5928893181623753,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08145,
+     "tv_hieu_tuong_doi": -0.3372575213484304,
+     "p_wilcoxon": 0.001953125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -0.08299999999999996,
+     "tv_hieu_tuong_doi": -0.5356696731704165,
+     "p_wilcoxon": 0.001953125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -1.0,
+     "tv_hieu_tuong_doi": -0.375,
+     "p_wilcoxon": 0.09375
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 6,
+     "thua": 1,
+     "hoa": 3,
+     "tv_hieu": -1.0,
+     "tv_hieu_tuong_doi": -0.375,
+     "p_wilcoxon": 0.09375
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.8977510926593002,
+     "tv_hieu_tuong_doi": -0.5916026750894501,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.777660749521825,
+     "tv_hieu_tuong_doi": -0.4492060004460866,
+     "p_wilcoxon": 0.001953125
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -1.9001077443136807,
+     "tv_hieu_tuong_doi": -0.7781578805777096,
+     "p_wilcoxon": 0.001953125
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -2.0,
+     "tv_hieu_tuong_doi": -0.6666666666666667,
+     "p_wilcoxon": 0.001953125
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 5,
+     "thua": 0,
+     "hoa": 5,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": -0.5,
+     "p_wilcoxon": 0.0625
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 10,
+     "thua": 0,
+     "hoa": 0,
+     "tv_hieu": -144.25,
+     "tv_hieu_tuong_doi": -0.11777657990148421,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 128.33000000000004,
+     "tv_hieu_tuong_doi": 0.1536319033357439,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  },
+  "k08|U5b8-U5b": {
+   "seed": [
+    6511,
+    6512,
+    6513,
+    6514,
+    6515,
+    6516,
+    6517,
+    6518,
+    6519,
+    6520
+   ],
+   "seed_thieu": [],
+   "seed_cung_cau_hinh": [
+    6511,
+    6512,
+    6518,
+    6519
+   ],
+   "thuoc": {
+    "HD_max_tat_ca": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.0353,
+     "tv_hieu_tuong_doi": -0.16617063492063489,
+     "p_wilcoxon": 0.03125
+    },
+    "Gc_K_ER": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.03982999999999999,
+     "tv_hieu_tuong_doi": -0.8263706792479626,
+     "p_wilcoxon": 0.03125
+    },
+    "Gc_K": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.00499,
+     "tv_hieu_tuong_doi": -0.4486621665582303,
+     "p_wilcoxon": 0.09375
+    },
+    "V_test": {
+     "n": 10,
+     "thang": 5,
+     "thua": 0,
+     "hoa": 5,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": -0.25,
+     "p_wilcoxon": 0.0625
+    },
+    "V_test_tru_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "n_mat_kiem": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_tu_max": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.016600000000000004,
+     "tv_hieu_tuong_doi": -0.08811040339702761,
+     "p_wilcoxon": 0.0625
+    },
+    "HD_tu_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.013594999999999982,
+     "tv_hieu_tuong_doi": -0.14829662311131508,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_tu_p50": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.004725000000000005,
+     "tv_hieu_tuong_doi": -0.1292394291286234,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_tu_tong": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -4.777699999999998,
+     "tv_hieu_tuong_doi": -0.1428286135946508,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_ER": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.03899999999999999,
+     "tv_hieu_tuong_doi": -0.16617063492063489,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_nhan": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.15625
+    },
+    "HD_golgi": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_luoi_noi_chat_max": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.03899999999999999,
+     "tv_hieu_tuong_doi": -0.16617063492063489,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_luoi_noi_chat_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.03899999999999999,
+     "tv_hieu_tuong_doi": -0.16617063492063489,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_nhan_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.15625
+    },
+    "HD_nhan_p95": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.15625
+    },
+    "HD_golgi_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_golgi_p95": {
+     "n": 10,
+     "thang": 4,
+     "thua": 2,
+     "hoa": 4,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.4375
+    },
+    "HD_trung_the_max": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.00145,
+     "tv_hieu_tuong_doi": -0.028210116731517507,
+     "p_wilcoxon": 0.3125
+    },
+    "HD_trung_the_p95": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.00145,
+     "tv_hieu_tuong_doi": -0.028210116731517507,
+     "p_wilcoxon": 0.3125
+    },
+    "HD_nhan_con_max": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_nhan_con_p95": {
+     "n": 10,
+     "thang": 0,
+     "thua": 0,
+     "hoa": 10,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": null
+    },
+    "HD_ti_the_max": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.01235,
+     "tv_hieu_tuong_doi": -0.07675574891236793,
+     "p_wilcoxon": 0.0625
+    },
+    "HD_ti_the_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.010382499999999975,
+     "tv_hieu_tuong_doi": -0.13285352007843207,
+     "p_wilcoxon": 0.03125
+    },
+    "HD_lysosome_max": {
+     "n": 10,
+     "thang": 4,
+     "thua": 1,
+     "hoa": 5,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.125
+    },
+    "HD_lysosome_p95": {
+     "n": 10,
+     "thang": 6,
+     "thua": 0,
+     "hoa": 4,
+     "tv_hieu": -0.01379250000000002,
+     "tv_hieu_tuong_doi": -0.14795669291822006,
+     "p_wilcoxon": 0.03125
+    },
+    "n_43b": {
+     "n": 10,
+     "thang": 5,
+     "thua": 0,
+     "hoa": 5,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": -0.25,
+     "p_wilcoxon": 0.0625
+    },
+    "n_43b_duoi_luoi": {
+     "n": 10,
+     "thang": 5,
+     "thua": 0,
+     "hoa": 5,
+     "tv_hieu": -0.5,
+     "tv_hieu_tuong_doi": -0.25,
+     "p_wilcoxon": 0.0625
+    },
+    "Vmat_tat_ca_pt": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.3083948184990485,
+     "tv_hieu_tuong_doi": -0.17967425995770958,
+     "p_wilcoxon": 0.0625
+    },
+    "Vmat_tu_the_pt": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.3828473149289693,
+     "tv_hieu_tuong_doi": -0.14752181297032646,
+     "p_wilcoxon": 0.0625
+    },
+    "Vmat_ER_pt": {
+     "n": 10,
+     "thang": 5,
+     "thua": 1,
+     "hoa": 4,
+     "tv_hieu": -0.1776600075060933,
+     "tv_hieu_tuong_doi": -0.17258379216961106,
+     "p_wilcoxon": 0.0625
+    },
+    "vo_manh": {
+     "n": 10,
+     "thang": 4,
+     "thua": 0,
+     "hoa": 6,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 0.125
+    },
+    "con_lai_duoi_50pt": {
+     "n": 10,
+     "thang": 1,
+     "thua": 0,
+     "hoa": 9,
+     "tv_hieu": 0.0,
+     "tv_hieu_tuong_doi": 0.0,
+     "p_wilcoxon": 1.0
+    },
+    "giay_tong": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 445.8,
+     "tv_hieu_tuong_doi": 0.6409611799109933,
+     "p_wilcoxon": 0.001953125
+    },
+    "giay_dat": {
+     "n": 10,
+     "thang": 0,
+     "thua": 10,
+     "hoa": 0,
+     "tv_hieu": 472.9585,
+     "tv_hieu_tuong_doi": 0.9696298468916629,
+     "p_wilcoxon": 0.001953125
+    }
+   }
+  }
+ },
+ "mo_ta": {
+  "P4|D4A2": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.0025,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.0029,
+    "min": 0.0,
+    "max": 0.021
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0004
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.00054000054000054
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0011980495752914257
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0009502180750482236
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 387.6,
+    "min": 329.6,
+    "max": 459.7
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 331.5665,
+    "min": 273.344,
+    "max": 399.969
+   }
+  },
+  "P4|D5": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0635,
+    "max": 0.1487
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0845,
+    "min": 0.0635,
+    "max": 0.1362
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.02935,
+    "min": 0.019454999999999972,
+    "max": 0.0695
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.004,
+    "min": 0.002,
+    "max": 0.0116
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 5.9096,
+    "min": 4.0481,
+    "max": 14.821399999999999
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0005499999999999999,
+    "min": 0.0,
+    "max": 0.0068
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0005499999999999999,
+    "min": 0.0,
+    "max": 0.0068
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0845,
+    "min": 0.0635,
+    "max": 0.1362
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.03198499999999992,
+    "min": 0.023649999999999952,
+    "max": 0.07281499999999999
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.04535,
+    "min": 0.0145,
+    "max": 0.0695
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.010637499999999987,
+    "min": 0.0074,
+    "max": 0.04181499999999999
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.08959518797678256,
+    "min": 0.06875687568756876,
+    "max": 0.26980935169394454
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.10651074032278383,
+    "min": 0.07331378299120235,
+    "max": 0.3749314149850637
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.06444093320174393,
+    "min": 0.04539101974509359,
+    "max": 0.1642572206862075
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 402.70000000000005,
+    "min": 366.5,
+    "max": 451.6
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 357.445,
+    "min": 323.053,
+    "max": 407.494
+   }
+  },
+  "P4|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.34485,
+    "min": 0.2741,
+    "max": 0.7591
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 2.83125,
+    "min": 1.86784,
+    "max": 12.10731
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 2.7014,
+    "min": 1.81254,
+    "max": 11.89511
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 4.0,
+    "min": 2,
+    "max": 7
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 4
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.3256,
+    "min": 0.2581,
+    "max": 0.7591
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.19312999999999997,
+    "min": 0.17595,
+    "max": 0.2595199999999999
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0548,
+    "min": 0.0492,
+    "max": 0.0813
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 61.04535,
+    "min": 53.693,
+    "max": 88.1377
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.1056,
+    "min": 0.0336,
+    "max": 0.155
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.1056,
+    "min": 0.0336,
+    "max": 0.155
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.3256,
+    "min": 0.2581,
+    "max": 0.7591
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.19360999999999995,
+    "min": 0.1807999999999999,
+    "max": 0.280085
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.2338,
+    "min": 0.2103,
+    "max": 0.2452
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.17999999999999994,
+    "min": 0.15361499999999997,
+    "max": 0.2105499999999999
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 7
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 6
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 3.5591966421774046,
+    "min": 2.8781660412757972,
+    "max": 5.190239236397309
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 4.414222292539883,
+    "min": 3.7110298325495754,
+    "max": 6.939845194319728
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 2.404433278383478,
+    "min": 1.844029341725801,
+    "max": 3.4343908008481487
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 6.0,
+    "min": 1,
+    "max": 22
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 1.0,
+    "min": 0,
+    "max": 20
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 881.75,
+    "min": 796.6,
+    "max": 1040.4
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 428.3645,
+    "min": 371.955,
+    "max": 461.963
+   }
+  },
+  "P8|D4A2": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.00045,
+    "min": 0.0,
+    "max": 0.0026
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 1
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0002,
+    "min": 0.0,
+    "max": 0.0026
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.00025,
+    "min": 0.0,
+    "max": 0.0034
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0008
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0008
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0008
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0002,
+    "min": 0.0,
+    "max": 0.0026
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 721.6500000000001,
+    "min": 594.8,
+    "max": 853.9
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 664.345,
+    "min": 538.603,
+    "max": 794.134
+   }
+  },
+  "P8|D5": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.08410000000000001,
+    "min": 0.0635,
+    "max": 0.1089
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.07415,
+    "min": 0.0545,
+    "max": 0.0985
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.024519999999999993,
+    "min": 0.017184999999999992,
+    "max": 0.029725
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0033499999999999997,
+    "min": 0.0022,
+    "max": 0.0036
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 5.08375,
+    "min": 3.7268999999999997,
+    "max": 5.9725
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.0769,
+    "min": 0.0507,
+    "max": 0.1089
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.00745,
+    "min": 0.0,
+    "max": 0.0382
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.03055,
+    "min": 0.0059,
+    "max": 0.0644
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.0769,
+    "min": 0.0507,
+    "max": 0.1089
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.0769,
+    "min": 0.0507,
+    "max": 0.1089
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.00745,
+    "min": 0.0,
+    "max": 0.0382
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.00745,
+    "min": 0.0,
+    "max": 0.0382
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.03055,
+    "min": 0.0059,
+    "max": 0.0644
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.03055,
+    "min": 0.0059,
+    "max": 0.0644
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0024000000000000002,
+    "min": 0.0,
+    "max": 0.0175
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0024000000000000002,
+    "min": 0.0,
+    "max": 0.0175
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.07415,
+    "min": 0.0545,
+    "max": 0.0985
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.028954999999999995,
+    "min": 0.01890999999999999,
+    "max": 0.0335099999999999
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.03625,
+    "min": 0.0203,
+    "max": 0.0487
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.009224999999999992,
+    "min": 0.00742999999999999,
+    "max": 0.014819999999999958
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.06876974273044799,
+    "min": 0.05273879135874903,
+    "max": 0.09489021887629402
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.08934108815909642,
+    "min": 0.0539715135718611,
+    "max": 0.10922193446683932
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.05506513698407057,
+    "min": 0.02565615619467891,
+    "max": 0.08011238955520208
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 763.1500000000001,
+    "min": 685.9,
+    "max": 878.3
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 718.35,
+    "min": 642.697,
+    "max": 832.952
+   }
+  },
+  "P8|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.29515,
+    "min": 0.2686,
+    "max": 0.4034
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 1.8953799999999998,
+    "min": 0.75553,
+    "max": 4.42054
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 1.8222800000000001,
+    "min": 0.70533,
+    "max": 4.24074
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 5
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.29515,
+    "min": 0.2686,
+    "max": 0.4034
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.17729749999999994,
+    "min": 0.152725,
+    "max": 0.20484
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0495,
+    "min": 0.03955,
+    "max": 0.0595
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 54.590149999999994,
+    "min": 44.8056,
+    "max": 65.6248
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.27080000000000004,
+    "min": 0.2299,
+    "max": 0.3595
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.1375,
+    "min": 0.0569,
+    "max": 0.2319
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.1212,
+    "min": 0.0548,
+    "max": 0.2115
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.27080000000000004,
+    "min": 0.2299,
+    "max": 0.3595
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.27080000000000004,
+    "min": 0.2299,
+    "max": 0.3595
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.1375,
+    "min": 0.0569,
+    "max": 0.2319
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.1375,
+    "min": 0.0569,
+    "max": 0.2319
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.1212,
+    "min": 0.0548,
+    "max": 0.2115
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.1212,
+    "min": 0.0548,
+    "max": 0.2115
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.06105,
+    "min": 0.0122,
+    "max": 0.1149
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.06105,
+    "min": 0.0122,
+    "max": 0.1149
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.29515,
+    "min": 0.2686,
+    "max": 0.4034
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.1843399999999999,
+    "min": 0.1548199999999999,
+    "max": 0.21665499999999993
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.23035,
+    "min": 0.1801,
+    "max": 0.2667
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.16622749999999997,
+    "min": 0.12196499999999995,
+    "max": 0.1878749999999999
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 5
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 5
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 3.100811621572118,
+    "min": 2.334312011348266,
+    "max": 3.9966190293497026
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 3.741066845267203,
+    "min": 2.8870976239397295,
+    "max": 4.69840408084784
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 2.441700764117743,
+    "min": 1.7794582303248239,
+    "max": 3.341849892643372
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 4.0,
+    "min": 1,
+    "max": 6
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 2
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 1285.2,
+    "min": 1086.9,
+    "max": 1362.1
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 827.598,
+    "min": 744.919,
+    "max": 941.649
+   }
+  },
+  "U5b|D4A2": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.00395,
+    "min": 0.0008,
+    "max": 0.0079
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 1.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 1.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0036499999999999996,
+    "min": 0.0001,
+    "max": 0.0079
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0003
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.0127,
+    "min": 0.0001,
+    "max": 0.028100000000000003
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.0015500000000000002,
+    "min": 0.0,
+    "max": 0.0067
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0001
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.0015500000000000002,
+    "min": 0.0,
+    "max": 0.0067
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.0015500000000000002,
+    "min": 0.0,
+    "max": 0.0067
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0001
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0001
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0036499999999999996,
+    "min": 0.0001,
+    "max": 0.0079
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0003100000000000022
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0005,
+    "min": 0.0,
+    "max": 0.0021
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.00020499999999999972
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0005290109611071141
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0010538185113759709
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0009502180750482236
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 378.5,
+    "min": 282.2,
+    "max": 464.6
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 322.0625,
+    "min": 225.36,
+    "max": 407.822
+   }
+  },
+  "U5b|D5": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.0114,
+    "min": 0.0069,
+    "max": 0.0377
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0114,
+    "min": 0.0069,
+    "max": 0.0333
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0021,
+    "min": 0.0009,
+    "max": 0.005184999999999991
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0001
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.276,
+    "min": 0.10389999999999999,
+    "max": 0.7119
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.009049999999999999,
+    "min": 0.003,
+    "max": 0.0377
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0,
+    "max": 0.0086
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.00045000000000000004,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.009049999999999999,
+    "min": 0.003,
+    "max": 0.0377
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.009049999999999999,
+    "min": 0.003,
+    "max": 0.0377
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0,
+    "max": 0.0086
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0,
+    "max": 0.0086
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.00045000000000000004,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.00045000000000000004,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0013
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0013
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.01005,
+    "min": 0.0069,
+    "max": 0.0333
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.00265,
+    "min": 0.0009049999999999954,
+    "max": 0.006004999999999996
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0051,
+    "min": 0.002,
+    "max": 0.0174
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0014,
+    "min": 0.0003099999999999966,
+    "max": 0.0025099999999999966
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.002416314277961227,
+    "min": 0.0,
+    "max": 0.0049038037170832174
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.003722224319888434,
+    "min": 0.0,
+    "max": 0.007098815511926011
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0004897927197210141,
+    "min": 0.0,
+    "max": 0.004335949356111521
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 442.1,
+    "min": 403.1,
+    "max": 519.3
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 400.34000000000003,
+    "min": 362.146,
+    "max": 476.596
+   }
+  },
+  "U5b|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.20635,
+    "min": 0.1671,
+    "max": 0.2464
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.04592,
+    "min": 0.00126,
+    "max": 0.31262
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.016669999999999997,
+    "min": 0.0,
+    "max": 0.24592
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 5
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.1854,
+    "min": 0.1629,
+    "max": 0.2402
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.09084999999999999,
+    "min": 0.071,
+    "max": 0.1270999999999999
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.038599999999999995,
+    "min": 0.0334,
+    "max": 0.0609
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 34.08755,
+    "min": 29.5059,
+    "max": 52.1155
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.20425,
+    "min": 0.1331,
+    "max": 0.2464
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.08235,
+    "min": 0.0242,
+    "max": 0.1571
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.1368,
+    "min": 0.0549,
+    "max": 0.2041
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.20425,
+    "min": 0.1331,
+    "max": 0.2464
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.20425,
+    "min": 0.1331,
+    "max": 0.2464
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.08235,
+    "min": 0.0242,
+    "max": 0.1571
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.08235,
+    "min": 0.0242,
+    "max": 0.1571
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.1368,
+    "min": 0.0549,
+    "max": 0.2041
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.1368,
+    "min": 0.0549,
+    "max": 0.2041
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.05325,
+    "min": 0.0143,
+    "max": 0.1385
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.05325,
+    "min": 0.0143,
+    "max": 0.1385
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.16885,
+    "min": 0.1585,
+    "max": 0.2402
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.08881249999999999,
+    "min": 0.0689,
+    "max": 0.11911999999999998
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.16315000000000002,
+    "min": 0.1182,
+    "max": 0.1884
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.10123499999999996,
+    "min": 0.074005,
+    "max": 0.13658999999999993
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 5
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 5
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 1.7068417898788035,
+    "min": 1.2671869193608325,
+    "max": 2.7509505316877783
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 2.5601704031684878,
+    "min": 2.0648250971682396,
+    "max": 4.376498800959232
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.8238840382290654,
+    "min": 0.4512084159094592,
+    "max": 1.1238812042310822
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 0,
+    "max": 6
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 711.0,
+    "min": 538.6,
+    "max": 834.0
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 490.8095,
+    "min": 417.495,
+    "max": 543.18
+   }
+  },
+  "U5b8|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.18405,
+    "min": 0.121,
+    "max": 0.209
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.009170000000000006,
+    "min": 0.0,
+    "max": 0.10822
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.006200000000000001,
+    "min": 0.0,
+    "max": 0.08422
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 2.0,
+    "min": 0,
+    "max": 5
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.17545,
+    "min": 0.121,
+    "max": 0.209
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.07291249999999999,
+    "min": 0.05538499999999999,
+    "max": 0.09515999999999997
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.03475,
+    "min": 0.02495,
+    "max": 0.046200000000000005
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 29.7243,
+    "min": 22.106900000000003,
+    "max": 38.944100000000006
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.15045,
+    "min": 0.1074,
+    "max": 0.2037
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.06725,
+    "min": 0.0068,
+    "max": 0.1046
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.1127,
+    "min": 0.0649,
+    "max": 0.1864
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.15045,
+    "min": 0.1074,
+    "max": 0.2037
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.15045,
+    "min": 0.1074,
+    "max": 0.2037
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.06725,
+    "min": 0.0068,
+    "max": 0.1046
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.06725,
+    "min": 0.0068,
+    "max": 0.1046
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.1127,
+    "min": 0.0649,
+    "max": 0.1864
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.1127,
+    "min": 0.0649,
+    "max": 0.1864
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.05065,
+    "min": 0.0016,
+    "max": 0.1247
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.05065,
+    "min": 0.0016,
+    "max": 0.1247
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.15739999999999998,
+    "min": 0.0856,
+    "max": 0.209
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.07211999999999999,
+    "min": 0.05562999999999997,
+    "max": 0.08951999999999997
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.15515,
+    "min": 0.098,
+    "max": 0.1859
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.07417499999999998,
+    "min": 0.04959999999999997,
+    "max": 0.10351499999999997
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 2.0,
+    "min": 0,
+    "max": 5
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 2.0,
+    "min": 0,
+    "max": 5
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 1.3596707702192952,
+    "min": 0.8251656389294528,
+    "max": 1.8875344081793157
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 2.1388984024300672,
+    "min": 1.3659329220301113,
+    "max": 3.000607547084899
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.5415930198040622,
+    "min": 0.27933318811424473,
+    "max": 0.8763064337776297
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 1.0,
+    "min": 0,
+    "max": 4
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 1095.75,
+    "min": 962.5,
+    "max": 1264.6
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 963.768,
+    "min": 859.196,
+    "max": 1076.482
+   }
+  },
+  "a1|D4A2": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.002,
+    "min": 0.0007,
+    "max": 0.0095
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0005,
+    "max": 0.0052
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0002
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.00385,
+    "min": 0.0007000000000000001,
+    "max": 0.020900000000000002
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0006,
+    "max": 0.0095
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0007
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0006,
+    "max": 0.0095
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0006,
+    "max": 0.0095
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0007
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0007
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0001,
+    "max": 0.0052
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0003
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0006000000000000001,
+    "min": 0.0002,
+    "max": 0.0023
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 336.7,
+    "min": 250.6,
+    "max": 478.4
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 278.9275,
+    "min": 194.242,
+    "max": 420.764
+   }
+  },
+  "a1|D5": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.009600000000000001,
+    "min": 0.0064,
+    "max": 0.0256
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0095,
+    "min": 0.0064,
+    "max": 0.0256
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.00115,
+    "min": 0.0006,
+    "max": 0.0028
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.13874999999999998,
+    "min": 0.09359999999999999,
+    "max": 0.41900000000000004
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.0043,
+    "min": 0.0028,
+    "max": 0.0227
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0001,
+    "min": 0.0,
+    "max": 0.0042
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.0043,
+    "min": 0.0028,
+    "max": 0.0227
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.0043,
+    "min": 0.0028,
+    "max": 0.0227
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0073
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0001,
+    "min": 0.0,
+    "max": 0.0042
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0001,
+    "min": 0.0,
+    "max": 0.0042
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.001
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.001
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.00825,
+    "min": 0.0047,
+    "max": 0.0256
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0012524999999999975,
+    "min": 0.0006049999999999954,
+    "max": 0.0036
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0029,
+    "min": 0.001,
+    "max": 0.0103
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.00040249999999999916,
+    "min": 0.00020499999999999832,
+    "max": 0.0014249999999999914
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 1
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.5,
+    "min": 0,
+    "max": 1
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0005953415728513452,
+    "min": 0.0,
+    "max": 0.0021554046772281495
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0011491623696498995,
+    "min": 0.0,
+    "max": 0.0033730225655209632
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0011995153957801048
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 453.6,
+    "min": 413.5,
+    "max": 512.4
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 412.43899999999996,
+    "min": 371.679,
+    "max": 471.255
+   }
+  },
+  "a1|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.31465,
+    "min": 0.2435,
+    "max": 0.4928
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 1.41582,
+    "min": 0.43554,
+    "max": 7.7187913
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 1.4079199999999998,
+    "min": 0.43554,
+    "max": 7.6406913
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 21
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 15
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 3
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.31465,
+    "min": 0.2435,
+    "max": 0.4928
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.161435,
+    "min": 0.13305,
+    "max": 0.22246999999999997
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.035175,
+    "min": 0.027450000000000002,
+    "max": 0.0532
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 43.53815,
+    "min": 34.7898,
+    "max": 63.08930000000001
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.179,
+    "min": 0.1301,
+    "max": 0.2578
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0576,
+    "min": 0.027,
+    "max": 0.1404
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.08805,
+    "min": 0.0576,
+    "max": 0.4928
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.179,
+    "min": 0.1301,
+    "max": 0.2578
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.179,
+    "min": 0.1301,
+    "max": 0.2578
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0576,
+    "min": 0.027,
+    "max": 0.1404
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0576,
+    "min": 0.027,
+    "max": 0.1404
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.08805,
+    "min": 0.0576,
+    "max": 0.4928
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.08805,
+    "min": 0.0576,
+    "max": 0.4928
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.034,
+    "min": 0.0238,
+    "max": 0.0861
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.034,
+    "min": 0.0238,
+    "max": 0.0861
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.31465,
+    "min": 0.2401,
+    "max": 0.4666
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.15718249999999992,
+    "min": 0.1304,
+    "max": 0.2321599999999999
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.24075,
+    "min": 0.1889,
+    "max": 0.2974
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.16244749999999997,
+    "min": 0.13291,
+    "max": 0.19948999999999997
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 7
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 7
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 1.7686370189157448,
+    "min": 1.145790283842141,
+    "max": 2.701011734904091
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 2.8259112351793627,
+    "min": 1.9205670701773294,
+    "max": 4.252682054616385
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.6733057974608727,
+    "min": 0.370317106493133,
+    "max": 1.1450576094375566
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 3.5,
+    "min": 1,
+    "max": 19
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 2.0,
+    "min": 0,
+    "max": 27
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 903.65,
+    "min": 750.8,
+    "max": 1052.1
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 474.70799999999997,
+    "min": 414.329,
+    "max": 525.371
+   }
+  },
+  "l0|D4A2": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.0025,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 0.0029,
+    "min": 0.0,
+    "max": 0.021
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.00135,
+    "min": 0.0,
+    "max": 0.0091
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0015,
+    "min": 0.0,
+    "max": 0.0135
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0004
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.00054000054000054
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0011980495752914257
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0009502180750482236
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 444.9,
+    "min": 382.5,
+    "max": 569.2
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 387.161,
+    "min": 325.975,
+    "max": 499.414
+   }
+  },
+  "l0|D5": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0635,
+    "max": 0.1487
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.0845,
+    "min": 0.0635,
+    "max": 0.1362
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.02935,
+    "min": 0.019454999999999972,
+    "max": 0.0695
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.004,
+    "min": 0.002,
+    "max": 0.0116
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 5.9096,
+    "min": 4.0481,
+    "max": 14.821399999999999
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.10125,
+    "min": 0.0609,
+    "max": 0.1487
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.00655,
+    "min": 0.0,
+    "max": 0.0717
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.028749999999999998,
+    "min": 0.0144,
+    "max": 0.0756
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.0005499999999999999,
+    "min": 0.0,
+    "max": 0.0068
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.0005499999999999999,
+    "min": 0.0,
+    "max": 0.0068
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.0845,
+    "min": 0.0635,
+    "max": 0.1362
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.03198499999999992,
+    "min": 0.023649999999999952,
+    "max": 0.07281499999999999
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.04535,
+    "min": 0.0145,
+    "max": 0.0695
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.010637499999999987,
+    "min": 0.0074,
+    "max": 0.04181499999999999
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 0.08959518797678256,
+    "min": 0.06875687568756876,
+    "max": 0.26980935169394454
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 0.10651074032278383,
+    "min": 0.07331378299120235,
+    "max": 0.3749314149850637
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 0.06444093320174393,
+    "min": 0.04539101974509359,
+    "max": 0.1642572206862075
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 2
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 0
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 460.65,
+    "min": 420.3,
+    "max": 521.5
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 416.16650000000004,
+    "min": 376.985,
+    "max": 477.409
+   }
+  },
+  "l0|k08": {
+   "HD_max_tat_ca": {
+    "n": 10,
+    "tv": 0.34485,
+    "min": 0.2741,
+    "max": 0.7591
+   },
+   "Gc_K_ER": {
+    "n": 10,
+    "tv": 2.83125,
+    "min": 1.86784,
+    "max": 12.10731
+   },
+   "Gc_K": {
+    "n": 10,
+    "tv": 2.7014,
+    "min": 1.81254,
+    "max": 11.89511
+   },
+   "V_test": {
+    "n": 10,
+    "tv": 4.0,
+    "min": 2,
+    "max": 7
+   },
+   "V_test_tru_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 4
+   },
+   "n_mat_kiem": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0,
+    "max": 1
+   },
+   "HD_tu_max": {
+    "n": 10,
+    "tv": 0.3256,
+    "min": 0.2581,
+    "max": 0.7591
+   },
+   "HD_tu_p95": {
+    "n": 10,
+    "tv": 0.19312999999999997,
+    "min": 0.17595,
+    "max": 0.2595199999999999
+   },
+   "HD_tu_p50": {
+    "n": 10,
+    "tv": 0.0548,
+    "min": 0.0492,
+    "max": 0.0813
+   },
+   "HD_tu_tong": {
+    "n": 10,
+    "tv": 61.04535,
+    "min": 53.693,
+    "max": 88.1377
+   },
+   "HD_ER": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_nhan": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_golgi": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_luoi_noi_chat_max": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_luoi_noi_chat_p95": {
+    "n": 10,
+    "tv": 0.3029,
+    "min": 0.235,
+    "max": 0.3919
+   },
+   "HD_nhan_max": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_nhan_p95": {
+    "n": 10,
+    "tv": 0.18825,
+    "min": 0.0786,
+    "max": 0.3237
+   },
+   "HD_golgi_max": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_golgi_p95": {
+    "n": 10,
+    "tv": 0.19505,
+    "min": 0.0548,
+    "max": 0.2591
+   },
+   "HD_trung_the_max": {
+    "n": 10,
+    "tv": 0.1056,
+    "min": 0.0336,
+    "max": 0.155
+   },
+   "HD_trung_the_p95": {
+    "n": 10,
+    "tv": 0.1056,
+    "min": 0.0336,
+    "max": 0.155
+   },
+   "HD_nhan_con_max": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_nhan_con_p95": {
+    "n": 10,
+    "tv": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "HD_ti_the_max": {
+    "n": 10,
+    "tv": 0.3256,
+    "min": 0.2581,
+    "max": 0.7591
+   },
+   "HD_ti_the_p95": {
+    "n": 10,
+    "tv": 0.19360999999999995,
+    "min": 0.1807999999999999,
+    "max": 0.280085
+   },
+   "HD_lysosome_max": {
+    "n": 10,
+    "tv": 0.2338,
+    "min": 0.2103,
+    "max": 0.2452
+   },
+   "HD_lysosome_p95": {
+    "n": 10,
+    "tv": 0.17999999999999994,
+    "min": 0.15361499999999997,
+    "max": 0.2105499999999999
+   },
+   "n_43b": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 7
+   },
+   "n_43b_duoi_luoi": {
+    "n": 10,
+    "tv": 3.0,
+    "min": 1,
+    "max": 6
+   },
+   "Vmat_tat_ca_pt": {
+    "n": 10,
+    "tv": 3.5591966421774046,
+    "min": 2.8781660412757972,
+    "max": 5.190239236397309
+   },
+   "Vmat_tu_the_pt": {
+    "n": 10,
+    "tv": 4.414222292539883,
+    "min": 3.7110298325495754,
+    "max": 6.939845194319728
+   },
+   "Vmat_ER_pt": {
+    "n": 10,
+    "tv": 2.404433278383478,
+    "min": 1.844029341725801,
+    "max": 3.4343908008481487
+   },
+   "vo_manh": {
+    "n": 10,
+    "tv": 6.0,
+    "min": 1,
+    "max": 22
+   },
+   "con_lai_duoi_50pt": {
+    "n": 10,
+    "tv": 1.0,
+    "min": 0,
+    "max": 20
+   },
+   "giay_tong": {
+    "n": 10,
+    "tv": 929.2,
+    "min": 839.1,
+    "max": 1068.5
+   },
+   "giay_dat": {
+    "n": 10,
+    "tv": 468.4435,
+    "min": 417.704,
+    "max": 572.897
+   }
+  }
+ },
+ "quyet_dinh": {
+  "k08|U5b-P8": {
+   "HD_max_tv": [
+    0.20635,
+    0.29515
+   ],
+   "Vmat_pt_tv": [
+    1.7068417898788035,
+    3.100811621572118
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "k08|U5b-P4": {
+   "HD_max_tv": [
+    0.20635,
+    0.34485
+   ],
+   "Vmat_pt_tv": [
+    1.7068417898788035,
+    3.5591966421774046
+   ],
+   "mat_tong": [
+    0,
+    1
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "k08|U5b-a1": {
+   "HD_max_tv": [
+    0.20635,
+    0.31465
+   ],
+   "Vmat_pt_tv": [
+    1.7068417898788035,
+    1.7686370189157448
+   ],
+   "mat_tong": [
+    0,
+    5
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "k08|U5b-l0": {
+   "HD_max_tv": [
+    0.20635,
+    0.34485
+   ],
+   "Vmat_pt_tv": [
+    1.7068417898788035,
+    3.5591966421774046
+   ],
+   "mat_tong": [
+    0,
+    1
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "k08|U5b8-P8": {
+   "HD_max_tv": [
+    0.18405,
+    0.29515
+   ],
+   "Vmat_pt_tv": [
+    1.3596707702192952,
+    3.100811621572118
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "k08|U5b8-U5b": {
+   "HD_max_tv": [
+    0.18405,
+    0.20635
+   ],
+   "Vmat_pt_tv": [
+    1.3596707702192952,
+    1.7068417898788035
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "D5|U5b-P8": {
+   "HD_max_tv": [
+    0.0114,
+    0.08410000000000001
+   ],
+   "Vmat_pt_tv": [
+    0.002416314277961227,
+    0.06876974273044799
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "D5|U5b-P4": {
+   "HD_max_tv": [
+    0.0114,
+    0.10125
+   ],
+   "Vmat_pt_tv": [
+    0.002416314277961227,
+    0.08959518797678256
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "D5|U5b-a1": {
+   "HD_max_tv": [
+    0.0114,
+    0.009600000000000001
+   ],
+   "Vmat_pt_tv": [
+    0.002416314277961227,
+    0.0005953415728513452
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": false
+  },
+  "D5|U5b-l0": {
+   "HD_max_tv": [
+    0.0114,
+    0.10125
+   ],
+   "Vmat_pt_tv": [
+    0.002416314277961227,
+    0.08959518797678256
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": true
+  },
+  "D5|U5b8-P8": null,
+  "D5|U5b8-U5b": null,
+  "D4A2|U5b-P8": {
+   "HD_max_tv": [
+    0.00395,
+    0.00045
+   ],
+   "Vmat_pt_tv": [
+    0.0,
+    0.0
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": false
+  },
+  "D4A2|U5b-P4": {
+   "HD_max_tv": [
+    0.00395,
+    0.0025
+   ],
+   "Vmat_pt_tv": [
+    0.0,
+    0.0
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": false
+  },
+  "D4A2|U5b-a1": {
+   "HD_max_tv": [
+    0.00395,
+    0.002
+   ],
+   "Vmat_pt_tv": [
+    0.0,
+    0.0
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": false
+  },
+  "D4A2|U5b-l0": {
+   "HD_max_tv": [
+    0.00395,
+    0.0025
+   ],
+   "Vmat_pt_tv": [
+    0.0,
+    0.0
+   ],
+   "mat_tong": [
+    0,
+    0
+   ],
+   "seed": [
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ],
+    [
+     6511,
+     6512,
+     6513,
+     6514,
+     6515,
+     6516,
+     6517,
+     6518,
+     6519,
+     6520
+    ]
+   ],
+   "THANG_VUNG": false
+  },
+  "D4A2|U5b8-P8": null,
+  "D4A2|U5b8-U5b": null
+ }
+}

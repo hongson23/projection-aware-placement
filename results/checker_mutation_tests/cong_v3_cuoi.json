@@ -1,0 +1,1835 @@
+{
+ "dong_vat": {
+  "so_ban_ghi": 157,
+  "so_ban_ghi_hn3_bi_thay": 36,
+  "so_ban_ghi_hn4": 36,
+  "dot_bien": 113,
+  "phat_hien": 113,
+  "dot_bien_muc_su_that": 55,
+  "phat_hien_muc_su_that": 55,
+  "st_dat_ts_truot": 16,
+  "st_dat_ts_truot_dung": 16,
+  "doi_chung": 26,
+  "doi_chung_bao_gia": 0,
+  "khong_hop_le": 2,
+  "loi_cay": 0,
+  "doi_chung_sach_nho_KKD_nhan": [
+   [
+    "D1_td_1001",
+    "dc_nhan_khoet_rong",
+    1
+   ],
+   [
+    "D1_td_1001",
+    "dc_nhan_khoan_ham",
+    1
+   ],
+   [
+    "D4A2_td_1001",
+    "dc_nhan_khoet_rong",
+    28
+   ],
+   [
+    "D4A2_td_1001",
+    "dc_nhan_khoan_ham",
+    28
+   ]
+  ],
+  "ban_ghi_hn4": [
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "dai_2_3",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_2",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_2",
+       "gia_tri": {
+        "tiet_dien_um": 0.4394,
+        "sai_so": 0.0087,
+        "dai_um": 2.3
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so"
+    ],
+    "mo_ta": "co gian ti_the_2 doc truc dai toi 2.300 µm (do lai 2.3000)",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 13.7
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "dai_2_01_sat_nguong",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_2",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_2",
+       "gia_tri": {
+        "tiet_dien_um": 0.4382,
+        "sai_so": 0.0087,
+        "dai_um": 2.01
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so"
+    ],
+    "mo_ta": "co gian ti_the_2 doc truc dai toi 2.010 µm (do lai 2.0100)",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 13.7
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "rong_0_4_doi_chung",
+    "ten_cu": "rong_0_4",
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "ti_the_4",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "co gian ngang ti_the_4 toi do day 0.400 µm (do lai 0.4007)",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": [
+     {
+      "tiet_dien_um": 0.4007,
+      "sai_so": 0.0087,
+      "dai_um": 1.5527
+     },
+     {
+      "tiet_dien_um": 0.4007,
+      "sai_so": 0.0087,
+      "dai_um": 1.5527
+     }
+    ],
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 12.4
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "rong_0_49_doi_chung",
+    "ten_cu": "rong_0_49_sat_nguong",
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "ti_the_5",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "co gian ngang ti_the_5 toi do day 0.490 µm (do lai 0.4900)",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": [
+     {
+      "tiet_dien_um": 0.49,
+      "sai_so": 0.0087,
+      "dai_um": 1.6316
+     },
+     {
+      "tiet_dien_um": 0.49,
+      "sai_so": 0.0087,
+      "dai_um": 1.6316
+     }
+    ],
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 12.5
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "vao_khoang_nhan_rong",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_2",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_2",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan thanh vo rong 0,4 µm, 6 lo (giong 5); dat lysosome_2 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_2",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 2,
+    "thoi_gian_s": 21.3
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "vao_khoang_nhan_rong",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "ti_the_9",
+    "luat_dich": [
+     "4.3a@su_that",
+     "4.3a@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "ti_the_9",
+       "gia_tri": {
+        "ngoai_mang_um3": 0.0,
+        "giao_nhan_um3": 0.3711037
+       },
+       "dat": false,
+       "nguong": "trong mang va khong giao khoi dac nhan"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "1.6@tham_so",
+     "4.3a@su_that",
+     "4.3d@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan thanh vo rong 0,4 µm, 6 lo (giong 5); dat ti_the_9 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "4.3a@su_that",
+      "bo_phan": "ti_the_9",
+      "gia_tri": {
+       "ngoai_mang_um3": 0.0,
+       "giao_nhan_um3": 0.3711037
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 2,
+    "thoi_gian_s": 22.7
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "mang_phong_1_6",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "mang",
+    "luat_dich": [
+     "1.2a@su_that",
+     "1.2a@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "mang",
+       "gia_tri": {
+        "kich_thuoc_obb_um": [
+         32.048,
+         31.791,
+         31.576
+        ],
+        "the_tich_um3": 17140.12
+       },
+       "dat": false,
+       "nguong": "mọi cạnh OBB ≤ 30 µm"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "1.2a@tham_so",
+     "1.3@tham_so",
+     "1.5@su_that",
+     "4.6b@su_that"
+    ],
+    "mo_ta": "phong mang he so 1.6",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 14.2
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "nhan_rong_lo_0.9_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=0.9 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 2,
+    "thoi_gian_s": 24.4
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "nhan_rong_lo_1.2_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=1.2 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 2,
+    "thoi_gian_s": 22.6
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "nhan_rong_lo_1.5_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "1.3@tham_so",
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=1.5 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 2,
+    "thoi_gian_s": 21.4
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "ti_the_cong_dai_2_4",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_9",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_9",
+       "gia_tri": {
+        "tiet_dien_um": 0.5971,
+        "sai_so": 0.0087,
+        "dai_um": 2.3756
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so",
+     "M.c@tham_so"
+    ],
+    "mo_ta": "thay ti_the_9 bang ong cong 150°, r=0.30, dai that theo truc 2.40 µm",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 12.9
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "nhan_vo_mot_lop",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "nhan",
+    "luat_dich": [
+     "M.d@su_that",
+     "M.d@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "nhan",
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= MD_TI_LE_TIA = 0.5 tia gap hai lop cach nhau <= MD_KHOANG_MAX = 0.3 µm"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan THAT khoet rong (vo 0,4 µm, 6 lo, giong 5), khoang chi chua nhan con",
+    "do_duoc": [
+     {
+      "luat": "M.d@su_that",
+      "bo_phan": "nhan",
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 1,
+    "thoi_gian_s": 21.6
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "dc_nhan_khoet_rong",
+    "ten_cu": null,
+    "kieu": "trung_tinh",
+    "bo_phan": "nhan",
+    "luat_dich": [],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan THAT khoet rong (vo 0,4 µm, 6 lo, giong 5), khoang chi chua nhan con",
+    "do_duoc": null,
+    "chi_tiet": {},
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 1,
+    "thoi_gian_s": 21.2
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "v12_lysosome_sat_mang_4.6b",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome",
+    "luat_dich": [
+     "4.6b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "lysosome",
+       "gia_tri": 0.89,
+       "dat": false,
+       "nguong": "trung vi vi tri tuong doi u=d_nhan/(d_nhan+d_mang) < 0,5 (tap trung quanh nhan)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.6b@su_that",
+     "4.6b@tham_so",
+     "M.b@tham_so"
+    ],
+    "mo_ta": "moi lysosome sat mang (khe 0,4 µm) → trung vi u > 0,5",
+    "do_duoc": [
+     {
+      "luat": "4.6b@su_that",
+      "bo_phan": "lysosome",
+      "gia_tri": 0.89
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 13.3
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "v12_lysosome_tat_ca_gan_nhan_4.6b",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome",
+    "luat_dich": [
+     "4.6b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "lysosome",
+       "gia_tri": 0.408,
+       "dat": false,
+       "nguong": "co it nhat 1 lysosome u >= 0,5 (rai ra phia ngoai)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.6b@su_that",
+     "M.c@tham_so"
+    ],
+    "mo_ta": "moi lysosome khe nhan 2.1 µm; doi 0 lysosome toi cho u < 0.45 → u max = 0.408 < 0,5 (khong co lysosome rai ra ngoai)",
+    "do_duoc": [
+     {
+      "luat": "4.6b@su_that",
+      "bo_phan": "lysosome",
+      "gia_tri": 0.408
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 12.7
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "dc_nhan_khoan_ham",
+    "ten_cu": null,
+    "kieu": "trung_tinh",
+    "bo_phan": "nhan",
+    "luat_dich": [],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "nhan THAT khoan ham r=0.40 (giong 1, khong khoang), ham cach nhan con 3.42 µm",
+    "do_duoc": null,
+    "chi_tiet": {},
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 1,
+    "thoi_gian_s": 93.5
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "dai_2_3",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_1",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_1",
+       "gia_tri": {
+        "tiet_dien_um": 0.4312,
+        "sai_so": 0.0087,
+        "dai_um": 2.3
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so",
+     "4.3d@tham_so",
+     "M.h@tham_so"
+    ],
+    "mo_ta": "co gian ti_the_1 doc truc dai toi 2.300 µm (do lai 2.3000)",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 128.1
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "dai_2_01_sat_nguong",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_2",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_2",
+       "gia_tri": {
+        "tiet_dien_um": 0.3891,
+        "sai_so": 0.0087,
+        "dai_um": 2.01
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so"
+    ],
+    "mo_ta": "co gian ti_the_2 doc truc dai toi 2.010 µm (do lai 2.0100)",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 127.0
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "rong_0_4_doi_chung",
+    "ten_cu": "rong_0_4",
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "ti_the_4",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "co gian ngang ti_the_4 toi do day 0.400 µm (do lai 0.4001)",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": [],
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 264.9
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "ti_the_cong_dai_2_4",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "ti_the_7",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "ti_the_7",
+       "gia_tri": {
+        "tiet_dien_um": 0.5971,
+        "sai_so": 0.0087,
+        "dai_um": 2.3083
+       },
+       "dat": false,
+       "nguong": "nửa dài (0.5, 1.0) µm và rộng/dài (0.25, 0.6)"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.3b@tham_so"
+    ],
+    "mo_ta": "thay ti_the_7 bang ong cong 150°, r=0.30, dai that theo truc 2.40 µm",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 269.6
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "rong_0_49_doi_chung",
+    "ten_cu": "rong_0_49_sat_nguong",
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "ti_the_5",
+    "luat_dich": [
+     "4.3b@su_that",
+     "4.3b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "co gian ngang ti_the_5 toi do day 0.490 µm (do lai 0.4901)",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": [],
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 269.3
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "mang_phong_1_6",
+    "ten_cu": null,
+    "kieu": "st_dat_ts_truot",
+    "bo_phan": "mang",
+    "luat_dich": [
+     "1.2a@su_that",
+     "1.2a@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": "mang",
+       "gia_tri": {
+        "kich_thuoc_obb_um": [
+         32.048,
+         31.791,
+         31.576
+        ],
+        "the_tich_um3": 17140.12
+       },
+       "dat": false,
+       "nguong": "mọi cạnh OBB ≤ 30 µm"
+      }
+     ]
+    },
+    "dung_ky_vong": true,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "1.2a@tham_so",
+     "1.3@tham_so",
+     "1.5@su_that",
+     "4.6b@su_that"
+    ],
+    "mo_ta": "phong mang he so 1.6",
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 239.7
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "v12_lysosome_sat_mang_4.6b",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome",
+    "luat_dich": [
+     "4.6b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "lysosome",
+       "gia_tri": 0.869,
+       "dat": false,
+       "nguong": "trung vi vi tri tuong doi u=d_nhan/(d_nhan+d_mang) < 0,5 (tap trung quanh nhan)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.6b@su_that",
+     "4.6b@tham_so",
+     "M.b@tham_so",
+     "M.c@tham_so",
+     "M.c₀@su_that"
+    ],
+    "mo_ta": "moi lysosome sat mang (khe 0,4 µm) → trung vi u > 0,5",
+    "do_duoc": [
+     {
+      "luat": "4.6b@su_that",
+      "bo_phan": "lysosome",
+      "gia_tri": 0.869
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 208.1
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "v12_lysosome_tat_ca_gan_nhan_4.6b",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome",
+    "luat_dich": [
+     "4.6b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "lysosome",
+       "gia_tri": 0.449,
+       "dat": false,
+       "nguong": "co it nhat 1 lysosome u >= 0,5 (rai ra phia ngoai)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.6b@su_that",
+     "M.c@tham_so",
+     "M.c₀@su_that",
+     "M.h@su_that"
+    ],
+    "mo_ta": "moi lysosome khe nhan 2.1 µm; doi 54 lysosome toi cho u < 0.45 → u max = 0.449 < 0,5 (khong co lysosome rai ra ngoai)",
+    "do_duoc": [
+     {
+      "luat": "4.6b@su_that",
+      "bo_phan": "lysosome",
+      "gia_tri": 0.449
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 129.5
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "vao_khoang_nhan_rong",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_2",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_2",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan thanh vo rong 0,4 µm, 6 lo (giong 5); dat lysosome_2 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_2",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 29,
+    "thoi_gian_s": 284.7
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "vao_khoang_nhan_rong",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "ti_the_9",
+    "luat_dich": [
+     "4.3a@su_that",
+     "4.3a@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "ti_the_9",
+       "gia_tri": {
+        "ngoai_mang_um3": 0.0,
+        "giao_nhan_um3": 0.6098447
+       },
+       "dat": false,
+       "nguong": "trong mang va khong giao khoi dac nhan"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "1.6@tham_so",
+     "4.3a@su_that",
+     "4.3d@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan thanh vo rong 0,4 µm, 6 lo (giong 5); dat ti_the_9 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "4.3a@su_that",
+      "bo_phan": "ti_the_9",
+      "gia_tri": {
+       "ngoai_mang_um3": 0.0,
+       "giao_nhan_um3": 0.6098447
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 29,
+    "thoi_gian_s": 247.6
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "nhan_rong_lo_0.9_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=0.9 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 24,
+    "thoi_gian_s": 236.1
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "nhan_rong_lo_1.2_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=1.2 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 23,
+    "thoi_gian_s": 212.5
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "nhan_rong_lo_1.5_lysosome",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "lysosome_3",
+    "luat_dich": [
+     "M.c@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": false,
+     "tham_so": true,
+     "vd_su_that": [],
+     "vd_tham_so": [
+      {
+       "bo_phan": [
+        "lysosome_3",
+        "nhan"
+       ],
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= 0.3 µm (chung.khe_roi)"
+      }
+     ]
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.4b@tham_so",
+     "M.c@tham_so",
+     "M.d@su_that"
+    ],
+    "mo_ta": "vo 0,4 µm, 6 lo r=1.5 (giong 5), dat lysosome_3 vao khoang",
+    "do_duoc": [
+     {
+      "luat": "M.c@tham_so",
+      "bo_phan": [
+       "lysosome_3",
+       "nhan"
+      ],
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 21,
+    "thoi_gian_s": 282.9
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "nhan_vo_mot_lop",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "nhan",
+    "luat_dich": [
+     "M.d@su_that",
+     "M.d@tham_so"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "nhan",
+       "gia_tri": 0.0,
+       "dat": false,
+       "nguong": ">= MD_TI_LE_TIA = 0.5 tia gap hai lop cach nhau <= MD_KHOANG_MAX = 0.3 µm"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan THAT khoet rong (vo 0,4 µm, 6 lo, giong 5), khoang chi chua nhan con",
+    "do_duoc": [
+     {
+      "luat": "M.d@su_that",
+      "bo_phan": "nhan",
+      "gia_tri": 0.0
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 28,
+    "thoi_gian_s": 248.6
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "dc_nhan_khoet_rong",
+    "ten_cu": null,
+    "kieu": "trung_tinh",
+    "bo_phan": "nhan",
+    "luat_dich": [],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "M.d@su_that"
+    ],
+    "mo_ta": "nhan THAT khoet rong (vo 0,4 µm, 6 lo, giong 5), khoang chi chua nhan con",
+    "do_duoc": null,
+    "chi_tiet": {},
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 28,
+    "thoi_gian_s": 235.4
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "dc_nhan_khoan_ham",
+    "ten_cu": null,
+    "kieu": "trung_tinh",
+    "bo_phan": "nhan",
+    "luat_dich": [],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [],
+    "mo_ta": "nhan THAT khoan ham r=0.40 (giong 1, khong khoang), ham cach nhan con 3.09 µm",
+    "do_duoc": null,
+    "chi_tiet": {},
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 28,
+    "thoi_gian_s": 329.4
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "v12_golgi_lech_mang_4.5b",
+    "ten_cu": "v12_golgi_sat_mang_4.5b",
+    "kieu": "dot_bien",
+    "bo_phan": "golgi",
+    "luat_dich": [
+     "4.5b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "golgi",
+       "gia_tri": {
+        "khe_nhan_um": 2.6285,
+        "khe_mang_um": 2.3348
+       },
+       "dat": false,
+       "nguong": "khe Golgi–nhân < khe Golgi–màng"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.5b@su_that"
+    ],
+    "mo_ta": "doi Golgi + trung the 0.327 µm theo ban kinh ra phia mang: khe nhan 2.6285 > khe mang 2.3348 (vi pham ve 1 0.294 µm)",
+    "do_duoc": [
+     {
+      "luat": "4.5b@su_that",
+      "bo_phan": "golgi",
+      "gia_tri": {
+       "khe_nhan_um": 2.6285,
+       "khe_mang_um": 2.3348
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 17.1
+   },
+   {
+    "te_bao": "D1_td_1001",
+    "loai": "v12_trung_the_ngang_khoi_bao_loi_4.5b",
+    "ten_cu": "v12_trung_the_ra_khoi_bao_loi_4.5b",
+    "kieu": "dot_bien",
+    "bo_phan": [
+     "golgi",
+     "trung_the"
+    ],
+    "luat_dich": [
+     "4.5b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": [
+        "golgi",
+        "trung_the"
+       ],
+       "gia_tri": {
+        "tam_trung_the_trong_bao_loi": false,
+        "khe_golgi_trung_the_um": 0.3846
+       },
+       "dat": false,
+       "nguong": "tâm trung thể nằm trong bao lồi Golgi"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.5b@su_that"
+    ],
+    "mo_ta": "doi trung the NGANG ra khoi bao loi Golgi (khe Golgi–trung the 0.385 µm); Golgi giu nguyen",
+    "do_duoc": [
+     {
+      "luat": "4.5b@su_that",
+      "bo_phan": [
+       "golgi",
+       "trung_the"
+      ],
+      "gia_tri": {
+       "tam_trung_the_trong_bao_loi": false,
+       "khe_golgi_trung_the_um": 0.3846
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 16.7
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "v12_golgi_lech_mang_4.5b",
+    "ten_cu": "v12_golgi_sat_mang_4.5b",
+    "kieu": "dot_bien",
+    "bo_phan": "golgi",
+    "luat_dich": [
+     "4.5b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": "golgi",
+       "gia_tri": {
+        "khe_nhan_um": 2.6464,
+        "khe_mang_um": 2.3557
+       },
+       "dat": false,
+       "nguong": "khe Golgi–nhân < khe Golgi–màng"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.5b@su_that"
+    ],
+    "mo_ta": "doi Golgi + trung the 0.258 µm theo ban kinh ra phia mang: khe nhan 2.6464 > khe mang 2.3557 (vi pham ve 1 0.291 µm)",
+    "do_duoc": [
+     {
+      "luat": "4.5b@su_that",
+      "bo_phan": "golgi",
+      "gia_tri": {
+       "khe_nhan_um": 2.6464,
+       "khe_mang_um": 2.3557
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 143.8
+   },
+   {
+    "te_bao": "D4A2_td_1001",
+    "loai": "v12_trung_the_ngang_khoi_bao_loi_4.5b",
+    "ten_cu": "v12_trung_the_ra_khoi_bao_loi_4.5b",
+    "kieu": "dot_bien",
+    "bo_phan": [
+     "golgi",
+     "trung_the"
+    ],
+    "luat_dich": [
+     "4.5b@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": [
+        "golgi",
+        "trung_the"
+       ],
+       "gia_tri": {
+        "tam_trung_the_trong_bao_loi": false,
+        "khe_golgi_trung_the_um": 0.4333
+       },
+       "dat": false,
+       "nguong": "tâm trung thể nằm trong bao lồi Golgi"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "4.5b@su_that"
+    ],
+    "mo_ta": "doi trung the NGANG ra khoi bao loi Golgi (khe Golgi–trung the 0.433 µm); Golgi giu nguyen",
+    "do_duoc": [
+     {
+      "luat": "4.5b@su_that",
+      "bo_phan": [
+       "golgi",
+       "trung_the"
+      ],
+      "gia_tri": {
+       "tam_trung_the_trong_bao_loi": false,
+       "khe_golgi_trung_the_um": 0.4333
+      }
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": 0,
+    "thoi_gian_s": 144.3
+   }
+  ]
+ },
+ "thuc_vat": {
+  "so_ban_ghi": 111,
+  "so_ban_ghi_hn3_bi_thay": 6,
+  "so_ban_ghi_hn4": 6,
+  "dot_bien": 71,
+  "phat_hien": 71,
+  "dot_bien_muc_su_that": 31,
+  "phat_hien_muc_su_that": 29,
+  "st_dat_ts_truot": 15,
+  "st_dat_ts_truot_dung": 15,
+  "doi_chung": 20,
+  "doi_chung_bao_gia": 0,
+  "khong_hop_le": 5,
+  "loi_cay": 0,
+  "doi_chung_sach_nho_KKD_nhan": [],
+  "ban_ghi_hn4": [
+   {
+    "te_bao": "TV1",
+    "loai": "keo_dai_ca_te_bao_x1_03",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": "vach",
+    "luat_dich": [
+     "2.2a@su_that",
+     "2.2a@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": "goc da truot phan SU THAT cua luat dich (phep cay toan te bao): ['2.2a@su_that']",
+    "loi_cay": null,
+    "luat_truot_moi": null,
+    "mo_ta": null,
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": null
+   },
+   {
+    "te_bao": "TV1",
+    "loai": "keo_dai_ca_te_bao_x1_015_doi_chung",
+    "ten_cu": null,
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "vach",
+    "luat_dich": [
+     "2.2a@su_that",
+     "2.2a@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": "goc da truot phan SU THAT cua luat dich (phep cay toan te bao): ['2.2a@su_that']",
+    "loi_cay": null,
+    "luat_truot_moi": null,
+    "mo_ta": null,
+    "do_duoc": null,
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": null
+   },
+   {
+    "te_bao": "TV1",
+    "loai": "luc_lap_chi_4_mat_doi_chung",
+    "ten_cu": "luc_lap_chi_4_mat",
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "luc_lap",
+    "luat_dich": [
+     "2.7b@su_that",
+     "2.7b@tham_so"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "2.4c@tham_so",
+     "2.7e@tham_so"
+    ],
+    "mo_ta": "xoa luc lap hai mat dau (con 4 mat)",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": 332.2
+   },
+   {
+    "te_bao": "TV1",
+    "loai": "v12_peroxisome_chong_luc_lap_M.c0",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": [
+     "peroxisome_2",
+     "luc_lap_2"
+    ],
+    "luat_dich": [
+     "M.c₀@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": [
+        "peroxisome_2",
+        "luc_lap_2"
+       ],
+       "gia_tri": {
+        "do_sau_um": 0.09996,
+        "giao_um3": 0.00898219
+       },
+       "dat": false,
+       "nguong": "độ sâu xuyên ≤ chung.tiep_xuc_toi_da_um = 0.01 µm (PI duyệt 12/11/2026; khe ≥ 0, được chạm)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "K.1@tham_so",
+     "M.c₀@su_that"
+    ],
+    "mo_ta": "dich peroxisome_2 (huong tranh khong bao) toi khe 0,05 voi luc_lap_2 roi theo phap tuyen tiep xuc lan 0,1 µm; giao truoc kiem {'luc_lap_2': 0.00898219, 'mang_trong_lap_2': 0.00228742}",
+    "do_duoc": [
+     {
+      "bo_phan": [
+       "peroxisome_2",
+       "luc_lap_2"
+      ],
+      "gia_tri": {
+       "do_sau_um": 0.09996,
+       "giao_um3": 0.00898219
+      },
+      "dat": false,
+      "nguong": "độ sâu xuyên ≤ chung.tiep_xuc_toi_da_um = 0.01 µm (PI duyệt 12/11/2026; khe ≥ 0, được chạm)"
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": 298.2
+   },
+   {
+    "te_bao": "TV1",
+    "loai": "v12_peroxisome_chong_luc_lap_0.02_M.c0",
+    "ten_cu": null,
+    "kieu": "dot_bien",
+    "bo_phan": [
+     "peroxisome_3",
+     "luc_lap_3"
+    ],
+    "luat_dich": [
+     "M.c₀@su_that"
+    ],
+    "phat_hien": true,
+    "phat_hien_theo_phan_quyet": {
+     "su_that": true,
+     "tham_so": false,
+     "vd_su_that": [
+      {
+       "bo_phan": [
+        "peroxisome_3",
+        "luc_lap_3"
+       ],
+       "gia_tri": {
+        "do_sau_um": 0.019992,
+        "giao_um3": 0.00034988
+       },
+       "dat": false,
+       "nguong": "độ sâu xuyên ≤ chung.tiep_xuc_toi_da_um = 0.01 µm (PI duyệt 12/11/2026; khe ≥ 0, được chạm)"
+      }
+     ],
+     "vd_tham_so": []
+    },
+    "dung_ky_vong": null,
+    "bao_dong_gia": null,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "K.1@tham_so",
+     "M.c₀@su_that"
+    ],
+    "mo_ta": "dich peroxisome_3 (huong tranh khong bao) toi khe 0,05 voi luc_lap_3 roi theo phap tuyen tiep xuc lan 0.02 µm (cap chon o 0,02; giao truoc kiem o 0,02: {'luc_lap_3': 0.00034988})",
+    "do_duoc": [
+     {
+      "bo_phan": [
+       "peroxisome_3",
+       "luc_lap_3"
+      ],
+      "gia_tri": {
+       "do_sau_um": 0.019992,
+       "giao_um3": 0.00034988
+      },
+      "dat": false,
+      "nguong": "độ sâu xuyên ≤ chung.tiep_xuc_toi_da_um = 0.01 µm (PI duyệt 12/11/2026; khe ≥ 0, được chạm)"
+     }
+    ],
+    "chi_tiet": null,
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": 272.7
+   },
+   {
+    "te_bao": "TV1",
+    "loai": "v12_peroxisome_chong_luc_lap_0.005_M.c0",
+    "ten_cu": null,
+    "kieu": "sat_nguong_dat",
+    "bo_phan": "peroxisome_3",
+    "luat_dich": [
+     "M.c₀@su_that"
+    ],
+    "phat_hien": null,
+    "phat_hien_theo_phan_quyet": null,
+    "dung_ky_vong": null,
+    "bao_dong_gia": false,
+    "khong_hop_le": null,
+    "loi_cay": null,
+    "luat_truot_moi": [
+     "K.1@tham_so"
+    ],
+    "mo_ta": "dich peroxisome_3 (huong tranh khong bao) toi khe 0,05 voi luc_lap_3 roi theo phap tuyen tiep xuc lan 0.005 µm (cap chon o 0,02; giao truoc kiem o 0,02: {'luc_lap_3': 0.00034988})",
+    "do_duoc": null,
+    "chi_tiet": [],
+    "gia_tri_luat_dich": null,
+    "M.c0_kkd_nhan": null,
+    "thoi_gian_s": 256.1
+   }
+  ]
+ }
+}

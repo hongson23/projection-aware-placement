@@ -1,0 +1,1214 @@
+{
+ "phien_ban": "su_that_dong_vat_v1.2-20261111",
+ "trang_thai": "ĐÓNG BĂNG 11/11/2026 — đã qua 2 vòng rà soát chéo độc lập",
+ "sua_doi_so_voi_v1_va_v1_1": [
+  "SAI 1: 4.3b = đường kính tiết diện 0,2–1 µm (Stephan 2019, Siegmund 2018, BioNumbers); bỏ nguồn số đếm BNID 109409/Valm; dài 1–2 µm và hạt rời → tham số",
+  "SAI 2: 2.2a bỏ hệ số cùng bậc (= 1); tv.kich_thuoc_vach 68×30×30 (60.25 pL); tv.duong_kinh_nhan [5.4; 7] (cần ≥ 5.35); khả thi tính lại ở tv.kich_thuoc_vach.kiem_kha_thi",
+  "SAI 3: 10.2b 0,3–0,6 → 0,2–0,6 µm, ghi phạm vi (Bussi 278 ± 43 nm)",
+  "SAI 4: 2.6a → tham số tv.so_nhan (chưa có nguồn khoa học); 2.1 chỉ đòi ≥ 1 nhân",
+  "SAI 5: định nghĩa '*' ở cả hai JSON; M.a/M.c₀/M.h có loai_tru; 4.5b/4.6b/4.8b dùng vị từ tương đối (gan_tuong_doi, bao_quanh), ngưỡng µm chỉ là tham số bộ dựng; 4.8a goc_toi_thieu_do; 4.4a chạm diện tích > 0",
+  "SAI 6: thêm mau_thuan_mac_dinh_voi_su_that; dv.mien_cung_loai mặc định [] (theo M.h)",
+  "NÊN: 1.2a cận trên 30 µm → tham số; 1.5 phạm vi HeLa/COS-7; 2.4b 0,68–0,85 (Koffler); 2.7d thêm Liao 2025; 2.6b bỏ 'không bào lõm'; 2.7b vị từ 'rai'; 2.7f muc_suy_ra; 10.2c 3–100; màng nhân 20–50 nm ở M.d; thêm khong_the_hien_co_chu_dich và so_trong_van_ban cho mọi luật",
+  "--- v1.2 ---",
+  "1. 2.2a: vị từ trên thể tích TRONG màng 60–100 pL (PI); hộp 80×32×32 µm (61.96–68.14 pL); nhân [6.0; 7] µm; khả thi tính lại",
+  "2. 5.6a khe Golgi–Golgi > 0, 5.4a và 10.3b diện tích chạm > 0; ngưỡng 2 µm / 1 µm² / 0,005 µm² chỉ là phép kiểm tham số",
+  "3. trạng thái ĐÓNG BĂNG; SHA-256 ở DONG_BANG_LuatSuThat_v1_2.txt"
+ ],
+ "nghia_dau_sao": "'*' = mọi bộ phận có số lượng > 0 ở lớp đang dựng, TRỪ mang; cặp tổ tiên–con cháu (nhân con–nhân, trung tử–trung thể, túi–Golgi, mào–ti thể, lỗ nhân/màng nhân–nhân) không xét roi",
+ "mau_thuan_mac_dinh_voi_su_that": [
+  {
+   "luat": "4.8a",
+   "mac_dinh": "dv.khuon_trung_the = cầu, dv.dai_trung_the 0,42–0,48 µm",
+   "vi_pham": "mesh trung thể là MỘT khối, không có hai trung tử ⇒ không thoả 'hai trung tử dài 0,3–0,5 µm, vuông góc' (bộ kiểm: KHÔNG KIỂM ĐƯỢC ở 5/6 tế bào); chỉ đúng nếu có tầng 2"
+  },
+  {
+   "luat": "4.5a",
+   "mac_dinh": "dv.khuon_golgi_truc (một elip dẹt), dv.ai_bo_golgi, dv.dai_golgi",
+   "vi_pham": "Golgi là MỘT khối, không có túi ⇒ không thoả '4–11 túi dẹt xếp chồng' (bộ kiểm: KHÔNG KIỂM ĐƯỢC ở 6/6 tế bào)"
+  },
+  {
+   "luat": "M.h",
+   "mac_dinh": "dv.mien_cung_loai trong botri2 = ['lysosome']",
+   "vi_pham": "lysosome được chồng nhau (D4A2_td 41 cặp); v1.1 đặt mặc định [] — botri2 chưa đổi"
+  },
+  {
+   "luat": "M.d",
+   "mac_dinh": "dv.khuon_nhan_truc (nhân đặc một elip)",
+   "vi_pham": "nhân đặc không có vỏ hai lớp và lỗ (chỉ tế bào D4A_tay_1009_nhanrong có nhân rỗng)"
+  },
+  {
+   "luat": "M.e",
+   "mac_dinh": "dv.khuon_ong (ống đặc)",
+   "vi_pham": "mesh ti thể không có màng trong/mào"
+  },
+  {
+   "luat": "4.4a",
+   "mac_dinh": "bộ dựng chỉ miễn khe ER–nhân (dv.mien_cap), chưa buộc nối",
+   "vi_pham": "ER có thể không chạm nhân (demo_flux_s1 trượt 4.4a); vế 'trải khắp chất tế bào' không thể hiện (dv.pham_vi_ve_er)"
+  },
+  {
+   "luat": "4.3b",
+   "mac_dinh": "dv.khuon_ong rộng 0,25–0,9 µm",
+   "vi_pham": "v1 trái (0,5–1); v1.1 (0,2–1) HẾT mâu thuẫn theo số khuôn — chưa chạy lại bộ kiểm để xác nhận trên mesh (v1 trượt 6–455 ti thể/tế bào)"
+  }
+ ],
+ "muc_dich": "Bộ luật chỉ gồm sự thật có nguồn cho Bài 1 (khoa học máy tính); quy ước dạy học là tham số (tham_so_quy_uoc_v1_2_20261111.json), không phải luật; không cần giáo viên duyệt.",
+ "tu_ban": "v4.1-20261104-te-bao-dong-vat",
+ "nguon_vao_sha256_16": {
+  "luat_te_bao_dong_vat_v4_1_20261104.json": "683c3e595675b834",
+  "luat_te_bao_thuc_vat_v1_4_20261105.json": "064f46f78b3cf997",
+  "../ThuNghiem/bo_dung_chung/dac_ta/dong_vat_botri2.json": "da264d7be9ed5928",
+  "BoSung_LuatV4_2_DeXuat_20261105.md": "70e9202ae2bef8ee",
+  "lam_excel_gv.py": "dd7b7daa194fa1ca"
+ },
+ "sinh_boi": "tao_luat_su_that.py",
+ "don_vi": "µm; t_um = khe chứa, s_um = khe rời",
+ "quy_uoc_may": {
+  "chua": "a nằm trong b; khoảng cách bề mặt a tới mặt trong b ≥ t_um; a có thể là danh sách hoặc '*'",
+  "roi": "a và b không giao, khoảng cách bề mặt ≥ s_um; cung_loai=true: chỉ xét cặp hai bản sao cùng tên a (b phải bằng a); cung_loai=false: chỉ cặp khác tên; 'mien' = cặp bỏ qua; cặp tổ tiên–con cháu không xét; bo_cap_cung_trong = bỏ mọi cặp mà cả hai bộ phận cùng nằm trong một bản sao của bộ phận đó (bên trong lục lạp dùng khe 0,1 µm riêng)",
+  "gan": "khoảng cách bề mặt nhỏ nhất từ mỗi bản sao a tới b (b danh sách: tới bộ phận gần nhất) ≤ toi_da_um",
+  "tiep_xuc": "a chạm b, PHẢI còn đúng SAU bước chiếu/sửa cuối; dien_tich_toi_thieu_um2 hoặc ti_le_mat_a_toi_thieu = cỡ vùng chạm; moi_ban_sao = mọi bản sao a đều chạm; moi_ban_sao_cua = mọi bản sao bộ phận đó đều được chạm",
+  "lien_khoi": "hợp các bộ phận trong a (trong từng bản sao 'trong_moi' nếu có) là một khối liền; 'mien' = được nhiều mảnh",
+  "ti_le_the_tich": "V(a)/V(trong) ∈ khoang",
+  "kich_thuoc": "mỗi khoá dai/rong/duong_kinh/day ∈ [lo, hi] µm",
+  "so_luong": "số bản sao a trong mỗi bản sao cha ∈ khoang; 'lop' = chỉ áp cho lớp đó; toi_thieu_theo = cận dưới theo số bộ phận khác; bat_mac_dinh=false: tắt trừ khi giáo viên bật",
+  "hinh": "dạng quy ước: hop_bo_tron, thau_kinh, cau, tam_phang, tron_nhan_khong_gap",
+  "vo": "khối ngoài cùng, kích thước ngoài theo kich_thuoc_um",
+  "huong": "trục ngắn nhất của a lệch không quá 'lech_toi_da_do' độ so với pháp tuyến mặt gần nhất của b",
+  "nhom": "danh sách 'dieu_kien' gồm các vị từ thường; luật đạt khi mọi vị từ đạt",
+  "@": "giá trị bắt đầu bằng '@' là id trong tham_so_quy_uoc_v1_2_20261111.json (số quy ước/ngưỡng, không thuộc luật)",
+  "kich_thuoc.kiem_tren_mo_hinh=false": "số thật chỉ ghi để đối chiếu; mô hình cố ý phóng to theo tham số nêu ở ly_do; không dùng làm tiêu chí đạt/trượt",
+  "kich_thuoc.the_tich_pL": "thể tích khối ∈ [lo/he_so_cung_bac; hi·he_so_cung_bac] pL",
+  "hinh.chong_tam": "một chồng tấm dẹt song song, đồng trục (Golgi; granum)",
+  "roi.s_um=0": "không giao (thể tích giao ≤ eps_um3), được chạm; bo_cap_to_tien_con_chau: bỏ cặp lồng nhau theo quan hệ cha–con; khong_cham: đòi khe > 0",
+  "so_luong.khoang[1]=null": "không có cận trên",
+  "ap_dung_khi": "luật chỉ áp khi tham số được nêu là true",
+  "gan_tuong_doi": "khoảng cách bề mặt a–b < khoảng cách bề mặt a–so_voi (với thong_ke = trung_vi: dùng vị trí tương đối u = d(b)/(d(b)+d(so_voi)) tại tâm mỗi bản sao, trung vị u < 0,5; rai_ra_ngoai = có bản sao u ≥ 0,5)",
+  "bao_quanh": "tâm khối b nằm trong bao lồi của a",
+  "rai": "có bản sao a nằm sát (theo gan cùng luật) ít nhất so_mat_toi_thieu mặt của b (hộp)",
+  "huong.goc_toi_thieu_do": "góc giữa hai trục ≥ giá trị này thì coi là đạt goc_do",
+  "tiep_xuc.dien_tich_phai_duong": "vùng chạm (khe ≤ khe_toi_da_um) có diện tích > 0",
+  "loai_tru": "loại bộ phận bỏ khỏi '*' trong luật này"
+ },
+ "quy_uoc_nhan": {
+  "sự thật": "khẳng định có nguồn khoa học (hoặc nguyên lý vật lý hiển nhiên)",
+  "sự thật (có phạm vi)": "đúng trong phạm vi ghi kèm"
+ },
+ "dem": {
+  "giu": 18,
+  "tach_lai": 8,
+  "tach_tu_quy_uoc": 0,
+  "them": 2,
+  "chuyen_tham_so": 15,
+  "bo": 1
+ },
+ "phan_loai_luat_goc": {
+  "1.1": "giữ",
+  "1.2a": "giữ (tách)",
+  "1.2b": "→ tham số",
+  "1.3": "giữ (tách)",
+  "1.4a": "giữ",
+  "1.4b": "→ tham số",
+  "1.5": "giữ (tách)",
+  "1.6": "→ tham số",
+  "4.2a": "giữ (tách)",
+  "4.2b": "→ tham số",
+  "4.3a": "giữ",
+  "4.3b": "giữ (tách)",
+  "4.3c": "→ tham số",
+  "4.3d": "→ tham số",
+  "4.4a": "giữ",
+  "4.4b": "→ tham số",
+  "4.5a": "giữ (tách)",
+  "4.5b": "giữ",
+  "4.5c": "→ tham số",
+  "4.5d": "bỏ",
+  "4.6a": "giữ",
+  "4.6d": "→ tham số",
+  "4.6b": "giữ",
+  "4.6c": "→ tham số",
+  "4.7": "→ tham số",
+  "4.8a": "giữ",
+  "4.8b": "giữ",
+  "4.8c": "→ tham số",
+  "M.a": "giữ",
+  "M.b": "→ tham số",
+  "M.c": "→ tham số",
+  "M.d": "giữ (tách)",
+  "M.e": "giữ (tách)",
+  "M.f": "→ tham số",
+  "M.c₀": "thêm",
+  "M.h": "thêm"
+ },
+ "luat_bo": {
+  "4.5d": "nhãn 'chưa có nguồn', nguon rỗng; không phải sự thật cũng không phải tham số vẽ → bỏ khỏi bộ luật; ngưỡng bộ kiểm NG_45D_TI_LE ghi ở tham số để truy vết"
+ },
+ "so_luat": 20,
+ "luat": [
+  {
+   "id": "1.1",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào có ba thành phần: màng tế bào bao ngoài, chất tế bào bên trong, nhân.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005886 plasma membrane",
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")",
+    "GO:0005634 nucleus"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "mang",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "so_luong",
+      "a": "nhan",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "chua",
+      "a": "nhan",
+      "b": "mang",
+      "t_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "chất tế bào = khối trong màng trừ nhân, thể tích > 0"
+     }
+    ]
+   },
+   "may_goc": null,
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK",
+    "noi_dung": "SGK (lời 'màng tế bào, chất tế bào, nhân')",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "dv v4.1 luật 1.1",
+   "so_trong_van_ban": [
+    "1 màng tế bào",
+    "1 nhân"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "1.2a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào là khối ba chiều; tế bào người tròn/trôi nổi đường kính cỡ 10 µm trở lên (HeLa trôi nổi 17,1 µm; thể tích HeLa khoảng 500–4 000 µm³).",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào tròn hoặc trôi nổi; tế bào bám đáy dẹt, rộng ~40 µm. Cận dưới 10 µm ≈ đường kính cầu 500 µm³ (9,8 µm, tự tính); CẬN TRÊN 30 µm KHÔNG có nguồn trực tiếp → tham số dv.can_tren_duong_kinh_te_bao",
+   "so_that": "HeLa trôi nổi 17 µm; tế bào bám đáy rộng ~40 µm",
+   "nguon": [
+    "BNID 115568 (HeLa 17,1 µm), 103788, 100434; Cell Biology by the Numbers \"How big is a human cell?\""
+   ],
+   "phat_bieu_goc": "Tế bào là khối ba chiều; tế bào tròn có đường kính khoảng 10–30 µm.",
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "mang",
+    "duong_kinh": [
+     10,
+     "@dv.can_tren_duong_kinh_te_bao"
+    ]
+   },
+   "may_goc": {
+    "vo": "mang",
+    "ban_kinh_um": 10.0
+   },
+   "tach_ra_tham_so": [
+    "dv.R_vo",
+    "dv.can_tren_duong_kinh_te_bao"
+   ],
+   "ly_do_tach": "mo_hinh 20 µm (dv.R_vo) và cận trên 30 µm (không nguồn) là giá trị chọn",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật 1.2a",
+   "so_trong_van_ban": [
+    "đường kính ≥ 10 µm",
+    "cận trên: tham số dv.can_tren_duong_kinh_te_bao (mặc định 30 µm, chọn)"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "tế bào bám đáy thật dẹt, rộng ~40 µm, cao vài µm → dv.hinh_vo"
+   ]
+  },
+  {
+   "id": "1.3",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Thường có một nhân, nằm trong khối chất tế bào, không bắt buộc ở giữa.",
+   "loai": "so_luong+vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào thường (có loại tế bào nhiều nhân); số đo độ lệch trên tế bào nuôi, ảnh phẳng",
+   "so_that": "nhân lệch tâm 11–25 % bán kính (MEF, 2D)",
+   "nguon": [
+    "GO:0005634 nucleus",
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")",
+    "Hale et al. 2011 J Cell Sci (MTOC–nhân 0,2–0,3 µm trung bình 2D cắt ở 0; nhân lệch tâm 11–25 % bán kính)",
+    "Yorek, Şahin & Uğulu 2010 (quan niệm sai \"tế bào trứng ốp\", nhân luôn ở giữa)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "nhan",
+      "khoang": [
+       1,
+       1
+      ]
+     },
+     {
+      "loai": "lien_khoi",
+      "a": "nhan"
+     },
+     {
+      "loai": "chua",
+      "a": "nhan",
+      "b": "mang",
+      "t_um": 0.0
+     }
+    ]
+   },
+   "may_goc": {
+    "so_luong": 1,
+    "lech_tam_ti_le_ban_kinh": [
+     0.11,
+     0.25
+    ],
+    "lech_tam_cung": false
+   },
+   "tach_ra_tham_so": [
+    "dv.lech_tam"
+   ],
+   "ly_do_tach": "may.lech_tam_ti_le_ban_kinh 0,11–0,25 (đo 2D trên MEF) dùng làm quy tắc đặt → tham số",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật 1.3",
+   "so_trong_van_ban": [
+    "1 nhân"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "1.4a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân nằm trong chất tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "nhan",
+    "b": "mang",
+    "t_um": 0.0,
+    "eps_um3": "@chung.eps_giao_um3"
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "nhan",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "nguon_goc": "dv v4.1 luật 1.4a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "1.5",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Đường kính nhân bằng khoảng 0,35–0,6 đường kính tế bào; nhân rộng 5–10 µm.",
+   "loai": "ti_le",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "HeLa (0,57) và COS-7 (0,38) khi coi tế bào và nhân là khối tròn (BNID 104990/106665); tỉ lệ khác nhiều giữa các loại tế bào",
+   "nguon": [
+    "BNID 104990/106665 (HeLa nhân 0,22 pL / chất TB 0,94 pL; COS-7 0,14 / 2,4 pL); BNID 109953 (nhân 5–10 µm); BioNumbers \"How big are nuclei?\""
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "ti_le_the_tich",
+      "a": "nhan",
+      "trong": "mang",
+      "khoang": [
+       0.042875,
+       0.216
+      ],
+      "dung_sai_khoang": "@chung.dung_sai_khoang",
+      "ghi_chu": "tương đương tỉ số đường kính cầu cùng thể tích 0,35–0,6 (0,35³; 0,6³)"
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "nhan",
+      "duong_kinh": [
+       5,
+       10
+      ],
+      "dung_sai_khoang": "@chung.dung_sai_khoang"
+     }
+    ]
+   },
+   "may_goc": {
+    "ti_le_duong_kinh": [
+     0.35,
+     0.6
+    ],
+    "duong_kinh_nhan_um": [
+     5,
+     10
+    ],
+    "ghi_chu": "với tế bào 20 µm, dải dùng được 0,35–0,5"
+   },
+   "tach_ra_tham_so": [
+    "dv.dai_nhan",
+    "dv.khuon_nhan_truc"
+   ],
+   "ly_do_tach": "mo_hinh 'nhân 7 µm trong tế bào 20 µm' và ghi_chu 'dải dùng được 0,35–0,5' là lựa chọn dựng",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật 1.5",
+   "so_trong_van_ban": [
+    "tỉ số đường kính nhân/tế bào 0,35–0,6",
+    "tương đương tỉ lệ thể tích nhân/trong màng 0,042875–0,216",
+    "nhân rộng 5–10 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong nhân có 1–5 nhân con, mỗi cái rộng 0,5–5 µm, không có màng bao.",
+   "loai": "so_luong+kich_thuoc+chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005730 nucleolus (\"one or more\", \"not bounded by a limiting membrane\"; part_of nuclear lumen)",
+    "BNID 107499 (1–5 nhân con), 107498 (0,5–5 µm)"
+   ],
+   "phat_bieu_goc": "Trong nhân có 1–5 nhân con (mô hình vẽ 1–3), mỗi cái rộng 0,5–5 µm, không có màng bao.",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "chua",
+      "a": "nhan_con",
+      "b": "nhan",
+      "t_um": 0.0
+     },
+     {
+      "loai": "so_luong",
+      "a": "nhan_con",
+      "khoang": [
+       1,
+       5
+      ]
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "nhan_con",
+      "duong_kinh": [
+       0.5,
+       5
+      ]
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "'không có màng bao': chi tiết bên trong, không có trên mặt bao"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "nhan_con",
+    "b": "nhan",
+    "t_um": 0.0,
+    "so_luong": [
+     1,
+     3
+    ],
+    "duong_kinh_um": [
+     0.5,
+     5
+    ]
+   },
+   "tach_ra_tham_so": [
+    "dv.so_nhan_con",
+    "dv.dai_nhan_con",
+    "dv.khuon_nhan_con"
+   ],
+   "ly_do_tach": "'(mô hình vẽ 1–3)' + may.so_luong [1,3] là số vẽ",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "bo_doi_chieu_sgk": {
+    "ghi_chu_goc": "SGK: 'nhân con' hay 'hạch nhân'",
+    "noi_dung": "SGK: 'nhân con' hay 'hạch nhân'",
+    "giu_theo_quyet_dinh_PI_1111": true,
+    "nghia": "chỉ chờ đối chiếu lời/hình SGK; nguồn khoa học đã có ở 'nguon'; không ảnh hưởng tính đúng của luật"
+   },
+   "nguon_goc": "dv v4.1 luật 4.2a",
+   "so_trong_van_ban": [
+    "1–5 nhân con",
+    "mỗi nhân con rộng 0,5–5 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.3a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể nằm trong chất tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005739 mitochondrion (\"varying numbers, shapes, and sizes\")"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "chua",
+      "a": "ti_the",
+      "b": "mang",
+      "t_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     },
+     {
+      "loai": "roi",
+      "a": "ti_the",
+      "b": "nhan",
+      "s_um": 0.0,
+      "eps_um3": "@chung.eps_giao_um3"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "ti_the",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "nguon_goc": "dv v4.1 luật 4.3a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": [
+    "số ti thể thật hàng trăm–nghìn (COS-7 ~150–190; HeLa 383–882) → dv.so_ti_the",
+    "ti thể thật thường nối mạng → dv.ti_the_ve_hat_roi"
+   ]
+  },
+  {
+   "id": "4.3b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể có đường kính tiết diện (độ dày ống/hạt) 0,2–1 µm.",
+   "loai": "kich_thuoc+dang",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào động vật có vú; cận dưới 0,2 µm theo câu tổng quan (Stephan), cận trên ~1 µm theo sách; số đo trực tiếp 0,58 ± 0,06 µm",
+   "so_that": "nguồn: PhanTich_TaiLieu/ch3_nguon_luat_ti_the_20261104.md mục 9.2(d) (đã rà soát chéo)",
+   "nguon": [
+    "Stephan et al. 2019 Sci Rep, PMC6712041 (\"The diameter of mitochondrial tubules is generally between 200 and 700 nm\"; câu tổng quan)",
+    "Siegmund et al. 2018 iScience, PMC6137323 (đường kính ti thể 580 ± 60 nm, nguyên bào sợi người đối chứng, cryo-ET, n = 10)",
+    "BioNumbers book \"How big are mitochondria?\" (đường kính ~1 µm, theo hình sách)"
+   ],
+   "phat_bieu_goc": "Mỗi ti thể vẽ thành một hạt dài khoảng 1–2 µm, rộng khoảng 0,5–1 µm.",
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "ti_the",
+    "rong": [
+     0.2,
+     1.0
+    ],
+    "ghi_chu": "rộng = độ dày cục bộ (2 × bán kính cầu nội tiếp lớn nhất; PI 05/11)"
+   },
+   "may_goc": {
+    "dai_um": [
+     1.0,
+     2.0
+    ],
+    "rong_um": [
+     0.5,
+     1.0
+    ],
+    "ti_le_truc_rong_tren_dai": [
+     0.25,
+     0.6
+    ]
+   },
+   "tach_ra_tham_so": [
+    "dv.dai_ti_the",
+    "dv.ti_the_ve_hat_roi",
+    "dv.ti_le_rong_dai_ti_the",
+    "dv.khuon_ong"
+   ],
+   "ly_do_tach": "'dài 1–2 µm' và 'hạt rời' là quy ước có phạm vi (ghi chú ti thể §9.2(d)) → tham số; dải rộng đổi 0,5–1 → 0,2–1 µm theo nguồn",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật 4.3b",
+   "so_trong_van_ban": [
+    "đường kính tiết diện 0,2–1 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.4a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Có lưới nội chất hạt (có ribosome) và lưới nội chất trơn; lưới nội chất liền với màng ngoài của nhân và trải khắp chất tế bào (dạng tấm quanh nhân, dạng ống ở xa).",
+   "loai": "cau_truc+tiep_xuc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005640 nuclear outer membrane (\"continuous with the endoplasmic reticulum\"); GO:0042175 nuclear outer membrane-ER membrane network",
+    "GO:0005791 rough endoplasmic reticulum; GO:0005790 smooth endoplasmic reticulum",
+    "Cell Biology by the Numbers \"How big is the ER?\" (ER trải khắp chất TB; tấm quanh nhân, ống ở ngoại vi)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "tiep_xuc",
+      "a": "luoi_noi_chat",
+      "b": "nhan",
+      "sau_chieu": true,
+      "khe_toi_da_um": "@chung.tiep_xuc_toi_da_um",
+      "dien_tich_toi_thieu_um2": 0,
+      "dien_tich_phai_duong": true
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "có ER hạt (có ribosome) và ER trơn: không phân biệt được trên mặt bao"
+     },
+     {
+      "loai": "khong_hinh_hoc",
+      "ly_do": "'trải khắp chất tế bào (tấm quanh nhân, ống ở xa)': mô hình chỉ vẽ một phần theo tham số dv.pham_vi_ve_er — sự thật này KHÔNG được thể hiện, xem câu hỏi mở"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "tiep_xuc",
+    "a": "luoi_noi_chat",
+    "b": "nhan",
+    "vung_toi_thieu": "chờ đặt",
+    "trang_thai": "bộ dựng CHƯA hỗ trợ — hiện chỉ miễn khe, chưa buộc nối"
+   },
+   "tach_ra_tham_so": [
+    "chung.tiep_xuc_toi_da_um"
+   ],
+   "ly_do_tach": "vị từ: chạm với diện tích > 0 (bỏ tham số null dv.vung_tiep_xuc_er_nhan)",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.4a",
+   "so_trong_van_ban": [
+    "ER chạm mặt ngoài nhân: khe ≤ chung.tiep_xuc_toi_da_um, diện tích chạm > 0"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "ER thật trải khắp chất tế bào (~25 % thể tích COS-7) → dv.pham_vi_ve_er"
+   ]
+  },
+  {
+   "id": "4.5a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Bộ máy Golgi gồm 4–11 túi dẹt xếp chồng, mỗi túi rộng khoảng 0,7–1,1 µm.",
+   "loai": "cau_truc+kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005794 Golgi apparatus",
+    "GO:0031985 Golgi cisterna",
+    "Klumperman 2011 CSH Perspect Biol (4–11 túi; túi 0,7–1,1 µm; Golgi quanh MTOC cạnh nhân)"
+   ],
+   "phat_bieu_goc": "Bộ máy Golgi gồm 4–11 túi dẹt xếp chồng (mô hình 4–8), mỗi túi rộng khoảng 0,7–1,1 µm.",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "tui_golgi",
+      "khoang": [
+       4,
+       11
+      ],
+      "cha": "golgi"
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "tui_golgi",
+      "rong": [
+       0.7,
+       1.1
+      ],
+      "dung_sai_khoang": "@chung.dung_sai_khoang"
+     },
+     {
+      "loai": "hinh",
+      "a": "golgi",
+      "dang": "chong_tam"
+     }
+    ]
+   },
+   "may_goc": {
+    "so_tui": [
+     4,
+     8
+    ],
+    "rong_tui_um": [
+     0.7,
+     1.1
+    ]
+   },
+   "tach_ra_tham_so": [
+    "dv.so_tui_golgi_ve",
+    "dv.dai_golgi",
+    "dv.khuon_golgi_truc"
+   ],
+   "ly_do_tach": "'(mô hình 4–8)' + may.so_tui [4,8] là số vẽ",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật 4.5a",
+   "so_trong_van_ban": [
+    "4–11 túi",
+    "mỗi túi rộng 0,7–1,1 µm"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.5b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Golgi nằm cạnh nhân, ôm quanh trung thể.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "phần lớn tế bào động vật; ở một số tế bào có cực Golgi nằm phía đỉnh",
+   "nguon": [
+    "Sütterlin & Colanzi 2010 J Cell Biol (Golgi \"adjacent to the centrosome\" ở kỳ trung gian)",
+    "Rios 2014 Phil Trans B (pericentrosomal Golgi ribbon)",
+    "Klumperman 2011 CSH Perspect Biol (4–11 túi; túi 0,7–1,1 µm; Golgi quanh MTOC cạnh nhân)",
+    "Viana et al. 2023 Nature (hiPSC: Golgi, lysosome, trung tử ở phía đỉnh)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "gan_tuong_doi",
+      "a": "golgi",
+      "b": "nhan",
+      "so_voi": "mang"
+     },
+     {
+      "loai": "bao_quanh",
+      "a": "golgi",
+      "b": "trung_the"
+     }
+    ]
+   },
+   "may_goc": {
+    "loai": "gan",
+    "a": "golgi",
+    "b": "trung_the"
+   },
+   "tach_ra_tham_so": [
+    "dv.gan_tt_golgi"
+   ],
+   "ly_do_tach": "vị từ sự thật = định nghĩa tương đối (không số quy ước); ngưỡng µm chỉ là tham số bộ dựng",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.5b",
+   "so_trong_van_ban": [
+    "khe Golgi–nhân < khe Golgi–màng",
+    "tâm trung thể nằm trong bao lồi Golgi"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.6a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lysosome là túi nhỏ đường kính 0,1–1,2 µm (thường 0,1–0,5 µm).",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005764 lysosome",
+    "BNID 106072 (0,1–1,2 µm), 107483 (50–1 000 cái); Xu & Ren 2015 (vài trăm); Valm 2017 (COS-7 89 ± 10)"
+   ],
+   "may": {
+    "loai": "kich_thuoc",
+    "a": "lysosome",
+    "duong_kinh": [
+     0.1,
+     1.2
+    ],
+    "ghi_chu": "'thường 0,1–0,5' chỉ là thông tin"
+   },
+   "may_goc": {
+    "duong_kinh_um": [
+     0.1,
+     1.2
+    ],
+    "duong_kinh_thuong_gap_um": [
+     0.1,
+     0.5
+    ]
+   },
+   "tach_ra_tham_so": [
+    "dv.dai_lysosome"
+   ],
+   "ly_do_tach": "",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.6a",
+   "so_trong_van_ban": [
+    "đường kính 0,1–1,2 µm"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "số lysosome thật vài chục–nghìn (COS-7 89 ± 10) → dv.so_lysosome"
+   ]
+  },
+  {
+   "id": "4.6b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lysosome tập trung quanh nhân và rải ra phía ngoài.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "HeLa và nhiều tế bào nuôi; ở tế bào có cực có thể nằm phía đỉnh",
+   "nguon": [
+    "Pu et al. 2016 J Cell Sci (lysosome tập trung quanh MTOC, có ở ngoại vi)",
+    "Johnson et al. 2016 J Cell Biol (HeLa: phần lớn lysosome ở vỏ trong cùng)",
+    "Viana et al. 2023 Nature (hiPSC: Golgi, lysosome, trung tử ở phía đỉnh)"
+   ],
+   "may": {
+    "loai": "gan_tuong_doi",
+    "a": "lysosome",
+    "b": "nhan",
+    "so_voi": "mang",
+    "thong_ke": "trung_vi",
+    "rai_ra_ngoai": true,
+    "ghi_chu": "u = d(nhân)/(d(nhân)+d(màng)) tại tâm mỗi bản sao: trung vị u < 0,5 (gần nhân hơn màng); có bản sao u ≥ 0,5"
+   },
+   "may_goc": {
+    "phan_bo": "day_quanh_nhan"
+   },
+   "tach_ra_tham_so": [
+    "dv.gan_lyso_nhan"
+   ],
+   "ly_do_tach": "vị từ sự thật = định nghĩa tương đối (không số quy ước); ngưỡng µm chỉ là tham số bộ dựng",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.6b",
+   "so_trong_van_ban": [
+    "u = d(nhân)/(d(nhân)+d(màng)); trung vị u < 0,5; có lysosome u ≥ 0,5"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.8a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trung thể gồm hai trung tử đặt vuông góc, mỗi trung tử dài 0,3–0,5 µm, rộng 0,15–0,25 µm.",
+   "loai": "cau_truc+kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005814 centriole (\"300-500 nm long and 150-250 nm in diameter\", \"lying at right angles\")",
+    "BNID 105741 (dài ~0,5, rộng ~0,2 µm)"
+   ],
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "trung_tu",
+      "khoang": [
+       2,
+       2
+      ],
+      "cha": "trung_the"
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "trung_tu",
+      "dai": [
+       0.3,
+       0.5
+      ],
+      "rong": [
+       0.15,
+       0.25
+      ]
+     },
+     {
+      "loai": "huong",
+      "a": "trung_tu",
+      "b": "trung_tu",
+      "goc_do": 90,
+      "goc_toi_thieu_do": "@dv.goc_vuong_toi_thieu"
+     }
+    ]
+   },
+   "may_goc": {
+    "so_trung_tu": 2,
+    "dai_um": [
+     0.3,
+     0.5
+    ],
+    "rong_um": [
+     0.15,
+     0.25
+    ],
+    "goc_do": 90
+   },
+   "tach_ra_tham_so": [
+    "dv.dai_trung_the",
+    "dv.khuon_trung_the",
+    "dv.goc_vuong_toi_thieu"
+   ],
+   "ly_do_tach": "không có phần vẽ trong lời; khối cầu bao (N.4) và dung sai góc là tham số",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.8a",
+   "so_trong_van_ban": [
+    "2 trung tử",
+    "dài 0,3–0,5 µm",
+    "rộng 0,15–0,25 µm",
+    "góc 90°"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "4.8b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trung thể nằm gần nhân.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "kỳ trung gian; số đo là trung bình trên ảnh phẳng tế bào nuôi (≈ 1,5 µm), không dùng làm giới hạn cứng",
+   "nguon": [
+    "GO:0005813 centrosome (\"occur close to the nucleus during interphase\")",
+    "Salpingidou et al. 2007 J Cell Biol (trung thể \"within 1.5 µm of the NE\", trung bình ± SEM, HDF)",
+    "Hale et al. 2011 J Cell Sci (MTOC–nhân 0,2–0,3 µm trung bình 2D cắt ở 0; nhân lệch tâm 11–25 % bán kính)"
+   ],
+   "may": {
+    "loai": "gan_tuong_doi",
+    "a": "trung_the",
+    "b": "nhan",
+    "so_voi": "mang"
+   },
+   "may_goc": {
+    "loai": "gan",
+    "a": "trung_the",
+    "b": "nhan",
+    "goi_y_um": 1.5
+   },
+   "tach_ra_tham_so": [
+    "dv.gan_tt_nhan"
+   ],
+   "ly_do_tach": "may.goi_y_um 1,5 (trung bình 2D) → tham số bộ dựng dv.gan_tt_nhan; vị từ sự thật = định nghĩa tương đối",
+   "kieu_tach": "ngưỡng: lời không cho số; ngưỡng/dạng vẽ đưa ra tham số (không phải luật lai)",
+   "nguon_goc": "dv v4.1 luật 4.8b",
+   "so_trong_van_ban": [
+    "khe trung thể–nhân < khe trung thể–màng"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "M.a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mọi bào quan nằm trong màng tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.0,
+    "eps_um3": "@chung.eps_giao_um3",
+    "loai_tru": [
+     "mang"
+    ]
+   },
+   "may_goc": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "nguon_goc": "dv v4.1 luật M.a",
+   "so_trong_van_ban": [],
+   "khong_the_hien_co_chu_dich": [
+    "ER thật áp màng tế bào ~25 nm; mô hình cách ≥ 0,5 µm → dv.T_mang"
+   ]
+  },
+  {
+   "id": "M.d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng nhân gồm hai lớp, khoang giữa 20–50 nm, có lỗ nhân.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "so_that": "mật độ lỗ nhân 7–16 lỗ/µm² ở tế bào động vật có vú (50/µm² ở trứng ếch); nhân 7 µm có khoảng 1 000–2 500 lỗ",
+   "nguon": [
+    "GO:0005635 nuclear envelope (khoang 20–40 nm, có lỗ nhân)",
+    "GO:0005641 nuclear envelope lumen (20–40 nm)",
+    "GO:0005643 nuclear pore",
+    "BNID 110698 (7/µm²), 104260 (14–16/µm²), 104253 (50/µm²)",
+    "Crisp et al. 2006 J Cell Biol, PMC2063530 (\"a regular gap of ∼50 nm\", câu tổng quan, HeLa)"
+   ],
+   "phat_bieu_goc": "Màng nhân gồm hai lớp, khoang giữa 20–40 nm, có lỗ nhân.",
+   "may": {
+    "loai": "nhom",
+    "dieu_kien": [
+     {
+      "loai": "so_luong",
+      "a": "mang_nhan",
+      "khoang": [
+       1,
+       1
+      ],
+      "cha": "nhan",
+      "ghi_chu": "vỏ hai lớp"
+     },
+     {
+      "loai": "so_luong",
+      "a": "lo_nhan",
+      "khoang": [
+       1,
+       null
+      ],
+      "cha": "mang_nhan"
+     },
+     {
+      "loai": "kich_thuoc",
+      "a": "mang_nhan",
+      "khoang": [
+       0.02,
+       0.05
+      ],
+      "kiem_tren_mo_hinh": false,
+      "ly_do": "mô hình phóng to có chủ đích (tham số dv.mang_nhan_ve); số thật chỉ ghi, không kiểm"
+     }
+    ]
+   },
+   "may_goc": {
+    "day_lop_um": 0.05,
+    "khoang_um": 0.05,
+    "so_lo": 46
+   },
+   "tach_ra_tham_so": [
+    "dv.mang_nhan_ve"
+   ],
+   "ly_do_tach": "may.day_lop 0,05, khoang 0,05, so_lo 46 + mo_hinh 'vẽ 46 lỗ' là số vẽ",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật M.d",
+   "so_trong_van_ban": [
+    "1 vỏ hai lớp",
+    "≥ 1 lỗ nhân",
+    "khoang 20–50 nm (0,02–0,05 µm), chỉ ghi, không kiểm trên mô hình"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "khoang thật 20–50 nm, mô hình vẽ 50 nm/lớp → dv.mang_nhan_ve",
+    "lỗ nhân thật ~1 000–2 500, mô hình 46 → dv.mang_nhan_ve"
+   ]
+  },
+  {
+   "id": "M.e",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng trong ti thể gấp thành mào.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0030061 mitochondrial crista"
+   ],
+   "may": {
+    "loai": "so_luong",
+    "a": "mao",
+    "khoang": [
+     1,
+     null
+    ],
+    "cha": "ti_the"
+   },
+   "may_goc": {
+    "khoang_cach_mao_um": 0.22
+   },
+   "tach_ra_tham_so": [
+    "dv.khoang_cach_mao_ve"
+   ],
+   "ly_do_tach": "may.khoang_cach_mao_um 0,22 là số vẽ",
+   "la_luat_lai": true,
+   "kieu_tach": "lai: sự thật + giá trị vẽ/chọn trong lời hoặc trường máy",
+   "nguon_goc": "dv v4.1 luật M.e",
+   "so_trong_van_ban": [
+    "≥ 1 mào mỗi ti thể"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  },
+  {
+   "id": "M.c₀",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Hai bào quan khác loại không giao nhau (khe ≥ 0; được chạm).",
+   "loai": "roi",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "Nguyên lý vật lý: hai vật rắn không chiếm cùng một chỗ (luật hiển nhiên, không có số đo riêng)"
+   ],
+   "so_that": "tiếp xúc thật gần nhất 10–80 nm, không gần hơn 10 nm (Scorrano et al. 2019 Nat Commun)",
+   "may": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "s_um": 0.0,
+    "cung_loai": false,
+    "bo_cap_to_tien_con_chau": true,
+    "eps_um3": "@chung.eps_giao_um3",
+    "ghi_chu": "không có miễn trừ: ER–nhân, ribosome–ER được CHẠM (s = 0) nhưng không được giao; nhân con–nhân, trung tử–trung thể, túi–Golgi, mào–ti thể là tổ tiên–con cháu nên không xét",
+    "loai_tru": [
+     "mang"
+    ]
+   },
+   "nguon_goc": "thêm theo quyết định PI 11/11 (thay phần sự thật của M.c; khe 0,3 µm → tham số chung.khe_roi)",
+   "so_trong_van_ban": [
+    "khe ≥ 0 (không giao, được chạm)"
+   ],
+   "khong_the_hien_co_chu_dich": [
+    "tiếp xúc thật 10–80 nm; mô hình khe 0,3 µm → chung.khe_roi"
+   ]
+  },
+  {
+   "id": "M.h",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Hai bộ phận cùng loại không chồng lên nhau (được chạm, không được giao).",
+   "loai": "roi",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "Nguyên lý vật lý: hai vật rắn không chiếm cùng một chỗ (luật hiển nhiên, không có số đo riêng)"
+   ],
+   "so_that": "bào quan thật là các khoang có màng riêng; chỗ tiếp xúc gần nhất vẫn cách ≥ 10 nm",
+   "may": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "s_um": 0.0,
+    "cung_loai": true,
+    "eps_um3": "@chung.eps_giao_um3",
+    "ghi_chu": "khe quy ước giữa cùng loại (nếu có) ở tham số chung.khe_cung_loai",
+    "loai_tru": [
+     "mang"
+    ]
+   },
+   "nguon_goc": "BoSung_LuatV4_2_DeXuat_20261105.md mục A (PI duyệt 05/11)",
+   "so_trong_van_ban": [
+    "khe ≥ 0 (không giao, được chạm)"
+   ],
+   "khong_the_hien_co_chu_dich": []
+  }
+ ],
+ "luat_moi_dot_v4_2_khong_phai_su_that": {
+  "M.g / D.1": [
+   "chung.tach_roi_doi_tuong"
+  ],
+  "N.1": [
+   "dv.nhieu_quy_mo",
+   "dv.nhieu_bien_do",
+   "dv.nhieu_hat",
+   "dv.nhieu_so_song",
+   "dv.nhieu_he_so_k",
+   "dv.nhieu_chia"
+  ],
+  "N.2": [
+   "dv.khuon_nhan_truc"
+  ],
+  "N.3": [
+   "dv.khuyet_cos",
+   "dv.khuyet_huong"
+  ],
+  "N.4": [
+   "dv.dai_trung_the",
+   "dv.khuon_trung_the"
+  ],
+  "N.5": [
+   "dv.dai_golgi",
+   "dv.khuon_golgi_truc",
+   "dv.kt_golgi_nua_day"
+  ],
+  "N.6": [
+   "dv.khuon_nhan_con"
+  ],
+  "N.7": [
+   "dv.khuon_ong"
+  ]
+ },
+ "cau_hoi_mo": [
+  "2.2a đã chốt (PI 11/11): thể tích TRONG màng; hộp và nhân v1.2 theo KKT_V12. Bộ kiểm 2.2a vẫn đo hộp ngoài cũ — cần sửa.",
+  "Tách vế sự thật từ luật nhãn quy ước (5.1a, 5.3e, 10.2a thực vật): PI chưa duyệt.",
+  "4.4a: vế 'ER trải khắp chất tế bào' là sự thật nhưng mô hình không thể hiện (ghi ở khong_the_hien_co_chu_dich). Cách nói trong bài?",
+  "Bộ kiểm phải chạy lại với dải v1.1 (4.3b 0,2–1; 2.4b 0,68–0,85; 10.2b 0,2–0,6; 10.2c 3–100; 2.2a 60–100 pL; 2.1 ≥ 1 nhân) và tách phán quyết sự thật / tham số (nhóm A).",
+  "M.c₀: bộ kiểm chưa có mục riêng; cặp miễn khe (ER–nhân, ribosome–ER ở dv; 9 cặp K.1 ở tv) chưa được kiểm giao.",
+  "Mặc định botri2 còn trái sự thật (mau_thuan_mac_dinh_voi_su_that): trung thể một cầu (4.8a), Golgi một khối (4.5a), mien_cung_loai = lysosome (M.h), nhân đặc (M.d), ti thể không mào (M.e). Sửa bộ dựng hay ghi là giới hạn?",
+  "10.2b cận dưới 0,2 µm ≈ trung bình − 2 SD của Bussi (tự tính); 10.2c cận trên 100 lấy từ câu tổng quan Staehelin (cây cực ưa bóng) — phạm vi có quá rộng cho tế bào lá thường không?",
+  "2.6a đã chuyển thành tham số (không có nguồn khoa học nói thẳng 'một nhân' trong ghi chú) — cần tra thêm nguồn nếu muốn giữ là luật."
+ ]
+}

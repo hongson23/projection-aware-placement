@@ -1,0 +1,659 @@
+{
+ "phien_ban": "khuon_bo_sung_v1.2-20261111",
+ "nhan": "tham số, không phải luật",
+ "muc_dich": "định nghĩa hình học khuôn để bộ kiểm độc lập dựng lại mặt khuôn từ tu_the (thước G_c); không thêm/sửa luật",
+ "sinh_boi": "bo_dung_chung/ma3/tao_khuon_bo_sung_v12.py từ dac_ta/v12/*.json",
+ "nguon_dac_ta_sha256": {
+  "thuc_vat_v12.json": "bfcfdba34aa4324a23b11c0213ce08e9ee481df31f06df8f975d87d87c5834a0",
+  "thuc_vat_v12_ai.json": "1fa65483c2d56536b5df4ae9e978813e1684798a0216c013bc8d6c09adc0aebe",
+  "dong_vat_v12.json": "9e40d4dbd91b75516d1b695143a24431dae52098bc0ba8e7a9a99734c4cf1645"
+ },
+ "quy_uoc": {
+  "tu_the": "điểm y của khuôn (khung chuẩn) nằm ở x = t + R·(s·y) trong tế bào (µm); R lưu trong thong_tin.json['tu_the'][tên]['R'] với cột j = trục j của khuôn trong toạ độ tế bào; s trong dải dai_co",
+  "sdf": "ψ(x) = s·φ(Rᵀ(x − t)/s); φ < 0 bên trong; mặt khuôn = {φ = 0}",
+  "luoi_atlas": "bộ dựng tính SDF khuôn trên lưới atlas_G³ trong [−atlas_GB, atlas_GB]³ (marching cubes của φ rồi khoảng cách có dấu tới mesh đó); ở lưới cục bộ (thực vật) khuôn giải tích dùng công thức đúng",
+  "nhan": "tham số, không phải luật"
+ },
+ "thuc_vat": [
+  {
+   "ten": "thau_kinh0",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    3.3333333333333335,
+    3.5
+   ],
+   "id_v12_co": "tv.kich_thuoc_luc_lap_ve",
+   "dung_o": [
+    "TVT",
+    "TVA"
+   ],
+   "hinh": "thau_kinh (giao hai cầu, tròn xoay quanh trục z)",
+   "tham_so": {
+    "ban_kinh_xy": 1.0,
+    "nua_day_z": 0.3
+   },
+   "truc_ngan": "z",
+   "cong_thuc": "q = nua_day; R = (q + 1/q)/2; c = (1/q − q)/2; x = |p_z|; y = ‖p_xy‖; φ = √(x² + (y−1)²) nếu (y−1)·c > x, ngược lại √((x+c)² + y²) − R"
+  },
+  {
+   "ten": "thau_kinh1",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    2.7777777777777777,
+    3.4722222222222223
+   ],
+   "id_v12_co": "tv.kich_thuoc_luc_lap_ve",
+   "dung_o": [
+    "TVT",
+    "TVA"
+   ],
+   "hinh": "thau_kinh (giao hai cầu, tròn xoay quanh trục z)",
+   "tham_so": {
+    "ban_kinh_xy": 1.0,
+    "nua_day_z": 0.36
+   },
+   "truc_ngan": "z",
+   "cong_thuc": "q = nua_day; R = (q + 1/q)/2; c = (1/q − q)/2; x = |p_z|; y = ‖p_xy‖; φ = √(x² + (y−1)²) nếu (y−1)·c > x, ngược lại √((x+c)² + y²) − R"
+  },
+  {
+   "ten": "thau_kinh2",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    2.5,
+    2.9761904761904763
+   ],
+   "id_v12_co": "tv.kich_thuoc_luc_lap_ve",
+   "dung_o": [
+    "TVT",
+    "TVA"
+   ],
+   "hinh": "thau_kinh (giao hai cầu, tròn xoay quanh trục z)",
+   "tham_so": {
+    "ban_kinh_xy": 1.0,
+    "nua_day_z": 0.42
+   },
+   "truc_ngan": "z",
+   "cong_thuc": "q = nua_day; R = (q + 1/q)/2; c = (1/q − q)/2; x = |p_z|; y = ‖p_xy‖; φ = √(x² + (y−1)²) nếu (y−1)·c > x, ngược lại √((x+c)² + y²) − R"
+  },
+  {
+   "ten": "nang0",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    0.7142857142857143,
+    1.0
+   ],
+   "id_v12_co": "tv.kich_thuoc_ti_the_ve",
+   "dung_o": [
+    "TVT"
+   ],
+   "hinh": "viên nang (capsule) trục x",
+   "tham_so": {
+    "nua_dai_ke_ca_chom": 1.0,
+    "ban_kinh": 0.35
+   },
+   "cong_thuc": "φ = √(max(|p_x| − (nua_dai − r), 0)² + p_y² + p_z²) − r"
+  },
+  {
+   "ten": "nang1",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    0.5555555555555556,
+    1.0
+   ],
+   "id_v12_co": "tv.kich_thuoc_ti_the_ve",
+   "dung_o": [
+    "TVT"
+   ],
+   "hinh": "viên nang (capsule) trục x",
+   "tham_so": {
+    "nua_dai_ke_ca_chom": 1.0,
+    "ban_kinh": 0.45
+   },
+   "cong_thuc": "φ = √(max(|p_x| − (nua_dai − r), 0)² + p_y² + p_z²) − r"
+  },
+  {
+   "ten": "tru0",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "id_v12_co": "tv.golgi_ve",
+   "dung_o": [
+    "TVT",
+    "TVA"
+   ],
+   "hinh": "trụ bo tròn trục z",
+   "tham_so": {
+    "ban_kinh": 1.0,
+    "nua_cao": 0.36,
+    "ban_kinh_bo": 0.1
+   },
+   "cong_thuc": "e = bo; d1 = ‖p_xy‖ − (ban_kinh − e); d2 = |p_z| − (nua_cao − e); φ = min(max(d1, d2), 0) + √(max(d1,0)² + max(d2,0)²) − e",
+   "ghi_chu": "ban_kinh_bo 0,1 chưa có id v1.2 (TRUY_VET_v12 chua_co_id)"
+  },
+  {
+   "ten": "tru1",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "id_v12_co": "tv.golgi_ve",
+   "dung_o": [
+    "TVT",
+    "TVA"
+   ],
+   "hinh": "trụ bo tròn trục z",
+   "tham_so": {
+    "ban_kinh": 1.0,
+    "nua_cao": 0.5,
+    "ban_kinh_bo": 0.1
+   },
+   "cong_thuc": "e = bo; d1 = ‖p_xy‖ − (ban_kinh − e); d2 = |p_z| − (nua_cao − e); φ = min(max(d1, d2), 0) + √(max(d1,0)² + max(d2,0)²) − e",
+   "ghi_chu": "ban_kinh_bo 0,1 chưa có id v1.2 (TRUY_VET_v12 chua_co_id)"
+  },
+  {
+   "ten": "cau_nhan",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    3.0,
+    3.5
+   ],
+   "id_v12_co": "tv.duong_kinh_nhan",
+   "dung_o": [
+    "TVT"
+   ],
+   "hinh": "cầu",
+   "tham_so": {
+    "ban_kinh": 1.0
+   },
+   "cong_thuc": "φ = ‖p‖ − 1"
+  },
+  {
+   "ten": "cau_per",
+   "nhan": "tham số, không phải luật",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "id_v12_co": "tv.duong_kinh_peroxisome_ve",
+   "dung_o": [
+    "TVT"
+   ],
+   "hinh": "cầu",
+   "tham_so": {
+    "ban_kinh": 1.0
+   },
+   "cong_thuc": "φ = ‖p‖ − 1"
+  },
+  {
+   "ten": "ai:peroxisome__hinh2__g6.0__s2",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh2__g6.0__s2.npz",
+   "sha256": "b847e0a3c32db7e43b8d2f6570597ee829197c7b1d67fcd14b114f499e6f1b18",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__hinh__g3.5__s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh__g3.5__s1.npz",
+   "sha256": "784c1b72a6c4913963e474bf30d595bc4e6f6a5d64fe091d0499ebf28c82726e",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__hinh__g6.0__s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh__g6.0__s1.npz",
+   "sha256": "7303b6b1edd1ccf2ed6327305f46d6c3ede88c23e3bc3c86b86344f61a178ce1",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sgk__g3.5__s2",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g3.5__s2.npz",
+   "sha256": "78548c376bc448369a0db3c5bfc628d7f16e767f4e5e3d9815fe8de6441ec040",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sgk__g6.0__s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g6.0__s1.npz",
+   "sha256": "d70c52c262e070f0df5ee374dad2dee7673ae403f9d4dff091dc38c11ee36042",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sgk__g6.0__s2",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g6.0__s2.npz",
+   "sha256": "2240112116f48e85e3e43402a7609402e91d969a480b530a8e670876eb49a2cf",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sinh_hinh__g3.5__s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g3.5__s1.npz",
+   "sha256": "92d94d0a714bc08f764a52bb5c55a6d569dacd0d9b6a98a512e415e33a35893d",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sinh_hinh__g3.5__s2",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g3.5__s2.npz",
+   "sha256": "e9928833d64dfd490b463d13e78c290d6b10f4e79e543fff766f2b902e8729eb",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:peroxisome__sinh_hinh__g6.0__s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "peroxisome",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g6.0__s1.npz",
+   "sha256": "a310231a370da88876bcdb382d3d60e28d2fd03e68c6f66bee2a5b7985579dca",
+   "dai_co_s_um": [
+    0.25,
+    0.5
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.duong_kinh_peroxisome_ve"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:nhan_s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "nhan",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/nhan_s1.npz",
+   "sha256": "88d3054efd0ec0e6dfb28c8e730d834e51c3f4e2f8ce70910c290e9008ff132b",
+   "dai_co_s_um": [
+    3.112755370534621,
+    3.5
+   ],
+   "truy_vet_dai_co": {
+    "V_khuon": 3.614823846491447,
+    "id": "tv.duong_kinh_nhan + 2.6e"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:nhan_s4",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "nhan",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/nhan_s4.npz",
+   "sha256": "99902537a35519452e89612ab7cd0e3c66287a13faee384a6c739a3f3670bdb9",
+   "dai_co_s_um": [
+    3.0740614121050704,
+    3.5
+   ],
+   "truy_vet_dai_co": {
+    "V_khuon": 3.753051239441904,
+    "id": "tv.duong_kinh_nhan + 2.6e"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:ti_the_s1",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "ti_the",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/ti_the_s1.npz",
+   "sha256": "019a4a67e3adf5aa34abb735d07a77e34c06cc92dc865f6ab3a9d30c91ebb4dc",
+   "dai_co_s_um": [
+    0.5983560702024472,
+    1.0
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.kich_thuoc_ti_the_ve (cong_tv.py; tham số không đổi ở v1.2)"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:ti_the_s2",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "ti_the",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/ti_the_s2.npz",
+   "sha256": "257046147cc70b7bc84063aa2df77dc73cca510a3af2e56326b8bdf19bc0fefa",
+   "dai_co_s_um": [
+    0.5,
+    0.9169503145056631
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.kich_thuoc_ti_the_ve (cong_tv.py; tham số không đổi ở v1.2)"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "ai:ti_the_s4",
+   "nhan": "tham số, không phải luật",
+   "hinh": "mesh AI (khuôn đã qua cổng)",
+   "loai": "ti_the",
+   "tep_server": "ch3_tebao_dep/ai/khuon_tv/ti_the_s4.npz",
+   "sha256": "7e4c984ea79b2f8232829c1eca3b96c5bf23f62a2c40bb73daf450d03c84958e",
+   "dai_co_s_um": [
+    0.6610589706484967,
+    1.0
+   ],
+   "truy_vet_dai_co": {
+    "id": "tv.kich_thuoc_ti_the_ve (cong_tv.py; tham số không đổi ở v1.2)"
+   },
+   "dung_o": [
+    "TVA"
+   ],
+   "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+  },
+  {
+   "ten": "(ghi chú)",
+   "nhan": "tham số, không phải luật",
+   "noi_dung": "TVA: thư viện A = {'nhan': [], 'luc_lap': ['thau_kinh0', 'thau_kinh1', 'thau_kinh2'], 'ti_the': [], 'golgi': ['tru0', 'tru1'], 'peroxisome': []} + khuôn AI theo loại; Golgi AI bị bỏ (bo_qua_loai)"
+  }
+ ],
+ "dong_vat_doi_chieu": {
+  "quy_uoc_ma": {
+   "elip": "mặt elip trục (a, b, c) = dv.khuon_*_truc, trục 1 trên x (zero-set của k0(k0−1)/k1, k0 = ‖p/a‖, k1 = ‖p/a²‖ ⇒ đúng mặt elip)",
+   "ong": "ống ti thể, dv.khuon_ong = [bán kính r, độ cong c]: trục là đường gấp khúc ong_so_diem = 33 điểm Q(τ) = (τ·(1 − r), c·(1 − τ²), 0), τ ∈ [−1, 1]; φ = khoảng cách tới đường gấp khúc − r (nửa dài kể cả chỏm = khuon_dai_don_vi = 1)",
+   "cau": "cầu bán kính 1 (dv.khuon_lysosome, dv.khuon_trung_the, dv.khuon_nhan_con = 'cau')",
+   "ai": "thư viện A (D4A2): ai/khuon_chon/danh_sach_v2.json, chuẩn hoá như khuôn AI thực vật; Golgi AI bị bỏ (dv.ai_bo_golgi) ⇒ Golgi dùng elip",
+   "tang2": "trung tử / túi Golgi là mesh giải tích lưu trực tiếp trong mesh_vo_bao.npz (không qua PROJECT), không cần dựng lại"
+  },
+  "khuon_thu_tuc": [
+   {
+    "ten": "cau",
+    "hinh": "cau",
+    "tham_so": {
+     "ban_kinh": 1.0
+    },
+    "id_v12": "dv.khuon_lysosome / dv.khuon_trung_the / dv.khuon_nhan_con"
+   },
+   {
+    "ten": "nhan",
+    "hinh": "elip",
+    "tham_so": {
+     "truc": [
+      1.0,
+      0.943,
+      0.896
+     ]
+    },
+    "id_v12": "dv.khuon_nhan_truc"
+   },
+   {
+    "ten": "golgi",
+    "hinh": "elip",
+    "tham_so": {
+     "truc": [
+      0.395,
+      1.0,
+      0.842
+     ]
+    },
+    "id_v12": "dv.khuon_golgi_truc"
+   },
+   {
+    "ten": "ong0",
+    "hinh": "ong",
+    "tham_so": {
+     "dai": 1.0,
+     "rc": [
+      0.25,
+      0.0
+     ]
+    },
+    "id_v12": "dv.khuon_ong"
+   },
+   {
+    "ten": "ong1",
+    "hinh": "ong",
+    "tham_so": {
+     "dai": 1.0,
+     "rc": [
+      0.35,
+      0.0
+     ]
+    },
+    "id_v12": "dv.khuon_ong"
+   },
+   {
+    "ten": "ong2",
+    "hinh": "ong",
+    "tham_so": {
+     "dai": 1.0,
+     "rc": [
+      0.45,
+      0.0
+     ]
+    },
+    "id_v12": "dv.khuon_ong"
+   },
+   {
+    "ten": "ong3",
+    "hinh": "ong",
+    "tham_so": {
+     "dai": 1.0,
+     "rc": [
+      0.3,
+      0.25
+     ]
+    },
+    "id_v12": "dv.khuon_ong"
+   },
+   {
+    "ten": "ong4",
+    "hinh": "ong",
+    "tham_so": {
+     "dai": 1.0,
+     "rc": [
+      0.4,
+      0.2
+     ]
+    },
+    "id_v12": "dv.khuon_ong"
+   }
+  ],
+  "khuon_ai_D4A2": [
+   {
+    "ten": "ai_golgi_s2",
+    "loai": "golgi",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/golgi_s2.npz",
+    "sha256": "0f7fe3b545b9fb2b94d2cd3bb8127d982d4132588803b457a95e35672dd74d84",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_lysosome_s1",
+    "loai": "lysosome",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/lysosome_s1.npz",
+    "sha256": "07e6df35d8033b914faad986222fdd0f958be0bb9135cb235b4ae12f053febe6",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_lysosome_s2",
+    "loai": "lysosome",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/lysosome_s2.npz",
+    "sha256": "2fe0fb9e11a141030a6c772f2a9b3c52f3019f14222d2d9b5bc41788cf5ab5e0",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_lysosome_s4",
+    "loai": "lysosome",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/lysosome_s4.npz",
+    "sha256": "89d7f71ddf491286b49024e919e85584c139b0f78ecb907536a86cc7280ca0be",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_nhan_s1",
+    "loai": "nhan",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/nhan_s1.npz",
+    "sha256": "7c964d0739ce9235aec37703c704a433c8e5c5e37b9e55d5876cef8d10036451",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_nhan_s2",
+    "loai": "nhan",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/nhan_s2.npz",
+    "sha256": "dfb6323bf5db754e7b7aee171d5daee60adbb01d8dc4d687c952f0ffe8ef4481",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_nhan_s4",
+    "loai": "nhan",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/nhan_s4.npz",
+    "sha256": "8d2eaf177e99a3b6a486721a371db313db3faa23f015e380df191b9663a9785f",
+    "dai_co_s_um": null,
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_ti_the_s1",
+    "loai": "ti_the",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/ti_the_s1.npz",
+    "sha256": "78030fca78c9d4e227fd35089406a81e40954c6e1f5fc6397d9c46c67cecd959",
+    "dai_co_s_um": [
+     0.5,
+     1.0
+    ],
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_ti_the_s2",
+    "loai": "ti_the",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/ti_the_s2.npz",
+    "sha256": "8eb0ca0ee811d1714a670be6740106ee437c485b1936d89a5eb86ddeb0184cd0",
+    "dai_co_s_um": [
+     0.5,
+     1.0
+    ],
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   },
+   {
+    "ten": "ai_ti_the_s4",
+    "loai": "ti_the",
+    "tep_server": "ch3_tebao_dep/ai/khuon_chon/ti_the_s4.npz",
+    "sha256": "3c0340402c56fd640ecf94ffdf8c6e730ce50e23b2326f09d3666015594f7de1",
+    "dai_co_s_um": [
+     0.5,
+     1.0
+    ],
+    "chuan_hoa": "V = npz['v']; V −= (max(V)+min(V))/2; sắp lại cột theo độ trải giảm dần (V = V[:, argsort(−ptp)]); V *= ai_dai_truc / max(ptp), ai_dai_truc = 2 (trục dài trên x, trải −1…1); trimesh.Trimesh(V, npz['f'], process=True), đảo nếu thể tích < 0; φ = khoảng cách có dấu tới mesh này"
+   }
+  ],
+  "tham_so_v12_du_chua": "số của khuôn động vật có đủ trong dv.khuon_nhan_truc, dv.khuon_golgi_truc, dv.khuon_ong, dv.khuon_lysosome/trung_the/nhan_con; KHÔNG đủ để dựng lại nếu thiếu quy ước mã (dạng trục ống, chuẩn hoá khuôn AI, cỡ s = nửa trục dài) — ghi ở 'quy_uoc_ma'"
+ }
+}

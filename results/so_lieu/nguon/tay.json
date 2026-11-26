@@ -1,0 +1,415 @@
+{
+ "_ghi_chu": "Số chỉ có trong tệp rà soát dạng văn bản (đã rà chéo). Mỗi mục: gia_tri (chuỗi đúng như in) + nguon (tệp, mục/dòng). Không thêm số chưa rà.",
+ "kResU": {
+  "gia_tri": "0.091",
+  "nguon": "Inside3D/RaSoat_TongHop_KetQua_20261122.md bảng mục 16: phần vi phạm còn lại tại nút sau PROJECT, k08, trung vị của max, U5b"
+ },
+ "kResPeight": {
+  "gia_tri": "0.144",
+  "nguon": "như trên, P8"
+ },
+ "kResPfour": {
+  "gia_tri": "0.168",
+  "nguon": "như trên, P4"
+ },
+ "kInfNodesU": {
+  "gia_tri": "608",
+  "nguon": "như trên, số nút còn vi phạm (trung vị), U5b"
+ },
+ "kInfNodesPeight": {
+  "gia_tri": "2964",
+  "nguon": "như trên, P8"
+ },
+ "kInfNodesPfour": {
+  "gia_tri": "4893",
+  "nguon": "như trên, P4"
+ },
+ "kHalfTotU": {
+  "gia_tri": "2",
+  "nguon": "Inside3D/RaSoat_TongHop_KetQua_20261122.md mục 7: tổng bộ phận còn < 50 % thể tích trên 10 tế bào k08, U5b"
+ },
+ "kHalfTotPeight": {
+  "gia_tri": "7",
+  "nguon": "như trên, P8"
+ },
+ "kHalfTotPfour": {
+  "gia_tri": "29",
+  "nguon": "như trên, P4"
+ },
+ "kHalfTotAone": {
+  "gia_tri": "49",
+  "nguon": "như trên, a ≡ 1 (λ = 1)"
+ },
+ "kLostTotPfour": {
+  "gia_tri": "1",
+  "nguon": "như trên mục 7: tổng bộ phận mất theo bộ kiểm, P4"
+ },
+ "kLostTotAone": {
+  "gia_tri": "5",
+  "nguon": "như trên mục 7, a ≡ 1"
+ },
+ "dFiveSlower": {
+  "gia_tri": "11",
+  "nguon": "Inside3D/RaSoat_TongHop_KetQua_20261122.md phần Khớp: ở D5 U5 chậm hơn P4 11 % (giờ tổng)"
+ },
+ "xBestLostMin": {
+  "gia_tri": "2",
+  "nguon": "RA_SOAT_BAN1.md B4(b): BhL2l01m200 mất 2 bộ phận (6597: 2, 6598: 0), d50 21 — tính lại từ chon_dev.json; RA_SOAT_CX_CHINH §3 ghi 6 là sai"
+ },
+ "xBestLostMax": {
+  "gia_tri": "846",
+  "nguon": "như trên"
+ },
+ "xDevConfigs": {
+  "gia_tri": "14",
+  "nguon": "u5x/chon_dev.json bang: 14 cấu hình CX vòng 1 (9 best + 4 eq + 1 tran)"
+ },
+ "hGrid": {
+  "gia_tri": "0.1797",
+  "nguon": "BaiBao_Bai1/main.tex (KET_QUA_CHINH_DV.md §1): bước lưới chiếu tế bào động vật h, lưới 128^3"
+ },
+ "gapBase": {
+  "gia_tri": "0.3",
+  "nguon": "ThuNghiem/DangKyTruoc_ThucNghiemTangDongGop_20261119.md dòng 196: S_roi 0,3 → 0,8 cho k08"
+ },
+ "gapKeight": {
+  "gia_tri": "0.8",
+  "nguon": "như trên"
+ },
+ "nMitoDfive": {
+  "gia_tri": "600",
+  "nguon": "DangKyTruoc_BoSung_v121_DongVat_20261114.md §4: D5 600 ti thể / 200 lysosome"
+ },
+ "nLysoDfive": {
+  "gia_tri": "200",
+  "nguon": "như trên"
+ },
+ "nMitoDfour": {
+  "gia_tri": "300",
+  "nguon": "như trên: D4 300/100"
+ },
+ "nLysoDfour": {
+  "gia_tri": "100",
+  "nguon": "như trên"
+ },
+ "nMitoDone": {
+  "gia_tri": "15",
+  "nguon": "như trên: D1 15/5"
+ },
+ "nLysoDone": {
+  "gia_tri": "5",
+  "nguon": "như trên"
+ },
+ "LambdaHard": {
+  "gia_tri": "100",
+  "nguon": "BaiBao_Bai1/main.tex Eq. J (MoHinhToan_BoTri_PhepChieu_20261105.md §2): Λ = 100"
+ },
+ "tvDfiveChloro": {
+  "gia_tri": "113",
+  "nguon": "TongKet_TrangThai_Bai1_20261121.md / u5tv thiết kế: TV-D5 113 lục lạp"
+ },
+ "cAoneLaHalfTot": {
+  "gia_tri": "56",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S6: tổng bộ phận <50 %, a≡1 λ0,3"
+ },
+ "cAoneLbHalfTot": {
+  "gia_tri": "49",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S6: a≡1 λ1"
+ },
+ "cAoneLcHalfTot": {
+  "gia_tri": "63",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S6: a≡1 λ3"
+ },
+ "cAhalfHalfTot": {
+  "gia_tri": "5",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S6: a≡½"
+ },
+ "cWVHalfTot": {
+  "gia_tri": "1",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S6: W∝V"
+ },
+ "kHalfTotUeight": {
+  "gia_tri": "0",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) M6: U5 K=8"
+ },
+ "rKUeightvsPeightHDmaxWin": {
+  "gia_tri": "10/0",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) M6: U5(K8) vs P8 HD max"
+ },
+ "cAhalfHDp": {
+  "gia_tri": "0.0835",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S7: a≡½ HD p95 trừ ER (U5 0,0908)"
+ },
+ "cAhalfHDpWin": {
+  "gia_tri": "3/7",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S7: U5 thắng/thua a≡½ về HD p95 trừ ER"
+ },
+ "cAhalfRes": {
+  "gia_tri": "0.061",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S7: phần vi phạm còn lại a≡½ (U5 0,091)"
+ },
+ "cAhalfVlostER": {
+  "gia_tri": "1.39",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S7: % V ER mất a≡½ (U5 0,82)"
+ },
+ "kMitoFinalU": {
+  "gia_tri": "175.8",
+  "nguon": "RaSoat_TongHop_KetQua_20261122.md phần Sửa lời: thể tích ti thể cuối U5b, µm³ (trung vị)"
+ },
+ "kMitoFinalPeight": {
+  "gia_tri": "177.3",
+  "nguon": "như trên, P8"
+ },
+ "xBestStepMax": {
+  "gia_tri": "0.82",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) B4(a): nhóm best ti_dem ≤ 0,82× P8"
+ },
+ "xPlaceTimeLo": {
+  "gia_tri": "0.91",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) B6 / RA_SOAT_CX_CHINH §2: CX chỉ được 0,91–0,94× giây đặt của U5b"
+ },
+ "xPlaceTimeHi": {
+  "gia_tri": "0.94",
+  "nguon": "như trên"
+ },
+ "xEqEvents": {
+  "gia_tri": "4",
+  "nguon": "ket_qua_cx.json cx_moi_viec[*].n_su_kien = 4 ở cả 10 seed"
+ },
+ "xEqSameKasPfour": {
+  "gia_tri": "8",
+  "nguon": "ket_qua_cx.json cx_moi_viec[*].k_chon_trung_P4: 8/10"
+ },
+ "Vzero": {
+  "gia_tri": "0.001",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) §0: the_tich_san = 0,001 µm³, trong_so_mu_mau = 3"
+ },
+ "dFourAtwoPeightWins": {
+  "gia_tri": "10/0",
+  "nguon": "BaiBao_Bai1_CAD/RA_SOAT_BAN1.md (rà chéo 23/11, tính lại từ thong_tin.json 10 seed) S12: ở D4A2 P8 thắng U5 10/10 về HD max (dưới độ phân giải)"
+ },
+ "surTtGolgi": {
+  "gia_tri": "1.0",
+  "nguon": "Inside3D/Bai2_Ch3/GhiChu_ChoPhienBai1_SoHangThayThe_20261123.md (đã rà chéo, RaSoat_BienDichLuat_20261123.md §1.5; dong_vat_v12.json / _khe0.8.json): dv.gan_tt_golgi ≤ 1,0 µm (4.5b vế ôm trung thể)"
+ },
+ "surLysoNuc": {
+  "gia_tri": "4.0",
+  "nguon": "Inside3D/Bai2_Ch3/GhiChu_ChoPhienBai1_SoHangThayThe_20261123.md (đã rà chéo, RaSoat_BienDichLuat_20261123.md §1.5; dong_vat_v12.json / _khe0.8.json): dv.gan_lyso_nhan ≤ 4,0 µm (4.6b)"
+ },
+ "surLysoW": {
+  "gia_tri": "0.05",
+  "nguon": "Inside3D/Bai2_Ch3/GhiChu_ChoPhienBai1_SoHangThayThe_20261123.md (đã rà chéo, RaSoat_BienDichLuat_20261123.md §1.5; dong_vat_v12.json / _khe0.8.json): trọng số gan_lyso_nhan 0,05"
+ },
+ "surTtNuc": {
+  "gia_tri": "1.5",
+  "nguon": "Inside3D/Bai2_Ch3/GhiChu_ChoPhienBai1_SoHangThayThe_20261123.md (đã rà chéo, RaSoat_BienDichLuat_20261123.md §1.5; dong_vat_v12.json / _khe0.8.json): dv.gan_tt_nhan ≤ 1,5 µm (4.8b)"
+ },
+ "yUHalfSum": {
+  "gia_tri": "2",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: Σ d50 U5b, 10 seed k08"
+ },
+ "yCeHalfSum": {
+  "gia_tri": "44",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: Σ d50 CXe"
+ },
+ "yCteHalfSum": {
+  "gia_tri": "44",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: Σ d50 CX2e"
+ },
+ "yCtbHalfSum": {
+  "gia_tri": "71",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: Σ d50 CX2b"
+ },
+ "yPfourHalfSum": {
+  "gia_tri": "29",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: Σ d50 P4"
+ },
+ "yCeStepU": {
+  "gia_tri": "1.03",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: bước tương đương CXe / U5b = 1,0316"
+ },
+ "yCteStepU": {
+  "gia_tri": "1.10",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: CX2e / U5b = 1,0986 (trần eq 1,10)"
+ },
+ "yCteStepUexact": {
+  "gia_tri": "1.0986",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2"
+ },
+ "yCtbStepU": {
+  "gia_tri": "1.64",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: CX2b / U5b = 1,640"
+ },
+ "yCeStepP": {
+  "gia_tri": "0.517",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: CXe / P8"
+ },
+ "yCteStepP": {
+  "gia_tri": "0.550",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: CX2e / P8"
+ },
+ "yCtbStepP": {
+  "gia_tri": "0.821",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: CX2b / P8 (trần best 1,10× P8? — nhóm best ≤ 0,821× P8)"
+ },
+ "yCePlace": {
+  "gia_tri": "0.94",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: giây PLACE CX/U5b 0,937 (mô tả)"
+ },
+ "yCtePlace": {
+  "gia_tri": "1.00",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: giây PLACE CX2e/U5b 0,996 (mô tả)"
+ },
+ "yCtbPlace": {
+  "gia_tri": "1.55",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: giây PLACE CX2b/U5b 1,551 (mô tả)"
+ },
+ "yCeEvents": {
+  "gia_tri": "4",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: sự kiện nhỏ + lớn 4 + 0"
+ },
+ "yCteEvents": {
+  "gia_tri": "24",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: 20 + 4"
+ },
+ "yCtbEvents": {
+  "gia_tri": "32",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §2: 28 + 4"
+ },
+ "yConfigs": {
+  "gia_tri": "20",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §5: tổng 20 cấu hình qua hai vòng dev"
+ },
+ "yCteSameKasPfour": {
+  "gia_tri": "9",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §1: CX2e k_chon trùng P4 ở 9/10 seed"
+ },
+ "yEqCapOld": {
+  "gia_tri": "1.05",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §5(e): trần eq nới từ 1,05 lên 1,10"
+ },
+ "yEqCap": {
+  "gia_tri": "1.10",
+  "nguon": "ThuNghiem/doi_chung_cx_20261121/RA_SOAT_CX2_20261123.md (rà chéo 23/11, tính lại từ thong_tin.json / doc_lap) §5(e)"
+ },
+ "cvMitoThinLo": {
+  "gia_tri": "0.107",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: tiết diện ti thể trượt 4.3b, 15 ô U5"
+ },
+ "cvMitoThinHi": {
+  "gia_tri": "0.191",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5"
+ },
+ "cvSubGrid": {
+  "gia_tri": "0.36",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: 2·h1 = 0,36 µm"
+ },
+ "cvFourThreeRej": {
+  "gia_tri": "10/10",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: D5 thử–loại (e3b nn1x) ô trượt 4.3b"
+ },
+ "cvFourThreeSA": {
+  "gia_tri": "8/10",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: D5 SA (un1x)"
+ },
+ "cvFourThreePfour": {
+  "gia_tri": "3/10",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: D5 P4"
+ },
+ "cvFourThreePeight": {
+  "gia_tri": "4/10",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: D5 P8"
+ },
+ "cvFourThreeU": {
+  "gia_tri": "4/10",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: D5 U5b"
+ },
+ "cvLysoMedU": {
+  "gia_tri": "0.79",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §2: trung vị u lysosome (0,747–0,796 từng ô)"
+ },
+ "cvBeta": {
+  "gia_tri": "0.311",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §1, §6: β = √3·h1"
+ },
+ "cvTtGolgiPen": {
+  "gia_tri": "0.42",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §1: muốn tâm trung thể trong bao lồi phải xuyên ≥ r_tt ≈ 0,42 µm"
+ },
+ "cvMcPenLo": {
+  "gia_tri": "0.010",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §6: độ sâu xuyên ER–nhân 49 ca"
+ },
+ "cvMcPenHi": {
+  "gia_tri": "0.050",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §6"
+ },
+ "cvMcCases": {
+  "gia_tri": "49",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §6: 49/463 ô, 100 % D4A2"
+ },
+ "cvDentMed": {
+  "gia_tri": "0.042",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: 2.7c độ lõm trung vị (µm)"
+ },
+ "cvDentMax": {
+  "gia_tri": "0.33",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: 2.7c độ lõm tối đa 0,328 µm"
+ },
+ "cvDentTol": {
+  "gia_tri": "0.02",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §5: ngưỡng lõm 2.7c"
+ },
+ "cvNfourteenReal": {
+  "gia_tri": "45",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §7: 45 ô vật chứa thật (5 tế bào × 9)"
+ },
+ "cvNfourteenOneFiveRatioLo": {
+  "gia_tri": "0.639",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §7: tỉ số Ø nhân/TB ở ô thật"
+ },
+ "cvNfourteenOneFiveRatioHi": {
+  "gia_tri": "0.677",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §7"
+ },
+ "cvNfourteenOneTwoCells": {
+  "gia_tri": "2",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §7: 1.2a trượt ở 2 tế bào thật (cạnh OBB màng 7,04 và 8,13 µm)"
+ },
+ "cvTvCells": {
+  "gia_tri": "25",
+  "nguon": "RaSoat_DoPhu_Luat_20261123.md (rà chéo, đếm lại từ kiem3.json.gz / doc_lap) §4: 25 ô thực vật đã chấm"
+ },
+ "nfBudRej": {
+  "gia_tri": "0.21",
+  "nguon": "ThuNghiem/RaSoat_KetQua_N14D5_20261124.md (rà chéo 24/11) + TongKet §21: ngân sách thử–loại = 0,21× số lần tính phạt của U5b"
+ },
+ "nfBudSA": {
+  "gia_tri": "0.52",
+  "nguon": "như trên: SA = 0,52× số lần tính phạt của U5b"
+ },
+ "nfGrid": {
+  "gia_tri": "0.18",
+  "nguon": "n14-vat-chua-that-allen-1911 / thiết kế N14: lưới dị hướng h = 23/128 µm ≈ 0,18 µm (TongKet §21 \"chênh dưới một ô lưới\")"
+ },
+ "nlPKOverlap": {
+  "gia_tri": "0.39",
+  "nguon": "ThuNghiem/RaSoat_BangN1_20261125.md (rà chéo 25/11; TongKet §26, §28) §A: Packmol D5 chồng cầu tới 0,39 µm sau đặt, 0/38 cấu hình hội tụ"
+ },
+ "nlCPUnplacedPct": {
+  "gia_tri": "27",
+  "nguon": "ThuNghiem/RaSoat_BangN1_20261125.md (rà chéo 25/11; TongKet §26, §28) §C3: cellPACK D5 không đặt 214–227/~806 bộ phận (~27 %)"
+ },
+ "nlExportFail": {
+  "gia_tri": "7",
+  "nguon": "ThuNghiem/RaSoat_BangN1_20261125.md (rà chéo 25/11; TongKet §26, §28) §A: 7 vị trí (seed×k) xuất hỏng giống nhau ở cellPACK và Packmol (lưới vùng cấm/lòng nhân không kín)"
+ },
+ "nlConfigs": {
+  "gia_tri": "40",
+  "nguon": "ThuNghiem/RaSoat_BangN1_20261125.md (rà chéo 25/11; TongKet §26, §28) §A: 40 cấu hình = 10 seed × K 4"
+ },
+ "nlMcRuns": {
+  "gia_tri": "35",
+  "nguon": "ThuNghiem/RaSoat_BangN1_20261125.md (rà chéo 25/11; TongKet §26, §28) §SB3: 35 lượt D4A2 đổi M.c0 TRƯỢT→ĐẠT khi có sửa mesh"
+ }
+}

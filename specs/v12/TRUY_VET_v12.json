@@ -1,0 +1,1061 @@
+{
+ "dong_vat": [
+  {
+   "khoa": "R_vo",
+   "id": "dv.R_vo",
+   "gia_tri": 10.0,
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_quy_mo",
+   "id": "dv.nhieu_quy_mo",
+   "gia_tri": 6.0,
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_bien_do",
+   "id": "dv.nhieu_bien_do",
+   "gia_tri": 0.25,
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_hat",
+   "id": "dv.nhieu_hat",
+   "gia_tri": 1,
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_so_song",
+   "id": "dv.nhieu_so_song",
+   "gia_tri": 6,
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_he_so_k",
+   "id": "dv.nhieu_he_so_k",
+   "gia_tri": [
+    0.7,
+    1.3
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "nhieu_chia",
+   "id": "dv.nhieu_chia",
+   "gia_tri": 3,
+   "doi": false
+  },
+  {
+   "khoa": "T_nhan_mang",
+   "id": "dv.T_nhan_mang",
+   "gia_tri": 1.0,
+   "doi": false
+  },
+  {
+   "khoa": "T_mang",
+   "id": "dv.T_mang",
+   "gia_tri": 0.5,
+   "doi": false
+  },
+  {
+   "khoa": "T_nhancon",
+   "id": "dv.T_nhancon",
+   "gia_tri": 0.3,
+   "doi": false
+  },
+  {
+   "khoa": "S_roi",
+   "id": "dv.S_roi",
+   "gia_tri": 0.3,
+   "doi": false
+  },
+  {
+   "khoa": "D_er",
+   "id": "dv.D_er",
+   "gia_tri": 2.0,
+   "doi": false
+  },
+  {
+   "khoa": "er_trong",
+   "id": "dv.er_trong",
+   "gia_tri": 0.0,
+   "doi": false
+  },
+  {
+   "khoa": "khuyet_cos",
+   "id": "dv.khuyet_cos",
+   "gia_tri": 0.55,
+   "doi": false
+  },
+  {
+   "khoa": "khuyet_huong",
+   "id": "dv.khuyet_huong",
+   "gia_tri": "trung_the",
+   "doi": false
+  },
+  {
+   "khoa": "dai_nhan",
+   "id": "dv.dai_nhan",
+   "gia_tri": [
+    3.9,
+    5.0
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "dai_trung_the",
+   "id": "dv.dai_trung_the",
+   "gia_tri": [
+    0.42,
+    0.48
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "dai_golgi",
+   "id": "dv.dai_golgi",
+   "gia_tri": [
+    1.6,
+    2.2
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "dai_nhan_con",
+   "id": "dv.dai_nhan_con",
+   "gia_tri": [
+    0.4,
+    0.9
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "dai_ti_the",
+   "id": "dv.dai_ti_the",
+   "gia_tri": [
+    0.5,
+    1.0
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "dai_lysosome",
+   "id": "dv.dai_lysosome",
+   "gia_tri": [
+    0.2,
+    0.4
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "khuon_nhan_truc",
+   "id": "dv.khuon_nhan_truc",
+   "gia_tri": [
+    1.0,
+    0.943,
+    0.896
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "khuon_golgi_truc",
+   "id": "dv.khuon_golgi_truc",
+   "gia_tri": [
+    0.395,
+    1.0,
+    0.842
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "khuon_ong",
+   "id": "dv.khuon_ong",
+   "gia_tri": [
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.35,
+     0.0
+    ],
+    [
+     0.45,
+     0.0
+    ],
+    [
+     0.3,
+     0.25
+    ],
+    [
+     0.4,
+     0.2
+    ]
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "khuon_lysosome",
+   "id": "dv.khuon_lysosome",
+   "gia_tri": "cau",
+   "doi": false
+  },
+  {
+   "khoa": "khuon_trung_the",
+   "id": "dv.khuon_trung_the",
+   "gia_tri": "cau",
+   "doi": false
+  },
+  {
+   "khoa": "khuon_nhan_con",
+   "id": "dv.khuon_nhan_con",
+   "gia_tri": "cau",
+   "doi": false
+  },
+  {
+   "khoa": "ai_bo_golgi",
+   "id": "dv.ai_bo_golgi",
+   "gia_tri": [
+    "golgi"
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "so_ti_the",
+   "id": "dv.so_ti_the",
+   "gia_tri": [
+    10,
+    21
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "so_lysosome",
+   "id": "dv.so_lysosome",
+   "gia_tri": [
+    3,
+    9
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "so_nhan_con",
+   "id": "dv.so_nhan_con",
+   "gia_tri": [
+    1,
+    4
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "lech_tam",
+   "id": "dv.lech_tam",
+   "gia_tri": [
+    0.11,
+    0.25
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "gan_tt_nhan",
+   "id": "dv.gan_tt_nhan",
+   "gia_tri": 1.5,
+   "doi": false
+  },
+  {
+   "khoa": "gan_tt_golgi",
+   "id": "dv.gan_tt_golgi",
+   "gia_tri": 1.0,
+   "doi": false
+  },
+  {
+   "khoa": "gan_lyso_nhan",
+   "id": "dv.gan_lyso_nhan",
+   "gia_tri": 4.0,
+   "doi": false
+  },
+  {
+   "khoa": "mien_cung_loai",
+   "id": "dv.mien_cung_loai",
+   "gia_tri": [],
+   "doi": true
+  },
+  {
+   "khoa": "mien_cap",
+   "id": "dv.mien_cap",
+   "gia_tri": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ]
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "lien_khoi_mien",
+   "id": "dv.lien_khoi_mien",
+   "gia_tri": [
+    "golgi"
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "kt_he_so_elip",
+   "id": "dv.kt_he_so_elip",
+   "gia_tri": 1.06,
+   "doi": false
+  },
+  {
+   "khoa": "kt_le_vung",
+   "id": "dv.kt_le_vung",
+   "gia_tri": 0.5,
+   "doi": false
+  },
+  {
+   "khoa": "kt_dtt_ngau",
+   "id": "dv.kt_dtt_ngau",
+   "gia_tri": [
+    0.1,
+    0.6
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "kt_dg_ngau",
+   "id": "dv.kt_dg_ngau",
+   "gia_tri": [
+    0.1,
+    0.5
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "kt_golgi_nua_day",
+   "id": "dv.kt_golgi_nua_day",
+   "gia_tri": 0.395,
+   "doi": false
+  },
+  {
+   "khoa": "kt_sau_ti_the",
+   "id": "dv.kt_sau_ti_the",
+   "gia_tri": 1.5,
+   "doi": false
+  },
+  {
+   "khoa": "kt_sau_lyso",
+   "id": "dv.kt_sau_lyso",
+   "gia_tri": 1.0,
+   "doi": false
+  },
+  {
+   "khoa": "kt_nhancon_trong",
+   "id": "dv.kt_nhancon_trong",
+   "gia_tri": 0.4,
+   "doi": false
+  },
+  {
+   "khoa": "kt_lai_tt",
+   "id": "dv.kt_lai_tt",
+   "gia_tri": [
+    0.6,
+    1.5
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "kt_lai_golgi",
+   "id": "dv.kt_lai_golgi",
+   "gia_tri": [
+    2.4,
+    4.3
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_tam_nhan",
+   "id": "dv.tay_tam_nhan",
+   "gia_tri": [
+    1.2,
+    -0.6,
+    0.4
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_huong_golgi",
+   "id": "dv.tay_huong_golgi",
+   "gia_tri": [
+    -1.0,
+    0.25,
+    0.1
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_truc_z",
+   "id": "dv.tay_truc_z",
+   "gia_tri": [
+    0,
+    0,
+    1.0
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_quay_don_vi",
+   "id": "dv.tay_quay_don_vi",
+   "gia_tri": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_le",
+   "id": "dv.tay_le",
+   "gia_tri": 0.3,
+   "doi": false
+  },
+  {
+   "khoa": "tay_nhancon",
+   "id": "dv.tay_nhancon",
+   "gia_tri": [
+    [
+     0.6,
+     0.9,
+     0.2
+    ],
+    [
+     -0.9,
+     -0.5,
+     -0.6
+    ],
+    [
+     0.2,
+     -1.2,
+     0.8
+    ]
+   ],
+   "doi": false
+  },
+  {
+   "khoa": "tay_nhancon_chia",
+   "id": "dv.tay_nhancon_chia",
+   "gia_tri": 4.45,
+   "doi": false
+  },
+  {
+   "khoa": "kcl_ti_the",
+   "id": "chung.khe_cung_loai.dv.ti_the",
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "kcl_lysosome",
+   "id": "chung.khe_cung_loai.dv.lysosome",
+   "gia_tri": 0.0
+  },
+  {
+   "khoa": "kcl_nhan_con",
+   "id": "chung.khe_cung_loai.dv.nhan_con",
+   "gia_tri": 0.0
+  },
+  {
+   "khoa": "so_tui_golgi_ve",
+   "id": "dv.so_tui_golgi_ve",
+   "gia_tri": [
+    4,
+    8
+   ]
+  }
+ ],
+ "thuc_vat": [
+  {
+   "khoa": "nua_canh_x",
+   "id": "tv.kich_thuoc_vach",
+   "luat": [],
+   "gia_tri": 40.0
+  },
+  {
+   "khoa": "nua_canh_y",
+   "id": "tv.kich_thuoc_vach",
+   "luat": [],
+   "gia_tri": 16.0
+  },
+  {
+   "khoa": "nua_canh_z",
+   "id": "tv.kich_thuoc_vach",
+   "luat": [],
+   "gia_tri": 16.0
+  },
+  {
+   "khoa": "ban_kinh_bo",
+   "id": "tv.kich_thuoc_vach",
+   "luat": [],
+   "gia_tri": 3
+  },
+  {
+   "khoa": "day_vach",
+   "id": "tv.day_vach",
+   "luat": [
+    "tv:2.3a"
+   ],
+   "gia_tri": [
+    1.0,
+    1.5
+   ]
+  },
+  {
+   "khoa": "day_mang",
+   "id": "tv.day_mang",
+   "luat": [],
+   "gia_tri": [
+    0.15,
+    0.25
+   ]
+  },
+  {
+   "khoa": "tru_bo_ti",
+   "id": null,
+   "luat": [],
+   "gia_tri": 0.1
+  },
+  {
+   "khoa": "khe_roi",
+   "id": "chung.khe_roi",
+   "luat": [
+    "tv:M.c₀"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "khe_nhan_mang",
+   "id": "tv.khe_nhan_mang",
+   "luat": [
+    "tv:2.6b"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "khe_luc_lap_mang",
+   "id": "tv.khe_luc_lap_mang",
+   "luat": [
+    "tv:2.7b"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "khe_chua_mang",
+   "id": "chung.khe_roi",
+   "luat": [
+    "tv:M.a"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "kcl_luc_lap",
+   "id": "chung.khe_cung_loai.tv.luc_lap",
+   "luat": [
+    "tv:M.h"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "kcl_ti_the",
+   "id": "chung.khe_cung_loai.tv.ti_the",
+   "luat": [
+    "tv:M.h"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "kcl_peroxisome",
+   "id": "chung.khe_cung_loai.tv.peroxisome",
+   "luat": [
+    "tv:M.h"
+   ],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "khe_golgi_golgi",
+   "id": "tv.khe_golgi_golgi",
+   "luat": [
+    "tv:5.6a"
+   ],
+   "gia_tri": 2.0
+  },
+  {
+   "khoa": "gan_nhan_mang",
+   "id": "tv.gan_nhan_mang_toi_da",
+   "luat": [
+    "tv:2.6b"
+   ],
+   "gia_tri": 0.5
+  },
+  {
+   "khoa": "gan_luc_lap_mang",
+   "id": "tv.gan_luc_lap_mang_toi_da",
+   "luat": [
+    "tv:2.7b"
+   ],
+   "gia_tri": 0.5
+  },
+  {
+   "khoa": "gan_mang_hoac_nhan",
+   "id": "tv.gan_mang_hoac_nhan",
+   "luat": [
+    "tv:M.d"
+   ],
+   "gia_tri": 1.0
+  },
+  {
+   "khoa": "gan_mang_hoac_nhan",
+   "id": "tv.gan_mang_hoac_nhan",
+   "luat": [
+    "tv:M.d"
+   ],
+   "gia_tri": 1.0
+  },
+  {
+   "khoa": "gan_mang_hoac_nhan",
+   "id": "tv.gan_mang_hoac_nhan",
+   "luat": [
+    "tv:M.d"
+   ],
+   "gia_tri": 1.0
+  },
+  {
+   "khoa": "lech_huong_luc_lap",
+   "id": "tv.lech_huong_luc_lap",
+   "luat": [
+    "tv:2.7f"
+   ],
+   "gia_tri": 30.0
+  },
+  {
+   "khoa": "bo_5.7d",
+   "ghi_chu": "luật mềm peroxisome gần lục lạp đã BỎ ở v1.2 (luat_bo) ⇒ không còn số hạng phạt; tv.gan_peroxisome_luc_lap chỉ để truy vết"
+  },
+  {
+   "khoa": "er_day_quanh_nhan",
+   "id": "tv.luoi_noi_chat_ve",
+   "luat": [],
+   "gia_tri": [
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "khoa": "er_cach_mang",
+   "id": "tv.luoi_noi_chat_ve",
+   "luat": [],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "ong_ban_kinh",
+   "id": "tv.luoi_noi_chat_ve",
+   "luat": [],
+   "gia_tri": 0.1
+  },
+  {
+   "khoa": "ong_do_sau_tam",
+   "id": "tv.luoi_noi_chat_ve",
+   "luat": [],
+   "gia_tri": 0.5
+  },
+  {
+   "khoa": "ong_khoang_nut",
+   "id": null,
+   "luat": [],
+   "gia_tri": 2.0
+  },
+  {
+   "khoa": "ong_canh_toi_da",
+   "id": null,
+   "luat": [],
+   "gia_tri": 3.5
+  },
+  {
+   "khoa": "er_cach_bo_phan",
+   "id": "tv.luoi_noi_chat_ve",
+   "luat": [],
+   "gia_tri": 0.3
+  },
+  {
+   "khoa": "vung_noi_er_mang_nhan",
+   "id": "tv.vung_noi_er_mang_nhan",
+   "luat": [
+    "tv:5.4a"
+   ],
+   "gia_tri": 1.0
+  },
+  {
+   "khoa": "kb_cach_mang",
+   "id": "tv.cach_dung_khong_bao",
+   "luat": [
+    "tv:2.4b"
+   ],
+   "gia_tri": 1.0
+  },
+  {
+   "khoa": "kb_cach_bo_phan",
+   "id": "tv.cach_dung_khong_bao",
+   "luat": [],
+   "gia_tri": 0.3
+  }
+ ],
+ "chua_co_id": [
+  {
+   "vat": "tv",
+   "khoa": "tru_bo_ti",
+   "gia_tri": 0.1,
+   "y_nghia": "bán kính bo mép trụ Golgi / bán kính (v1.4 cho_duyet; v1.2 KHÔNG có id) — hình học chưa có id"
+  },
+  {
+   "vat": "tv",
+   "khoa": "ong_khoang_nut",
+   "gia_tri": 2.0,
+   "y_nghia": "khoảng nút đồ thị ống ER (v1.4 cho_duyet; v1.2 KHÔNG có id)"
+  },
+  {
+   "vat": "tv",
+   "khoa": "ong_canh_toi_da",
+   "gia_tri": 3.5,
+   "y_nghia": "cạnh dài nhất đồ thị ống ER (v1.4 cho_duyet; v1.2 KHÔNG có id)"
+  }
+ ],
+ "kiem_su_that": [
+  {
+   "vat": "dv",
+   "kiem": "4.3b bề rộng ống thủ tục ⊂ 0,2–1 µm",
+   "dat": true,
+   "chi_tiet": {
+    "rong_min": 0.25,
+    "rong_max": 0.9,
+    "su_that": [
+     0.2,
+     1.0
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "1.5 nhân thủ tục: đường kính tương đương ⊂ 5–10, tỉ lệ thể tích ⊂ 0,043–0,216 (màng cầu R, chưa trừ gợn)",
+   "dat": true,
+   "chi_tiet": {
+    "d_tuong_duong": [
+     7.373966667862183,
+     9.453803420336133
+    ],
+    "ti_le": [
+     0.050120284031999994,
+     0.10561600000000003
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.6a lysosome thủ tục",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.4,
+     0.8
+    ],
+    "su_that": [
+     0.1,
+     1.2
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.2a nhân con cỡ + số",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.8,
+     1.8
+    ],
+    "so": [
+     1,
+     4
+    ],
+    "su_that_so": [
+     1,
+     5
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.3b khuôn AI ti_the_s1: độ dày 2·r_trong·s ⊂ 0,2–1 sau khi thu hẹp dải cỡ",
+   "dat": true,
+   "chi_tiet": {
+    "r_trong_khuon": 0.40666503081098665,
+    "dai_co": [
+     0.5,
+     1.0
+    ],
+    "do_day_um": [
+     0.40666503081098665,
+     0.8133300616219733
+    ],
+    "thu_hep": [
+     false,
+     false
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.3b khuôn AI ti_the_s2: độ dày 2·r_trong·s ⊂ 0,2–1 sau khi thu hẹp dải cỡ",
+   "dat": true,
+   "chi_tiet": {
+    "r_trong_khuon": 0.49170774399476347,
+    "dai_co": [
+     0.5,
+     1.0
+    ],
+    "do_day_um": [
+     0.49170774399476347,
+     0.9834154879895269
+    ],
+    "thu_hep": [
+     false,
+     false
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.3b khuôn AI ti_the_s4: độ dày 2·r_trong·s ⊂ 0,2–1 sau khi thu hẹp dải cỡ",
+   "dat": true,
+   "chi_tiet": {
+    "r_trong_khuon": 0.36295231151721147,
+    "dai_co": [
+     0.5,
+     1.0
+    ],
+    "do_day_um": [
+     0.36295231151721147,
+     0.7259046230344229
+    ],
+    "thu_hep": [
+     false,
+     false
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.6a khuôn AI lysosome_s1: trục dài × s ⊂ 0,1–1,2",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.4,
+     0.8
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.6a khuôn AI lysosome_s2: trục dài × s ⊂ 0,1–1,2",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.4,
+     0.8
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "4.6a khuôn AI lysosome_s4: trục dài × s ⊂ 0,1–1,2",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.4,
+     0.8
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "1.5 khuôn AI nhan_s1: đường kính tương đương ⊂ 5–10",
+   "dat": true,
+   "chi_tiet": {
+    "d_tuong_duong": [
+     7.426099760191381,
+     9.520640718194079
+    ]
+   }
+  },
+  {
+   "vat": "dv",
+   "kiem": "1.5 khuôn AI nhan_s4: đường kính tương đương ⊂ 5–10",
+   "dat": true,
+   "chi_tiet": {
+    "d_tuong_duong": [
+     7.519573883474355,
+     9.640479337787635
+    ]
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "5.7a peroxisome",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     0.5,
+     1.0
+    ]
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "2.7d lục lạp: đường kính ⊂ 4–10, dày ⊂ 1,11–2,5",
+   "dat": true,
+   "chi_tiet": {
+    "d": [
+     5.0,
+     7.0
+    ],
+    "day": [
+     1.9999999999999998,
+     2.5
+    ]
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "2.6e nhân cầu: V/V_trong ∈ 0,16–2,3 % ở hai cực",
+   "dat": true,
+   "chi_tiet": {
+    "ti_le_min": 0.0016597789188322943,
+    "ti_le_max": 0.0028985535834444237
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "2.2a thể tích trong màng 60–100 pL (kiem_kha_thi v1.2)",
+   "dat": true,
+   "chi_tiet": {
+    "pL": [
+     61.96,
+     68.14
+    ]
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "5.6a ≥ 2 thể Golgi",
+   "dat": true,
+   "chi_tiet": [
+    5,
+    10
+   ]
+  },
+  {
+   "vat": "tv",
+   "kiem": "2.6e khuôn AI nhan_s1",
+   "dat": true,
+   "chi_tiet": {
+    "dai_co": [
+     3.112755370534621,
+     3.5
+    ]
+   }
+  },
+  {
+   "vat": "tv",
+   "kiem": "2.6e khuôn AI nhan_s4",
+   "dat": true,
+   "chi_tiet": {
+    "dai_co": [
+     3.0740614121050704,
+     3.5
+    ]
+   }
+  }
+ ],
+ "mau_thuan_xu_ly": [
+  {
+   "luat": "M.h",
+   "xu_ly": "SỬA: dv.mien_cung_loai = [] (v1.2); cặp cùng loại lysosome/nhân con khe 0 (chung.khe_cung_loai), ti thể 0,3"
+  },
+  {
+   "luat": "4.3b",
+   "xu_ly": "ĐÃ THOẢ theo số khuôn: bề rộng 0.25–0.90 µm ⊂ [0.2, 1.0] (dv.khuon_ong × dv.dai_ti_the); khuôn AI kiểm ở dưới"
+  },
+  {
+   "luat": "4.8a",
+   "xu_ly": "SỬA (cờ --tang2): hai trung tử trụ, dài/rộng theo 4.8a, vuông góc 90° ≥ dv.goc_vuong_toi_thieu; khối cầu dv.dai_trung_the giữ làm vỏ bao để sắp đặt"
+  },
+  {
+   "luat": "4.5a",
+   "xu_ly": "SỬA (cờ --tang2): chồng 4–8 túi dẹt rời nhau, rộng 0,7–1,1; khối elip dv.dai_golgi giữ làm vỏ bao để sắp đặt"
+  },
+  {
+   "luat": "M.d",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: nhân đặc một khối; vỏ hai lớp + lỗ nhân là chi tiết tầng 2 chưa dựng (khoang 20–50 nm dưới lưới h1 ≈ 0,18 µm)"
+  },
+  {
+   "luat": "M.e",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: ti thể ống đặc, không mào (tầng 2 chưa dựng)"
+  },
+  {
+   "luat": "4.4a",
+   "xu_ly": "THOẢ theo cấu tạo cho vế 'liền màng ngoài nhân': mép trong vành ER = mặt không của trường nhân trên cùng lưới (dv.er_trong = 0) và cặp ER–nhân không có hàng chiếu (dv.mien_cap) ⇒ hai mesh chung mặt; bộ dựng đo khe ER–nhân trong lượt thử. Vế 'trải khắp chất tế bào' là GIỚI HẠN (dv.pham_vi_ve_er)"
+  },
+  {
+   "luat": "2.2a",
+   "xu_ly": "SỬA: hộp tv.kich_thuoc_vach 80×32×32 µm bo 3"
+  },
+  {
+   "luat": "2.6e",
+   "xu_ly": "SỬA: nhân tv.duong_kinh_nhan 6,0–7,0 µm (khuôn AI: cận dưới nâng theo thể tích khuôn, xem dưới)"
+  },
+  {
+   "luat": "(chung)",
+   "xu_ly": "bộ dựng thật cho thực vật = botri_chung_v12 (lưới cục bộ); lượt thử ở mục 4"
+  },
+  {
+   "vat": "tv",
+   "luat": "5.2a (màng nhân hai lớp + lỗ)",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: chi tiết tầng 2 chưa dựng"
+  },
+  {
+   "vat": "tv",
+   "luat": "5.3e (mào)",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: chi tiết tầng 2 chưa dựng"
+  },
+  {
+   "vat": "tv",
+   "luat": "10.1a (màng trong lục lạp)",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: chi tiết tầng 2 chưa dựng"
+  },
+  {
+   "vat": "tv",
+   "luat": "10.2a/b/c (grana, thylakoid)",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: chi tiết tầng 2 chưa dựng"
+  },
+  {
+   "vat": "tv",
+   "luat": "10.3a/b (tấm nối)",
+   "xu_ly": "GIỚI HẠN CÓ CHỦ ĐÍCH: chi tiết tầng 2 chưa dựng"
+  }
+ ],
+ "bam": {
+  "tep": {
+   "luat_su_that_dong_vat_v1_2_20261111.json": "fdc3d2de08235c969ec91cc7bd7bafccb5f47f112d8d9348b80856d366223f1c",
+   "luat_su_that_thuc_vat_v1_2_20261111.json": "aea7e271b1d489e3d1719bc5de6d06f9146c65ea589e701b64de7cf74823d199",
+   "tham_so_quy_uoc_v1_2_20261111.json": "96e681dba80787609ad9f9de6153d6ce393ff255ff4f06ca38deef5214d6e0e4"
+  },
+  "ghi_chu": "SHA-256 khớp DONG_BANG_LuatSuThat_v1_2.txt"
+ }
+}

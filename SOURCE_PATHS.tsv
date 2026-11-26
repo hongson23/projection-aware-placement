@@ -1,0 +1,162 @@
+# <ROOT> = project storage root on the compute server (contains ch3_tebao_dep/ and cellpack_ngoai/); <PAPER> = authors' manuscript folder
+repo_path	original_location	status
+.gitignore	new	new
+CODE_EQUIVALENCE.tsv	new	new
+CITATION.cff	new	new
+LICENSE	new	new
+MANIFEST.md5	new (md5 of every other tracked file)	new
+README.md	new	new
+SOURCE_PATHS.tsv	new	new
+analysis/do_gio/giam_doc_quyen.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/do_gio/giam_doc_quyen.py	byte-identical copy; comments removed
+analysis/do_gio/phan_tich_do_gio_v2.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/do_gio/phan_tich_do_gio_v2.py	byte-identical copy; comments removed
+analysis/do_gio/so_bit.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/do_gio/so_bit.py	byte-identical copy; comments removed
+analysis/n14d5/phan_tich_n14d5.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/phan_tich_n14d5.py	byte-identical copy; comments removed
+analysis/tang_dg/phan_tich_tdg.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/phan_tich_tdg.py	byte-identical copy; comments removed
+analysis/tang_dg/u5tv/chung_u5tv.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5tv/chung_u5tv.py	byte-identical copy; comments removed
+analysis/tang_dg/u5tv/n2_tv.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5tv/n2_tv.py	byte-identical copy
+analysis/tang_dg/u5tv/phan_tich_tv_u5.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5tv/phan_tich_tv_u5.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/hd_e3b.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/hd_e3b.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/n1/phan_tich_n1.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/n1/phan_tich_n1.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/n1/sb_chuan_bi/phan_tich_n1_sb.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/n1/sb_chuan_bi/phan_tich_n1_sb.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/phan_tich_doc_lap_u5.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/phan_tich_doc_lap_u5.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/phan_tich_rong.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/phan_tich_rong.py	byte-identical copy; comments removed
+analysis/tang_dg/u5v2/phan_tich_u5c.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5v2/phan_tich_u5c.py	byte-identical copy; comments removed
+analysis/tang_dg/u5x/chon_dev.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5x/chon_dev.py	byte-identical copy; comments removed
+analysis/tang_dg/u5x/chon_dev2.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5x/chon_dev2.py	byte-identical copy; comments removed
+analysis/tang_dg/u5x/dem_buoc.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5x/dem_buoc.py	byte-identical copy; comments removed
+analysis/tang_dg/u5x/phan_tich_cx.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5x/phan_tich_cx.py	byte-identical copy; comments removed
+analysis/tang_dg/u5x/phan_tich_cx2.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5x/phan_tich_cx2.py	byte-identical copy; comments removed
+builder/botri_chung_v122e3.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v122e3.py	byte-identical copy; comments removed
+builder/botri_chung_v122u5e.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v122u5e.py	byte-identical copy; comments removed
+builder/botri_chung_v122u5f.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v122u5f.py	byte-identical copy; comments removed
+builder/botri_chung_v122u5n14.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v122u5n14.py	byte-identical copy; comments removed
+builder/botri_chung_v122u5x.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v122u5x.py	byte-identical copy; comments removed
+builder/botri_chung_v123u5c.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_chung_v123u5c.py	byte-identical copy; comments removed
+builder/botri_cucbo_v121.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_cucbo_v121.py	byte-identical copy; comments removed
+builder/botri_cucbo_v123u5b.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/ma3/botri_cucbo_v123u5b.py	byte-identical copy; comments removed
+builder/igl_tho.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/u5tv/igl_tho.py	byte-identical copy
+checker/DONG_BANG_BO_KIEM_V3.txt	<ROOT>/ch3_tebao_dep/bo_kiem_v3/DONG_BANG_BO_KIEM_V3.txt	byte-identical copy
+checker/SUA_MESH_MD5.txt	<ROOT>/ch3_tebao_dep/bo_kiem_v3/SUA_MESH_MD5.txt	byte-identical copy
+checker/VE_SINH_LUOI_MD5.txt	<ROOT>/ch3_tebao_dep/bo_kiem_v3/VE_SINH_LUOI_MD5.txt	byte-identical copy
+checker/cay_loi.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cay_loi.py	byte-identical copy; comments removed
+checker/cay_loi_tv.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cay_loi_tv.py	byte-identical copy; comments removed
+checker/cham_chinh_dv/phan_tich/phan_tich_chinh_dv.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cham_chinh_dv/phan_tich/phan_tich_chinh_dv.py	byte-identical copy; comments removed
+checker/cham_lo.sh	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cham_lo.sh	byte-identical copy; comments removed
+checker/cham_lo_vs.sh	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cham_lo_vs.sh	byte-identical copy; comments removed
+checker/cham_lo_vsb.sh	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cham_lo_vsb.sh	byte-identical copy; comments removed
+checker/cham_mot.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cham_mot.py	byte-identical copy; comments removed
+checker/chan_doan_gc.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/chan_doan_gc.py	byte-identical copy; comments removed
+checker/do_khuon.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/do_khuon.py	byte-identical copy; comments removed
+checker/dung_cong_v3.sh	<ROOT>/ch3_tebao_dep/bo_kiem_v3/dung_cong_v3.sh	byte-identical copy; comments removed
+checker/dung_tv_thu.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/dung_tv_thu.py	byte-identical copy; comments removed
+checker/kiem2.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/kiem2.py	byte-identical copy; comments removed
+checker/kiem3.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/kiem3.py	byte-identical copy; comments removed
+checker/kiem_thucvat.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/kiem_thucvat.py	byte-identical copy; comments removed
+checker/luat_thucvat_v14_van_ban.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_thucvat_v14_van_ban.json	byte-identical copy
+checker/luat_v12.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12.py	byte-identical copy; comments removed
+checker/luat_v12/DoiChieu_LuatSuThat_BoKiem_v1_2_20261111.md	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/DoiChieu_LuatSuThat_BoKiem_v1_2_20261111.md	byte-identical copy
+checker/luat_v12/khuon_bo_sung_atlas_v1_2_20261112.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/khuon_bo_sung_atlas_v1_2_20261112.json	byte-identical copy
+checker/luat_v12/khuon_thuc_vat_bo_sung_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/khuon_thuc_vat_bo_sung_v1_2_20261111.json	byte-identical copy
+checker/luat_v12/luat_su_that_dong_vat_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/luat_su_that_dong_vat_v1_2_20261111.json	byte-identical copy
+checker/luat_v12/luat_su_that_thuc_vat_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/luat_su_that_thuc_vat_v1_2_20261111.json	byte-identical copy
+checker/luat_v12/tham_so_quy_uoc_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v12/tham_so_quy_uoc_v1_2_20261111.json	byte-identical copy
+checker/luat_v41.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/luat_v41.json	byte-identical copy
+checker/so_sanh.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/so_sanh.py	byte-identical copy
+checker/sua_mesh_dn.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/sua_mesh_dn.py	byte-identical copy; comments removed
+checker/tang_toc.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/tang_toc.py	byte-identical copy; comments removed
+checker/tao_ban_mu.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/tao_ban_mu.py	byte-identical copy; comments removed
+checker/thu_roi.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/thu_roi.py	byte-identical copy
+checker/tong_hop_cong_v3.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/tong_hop_cong_v3.py	byte-identical copy; comments removed
+checker/tong_hop_cong_v3b.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/tong_hop_cong_v3b.py	byte-identical copy; comments removed
+checker/tong_hop_v3.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/tong_hop_v3.py	byte-identical copy
+checker/v3_cay_loi_chung.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/v3_cay_loi_chung.py	byte-identical copy
+checker/ve_sinh_luoi.py	<ROOT>/ch3_tebao_dep/bo_kiem_v3/ve_sinh_luoi.py	byte-identical copy; comments removed
+environment/ENVIRONMENT.md	new	new
+environment/requirements_b2demo.txt	generated: `python -m pip freeze` of the b2demo environment on the compute server, 25/11/2026	generated
+environment/requirements_cellpack.txt	<ROOT>/cellpack_ngoai/pip_freeze_cellpack.txt	byte-identical copy
+external_baselines/cellpack/LICENSE.cellpack	<ROOT>/cellpack_ngoai/src/LICENSE (mesoscope/cellpack @ a576c5c)	byte-identical copy
+external_baselines/cellpack/analysis/phan_tich_cp_n1.py	<ROOT>/cellpack_ngoai/v122/cham/phan_tich_cp_n1.py	byte-identical copy; comments removed
+external_baselines/cellpack/bridge/cau_noi_cp_e3.py	<ROOT>/cellpack_ngoai/v122e3/cau_noi_cp_e3.py	byte-identical copy; comments removed
+external_baselines/cellpack/bridge/chon_cap_e3.py	<ROOT>/cellpack_ngoai/v122e3/chon_cap_e3.py	byte-identical copy; comments removed
+external_baselines/cellpack/bridge/gpu_n1.sh	<ROOT>/cellpack_ngoai/v122e3/gpu_n1.sh	byte-identical copy; comments removed
+external_baselines/cellpack/bridge/hang_n1.sh	<ROOT>/cellpack_ngoai/v122e3/hang_n1.sh	byte-identical copy; comments removed
+external_baselines/cellpack/bridge/kiem_cau_noi_e3.py	<ROOT>/cellpack_ngoai/v122e3/kiem_cau_noi_e3.py	byte-identical copy; comments removed
+external_baselines/cellpack/gpu_patch/v4.diff	<ROOT>/cellpack_ngoai/cellpack_gpu/ban/v4.diff	byte-identical copy
+external_baselines/cellpack/gpu_patch/v4.md5	<ROOT>/cellpack_ngoai/cellpack_gpu/ban/v4.md5	byte-identical copy
+external_baselines/cellpack/gpu_patch/v4_gpu_tang_toc.py	<ROOT>/cellpack_ngoai/cellpack_gpu/ban/v4_gpu_tang_toc.py	byte-identical copy; comments removed
+external_baselines/cellpack/runner/chay_cp_gpu.py	<ROOT>/cellpack_ngoai/cellpack_gpu/chay_cp_gpu.py	byte-identical copy; comments removed
+external_baselines/cellpack/runner/so_sanh.py	<ROOT>/cellpack_ngoai/cellpack_gpu/so_sanh.py	byte-identical copy
+external_baselines/packmol/SHA256SUMS_packmol-100.0.0.txt	<ROOT>/ch3_tebao_dep/ngoai_packmol/cai/SHA256SUMS.txt	byte-identical copy
+external_baselines/packmol/cau_noi_pk_e3.py	<ROOT>/ch3_tebao_dep/ngoai_packmol/cau_noi_pk_e3.py	byte-identical copy; comments removed
+external_baselines/packmol/hang_pk_n1.sh	<ROOT>/ch3_tebao_dep/ngoai_packmol/n1/hang_pk_n1.sh	byte-identical copy; comments removed
+external_baselines/packmol/pk_dau_vao.py	<ROOT>/ch3_tebao_dep/ngoai_packmol/pk_dau_vao.py	byte-identical copy; comments removed
+external_baselines/packmol/pk_doc.py	<ROOT>/ch3_tebao_dep/ngoai_packmol/pk_doc.py	byte-identical copy
+figures/HINH_CAD.md	<PAPER>/hinh/HINH_CAD.md	byte-identical copy
+figures/render/cfg_r1.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/cfg_r1.py	byte-identical copy
+figures/render/ghep_v2.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/ghep_v2.py	byte-identical copy; comments removed
+figures/render/hd_n2_dv.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/hd_n2_dv.py	byte-identical copy
+figures/render/hd_tu_bo_dung.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/hd_tu_bo_dung.py	byte-identical copy
+figures/render/hd_tu_n2.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/hd_tu_n2.py	byte-identical copy
+figures/render/kiem_kin.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/kiem_kin.py	byte-identical copy; comments removed
+figures/render/tong_kin.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/tong_kin.py	byte-identical copy
+figures/render/ve_hd_blender.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/ve_hd_blender.py	byte-identical copy; comments removed
+figures/render/ve_r1.sh	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/ve_r1.sh	byte-identical copy; comments removed
+figures/render/ve_r2.sh	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/ve_r2.sh	byte-identical copy; comments removed
+figures/render/ve_r3.sh	<ROOT>/ch3_tebao_dep/bo_dung_chung/hinh_cad/scripts/ve_r3.sh	byte-identical copy; comments removed
+results/checker_mutation_tests/cay_loi_v3_cong.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cay_loi_v3_cong.json	byte-identical copy
+results/checker_mutation_tests/cong_v3_cuoi.json	<ROOT>/ch3_tebao_dep/bo_kiem_v3/cong_v3_cuoi.json	byte-identical copy
+results/commands/paper_runs.tsv	<ROOT>/ch3_tebao_dep/bo_dung_chung/tang_dg/log/<run_id>.cmd (513 files; paths rewritten to repository paths)	derived
+results/hinh/fig4_paired_seeds.py	<PAPER>/hinh/ve_cap_seed_k08.py	byte-identical copy
+results/so_lieu/NGUON.md	<PAPER>/so_lieu/NGUON.md	byte-identical copy
+results/so_lieu/nguon/BANG_GIO_DOC_QUYEN_v2.md	<PAPER>/so_lieu/nguon/BANG_GIO_DOC_QUYEN_v2.md	byte-identical copy
+results/so_lieu/nguon/DoPhu_Luat_BoDung_20261123.md	<PAPER>/so_lieu/nguon/DoPhu_Luat_BoDung_20261123.md	byte-identical copy
+results/so_lieu/nguon/N14D5.json	<PAPER>/so_lieu/nguon/N14D5.json	byte-identical copy
+results/so_lieu/nguon/RS_U5R_du10seed_20261121.md	<PAPER>/so_lieu/nguon/RS_U5R_du10seed_20261121.md	byte-identical copy
+results/so_lieu/nguon/RaSoat_DoPhu_Luat_20261123.md	<PAPER>/so_lieu/nguon/RaSoat_DoPhu_Luat_20261123.md	byte-identical copy
+results/so_lieu/nguon/bang_k08_v2.csv	<PAPER>/so_lieu/nguon/bang_k08_v2.csv	byte-identical copy
+results/so_lieu/nguon/bang_n1.md	<PAPER>/so_lieu/nguon/bang_n1.md	byte-identical copy
+results/so_lieu/nguon/bang_n1_sb.md	<PAPER>/so_lieu/nguon/bang_n1_sb.md	byte-identical copy
+results/so_lieu/nguon/bang_tv_v2.csv	<PAPER>/so_lieu/nguon/bang_tv_v2.csv	byte-identical copy
+results/so_lieu/nguon/chon_dev.json	<PAPER>/so_lieu/nguon/chon_dev.json	byte-identical copy
+results/so_lieu/nguon/chon_dev2.json	<PAPER>/so_lieu/nguon/chon_dev2.json	byte-identical copy
+results/so_lieu/nguon/chon_dev2.md	<PAPER>/so_lieu/nguon/chon_dev2.md	byte-identical copy
+results/so_lieu/nguon/ket_qua_cx.json	<PAPER>/so_lieu/nguon/ket_qua_cx.json	byte-identical copy
+results/so_lieu/nguon/ket_qua_cx.md	<PAPER>/so_lieu/nguon/ket_qua_cx.md	byte-identical copy
+results/so_lieu/nguon/ket_qua_cx2.json	<PAPER>/so_lieu/nguon/ket_qua_cx2.json	byte-identical copy
+results/so_lieu/nguon/ket_qua_cx2.md	<PAPER>/so_lieu/nguon/ket_qua_cx2.md	byte-identical copy
+results/so_lieu/nguon/ket_qua_rong.json	<PAPER>/so_lieu/nguon/ket_qua_rong.json	byte-identical copy
+results/so_lieu/nguon/ket_qua_rong.md	<PAPER>/so_lieu/nguon/ket_qua_rong.md	byte-identical copy
+results/so_lieu/nguon/ket_qua_tv.json	<PAPER>/so_lieu/nguon/ket_qua_tv.json	byte-identical copy
+results/so_lieu/nguon/ket_qua_tv.md	<PAPER>/so_lieu/nguon/ket_qua_tv.md	byte-identical copy
+results/so_lieu/nguon/ket_qua_u5c.json	<PAPER>/so_lieu/nguon/ket_qua_u5c.json	byte-identical copy
+results/so_lieu/nguon/ket_qua_u5c.md	<PAPER>/so_lieu/nguon/ket_qua_u5c.md	byte-identical copy
+results/so_lieu/nguon/tay.json	<PAPER>/so_lieu/nguon/tay.json	byte-identical copy
+results/so_lieu/so_lieu.tex	<PAPER>/so_lieu/so_lieu.tex	byte-identical copy; comments removed
+results/so_lieu/tao_so_lieu.py	<PAPER>/so_lieu/tao_so_lieu.py	byte-identical copy; comments removed
+rules/DONG_BANG_LuatSuThat_v1_2.txt	<ROOT>/ch3_tebao_dep/dac_ta/v12/luat/DONG_BANG_LuatSuThat_v1_2.txt	byte-identical copy
+rules/luat_su_that_dong_vat_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/luat/luat_su_that_dong_vat_v1_2_20261111.json	byte-identical copy
+rules/luat_su_that_thuc_vat_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/luat/luat_su_that_thuc_vat_v1_2_20261111.json	byte-identical copy
+rules/tham_so_quy_uoc_v1_2_20261111.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/luat/tham_so_quy_uoc_v1_2_20261111.json	byte-identical copy
+specs/n14/chon.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/chon.json	byte-identical copy
+specs/n14/chon_te_bao.csv	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/chon_te_bao.csv	byte-identical copy
+specs/n14/chuan_bi_n14.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/chuan_bi_n14.py	byte-identical copy; comments removed
+specs/n14/d5_density/MD5_N14D5.txt	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/MD5_N14D5.txt	byte-identical copy
+specs/n14/d5_density/he_so_steiner_khuon.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/he_so_steiner_khuon.json	byte-identical copy
+specs/n14/d5_density/kha_thi.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/kha_thi.json	byte-identical copy
+specs/n14/d5_density/kha_thi_n14d5.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/kha_thi_n14d5.py	byte-identical copy; comments removed
+specs/n14/d5_density/so_luong_n14d5.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/so_luong_n14d5.json	byte-identical copy
+specs/n14/d5_density/tao_viec_n14d5.py	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14d5/tao_viec_n14d5.py	byte-identical copy; comments removed
+specs/n14/dac_ta/dong_vat_n14_593409.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/dac_ta/dong_vat_n14_593409.json	byte-identical copy
+specs/n14/dac_ta/dong_vat_n14_707681.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/dac_ta/dong_vat_n14_707681.json	byte-identical copy
+specs/n14/dac_ta/dong_vat_n14_798836.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/dac_ta/dong_vat_n14_798836.json	byte-identical copy
+specs/n14/dac_ta/dong_vat_n14_989830.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/dac_ta/dong_vat_n14_989830.json	byte-identical copy
+specs/n14/dac_ta/dong_vat_n14_997092.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/dac_ta/dong_vat_n14_997092.json	byte-identical copy
+specs/n14/te_bao/593409/meta.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/te_bao/593409/meta.json	byte-identical copy
+specs/n14/te_bao/707681/meta.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/te_bao/707681/meta.json	byte-identical copy
+specs/n14/te_bao/798836/meta.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/te_bao/798836/meta.json	byte-identical copy
+specs/n14/te_bao/989830/meta.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/te_bao/989830/meta.json	byte-identical copy
+specs/n14/te_bao/997092/meta.json	<ROOT>/ch3_tebao_dep/bo_dung_chung/n14/te_bao/997092/meta.json	byte-identical copy
+specs/v12/TRUY_VET_v12.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/TRUY_VET_v12.json	byte-identical copy
+specs/v12/dong_vat_v12.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/dong_vat_v12.json	byte-identical copy
+specs/v12/dong_vat_v12_khe0.8.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/dong_vat_v12_khe0.8.json	byte-identical copy
+specs/v12/thuc_vat_v12.json	<ROOT>/ch3_tebao_dep/dac_ta/v12/thuc_vat_v12.json	byte-identical copy

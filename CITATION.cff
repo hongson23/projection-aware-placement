@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "PA-PLACE: code accompanying 'Projection-aware placement for dense 3D packing of nested parts under containment and clearance constraints'"
+type: software
+license: MIT
+authors:
+  - family-names: Hoang
+    given-names: Hong Son
+    affiliation: "Faculty of Information Technology, Hanoi National University of Education, Hanoi, Vietnam"
+  - family-names: Dang
+    given-names: Thanh Trung
+    affiliation: "Faculty of Information Technology, Hanoi National University of Education, Hanoi, Vietnam"
+  - family-names: Nguyen
+    given-names: Duc Hiep
+    affiliation: "School of Information and Communication Technology, Hanoi University of Science and Technology, Hanoi, Vietnam"
+keywords:
+  - 3D packing
+  - 3D layout
+  - implicit modeling
+  - signed distance field
+  - geometric constraint
+  - watertight mesh
+preferred-citation:
+  type: article
+  title: "Projection-aware placement for dense 3D packing of nested parts under containment and clearance constraints"
+  authors:
+    - family-names: Hoang
+      given-names: Hong Son
+    - family-names: Dang
+      given-names: Thanh Trung
+    - family-names: Nguyen
+      given-names: Duc Hiep
+  year: 2026
+  notes: "Submitted to Computer-Aided Design; DOI not yet assigned."

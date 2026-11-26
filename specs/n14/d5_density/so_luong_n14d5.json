@@ -1,0 +1,76 @@
+{
+ "nguon": "kha_thi.json md5 4ba1089ef5ad3b00efbf138925efea6c",
+ "luat": "C: cùng phi_eff TỔNG (kể Golgi + trung thể) như trung vị ô tổng hợp (D5: 0.4519; k08: 0.5092); ti:ly = 3:1; V_kd D5 = trung vị 9 việc N14 cũ (3 nhánh × 3 seed); V_kd k08 ước (hiệu chỉnh 0.910) | BẢN 2 (rà soát B2): V_kd k08 TÍNH ĐÚNG bằng vkd_dung_n14d5.py (công thức phi_cam của bộ dựng, có nón khuyết; khớp V_kd bộ dựng 0,00 µm³ ở S_roi 0,3), trung vị 6 việc cũ; vkd_dung.json md5 714873a0d9811f2e5f91379a04cfff4a",
+ "so_luong": {
+  "d5": {
+   "798836": {
+    "ti_the": 56,
+    "lysosome": 19,
+    "phi_eff_uoc": 0.4504,
+    "V_kd_um3": 289.7
+   },
+   "989830": {
+    "ti_the": 79,
+    "lysosome": 26,
+    "phi_eff_uoc": 0.4539,
+    "V_kd_um3": 360.0
+   },
+   "593409": {
+    "ti_the": 97,
+    "lysosome": 32,
+    "phi_eff_uoc": 0.4497,
+    "V_kd_um3": 465.7
+   },
+   "707681": {
+    "ti_the": 94,
+    "lysosome": 31,
+    "phi_eff_uoc": 0.4501,
+    "V_kd_um3": 442.0
+   },
+   "997092": {
+    "ti_the": 249,
+    "lysosome": 83,
+    "phi_eff_uoc": 0.4527,
+    "V_kd_um3": 1116.6
+   }
+  },
+  "k8": {
+   "798836": {
+    "ti_the": 34,
+    "lysosome": 11,
+    "phi_eff_uoc": 0.5046,
+    "V_kd_um3": 234.2,
+    "phi_cn": 0.2208
+   },
+   "989830": {
+    "ti_the": 55,
+    "lysosome": 18,
+    "phi_eff_uoc": 0.5089,
+    "V_kd_um3": 292.9,
+    "phi_cn": 0.1655
+   },
+   "593409": {
+    "ti_the": 82,
+    "lysosome": 27,
+    "phi_eff_uoc": 0.51,
+    "V_kd_um3": 410.9,
+    "phi_cn": 0.118
+   },
+   "707681": {
+    "ti_the": 69,
+    "lysosome": 23,
+    "phi_eff_uoc": 0.5093,
+    "V_kd_um3": 354.3,
+    "phi_cn": 0.1354
+   },
+   "997092": {
+    "ti_the": 239,
+    "lysosome": 80,
+    "phi_eff_uoc": 0.5099,
+    "V_kd_um3": 1018.2,
+    "phi_cn": 0.0546
+   }
+  }
+ },
+ "ghi_chu_kha_thi": "kha_thi.json giữ C_k08 BẢN 1 (V_kd ước, đã bỏ); số k08 đúng ở đây (bản 2, vkd_dung.json)"
+}

@@ -1,0 +1,2485 @@
+{
+ "phien_ban": "n14v3c-dong_vat-798836-20261120",
+ "muc_dich": "Đặc tả sinh từ bộ luật sự thật v1.2 ĐÓNG BĂNG (luật + tham số quy ước); khung cấu trúc từ chaylai_mh1_nn1 (v3 + M.h).",
+ "tep_luat": {
+  "tep": {
+   "luat_su_that_dong_vat_v1_2_20261111.json": "fdc3d2de08235c969ec91cc7bd7bafccb5f47f112d8d9348b80856d366223f1c",
+   "luat_su_that_thuc_vat_v1_2_20261111.json": "aea7e271b1d489e3d1719bc5de6d06f9146c65ea589e701b64de7cf74823d199",
+   "tham_so_quy_uoc_v1_2_20261111.json": "96e681dba80787609ad9f9de6153d6ce393ff255ff4f06ca38deef5214d6e0e4"
+  },
+  "ghi_chu": "SHA-256 khớp DONG_BANG_LuatSuThat_v1_2.txt"
+ },
+ "vo": {
+  "ten": "mang",
+  "hinh": "luoi",
+  "tep_sdf": "/home/thainq97/Vision_team_data_189/sonhh20/ch3_tebao_dep/bo_dung_chung/n14/te_bao/798836/sdf.npz",
+  "md5_sdf": "6e74f25158a7698316e8045c5211cdc4",
+  "nua_hop_xyz": [
+   16.890625,
+   10.0625,
+   8.265625
+  ],
+  "nua_bao_xyz": [
+   14.361310702674865,
+   7.489735875257492,
+   5.7412192120971675
+  ],
+  "h": 0.1796875,
+  "nguon": "1.2a/1.2b; hình màng THẬT Allen hiPSC CellId 798836"
+ },
+ "khuon": [
+  {
+   "ten": "cau",
+   "hinh": "cau",
+   "ban_kinh": "@khuon_dai_don_vi"
+  },
+  {
+   "ten": "nhan",
+   "hinh": "elip",
+   "truc": "@khuon_nhan_truc"
+  },
+  {
+   "ten": "golgi",
+   "hinh": "elip",
+   "truc": "@khuon_golgi_truc"
+  },
+  {
+   "ten": "ong0",
+   "hinh": "ong",
+   "dai": "@khuon_dai_don_vi",
+   "rc": "@khuon_ong#0"
+  },
+  {
+   "ten": "ong1",
+   "hinh": "ong",
+   "dai": "@khuon_dai_don_vi",
+   "rc": "@khuon_ong#1"
+  },
+  {
+   "ten": "ong2",
+   "hinh": "ong",
+   "dai": "@khuon_dai_don_vi",
+   "rc": "@khuon_ong#2"
+  },
+  {
+   "ten": "ong3",
+   "hinh": "ong",
+   "dai": "@khuon_dai_don_vi",
+   "rc": "@khuon_ong#3"
+  },
+  {
+   "ten": "ong4",
+   "hinh": "ong",
+   "dai": "@khuon_dai_don_vi",
+   "rc": "@khuon_ong#4"
+  },
+  {
+   "ten": "nhan_that_798836",
+   "hinh": "luoi_tep",
+   "tep": "/home/thainq97/Vision_team_data_189/sonhh20/ch3_tebao_dep/bo_dung_chung/n14/te_bao/798836/khuon_nhan.npz",
+   "nguon": "nhân THẬT Allen CellId 798836 (khung đơn vị: gốc = điểm sâu nhất, cỡ S = 6.7724 µm)"
+  }
+ ],
+ "thu_vien": {
+  "T": {
+   "co_san": {
+    "nhan": [
+     "nhan_that_798836"
+    ],
+    "golgi": [
+     "golgi"
+    ],
+    "lysosome": [
+     "@khuon_lysosome"
+    ],
+    "ti_the": [
+     "ong0",
+     "ong1",
+     "ong2",
+     "ong3",
+     "ong4"
+    ]
+   }
+  }
+ },
+ "bo_phan": [
+  {
+   "ten": "nhan",
+   "vai": "lon",
+   "dat_ten": "don",
+   "so_luong": 1,
+   "khuon": "thu_vien",
+   "dai": "@dai_nhan",
+   "nguon": "1.3/1.5",
+   "co_dinh": true,
+   "co_dinh_tep_sdf": "/home/thainq97/Vision_team_data_189/sonhh20/ch3_tebao_dep/bo_dung_chung/n14/te_bao/798836/sdf.npz",
+   "co_dinh_t": [
+    -3.32421875,
+    0.0,
+    1.078125
+   ],
+   "co_dinh_r": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "ten": "trung_the",
+   "vai": "lon",
+   "dat_ten": "don",
+   "so_luong": 1,
+   "khuon": "@khuon_trung_the",
+   "dai": "@dai_trung_the"
+  },
+  {
+   "ten": "golgi",
+   "vai": "lon",
+   "dat_ten": "don",
+   "so_luong": 1,
+   "khuon": "thu_vien",
+   "dai": "@dai_golgi"
+  },
+  {
+   "ten": "nhan_con",
+   "vai": "lon",
+   "dat_ten": "danh_so",
+   "so_luong": {
+    "ngau_nhien": "@so_nhan_con"
+   },
+   "khuon": "@khuon_nhan_con",
+   "dai": "@dai_nhan_con",
+   "nguon": "4.2a"
+  },
+  {
+   "ten": "ti_the",
+   "vai": "nho",
+   "dat_ten": "danh_so",
+   "so_luong": {
+    "ngau_nhien": "@so_ti_the"
+   },
+   "khuon": "thu_vien",
+   "dai": "@dai_ti_the",
+   "nguon": "4.3b/4.3c"
+  },
+  {
+   "ten": "lysosome",
+   "vai": "nho",
+   "dat_ten": "danh_so",
+   "so_luong": {
+    "ngau_nhien": "@so_lysosome"
+   },
+   "khuon": "thu_vien",
+   "dai": "@dai_lysosome",
+   "nguon": "4.6a/4.6c"
+  },
+  {
+   "ten": "luoi_noi_chat",
+   "vai": "phu_thuoc",
+   "nguon": "4.4a/4.4b"
+  }
+ ],
+ "so_luong_thu_tu": [
+  "ti_the",
+  "lysosome",
+  "nhan_con"
+ ],
+ "vanh": [
+  {
+   "ten": "luoi_noi_chat",
+   "quanh": "nhan",
+   "day": "@D_er",
+   "trong": "@er_trong",
+   "khuyet": {
+    "huong_toi": "@khuyet_huong",
+    "cos": "@khuyet_cos"
+   },
+   "tam_lui": "@er_tam_lui",
+   "co": "@er_co",
+   "rb": "@er_rb",
+   "nguon": "4.4a/4.4b (khuyết: tự đặt)"
+  }
+ ],
+ "quan_he": {
+  "chua": [
+   {
+    "a": "nhan",
+    "b": "mang",
+    "t": "@T_nhan_mang",
+    "nguon": "1.4a/1.4b"
+   },
+   {
+    "a": "trung_the",
+    "b": "mang",
+    "t": "@T_mang",
+    "nguon": "M.a/M.b"
+   },
+   {
+    "a": "golgi",
+    "b": "mang",
+    "t": "@T_mang",
+    "nguon": "M.a/M.b"
+   },
+   {
+    "a": "nhan_con",
+    "b": "nhan",
+    "t": "@T_nhancon",
+    "nguon": "4.2a/4.2b"
+   },
+   {
+    "a": "ti_the",
+    "b": "mang",
+    "t": "@T_mang",
+    "nguon": "M.a/M.b"
+   },
+   {
+    "a": "lysosome",
+    "b": "mang",
+    "t": "@T_mang",
+    "nguon": "M.a/M.b"
+   },
+   {
+    "a": "luoi_noi_chat",
+    "b": "mang",
+    "t": "@T_mang",
+    "nguon": "M.a/M.b"
+   }
+  ],
+  "day_nguoc": [
+   {
+    "a": "nhan",
+    "b": "mang",
+    "vanh": "luoi_noi_chat",
+    "khe": [
+     "@D_er",
+     "@T_mang"
+    ],
+    "nguon": "4.4b + M.b"
+   }
+  ],
+  "roi_vung_cam": [
+   {
+    "vung": "luoi_noi_chat",
+    "s": "@S_roi",
+    "a": [
+     "trung_the",
+     "golgi",
+     "ti_the",
+     "lysosome"
+    ],
+    "nguon": "M.c/4.3d/4.5c/4.8c"
+   }
+  ],
+  "roi_lon": {
+   "s": "@S_roi",
+   "loai": [
+    "nhan",
+    "trung_the",
+    "golgi"
+   ],
+   "khe_cung_loai": {
+    "nhan_con": "@kcl_nhan_con"
+   },
+   "nguon": "M.c",
+   "ghi_chu": "khe_cung_loai {loại: khe}: thêm phạt rời giữa các bộ phận lớn CÙNG loại (vd. nhân con, luật M.h đề xuất); rỗng = như botri2"
+  },
+  "roi_nho_lon": {
+   "s": "@S_roi",
+   "doi_tac": [
+    "trung_the",
+    "golgi"
+   ],
+   "doi_tac_thu_loai": [
+    "golgi",
+    "trung_the"
+   ],
+   "ghi_chu": "thứ tự doi_tac_thu_loai giữ như botri2 (Golgi trước) để cộng phạt cùng thứ tự"
+  },
+  "roi_nho_nho": {
+   "s": "@S_roi",
+   "mien_cung_loai": "@mien_cung_loai",
+   "khe_cung_loai": {
+    "lysosome": "@kcl_lysosome",
+    "ti_the": "@kcl_ti_the"
+   },
+   "ghi_chu": "mien_cung_loai: bỏ hẳn cặp cùng loại (botri2); khe_cung_loai {loại: khe}: cặp cùng loại dùng khe riêng (M.h: 0)"
+  },
+  "roi_chieu": {
+   "s": "@S_roi",
+   "loai": [
+    "nhan",
+    "trung_the",
+    "golgi",
+    "ti_the",
+    "lysosome",
+    "luoi_noi_chat"
+   ],
+   "mien_cap": "@mien_cap",
+   "mien_cung_loai": "@mien_cung_loai",
+   "khe_cung_loai": {
+    "lysosome": "@kcl_lysosome",
+    "nhan_con": "@kcl_nhan_con",
+    "ti_the": "@kcl_ti_the"
+   },
+   "nguon_cung_loai": "M.h",
+   "nguon": "M.c (+4.3d/4.5c/4.8c)",
+   "ghi_chu": "khe_cung_loai {loại: khe}: hàng chiếu cho cặp cùng loại (khe + bù β), kể cả loại ngoài tập rời chung (nhân con)"
+  },
+  "lech_tam": [],
+  "gan": [
+   {
+    "a": "trung_the",
+    "b": "nhan",
+    "toi_da": "@gan_tt_nhan",
+    "bao_cao": "trung_the_den_mat_nhan",
+    "nguon": "4.8b"
+   },
+   {
+    "a": "trung_the",
+    "b": "golgi",
+    "toi_da": "@gan_tt_golgi",
+    "bao_cao": "trung_the_den_mat_golgi",
+    "nguon": "4.5b"
+   }
+  ],
+  "gan_nho": [
+   {
+    "a": "lysosome",
+    "b": "nhan",
+    "toi_da": "@gan_lyso_nhan",
+    "trong_so": "@gan_lyso_trong_so",
+    "bao_cao": "lyso_den_mat_nhan_tb",
+    "nguon": "4.6b"
+   }
+  ],
+  "lien_khoi_mien": "@lien_khoi_mien"
+ },
+ "chiem": {
+  "khe_vo": "@T_mang",
+  "vung_cam": "luoi_noi_chat",
+  "khe_cam": "@S_roi",
+  "loai": [
+   "ti_the",
+   "lysosome",
+   "golgi",
+   "trung_the"
+  ]
+ },
+ "ngau_nhien": {
+  "goc_lam_lai": "nhan"
+ },
+ "khoi_tao": {
+  "gk": [
+   {
+    "khuon": "nhan"
+   },
+   {
+    "khuon": "golgi"
+   },
+   {
+    "z": "nhan"
+   },
+   {
+    "z": "trung_the"
+   },
+   {
+    "z": "golgi"
+   },
+   {
+    "z": "nhan_con"
+   },
+   {
+    "khuon": "ti_the"
+   },
+   {
+    "khuon": "lysosome"
+   },
+   {
+    "z_gop": [
+     "ti_the",
+     "lysosome"
+    ]
+   }
+  ],
+  "luat": [
+   {
+    "gan": "cN",
+    "bt": [
+     "vec",
+     "@n14_tam_nhan"
+    ]
+   },
+   {
+    "dat": "nhan",
+    "t": "$cN",
+    "r": [
+     "vec",
+     "@tay_quay_don_vi"
+    ]
+   },
+   {
+    "dat": "trung_the",
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL",
+      "$s0.trung_the"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL",
+      "$s0.trung_the"
+     ],
+     [
+      "+",
+      "@gan_tt_nhan",
+      "$s0.trung_the"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "golgi",
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL",
+      [
+       "*",
+       "@kt_golgi_nua_day",
+       "$s0.golgi"
+      ]
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL",
+      [
+       "*",
+       "@kt_golgi_nua_day",
+       "$s0.golgi"
+      ]
+     ],
+     "@kt_lai_golgi#1"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "nhan_con",
+    "t": [
+     "vung_mau",
+     0.0,
+     "nhan",
+     -1000000000.0,
+     [
+      "-",
+      0.0,
+      "@T_nhancon",
+      "$DEL",
+      "@dai_nhan_con#0"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "ti_the",
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ],
+     1000000000.0
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "lysosome",
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ],
+     1000000000.0
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   }
+  ],
+  "deu": [
+   {
+    "gan": "cN",
+    "bt": [
+     "vec",
+     "@n14_tam_nhan"
+    ]
+   },
+   {
+    "gan": "tT",
+    "bt": [
+     "trong_deu",
+     "@kt_deu_sau_tt"
+    ]
+   },
+   {
+    "gan": "tG",
+    "bt": [
+     "trong_deu",
+     "@kt_deu_sau_golgi"
+    ]
+   },
+   {
+    "gan": "rG",
+    "bt": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "nhan",
+    "t": "$cN",
+    "r": [
+     "vec",
+     "@tay_quay_don_vi"
+    ]
+   },
+   {
+    "dat": "trung_the",
+    "t": "$tT",
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "golgi",
+    "t": "$tG",
+    "r": "$rG"
+   },
+   {
+    "dat": "nhan_con",
+    "t": [
+     "vung_mau",
+     0.0,
+     "nhan",
+     -1000000000.0,
+     [
+      "-",
+      0.0,
+      "@T_nhancon",
+      "$DEL",
+      "@dai_nhan_con#0"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "ti_the",
+    "t": [
+     "trong_deu",
+     "@kt_sau_ti_the"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   {
+    "dat": "lysosome",
+    "t": [
+     "trong_deu",
+     "@kt_sau_lyso"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   }
+  ]
+ },
+ "dat_lai": {
+  "luat": {
+   "nhan": {
+    "t": [
+     "*",
+     [
+      "huong"
+     ],
+     [
+      "deu",
+      "@lech_tam#0",
+      "@lech_tam#1"
+     ],
+     "@R_vo"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "trung_the": {
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL",
+      "$s.trung_the"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL",
+      "$s.trung_the"
+     ],
+     [
+      "+",
+      "@gan_tt_nhan",
+      "$s.trung_the"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "golgi": {
+    "t": [
+     "vung_mau",
+     [
+      "+",
+      "@T_mang",
+      "$DEL",
+      [
+       "*",
+       "@kt_golgi_nua_day",
+       "$s.golgi"
+      ]
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL",
+      [
+       "*",
+       "@kt_golgi_nua_day",
+       "$s.golgi"
+      ]
+     ],
+     "@kt_lai_golgi#1"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "nhan_con": {
+    "t": [
+     "vung_mau",
+     0.0,
+     "nhan",
+     -1000000000.0,
+     [
+      "-",
+      0.0,
+      "@T_nhancon",
+      "$DEL",
+      "@dai_nhan_con#0"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "ti_the": {
+    "t": [
+     "vung_mau_cam",
+     [
+      "+",
+      "@T_mang",
+      "$DEL"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ],
+     1000000000.0,
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "lysosome": {
+    "t": [
+     "vung_mau_cam",
+     [
+      "+",
+      "@T_mang",
+      "$DEL"
+     ],
+     "nhan",
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ],
+     1000000000.0,
+     [
+      "+",
+      "@S_roi",
+      "$DEL"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   }
+  },
+  "deu": {
+   "nhan": {
+    "t": [
+     "trong_deu",
+     [
+      "+",
+      "$s.nhan",
+      "@D_er",
+      "@T_mang",
+      "@kt_deu_le_nhan"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "trung_the": {
+    "t": [
+     "trong_deu",
+     "@kt_deu_sau_tt"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "golgi": {
+    "t": [
+     "trong_deu",
+     "@kt_deu_sau_golgi"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "nhan_con": {
+    "t": [
+     "vung_mau",
+     0.0,
+     "nhan",
+     -1000000000.0,
+     [
+      "-",
+      0.0,
+      "@T_nhancon",
+      "$DEL",
+      "@dai_nhan_con#0"
+     ]
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "ti_the": {
+    "t": [
+     "trong_deu",
+     "@kt_sau_ti_the"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   },
+   "lysosome": {
+    "t": [
+     "trong_deu",
+     "@kt_sau_lyso"
+    ],
+    "r": [
+     "chuan",
+     6
+    ]
+   }
+  }
+ },
+ "tham_so_khong_thuoc_luat": {
+  "R_vo": {
+   "gia_tri": 10.0,
+   "id_v12": "dv.R_vo",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.2a",
+    "dv:1.2a",
+    "dv:1.5"
+   ],
+   "y_nghia": "bán kính tế bào (µm)",
+   "gia_tri_cu": 10.0
+  },
+  "nhieu_quy_mo": {
+   "gia_tri": 6.0,
+   "id_v12": "dv.nhieu_quy_mo",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "y_nghia": "bước sóng nhiễu màng (µm)",
+   "gia_tri_cu": 6.0
+  },
+  "nhieu_bien_do": {
+   "gia_tri": 0.25,
+   "id_v12": "dv.nhieu_bien_do",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "y_nghia": "biên độ nhiễu màng (µm)",
+   "gia_tri_cu": 0.25
+  },
+  "nhieu_hat": {
+   "gia_tri": 1,
+   "id_v12": "dv.nhieu_hat",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [],
+   "y_nghia": "hạt nhiễu màng CỐ ĐỊNH (mọi seed cùng một màng)",
+   "gia_tri_cu": 1
+  },
+  "nhieu_so_song": {
+   "gia_tri": 6,
+   "id_v12": "dv.nhieu_so_song",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [],
+   "y_nghia": "số sóng sin cộng vào nhiễu",
+   "gia_tri_cu": 6
+  },
+  "nhieu_he_so_k": {
+   "gia_tri": [
+    0.7,
+    1.3
+   ],
+   "id_v12": "dv.nhieu_he_so_k",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [],
+   "y_nghia": "dải nhân tần số mỗi sóng",
+   "gia_tri_cu": [
+    0.7,
+    1.3
+   ]
+  },
+  "nhieu_chia": {
+   "gia_tri": 3,
+   "id_v12": "dv.nhieu_chia",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "y_nghia": "chia tổng sóng (chuẩn hoá biên độ)",
+   "gia_tri_cu": 3
+  },
+  "T_nhan_mang": {
+   "gia_tri": 1.0,
+   "id_v12": "dv.T_nhan_mang",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [
+    "dv:1.4a"
+   ],
+   "y_nghia": "khe nhân–màng (µm)",
+   "gia_tri_cu": 1.0
+  },
+  "T_mang": {
+   "gia_tri": 0.5,
+   "id_v12": "dv.T_mang",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [
+    "dv:M.a"
+   ],
+   "y_nghia": "khe bào quan–màng (µm)",
+   "gia_tri_cu": 0.5
+  },
+  "T_nhancon": {
+   "gia_tri": 0.3,
+   "id_v12": "dv.T_nhancon",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [
+    "dv:4.2a"
+   ],
+   "y_nghia": "khe nhân con–màng nhân (µm)",
+   "gia_tri_cu": 0.3
+  },
+  "S_roi": {
+   "gia_tri": 0.3,
+   "id_v12": "dv.S_roi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [
+    "dv:M.c₀",
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "y_nghia": "khe rời giữa bào quan khác loại (µm)",
+   "gia_tri_cu": 0.3,
+   "id_v12_trung": "chung.khe_roi.theo_cap.dv.mac_dinh"
+  },
+  "D_er": {
+   "gia_tri": 2.0,
+   "id_v12": "dv.D_er",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.4a",
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "y_nghia": "độ dày vành lưới nội chất quanh nhân (µm)",
+   "gia_tri_cu": 2.0
+  },
+  "er_trong": {
+   "gia_tri": 0.0,
+   "id_v12": "dv.er_trong",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.4a"
+   ],
+   "y_nghia": "mép trong vành lưới nội chất = mặt nhân",
+   "gia_tri_cu": 0.0
+  },
+  "khuyet_cos": {
+   "gia_tri": 0.55,
+   "id_v12": "dv.khuyet_cos",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "y_nghia": "nửa góc khuyết nón của vành (cos) hướng trung thể",
+   "gia_tri_cu": 0.55
+  },
+  "khuyet_huong": {
+   "gia_tri": "trung_the",
+   "id_v12": "dv.khuyet_huong",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "y_nghia": "khuyết nón hướng về bộ phận này",
+   "gia_tri_cu": "trung_the"
+  },
+  "dai_nhan": {
+   "gia_tri": [
+    6.772411092406514,
+    6.772411092406514
+   ],
+   "nguon": "N14: cỡ nhân thật (cố định)"
+  },
+  "dai_trung_the": {
+   "gia_tri": [
+    0.42,
+    0.48
+   ],
+   "id_v12": "dv.dai_trung_the",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.8a",
+    "dv:4.8a"
+   ],
+   "y_nghia": "bán kính cầu trung thể (µm)",
+   "gia_tri_cu": [
+    0.42,
+    0.48
+   ]
+  },
+  "dai_golgi": {
+   "gia_tri": [
+    1.6,
+    2.2
+   ],
+   "id_v12": "dv.dai_golgi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.5a",
+    "dv:4.5a",
+    "dv:4.5b"
+   ],
+   "y_nghia": "cỡ Golgi (nửa trục dài, µm)",
+   "gia_tri_cu": [
+    1.6,
+    2.2
+   ]
+  },
+  "dai_nhan_con": {
+   "gia_tri": [
+    0.4,
+    0.9
+   ],
+   "id_v12": "dv.dai_nhan_con",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.2a",
+    "dv:4.2a"
+   ],
+   "y_nghia": "bán kính nhân con (µm)",
+   "gia_tri_cu": [
+    0.4,
+    0.9
+   ]
+  },
+  "dai_ti_the": {
+   "gia_tri": [
+    0.5,
+    1.0
+   ],
+   "id_v12": "dv.dai_ti_the",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.3b",
+    "dv:4.3b"
+   ],
+   "y_nghia": "nửa dài ti thể (µm)",
+   "gia_tri_cu": [
+    0.5,
+    1.0
+   ]
+  },
+  "dai_lysosome": {
+   "gia_tri": [
+    0.2,
+    0.4
+   ],
+   "id_v12": "dv.dai_lysosome",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.6a",
+    "dv:4.6a"
+   ],
+   "y_nghia": "bán kính lysosome (µm)",
+   "gia_tri_cu": [
+    0.2,
+    0.4
+   ]
+  },
+  "khuon_nhan_truc": {
+   "gia_tri": [
+    1.0,
+    0.943,
+    0.896
+   ],
+   "id_v12": "dv.khuon_nhan_truc",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.5",
+    "dv:1.5"
+   ],
+   "y_nghia": "tỉ lệ ba trục elip nhân",
+   "gia_tri_cu": [
+    1.0,
+    0.943,
+    0.896
+   ]
+  },
+  "khuon_golgi_truc": {
+   "gia_tri": [
+    0.395,
+    1.0,
+    0.842
+   ],
+   "id_v12": "dv.khuon_golgi_truc",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.5a",
+    "dv:4.5a"
+   ],
+   "y_nghia": "tỉ lệ ba trục elip Golgi (dẹt)",
+   "gia_tri_cu": [
+    0.395,
+    1.0,
+    0.842
+   ]
+  },
+  "khuon_ong": {
+   "gia_tri": [
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.35,
+     0.0
+    ],
+    [
+     0.45,
+     0.0
+    ],
+    [
+     0.3,
+     0.25
+    ],
+    [
+     0.4,
+     0.2
+    ]
+   ],
+   "id_v12": "dv.khuon_ong",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.3b",
+    "dv:4.3b"
+   ],
+   "y_nghia": "năm khuôn ống ti thể (bán kính, độ cong)",
+   "gia_tri_cu": [
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.35,
+     0.0
+    ],
+    [
+     0.45,
+     0.0
+    ],
+    [
+     0.3,
+     0.25
+    ],
+    [
+     0.4,
+     0.2
+    ]
+   ]
+  },
+  "khuon_lysosome": {
+   "gia_tri": "cau",
+   "id_v12": "dv.khuon_lysosome",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.6a"
+   ],
+   "y_nghia": "lysosome dùng khuôn cầu",
+   "gia_tri_cu": "cau"
+  },
+  "khuon_trung_the": {
+   "gia_tri": "cau",
+   "id_v12": "dv.khuon_trung_the",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.8a",
+    "dv:4.8a"
+   ],
+   "y_nghia": "trung thể dùng khuôn cầu",
+   "gia_tri_cu": "cau"
+  },
+  "khuon_nhan_con": {
+   "gia_tri": "cau",
+   "id_v12": "dv.khuon_nhan_con",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.2a",
+    "dv:4.2a"
+   ],
+   "y_nghia": "nhân con dùng khuôn cầu",
+   "gia_tri_cu": "cau"
+  },
+  "ai_bo_golgi": {
+   "gia_tri": [
+    "golgi"
+   ],
+   "id_v12": "dv.ai_bo_golgi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.5a"
+   ],
+   "y_nghia": "thư viện A bỏ khuôn AI loại này (không qua cổng hình)",
+   "gia_tri_cu": [
+    "golgi"
+   ]
+  },
+  "so_ti_the": {
+   "gia_tri": [
+    10,
+    21
+   ],
+   "id_v12": "dv.so_ti_the",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [],
+   "y_nghia": "số ti thể ∈ [10, 20]",
+   "gia_tri_cu": [
+    10,
+    21
+   ]
+  },
+  "so_lysosome": {
+   "gia_tri": [
+    3,
+    9
+   ],
+   "id_v12": "dv.so_lysosome",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [],
+   "y_nghia": "số lysosome ∈ [3, 8]",
+   "gia_tri_cu": [
+    3,
+    9
+   ]
+  },
+  "so_nhan_con": {
+   "gia_tri": [
+    1,
+    4
+   ],
+   "id_v12": "dv.so_nhan_con",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "hiển thị dạy học",
+   "luat_v12": [
+    "dv:4.2a",
+    "dv:4.2a"
+   ],
+   "y_nghia": "số nhân con ∈ [1, 3]",
+   "gia_tri_cu": [
+    1,
+    4
+   ]
+  },
+  "lech_tam": {
+   "gia_tri": [
+    0.11,
+    0.25
+   ],
+   "id_v12": "dv.lech_tam",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:1.3",
+    "dv:1.3"
+   ],
+   "y_nghia": "lệch tâm nhân / R (tính từ GỐC TOẠ ĐỘ, không từ trọng tâm màng)",
+   "gia_tri_cu": [
+    0.11,
+    0.25
+   ]
+  },
+  "gan_tt_nhan": {
+   "gia_tri": 1.5,
+   "id_v12": "dv.gan_tt_nhan",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.8b",
+    "dv:4.8b"
+   ],
+   "y_nghia": "trung thể–mặt nhân ≤ (µm, mặt–mặt)",
+   "gia_tri_cu": 1.5
+  },
+  "gan_tt_golgi": {
+   "gia_tri": 1.0,
+   "id_v12": "dv.gan_tt_golgi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.5b",
+    "dv:4.5b"
+   ],
+   "y_nghia": "trung thể–mặt Golgi ≤ (µm, mặt–mặt)",
+   "gia_tri_cu": 1.0
+  },
+  "gan_lyso_nhan": {
+   "gia_tri": 4.0,
+   "id_v12": "dv.gan_lyso_nhan",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:4.6b",
+    "dv:4.6b"
+   ],
+   "y_nghia": "lysosome cách mặt nhân ≤ D_ER + 2 (µm)",
+   "gia_tri_cu": 4.0
+  },
+  "mien_cung_loai": {
+   "gia_tri": [],
+   "id_v12": "dv.mien_cung_loai",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:M.h"
+   ],
+   "y_nghia": "cặp cùng loại được miễn khe (lysosome; nhân con thì nằm ngoài tập rời)",
+   "gia_tri_cu": [
+    "lysosome"
+   ]
+  },
+  "mien_cap": {
+   "gia_tri": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ]
+   ],
+   "id_v12": "dv.mien_cap",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [
+    "dv:M.c₀",
+    "dv:4.4a"
+   ],
+   "y_nghia": "cặp miễn khe khi chiếu",
+   "gia_tri_cu": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ]
+   ]
+  },
+  "lien_khoi_mien": {
+   "gia_tri": [
+    "golgi"
+   ],
+   "id_v12": "dv.lien_khoi_mien",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "lựa chọn mô hình",
+   "luat_v12": [],
+   "y_nghia": "loại được phép nhiều mảnh",
+   "gia_tri_cu": [
+    "golgi"
+   ]
+  },
+  "kt_he_so_elip": {
+   "gia_tri": 1.06,
+   "id_v12": "dv.kt_he_so_elip",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [],
+   "y_nghia": "bán kính bao nhân ≈ 1,06 · cỡ",
+   "gia_tri_cu": 1.06
+  },
+  "kt_le_vung": {
+   "gia_tri": 0.5,
+   "id_v12": "dv.kt_le_vung",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [],
+   "y_nghia": "lề thêm ngoài vành khi rải bộ phận nhỏ",
+   "gia_tri_cu": 0.5
+  },
+  "kt_dtt_ngau": {
+   "gia_tri": [
+    0.1,
+    0.6
+   ],
+   "id_v12": "dv.kt_dtt_ngau",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [
+    "dv:4.8b"
+   ],
+   "y_nghia": "khoảng ngẫu nhiên thêm cho trung thể",
+   "gia_tri_cu": [
+    0.1,
+    0.6
+   ]
+  },
+  "kt_dg_ngau": {
+   "gia_tri": [
+    0.1,
+    0.5
+   ],
+   "id_v12": "dv.kt_dg_ngau",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [
+    "dv:4.5b"
+   ],
+   "y_nghia": "khoảng ngẫu nhiên thêm cho Golgi",
+   "gia_tri_cu": [
+    0.1,
+    0.5
+   ]
+  },
+  "kt_golgi_nua_day": {
+   "gia_tri": 0.395,
+   "id_v12": "dv.kt_golgi_nua_day",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [
+    "dv:4.5a"
+   ],
+   "y_nghia": "nửa bề dày Golgi = trục ngắn khuôn",
+   "gia_tri_cu": 0.395
+  },
+  "kt_sau_ti_the": {
+   "gia_tri": 1.5,
+   "id_v12": "dv.kt_sau_ti_the",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [],
+   "y_nghia": "độ sâu tối thiểu khi rải ti thể (µm)",
+   "gia_tri_cu": 1.5
+  },
+  "kt_sau_lyso": {
+   "gia_tri": 1.0,
+   "id_v12": "dv.kt_sau_lyso",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [],
+   "y_nghia": "độ sâu tối thiểu khi rải lysosome (µm)",
+   "gia_tri_cu": 1.0
+  },
+  "kt_nhancon_trong": {
+   "gia_tri": 0.4,
+   "id_v12": "dv.kt_nhancon_trong",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [],
+   "y_nghia": "nhân con rải trong 0,4 · cỡ nhân",
+   "gia_tri_cu": 0.4
+  },
+  "kt_lai_tt": {
+   "gia_tri": [
+    0.6,
+    1.5
+   ],
+   "id_v12": "dv.kt_lai_tt",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [
+    "dv:4.8b"
+   ],
+   "y_nghia": "đặt lại trung thể: mặt nhân + U(0,6;1,5)",
+   "gia_tri_cu": [
+    0.6,
+    1.5
+   ]
+  },
+  "kt_lai_golgi": {
+   "gia_tri": [
+    2.4,
+    4.3
+   ],
+   "id_v12": "dv.kt_lai_golgi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "luat_v12": [
+    "dv:4.5b"
+   ],
+   "y_nghia": "đặt lại Golgi: mặt nhân + U(2,4;4,3)",
+   "gia_tri_cu": [
+    2.4,
+    4.3
+   ]
+  },
+  "tay_tam_nhan": {
+   "gia_tri": [
+    1.2,
+    -0.6,
+    0.4
+   ],
+   "id_v12": "dv.tay_tam_nhan",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "tâm nhân đặt tay",
+   "gia_tri_cu": [
+    1.2,
+    -0.6,
+    0.4
+   ]
+  },
+  "tay_huong_golgi": {
+   "gia_tri": [
+    -1.0,
+    0.25,
+    0.1
+   ],
+   "id_v12": "dv.tay_huong_golgi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "hướng trung thể/Golgi đặt tay",
+   "gia_tri_cu": [
+    -1.0,
+    0.25,
+    0.1
+   ]
+  },
+  "tay_truc_z": {
+   "gia_tri": [
+    0,
+    0,
+    1.0
+   ],
+   "id_v12": "dv.tay_truc_z",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "trục phụ dựng khung Golgi",
+   "gia_tri_cu": [
+    0,
+    0,
+    1.0
+   ]
+  },
+  "tay_quay_don_vi": {
+   "gia_tri": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "id_v12": "dv.tay_quay_don_vi",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "xoay đơn vị (rot6)",
+   "gia_tri_cu": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "tay_le": {
+   "gia_tri": 0.3,
+   "id_v12": "dv.tay_le",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "lề thêm khi đặt tay trung thể/Golgi",
+   "gia_tri_cu": 0.3
+  },
+  "tay_nhancon": {
+   "gia_tri": [
+    [
+     0.6,
+     0.9,
+     0.2
+    ],
+    [
+     -0.9,
+     -0.5,
+     -0.6
+    ],
+    [
+     0.2,
+     -1.2,
+     0.8
+    ]
+   ],
+   "id_v12": "dv.tay_nhancon",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "dời nhân con đặt tay (đơn vị cỡ nhân/4,45)",
+   "gia_tri_cu": [
+    [
+     0.6,
+     0.9,
+     0.2
+    ],
+    [
+     -0.9,
+     -0.5,
+     -0.6
+    ],
+    [
+     0.2,
+     -1.2,
+     0.8
+    ]
+   ]
+  },
+  "tay_nhancon_chia": {
+   "gia_tri": 4.45,
+   "id_v12": "dv.tay_nhancon_chia",
+   "nhan_v12": "tham số, không phải luật",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "luat_v12": [],
+   "y_nghia": "hệ số chia dời nhân con",
+   "gia_tri_cu": 4.45
+  },
+  "kcl_ti_the": {
+   "gia_tri": 0.3,
+   "id_v12": "chung.khe_cung_loai.dv.ti_the",
+   "luat_v12": [
+    "dv:M.h"
+   ],
+   "y_nghia": "khe cùng loại ti_the (0 = chỉ còn sự thật M.h: được chạm, không giao)"
+  },
+  "kcl_lysosome": {
+   "gia_tri": 0.0,
+   "id_v12": "chung.khe_cung_loai.dv.lysosome",
+   "luat_v12": [
+    "dv:M.h"
+   ],
+   "y_nghia": "khe cùng loại lysosome (0 = chỉ còn sự thật M.h: được chạm, không giao)"
+  },
+  "kcl_nhan_con": {
+   "gia_tri": 0.0,
+   "id_v12": "chung.khe_cung_loai.dv.nhan_con",
+   "luat_v12": [
+    "dv:M.h"
+   ],
+   "y_nghia": "khe cùng loại nhan_con (0 = chỉ còn sự thật M.h: được chạm, không giao)"
+  },
+  "so_tui_golgi_ve": {
+   "gia_tri": [
+    4,
+    8
+   ],
+   "id_v12": "dv.so_tui_golgi_ve",
+   "luat_v12": [
+    "dv:4.5a"
+   ],
+   "y_nghia": "số túi Golgi vẽ (khoảng đóng, ⊂ 4–11)"
+  },
+  "n14_nhancon_ban_kinh": {
+   "gia_tri": 1.435010667358126,
+   "nguon": "N14: kt_nhancon_trong × s_tương_đương, s_tương_đương = r_nội_tiếp / 0,896 (elip dv.khuon_nhan_truc có cùng bán kính nội tiếp)"
+  },
+  "n14_tam_nhan": {
+   "gia_tri": [
+    -3.32421875,
+    0.0,
+    1.078125
+   ],
+   "nguon": "N14: điểm sâu nhất của nhân thật"
+  }
+ },
+ "tham_so_so_hoc": {
+  "A_hop": {
+   "gia_tri": 11.5,
+   "dong_botri2": "33",
+   "y_nghia": "[số học] nửa cạnh hộp lưới (= 1,15 R)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "gan_lyso_trong_so": {
+   "gia_tri": 0.05,
+   "dong_botri2": "191",
+   "y_nghia": "[số học] trọng số phạt mềm lysosome–nhân",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "kt_deu_sau_tt": {
+   "gia_tri": 1.0,
+   "dong_botri2": "223, 243",
+   "y_nghia": "[số học] nhánh đối chứng khởi tạo đều: độ sâu trung thể",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "kt_deu_sau_golgi": {
+   "gia_tri": 2.5,
+   "dong_botri2": "223, 243",
+   "y_nghia": "[số học] nhánh đối chứng khởi tạo đều: độ sâu Golgi",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "kt_deu_le_nhan": {
+   "gia_tri": 0.5,
+   "dong_botri2": "223, 242",
+   "y_nghia": "[số học] nhánh đối chứng khởi tạo đều: lề thêm cho nhân",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tay_tia": {
+   "gia_tri": [
+    0,
+    9,
+    901
+   ],
+   "dong_botri2": "303",
+   "y_nghia": "[số học] tia dò mặt nhân: từ 0 tới 9 µm, 901 điểm",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "atlas_G": {
+   "gia_tri": 80,
+   "dong_botri2": "38",
+   "y_nghia": "[số học] ô mỗi cạnh của khuôn atlas",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "atlas_GB": {
+   "gia_tri": 2.0,
+   "dong_botri2": "38",
+   "y_nghia": "[số học] nửa cạnh hộp khuôn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "ong_so_diem": {
+   "gia_tri": 33,
+   "dong_botri2": "43",
+   "y_nghia": "[số học] số điểm đường trục khuôn ống",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "khuon_so_mat": {
+   "gia_tri": 20000,
+   "dong_botri2": "56",
+   "y_nghia": "[số học] điểm mẫu mặt mỗi khuôn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "khuon_hat_mat": {
+   "gia_tri": 1,
+   "dong_botri2": "56",
+   "y_nghia": "[số học] hạt lấy mẫu mặt khuôn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "khuon_nguong_trong": {
+   "gia_tri": 0.2,
+   "dong_botri2": "58",
+   "y_nghia": "[số học] ngưỡng điểm trong (· r_trong)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "khuon_so_trong": {
+   "gia_tri": 256,
+   "dong_botri2": "58",
+   "y_nghia": "[số học] số điểm trong mỗi khuôn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "ai_dai_truc": {
+   "gia_tri": 2.0,
+   "dong_botri2": "71",
+   "y_nghia": "[số học] chuẩn hoá khuôn AI: trục dài = 2",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "mau_toi_thieu": {
+   "gia_tri": 64,
+   "dong_botri2": "109",
+   "y_nghia": "[số học] số điểm mặt tối thiểu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "mau_so_trong_lo": {
+   "gia_tri": 32,
+   "dong_botri2": "129",
+   "y_nghia": "[số học] điểm trong mỗi bộ phận nhỏ khi lấy mẫu lô",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "adam_lr": {
+   "gia_tri": 0.05,
+   "dong_botri2": "249",
+   "y_nghia": "[số học] bước Adam",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "trong_so_cung": {
+   "gia_tri": 100,
+   "dong_botri2": "312, 317",
+   "y_nghia": "[số học] nhân phạt cứng khi cộng phạt mềm",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "so_vong_nho": {
+   "gia_tri": 4,
+   "dong_botri2": "313, 323",
+   "y_nghia": "[số học] số vòng tối ưu + đặt lại bộ phận nhỏ",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "cap_lam_moi": {
+   "gia_tri": 10,
+   "dong_botri2": "316",
+   "y_nghia": "[số học] làm mới cặp lân cận mỗi n bước",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "du_cap_toi_uu": {
+   "gia_tri": 1.0,
+   "dong_botri2": "165, 316",
+   "y_nghia": "[số học] lề lọc cặp khi tối ưu (µm)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "du_cap_kiem": {
+   "gia_tri": 0.0,
+   "dong_botri2": "259, 277, 320",
+   "y_nghia": "[số học] lề lọc cặp khi kiểm (µm)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_kiem_vong": {
+   "gia_tri": 777,
+   "dong_botri2": "320",
+   "y_nghia": "[số học] hạt torch khi kiểm sau mỗi vòng",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "M_kiem_vong": {
+   "gia_tri": 512,
+   "dong_botri2": "320",
+   "y_nghia": "[số học] điểm mẫu khi kiểm vòng",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "M_nho": {
+   "gia_tri": 96,
+   "dong_botri2": "172",
+   "y_nghia": "[số học] điểm mẫu mặt bộ phận nhỏ khi tối ưu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_day_du": {
+   "gia_tri": 12345,
+   "dong_botri2": "259",
+   "y_nghia": "[số học] hạt torch khi chấm đầy đủ",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "M_day_du": {
+   "gia_tri": 1024,
+   "dong_botri2": "259",
+   "y_nghia": "[số học] điểm mẫu khi chấm đầy đủ",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "nguong_phat": {
+   "gia_tri": 1e-06,
+   "dong_botri2": "285, 321, 332, 336",
+   "y_nghia": "[số học] ngưỡng coi là đạt (phạt)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tol_do": {
+   "gia_tri": 1e-06,
+   "dong_botri2": "469",
+   "y_nghia": "[số học] dung sai khi chấm đạt luật trên mesh",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "bu_can": {
+   "gia_tri": 3,
+   "dong_botri2": "33",
+   "y_nghia": "[số học] bù lưới β = √3·h1 (DEL = β)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "the_tich_san": {
+   "gia_tri": 0.001,
+   "dong_botri2": "390",
+   "y_nghia": "[số học] sàn thể tích khi tính trọng số biến",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "vobao_cong_o": {
+   "gia_tri": 2,
+   "dong_botri2": "449",
+   "y_nghia": "[số học] thêm 2 ô ở biên trên khi cắt khối mesh",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "duoi_luoi_h": {
+   "gia_tri": 2,
+   "dong_botri2": "489",
+   "y_nghia": "[số học] dưới lưới: đường kính trong < 2 h1",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "khuon_dai_don_vi": {
+   "gia_tri": 1.0,
+   "dong_botri2": "61, 64",
+   "y_nghia": "[số học] khuôn đơn vị: cầu bán kính 1, ống nửa dài 1",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "manh_toi_da": {
+   "gia_tri": 1,
+   "dong_botri2": "490–491",
+   "y_nghia": "[số học] vỡ mảnh khi số thành phần > 1 (định nghĩa, giữ trong mã)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tu_kiem": {
+   "gia_tri": [
+    5000,
+    2.3
+   ],
+   "dong_botri2": "89",
+   "y_nghia": "[số học] tự kiểm atlas (chỉ khi TU_KIEM, giữ trong mã)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "gb_the": {
+   "gia_tri": 23.5,
+   "dong_botri2": "28",
+   "y_nghia": "[số học] dung lượng GPU khi đổi GB_TOI_DA (giữ trong mã)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "thu_loai_so_lo": {
+   "gia_tri": 3,
+   "dong_botri2": "267",
+   "y_nghia": "[số học] số lô ứng viên thử–loại",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "thu_loai_C": {
+   "gia_tri": 100,
+   "dong_botri2": "268",
+   "y_nghia": "[số học] ứng viên mỗi lô",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "thu_loai_M": {
+   "gia_tri": "@M_kiem_vong",
+   "dong_botri2": "270, 282",
+   "y_nghia": "[số học] điểm mẫu mặt ứng viên thử–loại = M_kiem_vong (cùng số điểm với phép kiểm vòng của PLACE; v12 đối xứng nhánh)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "thu_lon_so_lan": {
+   "gia_tri": 300,
+   "dong_botri2": "330",
+   "y_nghia": "[số học] số lần thử mỗi bộ phận lớn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "lam_lai_nhom": {
+   "gia_tri": 30,
+   "dong_botri2": "327",
+   "y_nghia": "[số học] số lần làm lại cả nhóm bộ phận lớn",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_so_luong": {
+   "gia_tri": [
+    7,
+    1
+   ],
+   "dong_botri2": "194",
+   "y_nghia": "[số học] hạt số lượng = seed·7+1",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_khuon_co": {
+   "gia_tri": 31,
+   "dong_botri2": "210",
+   "y_nghia": "[số học] hạt khuôn+cỡ = seed·31+k",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_khoi_tao": {
+   "gia_tri": 1000,
+   "dong_botri2": "215",
+   "y_nghia": "[số học] hạt khởi tạo = seed·1000+k",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_deu_cong": {
+   "gia_tri": 500000,
+   "dong_botri2": "215",
+   "y_nghia": "[số học] cộng thêm cho khởi tạo đều",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "trong_vung_so_lan": {
+   "gia_tri": 5000,
+   "dong_botri2": "205",
+   "y_nghia": "[số học] số lần thử rải ngoài vùng cấm",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "truong_khoi": {
+   "gia_tri": 1000000,
+   "dong_botri2": "353",
+   "y_nghia": "[số học] điểm mỗi khối khi tính trường",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "loc_cap_h": {
+   "gia_tri": 3,
+   "dong_botri2": "381, 382",
+   "y_nghia": "[số học] lề lọc cặp chiếu (· h1)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "giu_cho": {
+   "gia_tri": [
+    1.05,
+    2,
+    0.35,
+    0.8,
+    4
+   ],
+   "dong_botri2": "385",
+   "y_nghia": "[số học] giữ chỗ: min(max(1,05·bù/2, 0,35·r), 0,8·r), lân cận rb + 4h1",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "trong_so_mu_mau": {
+   "gia_tri": 3,
+   "dong_botri2": "390",
+   "y_nghia": "[số học] trọng số biến = thể tích^(-1/3)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "KH": {
+   "gia_tri": [
+    2000,
+    40000,
+    400000000.0,
+    8
+   ],
+   "dong_botri2": "400",
+   "y_nghia": "[số học] cỡ khối điểm chiếu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "dia_phuong_h": {
+   "gia_tri": 4,
+   "dong_botri2": "403, 404",
+   "y_nghia": "[số học] hàng giữ lại khi res < 4 h1",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "RMAX": {
+   "gia_tri": [
+    12,
+    24,
+    48
+   ],
+   "dong_botri2": "431, 432",
+   "y_nghia": "[số học] số hàng tối đa ba lượt chiếu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "lap_toi_da": {
+   "gia_tri": 600,
+   "dong_botri2": "413",
+   "y_nghia": "[số học] vòng Dykstra tối đa",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "lap_kiem": {
+   "gia_tri": 50,
+   "dong_botri2": "414",
+   "y_nghia": "[số học] kiểm hội tụ mỗi 50 vòng",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tol_chieu": {
+   "gia_tri": 1e-09,
+   "dong_botri2": "416, 427, 433",
+   "y_nghia": "[số học] ngưỡng vi phạm khi chiếu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tol_con": {
+   "gia_tri": 1e-06,
+   "dong_botri2": "439",
+   "y_nghia": "[số học] ngưỡng vi phạm còn lại",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "vobao_le": {
+   "gia_tri": [
+    4,
+    0.5
+   ],
+   "dong_botri2": "449",
+   "y_nghia": "[số học] lề cắt khối mesh: rb + 4 h1 + 0,5",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "vobao_o_toi_thieu": {
+   "gia_tri": 4,
+   "dong_botri2": "452",
+   "y_nghia": "[số học] số ô âm tối thiểu để dựng mesh",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "doi_mat_dai": {
+   "gia_tri": 1,
+   "dong_botri2": "475",
+   "y_nghia": "[số học] dải quanh mặt (· h1) khi đo dời mặt",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "chiem_khe_chia": {
+   "gia_tri": 2,
+   "dong_botri2": "481",
+   "y_nghia": "[số học] khe 'chiếm có khe' = S/2",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "mat_bo_phan_o": {
+   "gia_tri": 4,
+   "dong_botri2": "489",
+   "y_nghia": "[số học] mất bộ phận khi thể tích ≤ 4 h1³",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "con_lai_ti_le": {
+   "gia_tri": 0.5,
+   "dong_botri2": "489",
+   "y_nghia": "[số học] còn dưới 50 % thể tích",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "er_tam_lui": {
+   "gia_tri": 1.0,
+   "dong_botri2": "365",
+   "y_nghia": "[số học] tâm báo cáo vành: lùi (cỡ quanh + 1) ngược hướng khuyết",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "er_co": {
+   "gia_tri": 0.8,
+   "dong_botri2": "365",
+   "y_nghia": "[số học] bán kính trong báo cáo của vành",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "er_rb": {
+   "gia_tri": 99.0,
+   "dong_botri2": "365",
+   "y_nghia": "[số học] bán kính bao của vành (không lọc cặp)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "ngoai_hop": {
+   "gia_tri": 1000.0,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: giá trị biến không phủ điểm",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "le_quanh": {
+   "gia_tri": 0.3,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: lề thêm cho hộp bộ phận được vùng phụ thuộc bao quanh",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "beta_V": {
+   "gia_tri": 0.01,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: bù của vùng phụ thuộc",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "D_trong": {
+   "gia_tri": 0.3,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: trần âm của D trong lõi bộ phận",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "o_vung": {
+   "gia_tri": 64,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: cạnh ô khi dựng vùng phụ thuộc",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "le_o": {
+   "gia_tri": 0.1,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: lề chọn ô (µm)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "hat_vung": {
+   "gia_tri": [
+    19,
+    5
+   ],
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: hạt bề dày vành",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "lip_vo_them": {
+   "gia_tri": 0.6,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: hằng Lipschitz thêm của vỏ cầu nhiễu",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "tol_cham": {
+   "gia_tri": 0.02,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: ngưỡng chạm khi đo diện tích chạm",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "le_ong": {
+   "gia_tri": 1.0,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: chặn khoảng tới ống",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "gan_so_lang_gieng": {
+   "gia_tri": 4,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] số bản gần nhất khi đo luật gần",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "the_tich_manh_min": {
+   "gia_tri": 0.001,
+   "dong_botri2": "—",
+   "y_nghia": "[số học] lưới cục bộ: bỏ mảnh vụn MC",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "eps_chia": {
+   "gia_tri": 1e-09,
+   "dong_botri2": "143, 145, 148, 158",
+   "y_nghia": "[số học] chặn chia 0 (giữ trong mã)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "eps_can": {
+   "gia_tri": 1e-12,
+   "dong_botri2": "41, 86",
+   "y_nghia": "[số học] chặn căn 0 (giữ trong mã)",
+   "nguon_luat": null,
+   "gia_tri_trong_luat": false,
+   "nhan": "so_hoc"
+  },
+  "bien_mang_he_so": {
+   "gia_tri": "tu_dong",
+   "y_nghia": "[số học] biên hàng màng β_M = hệ số·β; tu_dong = (1 + L_M)/2 với L_M hằng Lipschitz của trường màng (MoHinhToan 7.1.3)",
+   "nhan": "so_hoc"
+  },
+  "quanh_mat_xa": {
+   "gia_tri": 15.0,
+   "nguon": "N14: tầm tia tìm khe quanh mặt nhân (µm)"
+  }
+ },
+ "tang2": [
+  {
+   "loai": "trung_tu",
+   "cha": "trung_the",
+   "kieu": "hai_tru_vuong_goc",
+   "so": [
+    2,
+    2
+   ],
+   "dai": [
+    0.3,
+    0.5
+   ],
+   "rong": [
+    0.15,
+    0.25
+   ],
+   "goc_do": 90,
+   "nguon": "4.8a",
+   "ghi_chu": "hai trụ bo tròn (dài, rộng rút đều trong dải sự thật), trục vuông góc 90°, tiếp xúc (M.h: được chạm), tâm tại điểm sâu nhất của khối trung thể; cha là khối bao dv.khuon_trung_the"
+  },
+  {
+   "loai": "tui_golgi",
+   "cha": "golgi",
+   "kieu": "chong_dia",
+   "so": "@so_tui_golgi_ve",
+   "rong": [
+    0.7,
+    1.1
+   ],
+   "nguon": "4.5a",
+   "ghi_chu": "chồng n đĩa phẳng đồng trục dọc trục ngắn của khối Golgi (n rút đều trong dv.so_tui_golgi_ve = 4–8, ⊂ sự thật 4–11); đường kính rút đều trong 0,7–1,1; bề dày = khe = H/(2n−1), H do mép đĩa ngoài cùng chạm vỏ elip (không có hằng số tự do)"
+  }
+ ],
+ "sinh_boi": "tao_dac_ta_v12.py",
+ "n14_thay_doi": {
+  "tu": "dac_ta/v12/dong_vat_v12.json",
+  "md5_tu": "8d7f6bfe5a00395ab5eb4e8b102f9eb5",
+  "te_bao": "798836",
+  "doi": [
+   "vo: cau_nhieu → luoi (SDF đúng tới mesh màng thật)",
+   "khuon nhan_that (mesh nhân thật), nhan co_dinh (tư thế + cỡ cố định)",
+   "lech_tam: bỏ (nhân cố định)",
+   "bản 3 (20/11): cận dưới cộng β; nhân con đề xuất đều trong vùng hợp lệ của nhân thật",
+   "khoi_tao/dat_lai (bản 2, ĐK-1): tâm nhân = điểm sâu nhất nhân thật; mọi bộ phận đề xuất ĐỀU trên vùng hợp lệ của vật chứa thật (vung_mau: độ sâu trong màng + dải khe tới mặt nhân, xem chú thích mã), cùng phép cho mọi nhánh; Golgi xoay ngẫu nhiên",
+   "goc_lam_lai: nhan như D4 (bản 3b; bộ dựng: gốc cố định ⇒ làm lại cả nhóm)",
+   "thu_vien chỉ T",
+   "mọi luật + tham số luật (T_*, S_roi, D_er, dải cỡ bào quan, khe) GIỮ NGUYÊN"
+  ]
+ }
+}

@@ -1,0 +1,845 @@
+{
+ "phien_ban": "v4.1-20261104-te-bao-dong-vat",
+ "vat": "Tế bào động vật — KHTN 6 (Vật 1) + Sinh học 10 (Vật 4)",
+ "don_vi": "µm; t_um = khe chứa (cha ôm con, cách ít nhất), s_um = khe rời giữa hai bộ phận",
+ "muc_ve": "sơ đồ SGK; mặt cắt qua nhân",
+ "lop": "trường lop cho biết luật dùng cho KHTN6 và/hoặc Sinh10",
+ "luat_cung": "true = bộ dựng phải đạt; false = gợi ý",
+ "may_chua_lam_duoc": [
+  "màng tế bào thật rất mỏng (≈ 0,01 µm); mô hình vẽ thành lớp dày hơn",
+  "lưới nội chất chưa được buộc nối vào màng nhân (4.4a)",
+  "ti thể chưa vẽ được dạng mạng",
+  "luật 'gần' (4.5b, 4.6b, 4.8b) mới là gợi ý, chưa ép",
+  "chưa thử bộ dựng xem 4.5b + 4.8b + M.c có cùng thoả được không",
+  "vành lưới nội chất dày 2 µm (4.4b) cộng M.c buộc Golgi và trung thể cách nhân ≥ 2,3 µm, trái gợi ý 1,5 µm của 4.8b — bộ dựng hiện để khuyết vành ER phía Golgi; cần thêm miễn hoặc sửa 4.4b"
+ ],
+ "trang_thai": "BẢN TRÌNH THẨM ĐỊNH — chưa giáo viên/chuyên gia duyệt; chờ đối chiếu SGK Sinh 10 và thuật ngữ",
+ "nguon_tong_hop": "PhanTich_TaiLieu/ch3_nguon_luat_te_bao_dong_vat_20261104.md (đã rà soát chéo, kể cả phần T2)",
+ "quy_uoc_nhan": {
+  "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)": "mô hình tách rời hai bộ phận mà thực tế có chỗ chạm",
+  "chưa có nguồn": "chưa tìm được nguồn; xin ý kiến giữ hay bỏ",
+  "sự thật": "khẳng định có nguồn khoa học",
+  "sự thật (có phạm vi)": "đúng trong phạm vi ghi kèm",
+  "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to": "phóng to (khe, kích thước) để nhìn rõ",
+  "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng": "vẽ ít hơn thực tế",
+  "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình": "giản lược hình dạng hoặc phạm vi vẽ"
+ },
+ "doi_so_hieu_so_voi_v4": [
+  "v4 4.5c (câu 'ER xen giữa') → v4.1 4.5d",
+  "v4 4.6b (đếm lysosome) → v4.1 4.6c; 4.6b mới là vị trí",
+  "v4 4.6a tách thành 4.6a (kích thước) và 4.6d (vẽ hình cầu)"
+ ],
+ "thay_doi_so_voi_v3": [
+  "4.6: 'hình cầu' giữ nguyên, ghi rõ chưa có nguồn đo; thêm 4.6b vị trí",
+  "4.4: giữ ý 'hạt và trơn'",
+  "4.7: giữ tuỳ chọn bật/tắt",
+  "1.6: giữ, mặc định tắt ở lớp 6",
+  "thêm trường lớp, luật cứng/mềm, đơn vị, danh sách 'máy chưa làm được'",
+  "nhãn 'tách rời để nhìn rõ' cho các khe mà thực tế có chỗ chạm",
+  "4.5d tách riêng, ghi chưa có nguồn",
+  "1.5: 1/3 → 0,35–0,6",
+  "4.3: bỏ 'dài 1–4 µm' (không có nguồn) → hạt 1–2 µm, có phạm vi",
+  "4.4: ER phải nối màng nhân ngoài (không có khe)",
+  "4.5: thêm 4.5b Golgi quanh trung thể",
+  "4.2, 4.3, 4.6, 4.8, M.b, M.c: tách phần sự thật khỏi phần đơn giản hoá, ghi số thật",
+  "thêm M.f liền khối (trừ Golgi)",
+  "mọi luật máy tự đặt nay có nguồn hoặc nhãn"
+ ],
+ "luat": [
+  {
+   "id": "1.1",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào có ba thành phần: màng tế bào bao ngoài, chất tế bào bên trong, nhân.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005886 plasma membrane",
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")",
+    "GO:0005634 nucleus"
+   ],
+   "ai_duyet": "GV",
+   "cho_doi_chieu": "SGK"
+  },
+  {
+   "id": "1.2a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Tế bào là khối ba chiều; tế bào tròn có đường kính khoảng 10–30 µm.",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào tròn hoặc trôi nổi; tế bào bám đáy dẹt và rộng hơn",
+   "so_that": "HeLa trôi nổi 17 µm; tế bào bám đáy rộng ~40 µm",
+   "thuc_te_cho_giao_vien": "Tế bào người thường cỡ 10–30 micromet.",
+   "mo_hinh": "khối tròn đường kính 20 µm",
+   "nguon": [
+    "BNID 115568 (HeLa 17,1 µm), 103788, 100434; Cell Biology by the Numbers \"How big is a human cell?\""
+   ],
+   "may": {
+    "vo": "mang",
+    "ban_kinh_um": 10.0
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "1.2b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mô hình vẽ tế bào dạng khối tròn.",
+   "loai": "hinh",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "tế bào nuôi bám đáy dẹt: rộng ~40 µm, cao vài µm",
+   "thuc_te_cho_giao_vien": "Tế bào thật thường dẹt hoặc có hình theo mô; vẽ khối tròn để dễ quan sát.",
+   "nguon": [
+    "BNID 115568 (HeLa 17,1 µm), 103788, 100434; Cell Biology by the Numbers \"How big is a human cell?\""
+   ],
+   "may": {
+    "hinh_vo": "khoi_tron_co_nhieu"
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "1.3",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Thường có một nhân, nằm trong khối chất tế bào, không bắt buộc ở giữa.",
+   "loai": "so_luong+vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tế bào thường (có loại tế bào nhiều nhân); số đo độ lệch trên tế bào nuôi, ảnh phẳng",
+   "so_that": "nhân lệch tâm 11–25 % bán kính (MEF, 2D)",
+   "thuc_te_cho_giao_vien": "Nhân thường nằm lệch khỏi chính giữa; học sinh hay nghĩ nhân luôn ở giữa.",
+   "nguon": [
+    "GO:0005634 nucleus",
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")",
+    "Hale et al. 2011 J Cell Sci (MTOC–nhân 0,2–0,3 µm trung bình 2D cắt ở 0; nhân lệch tâm 11–25 % bán kính)",
+    "Yorek, Şahin & Uğulu 2010 (quan niệm sai \"tế bào trứng ốp\", nhân luôn ở giữa)"
+   ],
+   "may": {
+    "so_luong": 1,
+    "lech_tam_ti_le_ban_kinh": [
+     0.11,
+     0.25
+    ],
+    "lech_tam_cung": false
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "1.4a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân nằm trong chất tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "nhan",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "1.4b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân cách màng tế bào ít nhất 1 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "chưa có số đo công bố; tế bào bám đáy có lớp chất tế bào trên/dưới nhân mỏng (≤ vài µm)",
+   "thuc_te_cho_giao_vien": "Khoảng cách thật chưa được đo rõ; khe để thấy lớp chất tế bào quanh nhân.",
+   "nguon": [
+    "BNID 115568 (HeLa 17,1 µm), 103788, 100434; Cell Biology by the Numbers \"How big is a human cell?\""
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "nhan",
+    "b": "mang",
+    "t_um": 1.0
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "1.5",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Đường kính nhân bằng khoảng 0,35–0,6 đường kính tế bào; nhân rộng 5–10 µm.",
+   "loai": "ti_le",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "tuỳ loại tế bào (HeLa 0,57; COS-7 0,38 khi coi tế bào là khối tròn; tế bào lympho gần 1)",
+   "thuc_te_cho_giao_vien": "Nhân chiếm khoảng một phần ba đến hơn một nửa bề ngang tế bào, tuỳ loại.",
+   "mo_hinh": "nhân 7 µm trong tế bào 20 µm (0,35)",
+   "nguon": [
+    "BNID 104990/106665 (HeLa nhân 0,22 pL / chất TB 0,94 pL; COS-7 0,14 / 2,4 pL); BNID 109953 (nhân 5–10 µm); BioNumbers \"How big are nuclei?\""
+   ],
+   "may": {
+    "ti_le_duong_kinh": [
+     0.35,
+     0.6
+    ],
+    "duong_kinh_nhan_um": [
+     5,
+     10
+    ],
+    "ghi_chu": "với tế bào 20 µm, dải dùng được 0,35–0,5"
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "1.6",
+   "lop": [
+    "KHTN6"
+   ],
+   "phat_bieu": "Ở lớp 6 không bắt buộc vẽ ti thể; nếu bật thì vẽ 5–10 ti thể, không chạm nhân.",
+   "loai": "tuy_chon",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "tuy_chon": "mặc định TẮT ở lớp 6 (ngoài yêu cầu cần đạt)",
+   "nguon": [
+    "GO:0005739 mitochondrion (\"varying numbers, shapes, and sizes\")"
+   ],
+   "may": {
+    "bat_mac_dinh_lop6": false,
+    "so_luong": [
+     5,
+     10
+    ]
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.2a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trong nhân có 1–5 nhân con (mô hình vẽ 1–3), mỗi cái rộng 0,5–5 µm, không có màng bao.",
+   "loai": "so_luong+kich_thuoc+chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "mo_hinh": "2 nhân con, không vẽ viền màng",
+   "nguon": [
+    "GO:0005730 nucleolus (\"one or more\", \"not bounded by a limiting membrane\"; part_of nuclear lumen)",
+    "BNID 107499 (1–5 nhân con), 107498 (0,5–5 µm)"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "nhan_con",
+    "b": "nhan",
+    "t_um": 0.0,
+    "so_luong": [
+     1,
+     3
+    ],
+    "duong_kinh_um": [
+     0.5,
+     5
+    ]
+   },
+   "ai_duyet": "GV",
+   "cho_doi_chieu": "SGK: 'nhân con' hay 'hạch nhân'"
+  },
+  {
+   "id": "4.2b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Nhân con cách mặt trong màng nhân ít nhất 0,3 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "chưa có số đo; màng nhân lõm vào thường chạm nhân con",
+   "thuc_te_cho_giao_vien": "Thực tế nhân con có thể nằm sát hoặc chạm màng nhân.",
+   "nguon": [
+    "Tổng quan nucleoplasmic reticulum PMC9243388 (Front Cell Dev Biol 2022), PMC11455740 (CMLS 2024): màng nhân lõm thường chạm nhân con"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "nhan_con",
+    "b": "nhan",
+    "t_um": 0.3
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.3a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể nằm trong chất tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005739 mitochondrion (\"varying numbers, shapes, and sizes\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "ti_the",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.3b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi ti thể vẽ thành một hạt dài khoảng 1–2 µm, rộng khoảng 0,5–1 µm.",
+   "loai": "kich_thuoc+dang",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": true,
+   "pham_vi": "kích thước một 'hạt' theo cách sách mô tả; ti thể thật thường nối thành mạng dài hàng chục µm",
+   "so_that": "sách BioNumbers: dài ~2 µm, rộng ~1 µm; thể tích trung bình 0,29 µm³ (cỡ hạt dài ~1,5 µm, rộng ~0,5 µm)",
+   "thuc_te_cho_giao_vien": "Ti thể thật thường nối thành mạng dài; mô hình vẽ từng hạt.",
+   "nguon": [
+    "BNID 109409 (HeLa 383–882 ti thể); Valm et al. 2017 Nature (COS-7 ~150–190 ti thể); BioNumbers \"How big are mitochondria?\" (dài ~2 µm, rộng ~1 µm)",
+    "BNID 109399 (thể tích ti thể trung bình 0,29 µm³, HeLa)"
+   ],
+   "may": {
+    "dai_um": [
+     1.0,
+     2.0
+    ],
+    "rong_um": [
+     0.5,
+     1.0
+    ],
+    "ti_le_truc_rong_tren_dai": [
+     0.25,
+     0.6
+    ]
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.3c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 10–20 ti thể dạng hạt rời.",
+   "loai": "so_luong+hinh",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "thật: hàng trăm đến hàng nghìn (COS-7 ~150–190; HeLa 383–882; gan chuột ~1 700)",
+   "thuc_te_cho_giao_vien": "Tế bào thật có hàng trăm đến hàng nghìn ti thể; mô hình vẽ ít hơn hàng chục lần.",
+   "nguon": [
+    "BNID 109409 (HeLa 383–882 ti thể); Valm et al. 2017 Nature (COS-7 ~150–190 ti thể); BioNumbers \"How big are mitochondria?\" (dài ~2 µm, rộng ~1 µm)"
+   ],
+   "may": {
+    "so_luong": [
+     10,
+     20
+    ]
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.3d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ti thể không chạm nhau và không chạm nhân, khe ít nhất 0,3 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "có vùng tiếp xúc 10–30 nm với lưới nội chất, ~10 nm với lysosome; ti thể–nhân ~120 nm (một bài); tiếp xúc chiếm 2–5 % bề mặt ti thể",
+   "thuc_te_cho_giao_vien": "Ti thể thật có những chỗ áp sát các bào quan khác; mô hình tách rời để nhìn rõ.",
+   "nguon": [
+    "Csordás et al. 2006 J Cell Biol (ER–ti thể 10/25 nm)",
+    "Scorrano et al. 2019 Nat Commun (tiếp xúc 10–80 nm, không gần hơn 10 nm)",
+    "Phillips & Voeltz 2016 NRMCB (ER–ti thể 6–15 nm; tiếp xúc chiếm 2–5 % bề mặt ti thể)",
+    "Wong et al. 2018 Nature (ti thể–lysosome 9,57 nm)",
+    "Desai et al. 2020 Sci Adv (ti thể–nhân ~120 nm, MCF-7)",
+    "GO:0044232 organelle membrane contact site và các thuật ngữ con GO:0044233, GO:0140268, GO:7770051, GO:7770052, GO:0160258"
+   ],
+   "may": {
+    "loai": "roi",
+    "a": "ti_the",
+    "b": [
+     "ti_the",
+     "nhan"
+    ],
+    "s_um": 0.3
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.4a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Có lưới nội chất hạt (có ribosome) và lưới nội chất trơn; lưới nội chất liền với màng ngoài của nhân và trải khắp chất tế bào (dạng tấm quanh nhân, dạng ống ở xa).",
+   "loai": "cau_truc+tiep_xuc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "thuc_te_cho_giao_vien": "Lưới nội chất nối liền với màng nhân.",
+   "nguon": [
+    "GO:0005640 nuclear outer membrane (\"continuous with the endoplasmic reticulum\"); GO:0042175 nuclear outer membrane-ER membrane network",
+    "GO:0005791 rough endoplasmic reticulum; GO:0005790 smooth endoplasmic reticulum",
+    "Cell Biology by the Numbers \"How big is the ER?\" (ER trải khắp chất TB; tấm quanh nhân, ống ở ngoại vi)"
+   ],
+   "may": {
+    "loai": "tiep_xuc",
+    "a": "luoi_noi_chat",
+    "b": "nhan",
+    "vung_toi_thieu": "chờ đặt",
+    "trang_thai": "bộ dựng CHƯA hỗ trợ — hiện chỉ miễn khe, chưa buộc nối"
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.4b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Mô hình chỉ vẽ phần lưới nội chất quanh nhân.",
+   "loai": "pham_vi_ve",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "ER chiếm ~25 % thể tích tế bào COS-7, trải tới sát màng",
+   "thuc_te_cho_giao_vien": "Lưới nội chất thật trải tới sát màng tế bào.",
+   "nguon": [
+    "Cell Biology by the Numbers \"How big is the ER?\" (ER trải khắp chất TB; tấm quanh nhân, ống ở ngoại vi)"
+   ],
+   "may": {
+    "pham_vi_ve": "vanh_quanh_nhan_day_um",
+    "day_um": 2.0
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.5a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Bộ máy Golgi gồm 4–11 túi dẹt xếp chồng (mô hình 4–8), mỗi túi rộng khoảng 0,7–1,1 µm.",
+   "loai": "cau_truc+kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005794 Golgi apparatus",
+    "GO:0031985 Golgi cisterna",
+    "Klumperman 2011 CSH Perspect Biol (4–11 túi; túi 0,7–1,1 µm; Golgi quanh MTOC cạnh nhân)"
+   ],
+   "may": {
+    "so_tui": [
+     4,
+     8
+    ],
+    "rong_tui_um": [
+     0.7,
+     1.1
+    ]
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.5b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Golgi nằm cạnh nhân, ôm quanh trung thể.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "phần lớn tế bào động vật; ở một số tế bào có cực Golgi nằm phía đỉnh",
+   "nguon": [
+    "Sütterlin & Colanzi 2010 J Cell Biol (Golgi \"adjacent to the centrosome\" ở kỳ trung gian)",
+    "Rios 2014 Phil Trans B (pericentrosomal Golgi ribbon)",
+    "Klumperman 2011 CSH Perspect Biol (4–11 túi; túi 0,7–1,1 µm; Golgi quanh MTOC cạnh nhân)",
+    "Viana et al. 2023 Nature (hiPSC: Golgi, lysosome, trung tử ở phía đỉnh)"
+   ],
+   "may": {
+    "loai": "gan",
+    "a": "golgi",
+    "b": "trung_the"
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.5c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Golgi không chạm nhân, khe ít nhất 0,3 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "so_that": "chưa có số đo khe Golgi–nhân",
+   "nguon": [
+    "Klumperman 2011 CSH Perspect Biol (4–11 túi; túi 0,7–1,1 µm; Golgi quanh MTOC cạnh nhân)"
+   ],
+   "may": {
+    "loai": "roi",
+    "a": "golgi",
+    "b": "nhan",
+    "s_um": 0.3
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.5d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Giữa nhân và Golgi thường có lưới nội chất và túi vận chuyển.",
+   "loai": "vi_tri",
+   "nhan": "chưa có nguồn",
+   "luat_cung": false,
+   "thuc_te_cho_giao_vien": "Câu 'lưới nội chất xen giữa' ở bản 3 chưa tìm được nguồn; đề nghị thầy/cô cho ý kiến giữ hay bỏ.",
+   "nguon": [],
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.6a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lysosome là túi nhỏ đường kính 0,1–1,2 µm (thường 0,1–0,5 µm).",
+   "loai": "kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005764 lysosome",
+    "BNID 106072 (0,1–1,2 µm), 107483 (50–1 000 cái); Xu & Ren 2015 (vài trăm); Valm 2017 (COS-7 89 ± 10)"
+   ],
+   "may": {
+    "duong_kinh_um": [
+     0.1,
+     1.2
+    ],
+    "duong_kinh_thuong_gap_um": [
+     0.1,
+     0.5
+    ]
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.6d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ lysosome hình cầu.",
+   "loai": "hinh",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "chưa có nguồn đo tỉ lệ trục; 'hình cầu' theo bản 3 và cách vẽ thông dụng",
+   "nguon": [
+    "GO:0005764 lysosome"
+   ],
+   "may": {
+    "dang": "cau"
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.6b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Lysosome tập trung quanh nhân và rải ra phía ngoài.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "HeLa và nhiều tế bào nuôi; ở tế bào có cực có thể nằm phía đỉnh",
+   "nguon": [
+    "Pu et al. 2016 J Cell Sci (lysosome tập trung quanh MTOC, có ở ngoại vi)",
+    "Johnson et al. 2016 J Cell Biol (HeLa: phần lớn lysosome ở vỏ trong cùng)",
+    "Viana et al. 2023 Nature (hiPSC: Golgi, lysosome, trung tử ở phía đỉnh)"
+   ],
+   "may": {
+    "phan_bo": "day_quanh_nhan"
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.6c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Vẽ 3–8 lysosome.",
+   "loai": "so_luong",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giảm số lượng",
+   "luat_cung": true,
+   "so_that": "thật: vài chục đến hàng nghìn (thường vài trăm; COS-7 89 ± 10)",
+   "thuc_te_cho_giao_vien": "Tế bào thật có hàng chục đến hàng nghìn lysosome (thường vài trăm); mô hình vẽ ít hơn hàng chục lần.",
+   "nguon": [
+    "BNID 106072 (0,1–1,2 µm), 107483 (50–1 000 cái); Xu & Ren 2015 (vài trăm); Valm 2017 (COS-7 89 ± 10)"
+   ],
+   "may": {
+    "so_luong": [
+     3,
+     8
+    ]
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.7",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Ribosome vẽ thành chấm nhỏ trên lưới nội chất hạt (vẽ to hơn thật).",
+   "loai": "hien_thi",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — phóng to",
+   "luat_cung": true,
+   "tuy_chon": "giáo viên bật/tắt",
+   "nguon": [
+    "GO:0005791 rough endoplasmic reticulum; GO:0005790 smooth endoplasmic reticulum"
+   ],
+   "may": {
+    "bat": true,
+    "so_cham": 4000,
+    "duong_kinh_cham_um": 0.04
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.8a",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trung thể gồm hai trung tử đặt vuông góc, mỗi trung tử dài 0,3–0,5 µm, rộng 0,15–0,25 µm.",
+   "loai": "cau_truc+kich_thuoc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005814 centriole (\"300-500 nm long and 150-250 nm in diameter\", \"lying at right angles\")",
+    "BNID 105741 (dài ~0,5, rộng ~0,2 µm)"
+   ],
+   "may": {
+    "so_trung_tu": 2,
+    "dai_um": [
+     0.3,
+     0.5
+    ],
+    "rong_um": [
+     0.15,
+     0.25
+    ],
+    "goc_do": 90
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "4.8b",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trung thể nằm gần nhân.",
+   "loai": "vi_tri",
+   "nhan": "sự thật (có phạm vi)",
+   "luat_cung": false,
+   "pham_vi": "kỳ trung gian; số đo là trung bình trên ảnh phẳng tế bào nuôi (≈ 1,5 µm), không dùng làm giới hạn cứng",
+   "nguon": [
+    "GO:0005813 centrosome (\"occur close to the nucleus during interphase\")",
+    "Salpingidou et al. 2007 J Cell Biol (trung thể \"within 1.5 µm of the NE\", trung bình ± SEM, HDF)",
+    "Hale et al. 2011 J Cell Sci (MTOC–nhân 0,2–0,3 µm trung bình 2D cắt ở 0; nhân lệch tâm 11–25 % bán kính)"
+   ],
+   "may": {
+    "loai": "gan",
+    "a": "trung_the",
+    "b": "nhan",
+    "goi_y_um": 1.5
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "4.8c",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Trung thể không chạm nhân, khe ít nhất 0,3 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "chưa có số đo khe 3D; trung thể được neo gần màng nhân",
+   "nguon": [
+    "Hale et al. 2011 J Cell Sci (MTOC–nhân 0,2–0,3 µm trung bình 2D cắt ở 0; nhân lệch tâm 11–25 % bán kính)"
+   ],
+   "may": {
+    "loai": "roi",
+    "a": "trung_the",
+    "b": "nhan",
+    "s_um": 0.3
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "M.a",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mọi bào quan nằm trong màng tế bào.",
+   "loai": "chua",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0005737 cytoplasm (\"excluding the plasma membrane and nucleus\")"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.0
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "M.b",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mọi bào quan cách màng tế bào ít nhất 0,5 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "lưới nội chất áp màng tế bào ~25 nm; lysosome có thể tới sát màng",
+   "thuc_te_cho_giao_vien": "Một số bào quan thật áp sát màng tế bào.",
+   "nguon": [
+    "Fernández-Busnadiego et al. 2015 PNAS (ER–màng sinh chất 25 nm, 3 ảnh cắt lớp)",
+    "Pu et al. 2016 J Cell Sci (lysosome tập trung quanh MTOC, có ở ngoại vi)"
+   ],
+   "may": {
+    "loai": "chua",
+    "a": "*",
+    "b": "mang",
+    "t_um": 0.5
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "M.c",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Các bào quan khác loại không chạm nhau, khe ít nhất 0,3 µm.",
+   "loai": "khe",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — tách rời để nhìn rõ (thực tế có chỗ chạm)",
+   "luat_cung": true,
+   "so_that": "tiếp xúc thật thường 10–80 nm (hay gặp ~30 nm)",
+   "nguon": [
+    "GO:0044232 organelle membrane contact site và các thuật ngữ con GO:0044233, GO:0140268, GO:7770051, GO:7770052, GO:0160258",
+    "Scorrano et al. 2019 Nat Commun (tiếp xúc 10–80 nm, không gần hơn 10 nm)"
+   ],
+   "may": {
+    "loai": "roi",
+    "a": "*",
+    "b": "*",
+    "s_um": 0.3,
+    "mien": [
+     [
+      "luoi_noi_chat",
+      "nhan"
+     ],
+     [
+      "ribosome",
+      "luoi_noi_chat"
+     ],
+     [
+      "nhan_con",
+      "nhan"
+     ],
+     [
+      "trung_tu",
+      "trung_tu"
+     ]
+    ]
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "M.d",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng nhân gồm hai lớp, khoang giữa 20–40 nm, có lỗ nhân.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "so_that": "mật độ lỗ nhân 7–16 lỗ/µm² ở tế bào động vật có vú (50/µm² ở trứng ếch); nhân 7 µm có khoảng 1 000–2 500 lỗ",
+   "thuc_te_cho_giao_vien": "Nhân thật có hàng nghìn lỗ nhân; mô hình vẽ vài chục lỗ to để dễ thấy.",
+   "mo_hinh": "khoang và lỗ vẽ to hơn thật; vẽ 46 lỗ (ít hơn thật hàng chục lần)",
+   "nguon": [
+    "GO:0005635 nuclear envelope (khoang 20–40 nm, có lỗ nhân)",
+    "GO:0005641 nuclear envelope lumen (20–40 nm)",
+    "GO:0005643 nuclear pore",
+    "BNID 110698 (7/µm²), 104260 (14–16/µm²), 104253 (50/µm²)"
+   ],
+   "may": {
+    "day_lop_um": 0.05,
+    "khoang_um": 0.05,
+    "so_lo": 46
+   },
+   "ai_duyet": "CG"
+  },
+  {
+   "id": "M.e",
+   "lop": [
+    "Sinh10"
+   ],
+   "phat_bieu": "Màng trong ti thể gấp thành mào.",
+   "loai": "cau_truc",
+   "nhan": "sự thật",
+   "luat_cung": true,
+   "nguon": [
+    "GO:0030061 mitochondrial crista"
+   ],
+   "may": {
+    "khoang_cach_mao_um": 0.22
+   },
+   "ai_duyet": "GV"
+  },
+  {
+   "id": "M.f",
+   "lop": [
+    "KHTN6",
+    "Sinh10"
+   ],
+   "phat_bieu": "Mỗi bào quan (trừ Golgi) vẽ thành một khối liền.",
+   "loai": "to_po",
+   "nhan": "đơn giản hoá để dạy học (thuật ngữ chờ tham chiếu) — giản lược hình",
+   "luat_cung": true,
+   "so_that": "ti thể thật thường nối thành mạng; Golgi gồm nhiều túi rời xếp chồng",
+   "nguon": [
+    "GO:0005739 mitochondrion (\"varying numbers, shapes, and sizes\")"
+   ],
+   "may": {
+    "loai": "lien_khoi",
+    "mien": [
+     "golgi"
+    ]
+   },
+   "ai_duyet": "GV"
+  }
+ ]
+}

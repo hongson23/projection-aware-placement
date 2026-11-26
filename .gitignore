@@ -1,0 +1,34 @@
+# large binary data: meshes, fields, scenes
+*.npz
+*.npy
+*.blend
+*.blend1
+*.obj
+*.ply
+*.stl
+*.glb
+*.gltf
+*.off
+*.tif
+*.tiff
+*.ome.tif
+*.dat
+*.xyz
+mesh*/
+
+# run outputs and caches written relative to the working directory
+runs/
+cache/
+bo_dung_chung/
+ai/
+checker/cham_ra/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# small data shipped with the release: AI template library used by D4A2 (--thu_vien A)
+!data/
+!data/ai/
+!data/ai/**

@@ -1,0 +1,177 @@
+diff --git a/cellpack/autopack/BaseGrid.py b/cellpack/autopack/BaseGrid.py
+index a1fac594..b89f8239 100644
+--- a/cellpack/autopack/BaseGrid.py
++++ b/cellpack/autopack/BaseGrid.py
+@@ -131,6 +131,11 @@ class BaseGrid:
+             if pt not in insidePoints:
+                 distance[pt] = dist
+         # self.log.debug("update distance loop %d", time() - t2)
++        from cellpack.autopack import gpu_tang_toc as _gt
++
++        if _gt.BAT and isinstance(distance, numpy.ndarray):
++            _ks = list(insidePoints.keys()) + [p_ for p_ in newDistPoints if p_ not in insidePoints]
++            _gt.bao_cap_nhat(distance, _ks, numpy.take(distance, _ks) if _ks else [])
+         return nbFreePoints
+ 
+     def __init__(
+diff --git a/cellpack/autopack/MeshStore.py b/cellpack/autopack/MeshStore.py
+index 53d060ec..24fd78f7 100644
+--- a/cellpack/autopack/MeshStore.py
++++ b/cellpack/autopack/MeshStore.py
+@@ -1,6 +1,7 @@
+ import math
+ import os
+ import numpy
++from cellpack.autopack import gpu_tang_toc as _gt
+ import trimesh
+ from cellpack import autopack
+ from tqdm import tqdm
+@@ -256,13 +257,20 @@ class MeshStore:
+     def contains_point(self, geomname, point):
+         mesh = self.get_object(geomname)
+         if mesh is not None:
+-            inside = mesh.contains([point])
++            if _gt.V3:
++                return _gt.chua_1_diem(mesh, point)
++            if _gt.BAT_CHUA and _gt.dung_gpu():
++                inside = _gt.chua_diem(mesh, [point])
++            else:
++                inside = mesh.contains([point])
+             return inside[0]
+         return False
+ 
+     def contains_points_mesh(self, geomname, points):
+         mesh = self.get_object(geomname)
+         inside = numpy.full(len(points), False)
++        if mesh is not None and _gt.BAT_CHUA and _gt.dung_gpu():
++            return _gt.chua_diem(mesh, points)
+         if mesh is not None:
+             if len(points) <= CHUNK_SIZE:
+                 return mesh.contains(points)  # TODO: check for memory leak
+diff --git a/cellpack/autopack/ingredient/Ingredient.py b/cellpack/autopack/ingredient/Ingredient.py
+index 3f3d295d..51dd99a5 100644
+--- a/cellpack/autopack/ingredient/Ingredient.py
++++ b/cellpack/autopack/ingredient/Ingredient.py
+@@ -50,6 +50,7 @@ from time import time
+ 
+ import collada
+ import numpy
++from cellpack.autopack import gpu_tang_toc as _gt
+ from scipy import spatial
+ from scipy.spatial.transform import Rotation as R
+ 
+@@ -830,7 +831,20 @@ class Ingredient(Agent):
+             # use periodic update according size ratio grid
+             update = self.checkIfUpdate(nbFreePoints, threshold)
+             self.log.info(f"check if update: {update}")
+-            if update:
++            if update and _gt.BAT:
++                allIngrPts = _gt.loc_diem_tu_do(
++                    starting_array, array_length, distances, comp_ids, current_comp_id, cuttoff
++                )
++                if _gt.KIEM:
++                    _g = []
++                    for i in range(array_length):
++                        pt_index = starting_array[i]
++                        d = distances[pt_index]
++                        if comp_ids[pt_index] == current_comp_id and d >= cuttoff:
++                            _g.append(pt_index)
++                    assert _g == allIngrPts and all(type(x) is type(y) for x, y in zip(_g, allIngrPts)), "KIEM loc"
++                self.allIngrPts = allIngrPts
++            elif update:
+                 # Only return points that aren't so close to a surface that we know the
+                 # ingredient won't fit
+                 for i in range(array_length):
+diff --git a/cellpack/autopack/ingredient/multi_sphere.py b/cellpack/autopack/ingredient/multi_sphere.py
+index 6ba1c544..50d77e79 100644
+--- a/cellpack/autopack/ingredient/multi_sphere.py
++++ b/cellpack/autopack/ingredient/multi_sphere.py
+@@ -3,6 +3,7 @@ import numpy
+ 
+ from .Ingredient import Ingredient
+ import cellpack.autopack as autopack
++from cellpack.autopack import gpu_tang_toc as _gt
+ 
+ helper = autopack.helper
+ 
+@@ -135,6 +136,62 @@ class MultiSphereIngr(Ingredient):
+         current_grid_distances,
+         env,
+         dpad,
++    ):
++        """Đường nhanh, kết quả trùng _collision_jitter_goc (xem gpu_tang_toc.py).
++        Gốc: ở tầng chưa sâu nhất chỉ xét cầu đầu tiên; có va chạm -> gọi tầng level+1, không -> gọi tầng deepest_level;
++        khi level+1 == deepest_level hai nhánh là cùng một lời gọi, không có tác dụng phụ => nhảy thẳng xuống tầng sâu nhất."""
++        if not _gt.BAT:
++            return self._collision_jitter_goc(jtrans, rotMat, level, gridPointsCoords, current_grid_distances, env, dpad)
++        lv = level
++        while not (lv == self.deepest_level and (lv + 1) == len(self.positions)):
++            if len(self.radii[lv]) == 0 or len(self.positions[lv]) == 0:
++                return False, {}, {}
++            if lv + 1 == self.deepest_level:
++                lv = self.deepest_level
++                continue
++            return self._collision_jitter_goc(jtrans, rotMat, lv, gridPointsCoords, current_grid_distances, env, dpad)
++        centers = self.positions[lv]
++        radii = self.radii[lv]
++        transformed_centers = self.transformPoints(jtrans, rotMat, centers)
++        _gt.THONG_KE["va_cham_goi"] += 1
++        va = None
++        if _gt.V3:
++            va = _gt.co_va_cham_cat_tia(env.grid, transformed_centers, radii, dpad, current_grid_distances, gridPointsCoords)
++            if va is None:
++                _gt.THONG_KE["v3_va_cham_du_phong"] += 1
++        if va is None and _gt.dung_gpu():
++            L = _gt.lay_luoi(env.grid, current_grid_distances)
++            if L is not None:
++                va = _gt.co_va_cham_gpu(L, transformed_centers, radii, dpad)
++        if va is None:
++            _gt.THONG_KE["va_cham_cpu_du_phong"] += 1
++            va = _gt.co_va_cham_cpu(env.grid, transformed_centers, radii, dpad, current_grid_distances, gridPointsCoords)
++        if va:
++            _gt.THONG_KE["va_cham_co"] += 1
++            kq = (True, {}, {})
++        else:
++            ins, nd = _gt.diem_moi_va_trong(env.grid, transformed_centers, radii, dpad, current_grid_distances, gridPointsCoords)
++            kq = (False, ins, nd)
++        if _gt.KIEM:
++            g = self._collision_jitter_goc(jtrans, rotMat, level, gridPointsCoords, current_grid_distances, env, dpad)
++            assert g[0] == kq[0], ("KIEM va cham", g[0], kq[0])
++            for a_, b_ in ((g[1], kq[1]), (g[2], kq[2])):
++                assert list(a_.keys()) == list(b_.keys()), "KIEM khoa dict"
++                va_ = numpy.array([a_[k] for k in a_], dtype=numpy.float64); vb_ = numpy.array([b_[k] for k in b_], dtype=numpy.float64)
++                assert numpy.array_equal(va_.view(numpy.uint64), vb_.view(numpy.uint64)), "KIEM gia tri dict"
++                assert all(type(a_[k]) is type(b_[k]) for k in a_), "KIEM kieu"
++            _gt.THONG_KE["kiem_ok"] += 1
++        return kq
++
++    def _collision_jitter_goc(
++        self,
++        jtrans,
++        rotMat,
++        level,
++        gridPointsCoords,
++        current_grid_distances,
++        env,
++        dpad,
+     ):
+         """
+         Check spheres for collision
+@@ -193,7 +250,7 @@ class MultiSphereIngr(Ingredient):
+                         # for sphInd in self.children[level][sphNum]:
+                         #     ccenters.append(nxtLevelSpheres[sphInd])
+                         #     cradii.append(nxtLevelRadii[sphInd])
+-                        return self.collision_jitter(
++                        return self._collision_jitter_goc(
+                             jtrans,
+                             rotMat,
+                             new_level,
+@@ -236,7 +293,7 @@ class MultiSphereIngr(Ingredient):
+                 # we didn't find any colisions with the this level, but we still want
+                 # the inside points to be based on the most detailed geom
+                 new_level = self.deepest_level
+-                return self.collision_jitter(
++                return self._collision_jitter_goc(
+                     jtrans,
+                     rotMat,
+                     new_level,

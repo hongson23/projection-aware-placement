@@ -1,0 +1,14 @@
+ĐÓNG BĂNG bộ luật sự thật v1.2 — ĐÓNG BĂNG 11/11/2026 — đã qua 2 vòng rà soát chéo độc lập
+Ngày: 11/11/2026
+Sinh bởi: tao_luat_su_that.py
+
+Động vật: 20 luật sự thật | Thực vật: 28 luật sự thật | Tham số: 152
+
+SHA-256  tệp
+fdc3d2de08235c969ec91cc7bd7bafccb5f47f112d8d9348b80856d366223f1c  luat_su_that_dong_vat_v1_2_20261111.json
+aea7e271b1d489e3d1719bc5de6d06f9146c65ea589e701b64de7cf74823d199  luat_su_that_thuc_vat_v1_2_20261111.json
+96e681dba80787609ad9f9de6153d6ce393ff255ff4f06ca38deef5214d6e0e4  tham_so_quy_uoc_v1_2_20261111.json
+46213443dd47cdafb0a2c44ab4a34fa6a66f5aa5d7c69424407fe49d07c9040d  DoiChieu_LuatSuThat_BoKiem_v1_2_20261111.md
+
+Lưu ý: bộ kiểm độc lập CHƯA chạy lại trên v1.2; bộ kiểm thực vật mới thử trên 3 tế bào do chính bộ kiểm dựng (TV1, TV2, TV6).
+Khả thi thực vật: Hộp 80 × 32 × 32 µm bo 3 µm: thể tích trong màng 61.96–68.14 pL (∈ 60–100). 2.6e (≥ 0,16 %) cần nhân ≥ 5.93 µm → cận dưới 6.0 µm. Lớp chất tế bào 1 µm: không bào 76.9 % (chật nhất), 83.7 % (rộng nhất), 81.8 % (giữa); lớp dựng được ở cả hai cực (68–85 %): 1.0–1.6 µm.

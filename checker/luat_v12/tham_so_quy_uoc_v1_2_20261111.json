@@ -1,0 +1,3242 @@
+{
+ "phien_ban": "tham_so_quy_uoc_v1.2-20261111",
+ "trang_thai": "ĐÓNG BĂNG 11/11/2026 — đã qua 2 vòng rà soát chéo độc lập",
+ "sua_doi_so_voi_v1_va_v1_1": [
+  "SAI 1: 4.3b = đường kính tiết diện 0,2–1 µm (Stephan 2019, Siegmund 2018, BioNumbers); bỏ nguồn số đếm BNID 109409/Valm; dài 1–2 µm và hạt rời → tham số",
+  "SAI 2: 2.2a bỏ hệ số cùng bậc (= 1); tv.kich_thuoc_vach 68×30×30 (60.25 pL); tv.duong_kinh_nhan [5.4; 7] (cần ≥ 5.35); khả thi tính lại ở tv.kich_thuoc_vach.kiem_kha_thi",
+  "SAI 3: 10.2b 0,3–0,6 → 0,2–0,6 µm, ghi phạm vi (Bussi 278 ± 43 nm)",
+  "SAI 4: 2.6a → tham số tv.so_nhan (chưa có nguồn khoa học); 2.1 chỉ đòi ≥ 1 nhân",
+  "SAI 5: định nghĩa '*' ở cả hai JSON; M.a/M.c₀/M.h có loai_tru; 4.5b/4.6b/4.8b dùng vị từ tương đối (gan_tuong_doi, bao_quanh), ngưỡng µm chỉ là tham số bộ dựng; 4.8a goc_toi_thieu_do; 4.4a chạm diện tích > 0",
+  "SAI 6: thêm mau_thuan_mac_dinh_voi_su_that; dv.mien_cung_loai mặc định [] (theo M.h)",
+  "NÊN: 1.2a cận trên 30 µm → tham số; 1.5 phạm vi HeLa/COS-7; 2.4b 0,68–0,85 (Koffler); 2.7d thêm Liao 2025; 2.6b bỏ 'không bào lõm'; 2.7b vị từ 'rai'; 2.7f muc_suy_ra; 10.2c 3–100; màng nhân 20–50 nm ở M.d; thêm khong_the_hien_co_chu_dich và so_trong_van_ban cho mọi luật",
+  "--- v1.2 ---",
+  "1. 2.2a: vị từ trên thể tích TRONG màng 60–100 pL (PI); hộp 80×32×32 µm (61.96–68.14 pL); nhân [6.0; 7] µm; khả thi tính lại",
+  "2. 5.6a khe Golgi–Golgi > 0, 5.4a và 10.3b diện tích chạm > 0; ngưỡng 2 µm / 1 µm² / 0,005 µm² chỉ là phép kiểm tham số",
+  "3. trạng thái ĐÓNG BĂNG; SHA-256 ở DONG_BANG_LuatSuThat_v1_2.txt"
+ ],
+ "kiem_kha_thi_thuc_vat_v1_2": {
+  "trang_thai": "tính số học như kiem_kha_thi v1.4 (chép logic ngan_sach; tái lập đúng số v1.4 với hộp 60×30×30), chưa dựng thử",
+  "hop_ngoai_um": [
+   80.0,
+   32.0,
+   32.0
+  ],
+  "ban_kinh_bo_um": 3.0,
+  "the_tich_ngoai_pL": 80.84,
+  "the_tich_trong_mang_pL": {
+   "nho_nhat (thành 1,5 + màng 0,25)": 61.96,
+   "lon_nhat (thành 1 + màng 0,15)": 68.14
+  },
+  "duong_kinh_nhan_toi_thieu_cho_2_6e_um": 5.927,
+  "duong_kinh_nhan_toi_da_cho_2_6e_um": 13.96,
+  "ca_lop_1um": {
+   "chat_nhat": {
+    "V_trong_mang_um3": 61961,
+    "ti_le_khong_bao": 0.7692,
+    "ti_le_nhan": 0.0029,
+    "ti_le_luc_lap": 0.0405
+   },
+   "rong_nhat": {
+    "V_trong_mang_um3": 68144,
+    "ti_le_khong_bao": 0.8369,
+    "ti_le_nhan": 0.00166,
+    "ti_le_luc_lap": 0.0091
+   },
+   "giua": {
+    "V_trong_mang_um3": 65015,
+    "ti_le_khong_bao": 0.8178,
+    "ti_le_nhan": 0.00221,
+    "ti_le_luc_lap": 0.0205
+   }
+  },
+  "cua_so_lop_chat_te_bao": [
+   {
+    "lop_um": 0.6,
+    "chat_nhat": 0.8299,
+    "rong_nhat": 0.8918
+   },
+   {
+    "lop_um": 0.7,
+    "chat_nhat": 0.8146,
+    "rong_nhat": 0.8777
+   },
+   {
+    "lop_um": 0.8,
+    "chat_nhat": 0.7993,
+    "rong_nhat": 0.8639
+   },
+   {
+    "lop_um": 0.9,
+    "chat_nhat": 0.7842,
+    "rong_nhat": 0.8503
+   },
+   {
+    "lop_um": 1.0,
+    "chat_nhat": 0.7692,
+    "rong_nhat": 0.8369
+   },
+   {
+    "lop_um": 1.1,
+    "chat_nhat": 0.7544,
+    "rong_nhat": 0.8238
+   },
+   {
+    "lop_um": 1.2,
+    "chat_nhat": 0.7396,
+    "rong_nhat": 0.8108
+   },
+   {
+    "lop_um": 1.3,
+    "chat_nhat": 0.725,
+    "rong_nhat": 0.7979
+   },
+   {
+    "lop_um": 1.4,
+    "chat_nhat": 0.7106,
+    "rong_nhat": 0.7852
+   },
+   {
+    "lop_um": 1.5,
+    "chat_nhat": 0.6963,
+    "rong_nhat": 0.7725
+   },
+   {
+    "lop_um": 1.6,
+    "chat_nhat": 0.6822,
+    "rong_nhat": 0.7599
+   },
+   {
+    "lop_um": 1.7,
+    "chat_nhat": 0.6682,
+    "rong_nhat": 0.7474
+   },
+   {
+    "lop_um": 1.8,
+    "chat_nhat": 0.6544,
+    "rong_nhat": 0.7349
+   },
+   {
+    "lop_um": 1.9,
+    "chat_nhat": 0.6408,
+    "rong_nhat": 0.7224
+   },
+   {
+    "lop_um": 2.0,
+    "chat_nhat": 0.6273,
+    "rong_nhat": 0.71
+   },
+   {
+    "lop_um": 2.1,
+    "chat_nhat": 0.614,
+    "rong_nhat": 0.6976
+   },
+   {
+    "lop_um": 2.2,
+    "chat_nhat": 0.6008,
+    "rong_nhat": 0.6853
+   },
+   {
+    "lop_um": 2.3,
+    "chat_nhat": 0.5878,
+    "rong_nhat": 0.673
+   },
+   {
+    "lop_um": 2.4,
+    "chat_nhat": 0.5749,
+    "rong_nhat": 0.6608
+   },
+   {
+    "lop_um": 2.5,
+    "chat_nhat": 0.5622,
+    "rong_nhat": 0.6486
+   }
+  ],
+  "lop_dat_ca_hai_cuc_68_85_um": [
+   1.0,
+   1.6
+  ],
+  "ket_luan": "Hộp 80 × 32 × 32 µm bo 3 µm: thể tích trong màng 61.96–68.14 pL (∈ 60–100). 2.6e (≥ 0,16 %) cần nhân ≥ 5.93 µm → cận dưới 6.0 µm. Lớp chất tế bào 1 µm: không bào 76.9 % (chật nhất), 83.7 % (rộng nhất), 81.8 % (giữa); lớp dựng được ở cả hai cực (68–85 %): 1.0–1.6 µm."
+ },
+ "nhan_chung": "tham số, không phải luật",
+ "sinh_boi": "tao_luat_su_that.py",
+ "nguon_vao_sha256_16": {
+  "luat_te_bao_dong_vat_v4_1_20261104.json": "683c3e595675b834",
+  "luat_te_bao_thuc_vat_v1_4_20261105.json": "064f46f78b3cf997",
+  "../ThuNghiem/bo_dung_chung/dac_ta/dong_vat_botri2.json": "da264d7be9ed5928",
+  "BoSung_LuatV4_2_DeXuat_20261105.md": "70e9202ae2bef8ee",
+  "lam_excel_gv.py": "dd7b7daa194fa1ca"
+ },
+ "gom": "mọi quy ước dạy học (khe, số vẽ, bề dày vẽ, vành ER, khuyết nón, lệch tâm, khoảng cách luật mềm, gợn màng), 55 hằng số botri2 không thuộc luật, nguong_tu_dat thực vật, dung sai 'khoảng', ngưỡng đo của bộ kiểm",
+ "khong_gom": "tham số số học thuần của bộ giải/bộ kiểm (N1, lr, số bước, K, số mẫu, 69 mục tham_so_so_hoc của botri2, NG_DAC_VO, R_DONG_MAX2, TV_KB_DELTA, TV_KB_BUOC, voxel, số tia): thuộc về mã",
+ "loai_ly_do": [
+  "hiển thị dạy học",
+  "lựa chọn mô hình",
+  "ngưỡng đo / dung sai số học",
+  "khởi tạo bộ dựng",
+  "tư thế mẫu (nhánh đặt tay)"
+ ],
+ "so_tham_so": 152,
+ "dem_theo_vat": {
+  "chung": 7,
+  "dv": 77,
+  "tv": 68
+ },
+ "tham_so": [
+  {
+   "id": "chung.khe_roi",
+   "gia_tri": 0.3,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe nhìn thấy giữa các bộ phận khác loại (thật 0,01–0,08 µm); gộp M.c, 4.3d, 4.5c, 4.8c, 1.6 (động vật) và K.1 (thực vật)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.c₀",
+    "tv:M.c₀",
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "v4.1 M.c/4.3d/4.5c/4.8c (s_um 0,3); botri2 S_roi; v1.4 K.1",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật",
+   "theo_cap": {
+    "dv": {
+     "mac_dinh": 0.3,
+     "mien": [
+      [
+       "luoi_noi_chat",
+       "nhan"
+      ],
+      [
+       "nhan_con",
+       "nhan"
+      ],
+      [
+       "ribosome",
+       "luoi_noi_chat"
+      ],
+      [
+       "trung_tu",
+       "trung_tu"
+      ]
+     ]
+    },
+    "tv": {
+     "mac_dinh": 0.3,
+     "trong_luc_lap": "@tv.khe_trong_luc_lap",
+     "mien": "@tv.mien_khe_chung"
+    }
+   },
+   "ghi_chu": "dv: khe 0,3 cộng vành ER 2 µm làm 4.8b ('gần nhân ≤ 1,5 µm') không đạt nếu không khuyết nón (dv.khuyet_cos)",
+   "thay_luat_quy_uoc": [
+    "dv:1.6",
+    "dv:4.3d",
+    "dv:4.5c",
+    "dv:4.8c",
+    "dv:M.c",
+    "tv:K.1"
+   ]
+  },
+  {
+   "id": "chung.khe_cung_loai",
+   "gia_tri": {
+    "dv": {
+     "ti_the": 0.3,
+     "lysosome": 0.0,
+     "nhan_con": 0.0
+    },
+    "tv": {
+     "luc_lap": 0.3,
+     "ti_the": 0.3,
+     "peroxisome": 0.3,
+     "nhan_con": 0.3,
+     "granum": 0.1,
+     "tam_noi": 0.1
+    }
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe nhìn thấy giữa hai bản sao cùng loại; 0 = chỉ còn sự thật M.h",
+   "tuong_tac_luat_su_that": [
+    "dv:M.h",
+    "tv:M.h"
+   ],
+   "nguon_goc": "v4.1 4.3d (ti thể–ti thể 0,3); botri2 mien_cung_loai; v1.4 K.1 điều kiện cung_loai",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:4.3d",
+    "tv:K.1"
+   ]
+  },
+  {
+   "id": "chung.lien_khoi_moi_bao_quan",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "mỗi bào quan vẽ thành một khối liền (thật: ti thể thường nối mạng, Golgi gồm túi rời)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b",
+    "dv:1.3"
+   ],
+   "nguon_goc": "v4.1 M.f; v1.4 M.e",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:M.f",
+    "tv:M.e"
+   ]
+  },
+  {
+   "id": "chung.tach_roi_doi_tuong",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "mỗi bào quan (mỗi bản sao) là một vật/mesh riêng, ẩn/hiện độc lập; vi phạm báo riêng",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "BoSung v4.2 mục A (D.1 = M.g); v1.4 M.g",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:M.g / D.1",
+    "tv:M.g"
+   ]
+  },
+  {
+   "id": "chung.dung_sai_khoang",
+   "gia_tri": 0.0,
+   "don_vi": "tỉ lệ (tương đối)",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai cho chữ 'khoảng' trong dải sự thật; 0 = dải cứng (đúng như bộ kiểm DUNG_SAI_KHOANG = 0)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.5",
+    "dv:4.5a",
+    "tv:2.7d"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py DUNG_SAI_KHOANG; BoSung mục C (4.3b cứng hay có dung sai)",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "chung.eps_giao_um3",
+   "gia_tri": 1e-06,
+   "don_vi": "µm³",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "thể tích giao lớn hơn ngưỡng này mới tính là 'giao' (chạm được phép)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.c₀",
+    "dv:M.h",
+    "dv:M.a",
+    "dv:1.4a",
+    "dv:4.3a",
+    "dv:1.1",
+    "tv:M.c₀",
+    "tv:M.h",
+    "tv:M.a",
+    "tv:2.3a",
+    "tv:2.1",
+    "tv:2.6b",
+    "tv:2.7b",
+    "tv:M.d"
+   ],
+   "nguon_goc": "bộ kiểm EPS_VOL (kiem2.py, kiem_thucvat.py)",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "chung.tiep_xuc_toi_da_um",
+   "gia_tri": 0.01,
+   "don_vi": "µm",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "khoảng cách tối đa coi là 'chạm/liền'",
+   "tuong_tac_luat_su_that": [
+    "dv:4.4a",
+    "tv:5.4a",
+    "tv:10.3b"
+   ],
+   "nguon_goc": "bộ kiểm TIEP_XUC_UM (dv), TV_TIEP_XUC (tv); BoSung mục C (4.4a ≤ 0,01)",
+   "vat": "chung",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:4.4a"
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:2.3c"
+   ]
+  },
+  {
+   "id": "dv.R_vo",
+   "gia_tri": 10.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "chọn một giá trị trong dải sự thật 1.2a (10–30 µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a",
+    "dv:1.5"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.R_vo (dòng botri2 33; luật v4.1 1.2a; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bán kính tế bào (µm)",
+   "tach_tu_luat_su_that": [
+    "dv:1.2a"
+   ]
+  },
+  {
+   "id": "dv.nhieu_quy_mo",
+   "gia_tri": 6.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Màng tế bào gợn nhẹ, mỗi gợn rộng khoảng 6 µm.",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_quy_mo (dòng botri2 142; luật v4.1 1.2b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bước sóng nhiễu màng (µm)",
+   "anh_huong": "không làm luật nào bất khả; bỏ thì màng thành cầu trơn (1.2b vẫn đạt)",
+   "thay_luat_quy_uoc": [
+    "dv:1.2b",
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.nhieu_bien_do",
+   "gia_tri": 0.25,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Gợn màng cao không quá khoảng 0,25 µm, nên tế bào vẫn gần tròn.",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_bien_do (dòng botri2 142; luật v4.1 1.2b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "biên độ nhiễu màng (µm)",
+   "anh_huong": "gợn cao hơn làm hẹp chỗ đặt bộ phận sát màng (1.4b, M.b khó hơn); bỏ không ảnh hưởng luật nào",
+   "thay_luat_quy_uoc": [
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.nhieu_hat",
+   "gia_tri": 1,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Mọi tế bào vẽ ra dùng chung một hình màng (cùng một kiểu gợn).",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_hat (dòng botri2 142; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "hạt nhiễu màng CỐ ĐỊNH (mọi seed cùng một màng)",
+   "anh_huong": "không làm luật nào bất khả; đổi theo seed thì mỗi tế bào có màng khác (không còn so được y hệt với botri2)",
+   "thay_luat_quy_uoc": [
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.nhieu_so_song",
+   "gia_tri": 6,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Gợn màng là chồng của 6 sóng nhẹ theo các hướng ngẫu nhiên.",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_so_song (dòng botri2 139; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "số sóng sin cộng vào nhiễu",
+   "anh_huong": "chỉ đổi hình gợn; không ảnh hưởng luật nào",
+   "thay_luat_quy_uoc": [
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.nhieu_he_so_k",
+   "gia_tri": [
+    0.7,
+    1.3
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Các sóng gợn màng có độ rộng lệch nhau trong khoảng ±30 %.",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_he_so_k (dòng botri2 140; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "dải nhân tần số mỗi sóng",
+   "anh_huong": "chỉ đổi hình gợn; không ảnh hưởng luật nào",
+   "thay_luat_quy_uoc": [
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.nhieu_chia",
+   "gia_tri": 3,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Biên độ tổng của các sóng gợn được chia 3 để gợn không quá cao.",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a",
+    "dv:M.a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.nhieu_chia (dòng botri2 141; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "chia tổng sóng (chuẩn hoá biên độ)",
+   "anh_huong": "đi cùng nhieu_bien_do; bỏ thì gợn cao gấp ~3 lần, hẹp chỗ cho 1.4b/M.b",
+   "thay_luat_quy_uoc": [
+    "dv:N.1"
+   ]
+  },
+  {
+   "id": "dv.T_nhan_mang",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe nhân–màng (µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.4a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.T_nhan_mang (dòng botri2 34 (T_NHAN_MANG); luật v4.1 1.4b; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khe nhân–màng (µm)",
+   "thay_luat_quy_uoc": [
+    "dv:1.4b"
+   ]
+  },
+  {
+   "id": "dv.T_mang",
+   "gia_tri": 0.5,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe bào quan–màng (µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.T_mang (dòng botri2 34 (T_MANG); luật v4.1 M.b; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khe bào quan–màng (µm)",
+   "thay_luat_quy_uoc": [
+    "dv:M.b"
+   ]
+  },
+  {
+   "id": "dv.T_nhancon",
+   "gia_tri": 0.3,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe nhân con–màng nhân (µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.2a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.T_nhancon (dòng botri2 34 (T_NHANCON); luật v4.1 4.2b; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khe nhân con–màng nhân (µm)",
+   "thay_luat_quy_uoc": [
+    "dv:4.2b"
+   ]
+  },
+  {
+   "id": "dv.S_roi",
+   "gia_tri": 0.3,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe rời giữa bào quan khác loại (µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.c₀",
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.S_roi (dòng botri2 34 (S_ROI); luật v4.1 M.c; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khe rời giữa bào quan khác loại (µm)"
+  },
+  {
+   "id": "dv.D_er",
+   "gia_tri": 2.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "độ dày vành lưới nội chất quanh nhân (µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.4a",
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.D_er (dòng botri2 34 (D_ER); luật v4.1 4.4b; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "độ dày vành lưới nội chất quanh nhân (µm)",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b"
+   ]
+  },
+  {
+   "id": "dv.er_trong",
+   "gia_tri": 0.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "đặt 0 để vành ER bắt đầu ngay mặt nhân (cách hiện thực sự thật 4.4a)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.4a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.er_trong (dòng botri2 34 (ER_TRONG); luật v4.1 4.4a; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "mép trong vành lưới nội chất = mặt nhân",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b"
+   ]
+  },
+  {
+   "id": "dv.khuyet_cos",
+   "gia_tri": 0.55,
+   "don_vi": "cos(nửa góc)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Vành lưới nội chất quanh nhân để trống một vùng hình nón về phía trung thể và Golgi, nửa góc nón khoảng 57°.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuyet_cos (dòng botri2 146, 149, 159; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "nửa góc khuyết nón của vành (cos) hướng trung thể",
+   "anh_huong": "bỏ ⇒ 4.8b (trung thể cách mặt nhân ≤ 1,5 µm) và 4.5b không đạt được, vì vành dày 2 µm (4.4b) cộng khe 0,3 µm (M.c) đẩy trung thể ra ≥ 2,3 µm",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b",
+    "dv:N.3"
+   ]
+  },
+  {
+   "id": "dv.khuyet_huong",
+   "gia_tri": "trung_the",
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Khoảng trống hình nón của lưới nội chất nằm về phía trung thể.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8b",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuyet_huong (dòng botri2 143; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khuyết nón hướng về bộ phận này",
+   "anh_huong": "bỏ hướng này (khuyết hướng khác) ⇒ 4.8b và 4.5b không đạt như trên",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b",
+    "dv:N.3"
+   ]
+  },
+  {
+   "id": "dv.dai_nhan",
+   "gia_tri": [
+    3.9,
+    5.0
+   ],
+   "don_vi": "µm (nửa trục dài)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "chọn dải trong sự thật 1.5 (5–10 µm; 0,39–0,5 đường kính tế bào)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.5"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_nhan (dòng botri2 35; luật v4.1 1.5; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "dải cỡ (nửa trục dài) nhân (µm)",
+   "tach_tu_luat_su_that": [
+    "dv:1.5"
+   ]
+  },
+  {
+   "id": "dv.dai_trung_the",
+   "gia_tri": [
+    0.42,
+    0.48
+   ],
+   "don_vi": "µm (bán kính)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Trung thể vẽ gộp thành một khối cầu bán kính 0,42–0,48 µm bao lấy hai trung tử.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_trung_the (dòng botri2 35; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bán kính cầu trung thể (µm)",
+   "anh_huong": "4.8a (hai trung tử dài 0,3–0,5 µm) chỉ dựng ở tầng 2 bên trong cầu này; cầu nhỏ hơn thì trung tử không vừa",
+   "tach_tu_luat_su_that": [
+    "dv:4.8a"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.4"
+   ]
+  },
+  {
+   "id": "dv.dai_golgi",
+   "gia_tri": [
+    1.6,
+    2.2
+   ],
+   "don_vi": "µm (nửa trục dài)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Bộ máy Golgi vẽ trong một khối dẹt dài 3,2–4,4 µm.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5a",
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_golgi (dòng botri2 35; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "cỡ Golgi (nửa trục dài, µm)",
+   "anh_huong": "4.5a (4–8 túi rộng 0,7–1,1 µm) phải vừa trong khối này; khối lớn hơn làm 4.5b/4.8b khó đạt hơn",
+   "tach_tu_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.5"
+   ]
+  },
+  {
+   "id": "dv.dai_nhan_con",
+   "gia_tri": [
+    0.4,
+    0.9
+   ],
+   "don_vi": "µm (bán kính)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "đường kính 0,8–1,8 µm, chọn trong dải sự thật 4.2a (0,5–5)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.2a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_nhan_con (dòng botri2 35; luật v4.1 4.2a; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bán kính nhân con (µm)",
+   "tach_tu_luat_su_that": [
+    "dv:4.2a"
+   ]
+  },
+  {
+   "id": "dv.dai_ti_the",
+   "gia_tri": [
+    0.5,
+    1.0
+   ],
+   "don_vi": "µm (nửa dài)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "dài vẽ 1–2 µm (nửa dài 0,5–1): 'quy ước có phạm vi' theo ghi chú ti thể §9.2(d) — đúng với hình EM lát mỏng và một số mô, nhưng ti thể thường nối mạng dài hàng chục µm; dải '1–4 µm' không có nguồn",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_ti_the (dòng botri2 35; luật v4.1 4.3b; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "nửa dài ti thể (µm)",
+   "tach_tu_luat_su_that": [
+    "dv:4.3b"
+   ]
+  },
+  {
+   "id": "dv.dai_lysosome",
+   "gia_tri": [
+    0.2,
+    0.4
+   ],
+   "don_vi": "µm (bán kính)",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "đường kính 0,4–0,8 µm, chọn trong dải sự thật 4.6a (0,1–1,2)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.6a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.dai_lysosome (dòng botri2 35; luật v4.1 4.6a; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bán kính lysosome (µm)",
+   "tach_tu_luat_su_that": [
+    "dv:4.6a"
+   ]
+  },
+  {
+   "id": "dv.khuon_nhan_truc",
+   "gia_tri": [
+    1.0,
+    0.943,
+    0.896
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Nhân vẽ hơi dẹt, ba trục tỉ lệ khoảng 1 : 0,94 : 0,90.",
+   "tuong_tac_luat_su_that": [
+    "dv:1.5"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_nhan_truc (dòng botri2 62; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "tỉ lệ ba trục elip nhân",
+   "anh_huong": "không làm luật nào bất khả; hệ số 1,06 của khởi tạo suy từ hình này",
+   "tach_tu_luat_su_that": [
+    "dv:1.5"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.2"
+   ]
+  },
+  {
+   "id": "dv.khuon_golgi_truc",
+   "gia_tri": [
+    0.395,
+    1.0,
+    0.842
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Khối Golgi dẹt: bề dày khoảng 0,4 lần chiều dài, bề rộng khoảng 0,84 lần chiều dài.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_golgi_truc (dòng botri2 63; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "tỉ lệ ba trục elip Golgi (dẹt)",
+   "anh_huong": "4.5a (túi dẹt xếp chồng) cần khối dẹt; nửa dày 0,395 dùng khi khởi tạo",
+   "tach_tu_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.5"
+   ]
+  },
+  {
+   "id": "dv.khuon_ong",
+   "gia_tri": [
+    [
+     0.25,
+     0.0
+    ],
+    [
+     0.35,
+     0.0
+    ],
+    [
+     0.45,
+     0.0
+    ],
+    [
+     0.3,
+     0.25
+    ],
+    [
+     0.4,
+     0.2
+    ]
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "năm khuôn ống (bán kính, độ cong); bề rộng tuyệt đối 0,25–0,9 µm NẰM TRONG dải sự thật 4.3b v1.1 (0,2–1 µm) — mâu thuẫn của v1 (0,5–1) hết; độ cong là quy ước",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_ong (dòng botri2 64; luật v4.1 4.3b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "năm khuôn ống ti thể (bán kính, độ cong)",
+   "anh_huong": "độ cong chưa có luật; bề rộng hiện MÂU THUẪN 4.3b (rộng 0,5–1 µm): sửa khuôn hoặc sửa luật",
+   "tach_tu_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.7"
+   ]
+  },
+  {
+   "id": "dv.khuon_lysosome",
+   "gia_tri": "cau",
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "lysosome dùng khuôn cầu",
+   "tuong_tac_luat_su_that": [
+    "dv:4.6a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_lysosome (dòng botri2 65; luật v4.1 4.6d; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "lysosome dùng khuôn cầu",
+   "thay_luat_quy_uoc": [
+    "dv:4.6d"
+   ]
+  },
+  {
+   "id": "dv.khuon_trung_the",
+   "gia_tri": "cau",
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Trung thể vẽ thành một khối cầu (hai trung tử vẽ bên trong ở tầng 2).",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_trung_the (dòng botri2 224; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "trung thể dùng khuôn cầu",
+   "anh_huong": "như dai_trung_the",
+   "tach_tu_luat_su_that": [
+    "dv:4.8a"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.4"
+   ]
+  },
+  {
+   "id": "dv.khuon_nhan_con",
+   "gia_tri": "cau",
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Nhân con vẽ thành khối cầu.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.2a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.khuon_nhan_con (dòng botri2 226; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "nhân con dùng khuôn cầu",
+   "anh_huong": "không làm luật nào bất khả",
+   "tach_tu_luat_su_that": [
+    "dv:4.2a"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:N.6"
+   ]
+  },
+  {
+   "id": "dv.ai_bo_golgi",
+   "gia_tri": [
+    "golgi"
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Golgi vẽ bằng khối dẹt dựng theo công thức, không dùng khuôn do AI dựng.",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.ai_bo_golgi (dòng botri2 66–69; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "thư viện A bỏ khuôn AI loại này (không qua cổng hình)",
+   "anh_huong": "không làm luật nào bất khả; là lựa chọn thư viện khuôn (khuôn AI Golgi không qua cổng hình 04/11)"
+  },
+  {
+   "id": "dv.so_ti_the",
+   "gia_tri": [
+    10,
+    20
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "số vẽ ít hơn thật hàng chục lần (mã lưu nửa mở [10, 21) = 10–20 cái)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.so_ti_the (dòng botri2 195; luật v4.1 4.3c; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "số ti thể ∈ [10, 20]",
+   "ma_luu": [
+    10,
+    21
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:4.3c"
+   ]
+  },
+  {
+   "id": "dv.so_lysosome",
+   "gia_tri": [
+    3,
+    8
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "số vẽ ít hơn thật (mã lưu [3, 9) = 3–8 cái)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.so_lysosome (dòng botri2 195; luật v4.1 4.6c; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "số lysosome ∈ [3, 8]",
+   "ma_luu": [
+    3,
+    9
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:4.6c"
+   ]
+  },
+  {
+   "id": "dv.so_nhan_con",
+   "gia_tri": [
+    1,
+    3
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "số vẽ 1–3 trong dải thật 1–5 (mã lưu [1, 4))",
+   "tuong_tac_luat_su_that": [
+    "dv:4.2a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.so_nhan_con (dòng botri2 195; luật v4.1 4.2a; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "số nhân con ∈ [1, 3]",
+   "ma_luu": [
+    1,
+    4
+   ],
+   "tach_tu_luat_su_that": [
+    "dv:4.2a"
+   ]
+  },
+  {
+   "id": "dv.lech_tam",
+   "gia_tri": [
+    0.11,
+    0.25
+   ],
+   "don_vi": "tỉ lệ bán kính tế bào",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "dải đo 2D (Hale 2011, MEF) dùng làm quy tắc đặt nhân; luật chỉ nói 'không bắt buộc ở giữa'",
+   "tuong_tac_luat_su_that": [
+    "dv:1.3"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.lech_tam (dòng botri2 188, 218, 242; luật v4.1 1.3; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "lệch tâm nhân / R (tính từ GỐC TOẠ ĐỘ, không từ trọng tâm màng)",
+   "tach_tu_luat_su_that": [
+    "dv:1.3"
+   ]
+  },
+  {
+   "id": "dv.gan_tt_nhan",
+   "gia_tri": 1.5,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Trung thể cách mặt nhân không quá 1,5 µm (luật mềm). — CHỈ là ngưỡng của bộ dựng (luật mềm); phán quyết sự thật dùng định nghĩa tương đối trong vị từ",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.gan_tt_nhan (dòng botri2 190; luật v4.1 4.8b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "trung thể–mặt nhân ≤ (µm, mặt–mặt)",
+   "anh_huong": "là ngưỡng đo của 4.8b; bỏ thì 4.8b không đo được",
+   "tach_tu_luat_su_that": [
+    "dv:4.8b"
+   ]
+  },
+  {
+   "id": "dv.gan_tt_golgi",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Trung thể cách mặt Golgi không quá 1,0 µm (Golgi ôm quanh trung thể). — CHỈ là ngưỡng của bộ dựng (luật mềm); phán quyết sự thật dùng định nghĩa tương đối trong vị từ",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.gan_tt_golgi (dòng botri2 190; luật v4.1 4.5b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "trung thể–mặt Golgi ≤ (µm, mặt–mặt)",
+   "anh_huong": "bỏ thì 4.5b không còn ngưỡng đo được; Golgi có thể trôi xa trung thể",
+   "tach_tu_luat_su_that": [
+    "dv:4.5b"
+   ]
+  },
+  {
+   "id": "dv.gan_lyso_nhan",
+   "gia_tri": 4.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "Lysosome nên nằm trong khoảng 4 µm quanh mặt nhân (tức 2 µm ngoài vành lưới nội chất); đây là luật mềm. — CHỈ là ngưỡng của bộ dựng (luật mềm); phán quyết sự thật dùng định nghĩa tương đối trong vị từ",
+   "tuong_tac_luat_su_that": [
+    "dv:4.6b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.gan_lyso_nhan (dòng botri2 191; luật v4.1 4.6b; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "lysosome cách mặt nhân ≤ D_ER + 2 (µm)",
+   "anh_huong": "bỏ thì 4.6b không được thúc; không làm luật cứng nào bất khả",
+   "tach_tu_luat_su_that": [
+    "dv:4.6b"
+   ]
+  },
+  {
+   "id": "dv.mien_cung_loai",
+   "gia_tri": [],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "v1.1: KHÔNG miễn cặp cùng loại nào (theo M.h). botri2 hiện lưu ['lysosome'] → lysosome được chồng nhau, TRÁI M.h (D4A2_td có 41 cặp lysosome chồng)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.h"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.mien_cung_loai (dòng botri2 162, 166, 170, 380; luật v4.1 M.c; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "cặp cùng loại được miễn khe (lysosome; nhân con thì nằm ngoài tập rời)",
+   "ma_luu": [
+    "lysosome"
+   ]
+  },
+  {
+   "id": "dv.mien_cap",
+   "gia_tri": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ]
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "cặp miễn khe khi chiếu",
+   "tuong_tac_luat_su_that": [
+    "dv:M.c₀",
+    "dv:4.4a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.mien_cap (dòng botri2 380; luật v4.1 M.c; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "cặp miễn khe khi chiếu",
+   "thay_luat_quy_uoc": [
+    "dv:M.c"
+   ]
+  },
+  {
+   "id": "dv.lien_khoi_mien",
+   "gia_tri": [
+    "golgi"
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "loại được phép nhiều mảnh",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.lien_khoi_mien (dòng botri2 490–491; luật v4.1 M.f; nhãn co_luat)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "loại được phép nhiều mảnh",
+   "thay_luat_quy_uoc": [
+    "dv:M.f"
+   ]
+  },
+  {
+   "id": "dv.kt_he_so_elip",
+   "gia_tri": 1.06,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "bán kính bao nhân ≈ 1,06 · cỡ — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng điểm khởi đầu và nhánh thử–loại; không luật nào bất khả)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_he_so_elip (dòng botri2 207, 219; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "bán kính bao nhân ≈ 1,06 · cỡ",
+   "anh_huong": "chỉ ảnh hưởng điểm khởi đầu và nhánh thử–loại; không luật nào bất khả"
+  },
+  {
+   "id": "dv.kt_le_vung",
+   "gia_tri": 0.5,
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "lề thêm ngoài vành khi rải bộ phận nhỏ — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu/thử–loại; bỏ thì nhiều lần đặt lại hơn)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_le_vung (dòng botri2 207; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "lề thêm ngoài vành khi rải bộ phận nhỏ",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu/thử–loại; bỏ thì nhiều lần đặt lại hơn"
+  },
+  {
+   "id": "dv.kt_dtt_ngau",
+   "gia_tri": [
+    0.1,
+    0.6
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "khoảng ngẫu nhiên thêm cho trung thể — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu; thay đổi khả năng đạt 4.8b của nhánh tối ưu)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_dtt_ngau (dòng botri2 219; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khoảng ngẫu nhiên thêm cho trung thể",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu; thay đổi khả năng đạt 4.8b của nhánh tối ưu"
+  },
+  {
+   "id": "dv.kt_dg_ngau",
+   "gia_tri": [
+    0.1,
+    0.5
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "khoảng ngẫu nhiên thêm cho Golgi — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu; thay đổi khả năng đạt 4.5b)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_dg_ngau (dòng botri2 219; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "khoảng ngẫu nhiên thêm cho Golgi",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu; thay đổi khả năng đạt 4.5b"
+  },
+  {
+   "id": "dv.kt_golgi_nua_day",
+   "gia_tri": 0.395,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "nửa bề dày Golgi = trục ngắn khuôn — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: đi cùng khuon_golgi_truc)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_golgi_nua_day (dòng botri2 219, 305; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "nửa bề dày Golgi = trục ngắn khuôn",
+   "anh_huong": "đi cùng khuon_golgi_truc",
+   "thay_luat_quy_uoc": [
+    "dv:N.5"
+   ]
+  },
+  {
+   "id": "dv.kt_sau_ti_the",
+   "gia_tri": 1.5,
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "độ sâu tối thiểu khi rải ti thể (µm) — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu/thử–loại)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_sau_ti_the (dòng botri2 229, 237; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "độ sâu tối thiểu khi rải ti thể (µm)",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu/thử–loại"
+  },
+  {
+   "id": "dv.kt_sau_lyso",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "độ sâu tối thiểu khi rải lysosome (µm) — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu/thử–loại)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_sau_lyso (dòng botri2 229, 237; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "độ sâu tối thiểu khi rải lysosome (µm)",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu/thử–loại"
+  },
+  {
+   "id": "dv.kt_nhancon_trong",
+   "gia_tri": 0.4,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "nhân con rải trong 0,4 · cỡ nhân — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: chỉ ảnh hưởng khởi đầu/thử–loại)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_nhancon_trong (dòng botri2 226, 246; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "nhân con rải trong 0,4 · cỡ nhân",
+   "anh_huong": "chỉ ảnh hưởng khởi đầu/thử–loại"
+  },
+  {
+   "id": "dv.kt_lai_tt",
+   "gia_tri": [
+    0.6,
+    1.5
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "đặt lại trung thể: mặt nhân + U(0,6;1,5) — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: nhánh ngau_nhien: quyết định trực tiếp khả năng đạt 4.8b)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_lai_tt (dòng botri2 244; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "đặt lại trung thể: mặt nhân + U(0,6;1,5)",
+   "anh_huong": "nhánh ngau_nhien: quyết định trực tiếp khả năng đạt 4.8b"
+  },
+  {
+   "id": "dv.kt_lai_golgi",
+   "gia_tri": [
+    2.4,
+    4.3
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "khởi tạo bộ dựng",
+   "vi_sao": "đặt lại Golgi: mặt nhân + U(2,4;4,3) — chỉ ảnh hưởng điểm khởi đầu/thử–loại (theo anh_huong: nhánh ngau_nhien: 4.5b khó đạt nếu dải này xa trung thể)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5b"
+   ],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.kt_lai_golgi (dòng botri2 245; luật v4.1 None; nhãn cho_duyet)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "đặt lại Golgi: mặt nhân + U(2,4;4,3)",
+   "anh_huong": "nhánh ngau_nhien: 4.5b khó đạt nếu dải này xa trung thể"
+  },
+  {
+   "id": "dv.tay_tam_nhan",
+   "gia_tri": [
+    1.2,
+    -0.6,
+    0.4
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "tâm nhân đặt tay — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_tam_nhan (dòng botri2 299; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "tâm nhân đặt tay"
+  },
+  {
+   "id": "dv.tay_huong_golgi",
+   "gia_tri": [
+    -1.0,
+    0.25,
+    0.1
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "hướng trung thể/Golgi đặt tay — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_huong_golgi (dòng botri2 299; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "hướng trung thể/Golgi đặt tay"
+  },
+  {
+   "id": "dv.tay_truc_z",
+   "gia_tri": [
+    0,
+    0,
+    1.0
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "trục phụ dựng khung Golgi — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_truc_z (dòng botri2 299; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "trục phụ dựng khung Golgi"
+  },
+  {
+   "id": "dv.tay_quay_don_vi",
+   "gia_tri": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "xoay đơn vị (rot6) — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_quay_don_vi (dòng botri2 300, 310; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "xoay đơn vị (rot6)"
+  },
+  {
+   "id": "dv.tay_le",
+   "gia_tri": 0.3,
+   "don_vi": "µm",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "lề thêm khi đặt tay trung thể/Golgi — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_le (dòng botri2 304, 305; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "lề thêm khi đặt tay trung thể/Golgi"
+  },
+  {
+   "id": "dv.tay_nhancon",
+   "gia_tri": [
+    [
+     0.6,
+     0.9,
+     0.2
+    ],
+    [
+     -0.9,
+     -0.5,
+     -0.6
+    ],
+    [
+     0.2,
+     -1.2,
+     0.8
+    ]
+   ],
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "dời nhân con đặt tay (đơn vị cỡ nhân/4,45) — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_nhancon (dòng botri2 309; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "dời nhân con đặt tay (đơn vị cỡ nhân/4,45)"
+  },
+  {
+   "id": "dv.tay_nhancon_chia",
+   "gia_tri": 4.45,
+   "don_vi": "không đơn vị",
+   "loai_ly_do": "tư thế mẫu (nhánh đặt tay)",
+   "vi_sao": "hệ số chia dời nhân con — không phải luật: một bố trí mẫu của nhánh tay (đặc tả tư thế cố định)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "dong_vat_botri2.json tham_so_khong_thuoc_luat.tay_nhancon_chia (dòng botri2 310; luật v4.1 None; nhãn tu_the_tay)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "y_nghia": "hệ số chia dời nhân con"
+  },
+  {
+   "id": "dv.hinh_vo",
+   "gia_tri": "khoi_tron_co_nhieu",
+   "don_vi": "dạng",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "vẽ tế bào khối tròn có gợn (thật: tế bào bám đáy dẹt, rộng ~40 µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a"
+   ],
+   "nguon_goc": "v4.1 1.2b may.hinh_vo",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:1.2b"
+   ]
+  },
+  {
+   "id": "dv.ti_the_lop6",
+   "gia_tri": {
+    "bat_mac_dinh": false,
+    "so_luong": [
+     5,
+     10
+    ]
+   },
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lớp 6 ngoài yêu cầu cần đạt: mặc định tắt; nếu bật vẽ 5–10",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3a",
+    "dv:M.c₀"
+   ],
+   "nguon_goc": "v4.1 1.6 may",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:1.6"
+   ]
+  },
+  {
+   "id": "dv.ti_the_ve_hat_roi",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "vẽ mỗi ti thể là một hạt rời (thật thường nối thành mạng dài hàng chục µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "v4.1 4.3b ('vẽ thành một hạt'), 4.3c ('dạng hạt rời')",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "thay_luat_quy_uoc": [
+    "dv:4.3c"
+   ]
+  },
+  {
+   "id": "dv.ti_le_rong_dai_ti_the",
+   "gia_tri": [
+    0.25,
+    0.6
+   ],
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "tỉ lệ trục rộng/dài của hạt ti thể: chỉ có ở trường máy, không có nguồn",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "v4.1 4.3b may.ti_le_truc_rong_tren_dai",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:4.3b"
+   ]
+  },
+  {
+   "id": "dv.pham_vi_ve_er",
+   "gia_tri": "vanh_quanh_nhan",
+   "don_vi": "dạng",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "chỉ vẽ ER quanh nhân (thật: ER trải khắp chất tế bào, ~25 % thể tích COS-7)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.4a"
+   ],
+   "nguon_goc": "v4.1 4.4b may.pham_vi_ve",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "ghi_chu": "lựa chọn này làm vế 'trải khắp chất tế bào' của 4.4a không được thể hiện",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b"
+   ]
+  },
+  {
+   "id": "dv.so_tui_golgi_ve",
+   "gia_tri": [
+    4,
+    8
+   ],
+   "don_vi": "túi",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "vẽ 4–8 túi trong dải thật 4–11",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5a"
+   ],
+   "nguon_goc": "v4.1 4.5a '(mô hình 4–8)', may.so_tui",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:4.5a"
+   ]
+  },
+  {
+   "id": "dv.ribosome_ve",
+   "gia_tri": {
+    "bat": true,
+    "so_cham": 4000,
+    "duong_kinh_cham_um": 0.04
+   },
+   "don_vi": "cái / µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "chấm ribosome phóng to, ít hơn thật; giáo viên bật/tắt",
+   "tuong_tac_luat_su_that": [
+    "dv:4.4a"
+   ],
+   "nguon_goc": "v4.1 4.7 may",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:4.7"
+   ]
+  },
+  {
+   "id": "dv.mang_nhan_ve",
+   "gia_tri": {
+    "day_lop_um": 0.05,
+    "khoang_um": 0.05,
+    "so_lo": 46
+   },
+   "don_vi": "µm / lỗ",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "màng nhân, khoang và lỗ vẽ to và ít hơn thật (thật khoang 20–40 nm, ~1 000–2 500 lỗ)",
+   "tuong_tac_luat_su_that": [
+    "dv:M.d"
+   ],
+   "nguon_goc": "v4.1 M.d may + mo_hinh",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:M.d"
+   ]
+  },
+  {
+   "id": "dv.khoang_cach_mao_ve",
+   "gia_tri": 0.22,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khoảng cách mào vẽ",
+   "tuong_tac_luat_su_that": [
+    "dv:M.e"
+   ],
+   "nguon_goc": "v4.1 M.e may.khoang_cach_mao_um",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:M.e"
+   ]
+  },
+  {
+   "id": "tv.kich_thuoc_vach",
+   "gia_tri": {
+    "dai": 80.0,
+    "rong": 32.0,
+    "cao": 32.0,
+    "ban_kinh_bo": 3
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "giá trị chọn; v1.2 (PI: 60–100 pL là thể tích TRONG màng) đặt 80×32×32 µm để thể tích trong màng 61.96–68.14 pL trên toàn dải bề dày thành + màng (1,15–1,75 µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.2a",
+    "tv:2.4b",
+    "tv:2.6e"
+   ],
+   "nguon_goc": "v1.4 2.2a may + bo_phan.vach",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.2a",
+   "ma_luu_v1_4": {
+    "dai": 60,
+    "rong": 30,
+    "cao": 30,
+    "ban_kinh_bo": 3
+   },
+   "kiem_kha_thi": {
+    "trang_thai": "tính số học như kiem_kha_thi v1.4 (chép logic ngan_sach; tái lập đúng số v1.4 với hộp 60×30×30), chưa dựng thử",
+    "hop_ngoai_um": [
+     80.0,
+     32.0,
+     32.0
+    ],
+    "ban_kinh_bo_um": 3.0,
+    "the_tich_ngoai_pL": 80.84,
+    "the_tich_trong_mang_pL": {
+     "nho_nhat (thành 1,5 + màng 0,25)": 61.96,
+     "lon_nhat (thành 1 + màng 0,15)": 68.14
+    },
+    "duong_kinh_nhan_toi_thieu_cho_2_6e_um": 5.927,
+    "duong_kinh_nhan_toi_da_cho_2_6e_um": 13.96,
+    "ca_lop_1um": {
+     "chat_nhat": {
+      "V_trong_mang_um3": 61961,
+      "ti_le_khong_bao": 0.7692,
+      "ti_le_nhan": 0.0029,
+      "ti_le_luc_lap": 0.0405
+     },
+     "rong_nhat": {
+      "V_trong_mang_um3": 68144,
+      "ti_le_khong_bao": 0.8369,
+      "ti_le_nhan": 0.00166,
+      "ti_le_luc_lap": 0.0091
+     },
+     "giua": {
+      "V_trong_mang_um3": 65015,
+      "ti_le_khong_bao": 0.8178,
+      "ti_le_nhan": 0.00221,
+      "ti_le_luc_lap": 0.0205
+     }
+    },
+    "cua_so_lop_chat_te_bao": [
+     {
+      "lop_um": 0.6,
+      "chat_nhat": 0.8299,
+      "rong_nhat": 0.8918
+     },
+     {
+      "lop_um": 0.7,
+      "chat_nhat": 0.8146,
+      "rong_nhat": 0.8777
+     },
+     {
+      "lop_um": 0.8,
+      "chat_nhat": 0.7993,
+      "rong_nhat": 0.8639
+     },
+     {
+      "lop_um": 0.9,
+      "chat_nhat": 0.7842,
+      "rong_nhat": 0.8503
+     },
+     {
+      "lop_um": 1.0,
+      "chat_nhat": 0.7692,
+      "rong_nhat": 0.8369
+     },
+     {
+      "lop_um": 1.1,
+      "chat_nhat": 0.7544,
+      "rong_nhat": 0.8238
+     },
+     {
+      "lop_um": 1.2,
+      "chat_nhat": 0.7396,
+      "rong_nhat": 0.8108
+     },
+     {
+      "lop_um": 1.3,
+      "chat_nhat": 0.725,
+      "rong_nhat": 0.7979
+     },
+     {
+      "lop_um": 1.4,
+      "chat_nhat": 0.7106,
+      "rong_nhat": 0.7852
+     },
+     {
+      "lop_um": 1.5,
+      "chat_nhat": 0.6963,
+      "rong_nhat": 0.7725
+     },
+     {
+      "lop_um": 1.6,
+      "chat_nhat": 0.6822,
+      "rong_nhat": 0.7599
+     },
+     {
+      "lop_um": 1.7,
+      "chat_nhat": 0.6682,
+      "rong_nhat": 0.7474
+     },
+     {
+      "lop_um": 1.8,
+      "chat_nhat": 0.6544,
+      "rong_nhat": 0.7349
+     },
+     {
+      "lop_um": 1.9,
+      "chat_nhat": 0.6408,
+      "rong_nhat": 0.7224
+     },
+     {
+      "lop_um": 2.0,
+      "chat_nhat": 0.6273,
+      "rong_nhat": 0.71
+     },
+     {
+      "lop_um": 2.1,
+      "chat_nhat": 0.614,
+      "rong_nhat": 0.6976
+     },
+     {
+      "lop_um": 2.2,
+      "chat_nhat": 0.6008,
+      "rong_nhat": 0.6853
+     },
+     {
+      "lop_um": 2.3,
+      "chat_nhat": 0.5878,
+      "rong_nhat": 0.673
+     },
+     {
+      "lop_um": 2.4,
+      "chat_nhat": 0.5749,
+      "rong_nhat": 0.6608
+     },
+     {
+      "lop_um": 2.5,
+      "chat_nhat": 0.5622,
+      "rong_nhat": 0.6486
+     }
+    ],
+    "lop_dat_ca_hai_cuc_68_85_um": [
+     1.0,
+     1.6
+    ],
+    "ket_luan": "Hộp 80 × 32 × 32 µm bo 3 µm: thể tích trong màng 61.96–68.14 pL (∈ 60–100). 2.6e (≥ 0,16 %) cần nhân ≥ 5.93 µm → cận dưới 6.0 µm. Lớp chất tế bào 1 µm: không bào 76.9 % (chật nhất), 83.7 % (rộng nhất), 81.8 % (giữa); lớp dựng được ở cả hai cực (68–85 %): 1.0–1.6 µm."
+   },
+   "ma_luu_v1_1": {
+    "dai": 68.0,
+    "rong": 30,
+    "cao": 30,
+    "ban_kinh_bo": 3
+   },
+   "tach_tu_luat_su_that": [
+    "tv:2.2a"
+   ]
+  },
+  {
+   "id": "tv.hinh_vo",
+   "gia_tri": "hop_bo_tron",
+   "don_vi": "dạng",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "vẽ tế bào hộp bo góc (thật: mô giậu dạng trụ, mô xốp dạng cầu/thuỳ)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.2a"
+   ],
+   "nguon_goc": "v1.4 2.2b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.2b"
+   ]
+  },
+  {
+   "id": "tv.day_vach",
+   "gia_tri": [
+    1.0,
+    1.5
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "phóng to ~7–10 lần (thật 0,14–0,19 µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.3a"
+   ],
+   "nguon_goc": "v1.4 2.3b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.3b",
+   "thay_luat_quy_uoc": [
+    "tv:2.3b"
+   ]
+  },
+  {
+   "id": "tv.khe_mang_vach",
+   "gia_tri": 0.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "màng áp sát thành, không khe (luật 2.3c nhãn 'chưa có nguồn'; tệp nguồn ghi 'áp sát đúng ở tế bào còn sức trương' nhưng không có số)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.3a"
+   ],
+   "nguon_goc": "v1.4 2.3c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.3c"
+   ]
+  },
+  {
+   "id": "tv.day_mang",
+   "gia_tri": [
+    0.15,
+    0.25
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "đủ dày để thấy màu riêng (thật là lớp lipid kép rất mỏng)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 2.3d may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.3d",
+   "thay_luat_quy_uoc": [
+    "tv:2.3d"
+   ]
+  },
+  {
+   "id": "tv.cach_dung_khong_bao",
+   "gia_tri": {
+    "loai": "vung_phu_thuoc",
+    "trong": "mang",
+    "tru": "*",
+    "cach_mang_um": 1.0,
+    "cach_bo_phan_um": 0.3,
+    "lien_khoi": true
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "không bào dựng sau cùng là phần còn lại (khối elip đặt sẵn chỉ lấp ~52 %)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.4a",
+    "tv:2.4b"
+   ],
+   "nguon_goc": "v1.4 2.4c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.4c"
+   ]
+  },
+  {
+   "id": "tv.lop_chat_te_bao",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lớp chất tế bào giữa không bào và màng (thật ~0,1 µm); với hộp v1.2 lớp dựng được ở cả hai cực (không bào 68–85 %): [1.0, 1.6] µm",
+   "tuong_tac_luat_su_that": [
+    "tv:2.4b",
+    "tv:2.6b",
+    "tv:2.7b",
+    "tv:M.d"
+   ],
+   "nguon_goc": "v1.4 2.5b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.5b",
+   "thay_luat_quy_uoc": [
+    "tv:2.5b",
+    "tv:K.1"
+   ]
+  },
+  {
+   "id": "tv.khe_nhan_mang",
+   "gia_tri": [
+    0.3,
+    0.5
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "nhân sát màng nhưng vẫn có khe chung 0,3 µm",
+   "tuong_tac_luat_su_that": [
+    "tv:2.6b"
+   ],
+   "nguon_goc": "v1.4 nguong_tu_dat 2.6b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.6b",
+   "tach_tu_luat_su_that": [
+    "tv:2.6b"
+   ]
+  },
+  {
+   "id": "tv.gan_nhan_mang_toi_da",
+   "gia_tri": 0.5,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "ngưỡng 'sát thành' của nhân",
+   "tuong_tac_luat_su_that": [
+    "tv:2.6b"
+   ],
+   "nguon_goc": "v1.4 2.6b may.toi_da_um",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.6b",
+   "tach_tu_luat_su_that": [
+    "tv:2.6b"
+   ]
+  },
+  {
+   "id": "tv.duong_kinh_nhan",
+   "gia_tri": [
+    6.0,
+    7.0
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "giá trị chọn (2.6f 'chưa có nguồn'); cận dưới 6.0 µm để 2.6e (≥ 0,16 %) đúng ở tế bào trong màng lớn nhất 68144 µm³ (cần ≥ 5.93)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.6e"
+   ],
+   "nguon_goc": "v1.4 2.6f may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.6f",
+   "ma_luu_v1_4": [
+    5.2,
+    7.0
+   ],
+   "ma_luu_v1_1": [
+    5.4,
+    7.0
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:2.6f"
+   ]
+  },
+  {
+   "id": "tv.khe_luc_lap_mang",
+   "gia_tri": [
+    0.3,
+    0.5
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lục lạp sát màng, vẫn giữ khe chung (thật ~0,1 µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7b"
+   ],
+   "nguon_goc": "v1.4 nguong_tu_dat 2.7b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.7b",
+   "tach_tu_luat_su_that": [
+    "tv:2.7b"
+   ]
+  },
+  {
+   "id": "tv.gan_luc_lap_mang_toi_da",
+   "gia_tri": 0.5,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "ngưỡng 'sát màng' của lục lạp",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7b"
+   ],
+   "nguon_goc": "v1.4 2.7b may.toi_da_um",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.7b",
+   "tach_tu_luat_su_that": [
+    "tv:2.7b"
+   ]
+  },
+  {
+   "id": "tv.kich_thuoc_luc_lap_ve",
+   "gia_tri": {
+    "duong_kinh": [
+     5,
+     7
+    ],
+    "day": [
+     2.0,
+     2.5
+    ]
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "nửa trên dải đo; to hơn nữa thì không bào < 70 %",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7d",
+    "tv:2.4b"
+   ],
+   "nguon_goc": "v1.4 2.7d may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.7d",
+   "tach_tu_luat_su_that": [
+    "tv:2.7d"
+   ]
+  },
+  {
+   "id": "tv.so_luc_lap",
+   "gia_tri": [
+    30,
+    50
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "giảm 2–4 lần (thật 80–120); nhiều hơn thì che nhân, không bào < 70 %",
+   "tuong_tac_luat_su_that": [
+    "tv:2.4b"
+   ],
+   "nguon_goc": "v1.4 2.7e may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.7e",
+   "thay_luat_quy_uoc": [
+    "tv:2.7e"
+   ]
+  },
+  {
+   "id": "tv.lech_huong_luc_lap",
+   "gia_tri": 30.0,
+   "don_vi": "độ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "lệch tối đa trục ngắn lục lạp so với pháp tuyến màng",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7f"
+   ],
+   "nguon_goc": "v1.4 2.7f may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.7f",
+   "tach_tu_luat_su_that": [
+    "tv:2.7f"
+   ]
+  },
+  {
+   "id": "tv.ti_the_lop6",
+   "gia_tri": {
+    "bat_mac_dinh": false,
+    "so_luong": [
+     5,
+     10
+    ]
+   },
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lớp 6 ngoài yêu cầu cần đạt",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 2.8 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "2.8",
+   "thay_luat_quy_uoc": [
+    "tv:2.8"
+   ]
+  },
+  {
+   "id": "tv.pham_vi_ve_lop6",
+   "gia_tri": "chỉ tầng 1, bộ phận có lop KHTN6",
+   "don_vi": "dạng",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lớp 6: lục lạp xanh đặc, không vẽ ER, Golgi, peroxisome",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 2.9 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.9"
+   ]
+  },
+  {
+   "id": "tv.khe_trong_luc_lap",
+   "gia_tri": 0.1,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe bên trong lục lạp (granum–granum, tấm nối–tấm nối, tới màng trong)",
+   "tuong_tac_luat_su_that": [
+    "tv:M.c₀",
+    "tv:M.h"
+   ],
+   "nguon_goc": "v1.4 K.1 điều kiện s_um 0,1",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "K.1",
+   "thay_luat_quy_uoc": [
+    "tv:K.1"
+   ]
+  },
+  {
+   "id": "tv.mien_khe_chung",
+   "gia_tri": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ],
+    [
+     "luoi_noi_chat",
+     "mang_nhan"
+    ],
+    [
+     "ribosome",
+     "luoi_noi_chat"
+    ],
+    [
+     "tam_noi",
+     "granum"
+    ],
+    [
+     "tam_noi",
+     "thylakoid"
+    ],
+    [
+     "luoi_noi_chat",
+     "lo_nhan"
+    ],
+    [
+     "ribosome",
+     "mang_nhan"
+    ],
+    [
+     "mang",
+     "vach"
+    ],
+    [
+     "khong_bao",
+     "mang"
+    ]
+   ],
+   "don_vi": "cặp",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "cặp miễn khe chung 0,3 µm (vẫn chịu M.c₀: được chạm, không giao)",
+   "tuong_tac_luat_su_that": [
+    "tv:M.c₀",
+    "tv:5.4a",
+    "tv:10.3b"
+   ],
+   "nguon_goc": "v1.4 K.1 may.mien",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:K.1"
+   ]
+  },
+  {
+   "id": "tv.gan_mang_hoac_nhan",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "bằng bề dày lớp chất tế bào mô hình",
+   "tuong_tac_luat_su_that": [
+    "tv:M.d"
+   ],
+   "nguon_goc": "v1.4 M.d may.toi_da_um",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "M.d",
+   "tach_tu_luat_su_that": [
+    "tv:M.d"
+   ]
+  },
+  {
+   "id": "tv.so_nhan_con",
+   "gia_tri": [
+    1,
+    2
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "theo hình SGK; chưa có số thực vật (mượn động vật 1–5)",
+   "tuong_tac_luat_su_that": [
+    "tv:5.1a"
+   ],
+   "nguon_goc": "v1.4 5.1a may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.1a",
+   "tach_tu_luat_su_that": [
+    "tv:5.1a"
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:5.1a"
+   ]
+  },
+  {
+   "id": "tv.duong_kinh_nhan_con",
+   "gia_tri": [
+    1.0,
+    2.0
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "chọn cho vừa nhân 5–7 µm (luật 5.1b 'chưa có nguồn'; mượn 0,5–5 µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:5.1a"
+   ],
+   "nguon_goc": "v1.4 5.1b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.1b",
+   "tach_tu_luat_su_that": [
+    "tv:5.1a"
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:5.1b"
+   ]
+  },
+  {
+   "id": "tv.lo_nhan_ve",
+   "gia_tri": {
+    "so": [
+     30,
+     50
+    ],
+    "duong_kinh": [
+     0.2,
+     0.3
+    ]
+   },
+   "don_vi": "cái / µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "lỗ to hơn và ít hơn thật (thật ~0,1–0,12 µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:5.2a"
+   ],
+   "nguon_goc": "v1.4 5.2b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.2b",
+   "thay_luat_quy_uoc": [
+    "tv:5.2b"
+   ]
+  },
+  {
+   "id": "tv.mang_nhan_ve",
+   "gia_tri": {
+    "day": [
+     0.15,
+     0.2
+    ],
+    "day_lop": 0.05,
+    "khoang": [
+     0.05,
+     0.1
+    ]
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "phóng to 2–5 lần (khoang thật 20–50 nm)",
+   "tuong_tac_luat_su_that": [
+    "tv:5.2a"
+   ],
+   "nguon_goc": "v1.4 5.2c may + bo_phan.mang_nhan",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.2c",
+   "thay_luat_quy_uoc": [
+    "tv:5.2c"
+   ]
+  },
+  {
+   "id": "tv.kich_thuoc_ti_the_ve",
+   "gia_tri": {
+    "dai": [
+     1.0,
+     2.0
+    ],
+    "rong": [
+     0.5,
+     1.0
+    ]
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "mượn số tế bào động vật (luật 5.3b 'chưa có nguồn')",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.3b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.3b",
+   "thay_luat_quy_uoc": [
+    "tv:5.3b"
+   ]
+  },
+  {
+   "id": "tv.so_ti_the",
+   "gia_tri": [
+    10,
+    20
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "giảm 10–40 lần (thật 200–450)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.3c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.3c",
+   "thay_luat_quy_uoc": [
+    "tv:5.3c"
+   ]
+  },
+  {
+   "id": "tv.mao_ve",
+   "gia_tri": {
+    "so": [
+     4,
+     8
+    ],
+    "day": [
+     0.03,
+     0.05
+    ]
+   },
+   "don_vi": "cái / µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "ít hơn cận trên ~16; dày hơn thật",
+   "tuong_tac_luat_su_that": [
+    "tv:5.3e"
+   ],
+   "nguon_goc": "v1.4 5.3e may + bo_phan.mao",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.3e",
+   "tach_tu_luat_su_that": [
+    "tv:5.3e"
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:5.3e"
+   ]
+  },
+  {
+   "id": "tv.vung_noi_er_mang_nhan",
+   "gia_tri": 1.0,
+   "don_vi": "µm²",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "đủ lớn để thấy chỗ nối ER–màng nhân — v1.2: chỉ là phép kiểm THAM SỐ; vị từ sự thật chỉ đòi > 0",
+   "tuong_tac_luat_su_that": [
+    "tv:5.4a"
+   ],
+   "nguon_goc": "v1.4 5.4a may.dien_tich_toi_thieu_um2",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.4a",
+   "tach_tu_luat_su_that": [
+    "tv:5.4a"
+   ]
+  },
+  {
+   "id": "tv.luoi_noi_chat_ve",
+   "gia_tri": {
+    "day_quanh_nhan_um": [
+     0.5,
+     1.0
+    ],
+    "cach_mang_um": 0.3,
+    "ong_duong_kinh_um": [
+     0.1,
+     0.2
+    ],
+    "ong_do_sau_um": [
+     0.3,
+     0.6
+    ],
+    "cach_bo_phan_um": 0.3
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "ER là vùng phụ thuộc: vành quanh nhân + ống ngoại vi",
+   "tuong_tac_luat_su_that": [
+    "tv:5.4a",
+    "tv:5.2a"
+   ],
+   "nguon_goc": "v1.4 5.4b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.4b",
+   "thay_luat_quy_uoc": [
+    "tv:5.4b"
+   ]
+  },
+  {
+   "id": "tv.ribosome_ve",
+   "gia_tri": {
+    "bat": true,
+    "so_cham": [
+     3000,
+     5000
+    ],
+    "duong_kinh_um": [
+     0.03,
+     0.04
+    ],
+    "bam": [
+     "luoi_noi_chat",
+     "mang_nhan"
+    ]
+   },
+   "don_vi": "cái / µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "chấm ribosome phóng to, ít hơn thật; tuỳ chọn",
+   "tuong_tac_luat_su_that": [
+    "tv:5.4a"
+   ],
+   "nguon_goc": "v1.4 5.5 may + bo_phan.ribosome",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.5",
+   "thay_luat_quy_uoc": [
+    "tv:5.5"
+   ]
+  },
+  {
+   "id": "tv.khe_golgi_golgi",
+   "gia_tri": 2.0,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "các chồng Golgi cách nhau ≥ 2 µm để thấy rõ là rải rác — v1.2: chỉ là phép kiểm THAM SỐ; vị từ sự thật chỉ đòi > 0",
+   "tuong_tac_luat_su_that": [
+    "tv:5.6a"
+   ],
+   "nguon_goc": "v1.4 5.6a may.s_um",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.6a",
+   "tach_tu_luat_su_that": [
+    "tv:5.6a"
+   ]
+  },
+  {
+   "id": "tv.so_golgi",
+   "gia_tri": [
+    5,
+    10
+   ],
+   "don_vi": "chồng",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "giảm số (thật hàng trăm ở BY-2)",
+   "tuong_tac_luat_su_that": [
+    "tv:5.6a"
+   ],
+   "nguon_goc": "v1.4 5.6b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.6b",
+   "thay_luat_quy_uoc": [
+    "tv:5.6b"
+   ]
+  },
+  {
+   "id": "tv.golgi_ve",
+   "gia_tri": {
+    "so_tui": [
+     4,
+     6
+    ],
+    "rong": [
+     0.5,
+     1.0
+    ],
+    "day_chong": [
+     0.18,
+     0.56
+    ],
+    "day_tui": [
+     0.03,
+     0.06
+    ],
+    "khe_tui": [
+     0.02,
+     0.04
+    ]
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "chưa có số thực vật; cỡ suy từ thể tích dictyosome 0,03–0,3 µm³",
+   "tuong_tac_luat_su_that": [
+    "tv:5.6a"
+   ],
+   "nguon_goc": "v1.4 5.6c may + bo_phan.golgi/tui_golgi",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.6c",
+   "thay_luat_quy_uoc": [
+    "tv:5.6c"
+   ]
+  },
+  {
+   "id": "tv.duong_kinh_peroxisome_ve",
+   "gia_tri": [
+    0.5,
+    1.0
+   ],
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "nửa trên dải thật để nhìn thấy",
+   "tuong_tac_luat_su_that": [
+    "tv:5.7a"
+   ],
+   "nguon_goc": "v1.4 5.7a may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.7a",
+   "tach_tu_luat_su_that": [
+    "tv:5.7a"
+   ]
+  },
+  {
+   "id": "tv.so_peroxisome",
+   "gia_tri": [
+    20,
+    40
+   ],
+   "don_vi": "cái",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "giảm cùng mức với lục lạp (thật ~92)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.7c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.7c",
+   "thay_luat_quy_uoc": [
+    "tv:5.7c"
+   ]
+  },
+  {
+   "id": "tv.gan_peroxisome_luc_lap",
+   "gia_tri": 1.0,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "gợi ý 'peroxisome gần lục lạp' (luật 5.7d đã bỏ vì chưa có nguồn)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.7d may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "5.7d"
+  },
+  {
+   "id": "tv.khong_ve_lysosome",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "không vẽ lysosome riêng; không bào đảm nhận phân giải",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.8 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:5.8"
+   ]
+  },
+  {
+   "id": "tv.khong_ve_cau_sinh_chat",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "không vẽ cầu sinh chất (thật có ở mọi thực vật bậc cao, ~50 nm)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.10 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:5.10"
+   ]
+  },
+  {
+   "id": "tv.khong_ve_khung_xuong",
+   "gia_tri": true,
+   "don_vi": "boolean",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "không vẽ khung xương tế bào",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 5.11 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:5.11"
+   ]
+  },
+  {
+   "id": "tv.khe_mang_trong_lap",
+   "gia_tri": 0.05,
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "khe hai màng lục lạp (chưa có số đo)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.1a"
+   ],
+   "nguon_goc": "v1.4 10.1a may.t_um + bo_phan.mang_trong_lap",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.1a",
+   "tach_tu_luat_su_that": [
+    "tv:10.1a"
+   ]
+  },
+  {
+   "id": "tv.hinh_mang_trong_lap",
+   "gia_tri": "tron_nhan_khong_gap",
+   "don_vi": "dạng",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "màng trong lục lạp vẽ trơn (luật 10.1b 'chưa có nguồn'; SGK KNTT, CD: 'trơn nhẵn')",
+   "tuong_tac_luat_su_that": [
+    "tv:10.1a"
+   ],
+   "nguon_goc": "v1.4 10.1b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:10.1b"
+   ]
+  },
+  {
+   "id": "tv.so_granum",
+   "gia_tri": [
+    10,
+    20
+   ],
+   "don_vi": "cái mỗi lục lạp",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "giảm 2–6 lần (thật 40–60)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2a",
+    "tv:10.3a"
+   ],
+   "nguon_goc": "v1.4 10.2a may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.2a",
+   "tach_tu_luat_su_that": [
+    "tv:10.2a"
+   ],
+   "thay_luat_quy_uoc": [
+    "tv:10.2a"
+   ]
+  },
+  {
+   "id": "tv.so_thylakoid_ve",
+   "gia_tri": [
+    3,
+    8
+   ],
+   "don_vi": "tấm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "nửa dưới dải thật vì tấm vẽ dày hơn",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2c"
+   ],
+   "nguon_goc": "v1.4 10.2c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.2c",
+   "tach_tu_luat_su_that": [
+    "tv:10.2c"
+   ]
+  },
+  {
+   "id": "tv.thylakoid_ve",
+   "gia_tri": {
+    "day": [
+     0.04,
+     0.06
+    ],
+    "khe": [
+     0.01,
+     0.02
+    ],
+    "granum_cao": [
+     0.14,
+     0.62
+    ]
+   },
+   "don_vi": "µm",
+   "loai_ly_do": "hiển thị dạy học",
+   "vi_sao": "phóng to 2–5 lần (chu kỳ thật 15,7–19,1 nm)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2b",
+    "tv:10.2c"
+   ],
+   "nguon_goc": "v1.4 10.2d may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.2d",
+   "thay_luat_quy_uoc": [
+    "tv:10.2d"
+   ]
+  },
+  {
+   "id": "tv.vung_noi_tam_granum",
+   "gia_tri": 0.005,
+   "don_vi": "µm²",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "cỡ tấm dày 0,05 µm chạm mép granum dài 0,1 µm — v1.2: chỉ là phép kiểm THAM SỐ; vị từ sự thật chỉ đòi > 0",
+   "tuong_tac_luat_su_that": [
+    "tv:10.3b"
+   ],
+   "nguon_goc": "v1.4 10.3b may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.3b",
+   "tach_tu_luat_su_that": [
+    "tv:10.3b"
+   ]
+  },
+  {
+   "id": "tv.hinh_tam_noi",
+   "gia_tri": "tam_phang",
+   "don_vi": "dạng",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "tấm nối phẳng, thẳng giữa hai granum kề (thật quấn xoắn 20–25°)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.3a",
+    "tv:10.3b"
+   ],
+   "nguon_goc": "v1.4 10.3c may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:10.3c"
+   ]
+  },
+  {
+   "id": "tv.so_tam_noi",
+   "gia_tri": {
+    "toi_thieu": "so_granum - 1",
+    "toi_da": 40
+   },
+   "don_vi": "tấm mỗi lục lạp",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "cận dưới bắt buộc để hệ liền khối; cận trên tự đặt",
+   "tuong_tac_luat_su_that": [
+    "tv:10.3a"
+   ],
+   "nguon_goc": "v1.4 10.5 may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tu_nguong_tu_dat": "10.5",
+   "thay_luat_quy_uoc": [
+    "tv:10.5"
+   ]
+  },
+  {
+   "id": "tv.lien_khoi_mien",
+   "gia_tri": [
+    "golgi",
+    "luoi_noi_chat",
+    "ribosome"
+   ],
+   "don_vi": "loại",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "loại được phép nhiều mảnh",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "v1.4 M.e may.mien",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:M.e"
+   ]
+  },
+  {
+   "id": "kiem.dv.NG_12B_TRON",
+   "gia_tri": 0.8,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "độ tròn tối thiểu (tỉ số cạnh OBB và r_min/r_max)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 1.2b (→ dv.hinh_vo)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:1.2b"
+   ]
+  },
+  {
+   "id": "kiem.dv.NG_46D_CAU",
+   "gia_tri": 0.85,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "độ cầu tối thiểu; lysosome trượt nằm ở 0,74–0,85 nên ngưỡng quyết định kết quả",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.6d (→ dv.khuon_lysosome)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:4.6d"
+   ]
+  },
+  {
+   "id": "kiem.dv.DAY_ER_UM",
+   "gia_tri": 2.0,
+   "don_vi": "µm",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "độ dày vành ER lấy từ trường máy (lời luật không có số)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.4b (→ dv.D_er)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.DUNG_SAI_44B",
+   "gia_tri": 0.05,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai độ dày vành ER",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.4b (→ dv.D_er)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:4.4b"
+   ]
+  },
+  {
+   "id": "kiem.dv.NG_45D_TI_LE",
+   "gia_tri": 0.5,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "tỉ lệ đoạn Golgi→nhân xuyên ER",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.5d (đã bỏ)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.MD_KHOANG_MAX",
+   "gia_tri": 0.3,
+   "don_vi": "µm",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "khoang tối đa giữa hai lớp màng nhân coi là 'hai lớp'",
+   "tuong_tac_luat_su_that": [
+    "dv:M.d"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật M.d",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.MD_TI_LE_TIA",
+   "gia_tri": 0.5,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "tỉ lệ tia gặp hai lớp",
+   "tuong_tac_luat_su_that": [
+    "dv:M.d"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật M.d",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.NG_CONG_43B",
+   "gia_tri": 0.05,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dùng chiều dài theo trục giữa khi vượt OBB quá 5 %",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.3b",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.NG_DET_43B",
+   "gia_tri": 1.5,
+   "don_vi": "tỉ lệ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "cờ 'co_det' cạnh giữa / độ dày",
+   "tuong_tac_luat_su_that": [
+    "dv:4.3b"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.3b (chỉ thông tin)",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.dv.MIEN_MC",
+   "gia_tri": [
+    [
+     "luoi_noi_chat",
+     "nhan"
+    ],
+    [
+     "nhan_con",
+     "nhan"
+    ],
+    [
+     "ribosome",
+     "luoi_noi_chat"
+    ]
+   ],
+   "don_vi": "cặp",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "cặp miễn khe; với M.c₀ (s = 0) các cặp này vẫn phải không giao",
+   "tuong_tac_luat_su_that": [
+    "dv:M.c₀"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật M.c (→ chung.khe_roi); M.c₀",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "dv:M.c"
+   ]
+  },
+  {
+   "id": "kiem.dv.DINH_NGHIA_MEM",
+   "gia_tri": {
+    "4.5b": "khe Golgi–nhân < khe Golgi–màng; tâm trung thể trong bao lồi Golgi",
+    "4.6b": "trung vị u < 0,5 và max u ≥ 0,5, u = d(nhân)/(d(nhân)+d(màng))",
+    "4.8b": "khe trung thể–nhân < khe trung thể–màng (1,5 µm chỉ báo)"
+   },
+   "don_vi": "định nghĩa",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "định nghĩa tương đối của luật mềm; KHÁC ngưỡng tuyệt đối của bộ dựng (dv.gan_tt_golgi 1,0; dv.gan_lyso_nhan 4,0; dv.gan_tt_nhan 1,5)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.5b",
+    "dv:4.6b",
+    "dv:4.8b"
+   ],
+   "nguon_goc": "bộ kiểm kiem2.py (BAO_CAO.md mục 5/9), luật 4.5b, 4.6b, 4.8b",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_TOL_HOP",
+   "gia_tri": 0.02,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai cạnh hộp 60×30×30",
+   "tuong_tac_luat_su_that": [
+    "tv:2.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.2a (→ tv.kich_thuoc_vach)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_TOL_THE_TICH_HOP",
+   "gia_tri": 0.1,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai thể tích 54 pL",
+   "tuong_tac_luat_su_that": [
+    "tv:2.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.2a (→ tv.kich_thuoc_vach)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_HOP_BO",
+   "gia_tri": [
+    0.97,
+    0.9995
+   ],
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "V/hộp bao của hộp bo góc",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.2b (→ tv.hinh_vo)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.2b"
+   ]
+  },
+  {
+   "id": "kiem.tv.TV_TOL_KHE_LAP",
+   "gia_tri": 0.01,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai khe hai màng / bề dày lớp",
+   "tuong_tac_luat_su_that": [
+    "tv:10.1a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 10.1a, 5.2c (tham số)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_NG_CAU",
+   "gia_tri": 0.9,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "độ tròn tối thiểu",
+   "tuong_tac_luat_su_that": [
+    "tv:5.7a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 5.7a, 2.6f, 5.1b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "tv:5.7a"
+   ]
+  },
+  {
+   "id": "kiem.tv.TV_NG_LOI",
+   "gia_tri": 0.98,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "V/bao lồi tối thiểu",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7c"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.7c, 10.1b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_NEP_SAU",
+   "gia_tri": 0.02,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "độ lõm tối đa (µm)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7c"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.7c, 10.1b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_THAU_KINH",
+   "gia_tri": [
+    0.48,
+    0.6
+   ],
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "hồ sơ thấu kính V/(π·a·b·t)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7c"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.7c",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_NG_TRON_DIA",
+   "gia_tri": 0.9,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "e2/e1 tối thiểu (đĩa tròn)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7c"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.7c",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_SO_MAT_RAI",
+   "gia_tri": 3,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "số mặt hộp tối thiểu có lục lạp ('rải trên mặt trong')",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7b"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.7b",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_KB_THIEU_TOI_DA",
+   "gia_tri": 1.0,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "thể tích trống không thuộc không bào tối đa (µm³)",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 2.4c (→ tv.cach_dung_khong_bao)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.4c"
+   ]
+  },
+  {
+   "id": "kiem.tv.TV_TOL_ER",
+   "gia_tri": 0.05,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "dung sai đo ER",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 5.4b (→ tv.luoi_noi_chat_ve)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_GOLGI_GAN_NHAN",
+   "gia_tri": 2.0,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "có thể Golgi cách nhân > ngưỡng (µm) = 'không gom cạnh nhân'",
+   "tuong_tac_luat_su_that": [
+    "tv:5.6a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 5.6a",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "tv:5.6a"
+   ]
+  },
+  {
+   "id": "kiem.tv.TV_PHANG",
+   "gia_tri": 0.5,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "cạnh nhỏ/giữa tối đa (dẹt)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 10.2a, 10.3c",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_GOC_THANG",
+   "gia_tri": 10.0,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "góc lệch tối đa (độ)",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 10.2a, 10.3c",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_KE_NHAU",
+   "gia_tri": 3,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "granum kia trong k granum gần nhất",
+   "tuong_tac_luat_su_that": [],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 10.3c (→ tv.hinh_tam_noi)",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_LECH_CHONG",
+   "gia_tri": 0.05,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "lệch tâm tối đa trong chồng",
+   "tuong_tac_luat_su_that": [
+    "tv:10.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 10.2a",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "kiem.tv.TV_MD_TIA",
+   "gia_tri": 0.5,
+   "don_vi": "xem vi_sao",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "tỉ lệ tia gặp hai lớp màng nhân",
+   "tuong_tac_luat_su_that": [
+    "tv:5.2a"
+   ],
+   "nguon_goc": "bộ kiểm kiem_thucvat.py (BAO_CAO_THUCVAT.md mục 5/9), luật 5.2a",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật"
+  },
+  {
+   "id": "tv.so_nhan",
+   "gia_tri": 1,
+   "don_vi": "cái",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "vẽ một nhân; luật 2.6a không có nguồn khoa học trong các ghi chú (chưa có nguồn khoa học (chỉ SGK qua tóm tắt vietjack, mức tin thấp theo ghi chú SGK; Iwabuchi 2007/Suetsugu 2016 chỉ nói vị trí nhân, không nói số nhân))",
+   "tuong_tac_luat_su_that": [
+    "tv:2.6e",
+    "tv:2.6b"
+   ],
+   "nguon_goc": "v1.4 2.6a may",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "thay_luat_quy_uoc": [
+    "tv:2.6a"
+   ]
+  },
+  {
+   "id": "dv.goc_vuong_toi_thieu",
+   "gia_tri": 75.0,
+   "don_vi": "độ",
+   "loai_ly_do": "ngưỡng đo / dung sai số học",
+   "vi_sao": "góc nhỏ nhất giữa hai trục trung tử còn coi là vuông (bộ kiểm NG_48A_GOC = 75°)",
+   "tuong_tac_luat_su_that": [
+    "dv:4.8a"
+   ],
+   "nguon_goc": "bộ kiểm NG_48A_GOC",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "ten_cu_v1": "dv.dung_sai_goc_vuong",
+   "tach_tu_luat_su_that": [
+    "dv:4.8a"
+   ]
+  },
+  {
+   "id": "dv.can_tren_duong_kinh_te_bao",
+   "gia_tri": 30,
+   "don_vi": "µm",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "cận trên đường kính tế bào là cận CHỌN (v4.1 ghi 10–30 µm; nguồn chỉ có 17,1 µm, 2 × 10,5 ± 2,2 µm, thể tích 500–4 000 µm³ ≈ 9,8–19,7 µm; bám đáy ~40 µm)",
+   "tuong_tac_luat_su_that": [
+    "dv:1.2a"
+   ],
+   "nguon_goc": "v4.1 1.2a phat_bieu",
+   "vat": "dv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "dv:1.2a"
+   ]
+  },
+  {
+   "id": "tv.so_mat_rai",
+   "gia_tri": 3,
+   "don_vi": "mặt hộp",
+   "loai_ly_do": "lựa chọn mô hình",
+   "vi_sao": "'rải trên mặt trong tế bào' = có lục lạp trên ≥ 3 mặt của hộp (định lượng tự đặt, lấy theo bộ kiểm TV_SO_MAT_RAI)",
+   "tuong_tac_luat_su_that": [
+    "tv:2.7b"
+   ],
+   "nguon_goc": "bộ kiểm TV_SO_MAT_RAI",
+   "vat": "tv",
+   "nhan": "tham số, không phải luật",
+   "tach_tu_luat_su_that": [
+    "tv:2.7b"
+   ]
+  }
+ ],
+ "cau_hoi_mo": [
+  "2.2a đã chốt (PI 11/11): thể tích TRONG màng; hộp và nhân v1.2 theo KKT_V12. Bộ kiểm 2.2a vẫn đo hộp ngoài cũ — cần sửa.",
+  "Tách vế sự thật từ luật nhãn quy ước (5.1a, 5.3e, 10.2a thực vật): PI chưa duyệt.",
+  "4.4a: vế 'ER trải khắp chất tế bào' là sự thật nhưng mô hình không thể hiện (ghi ở khong_the_hien_co_chu_dich). Cách nói trong bài?",
+  "Bộ kiểm phải chạy lại với dải v1.1 (4.3b 0,2–1; 2.4b 0,68–0,85; 10.2b 0,2–0,6; 10.2c 3–100; 2.2a 60–100 pL; 2.1 ≥ 1 nhân) và tách phán quyết sự thật / tham số (nhóm A).",
+  "M.c₀: bộ kiểm chưa có mục riêng; cặp miễn khe (ER–nhân, ribosome–ER ở dv; 9 cặp K.1 ở tv) chưa được kiểm giao.",
+  "Mặc định botri2 còn trái sự thật (mau_thuan_mac_dinh_voi_su_that): trung thể một cầu (4.8a), Golgi một khối (4.5a), mien_cung_loai = lysosome (M.h), nhân đặc (M.d), ti thể không mào (M.e). Sửa bộ dựng hay ghi là giới hạn?",
+  "10.2b cận dưới 0,2 µm ≈ trung bình − 2 SD của Bussi (tự tính); 10.2c cận trên 100 lấy từ câu tổng quan Staehelin (cây cực ưa bóng) — phạm vi có quá rộng cho tế bào lá thường không?",
+  "2.6a đã chuyển thành tham số (không có nguồn khoa học nói thẳng 'một nhân' trong ghi chú) — cần tra thêm nguồn nếu muốn giữ là luật."
+ ]
+}

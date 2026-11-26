@@ -1,0 +1,85 @@
+{
+ "tang": 0,
+ "CellId": "798836",
+ "structure_name": "SLC25A17",
+ "PlateId": "3500002378",
+ "FOVId": "142964",
+ "crop_seg": "crop_seg/bc88f96282758fb692fcbe98f4ae9961d9360273fe3e7bf2d743c9ba7d44a241_segmentation.ome.tif",
+ "nguon": "Allen Cell Explorer hiPSC single-cell image dataset (allencell.org; trích dẫn theo Citation Policy)",
+ "vx_um": 0.108333,
+ "tam_hop_bao_goc_um_xyz": [
+  18.642142028526305,
+  11.874898627779007,
+  6.7703827120971685
+ ],
+ "ext_um": [
+  28.72262140534973,
+  14.979471750514984,
+  11.482438424194335
+ ],
+ "NV": [
+  188,
+  112,
+  92
+ ],
+ "AV": [
+  16.890625,
+  10.0625,
+  8.265625
+ ],
+ "so_nut": 1937152,
+ "mesh_mang": {
+  "kin_nuoc": true,
+  "nhat_quan_chieu": true,
+  "the_tich_um3": 1339.5078422616227,
+  "so_mat": 201888,
+  "euler": 2,
+  "dien_tich_um2": 884.5077859129437
+ },
+ "mesh_nhan": {
+  "kin_nuoc": true,
+  "nhat_quan_chieu": true,
+  "the_tich_um3": 416.12740897659734,
+  "so_mat": 72528,
+  "euler": 2,
+  "dien_tich_um2": 293.29108425971276
+ },
+ "so_khoi_mc": [
+  1,
+  1
+ ],
+ "doc_roi_rac_max": [
+  1.000001326851223,
+  1.0000026537024456,
+  1.000001326851223,
+  1.0,
+  1.0000026537024456,
+  1.0000026537024456
+ ],
+ "V_kha_dung_um3": 184.15105199813843,
+ "V_kha_dung_D4_um3": 2421.0168991088867,
+ "rho": 0.0760635136689544,
+ "so_ti_the": 23,
+ "so_lysosome": 8,
+ "nhan_goc_um": [
+  -3.32421875,
+  0.0,
+  1.078125
+ ],
+ "nhan_S_um": 6.772411092406514,
+ "nhan_r_trong_um": 3.214423894882202,
+ "khe_nhan_mang": {
+  "min_um": 0.1105241395770261,
+  "p1_um": 0.1950643021457509,
+  "trung_vi_um": 1.020959000122569,
+  "dien_tich_duoi_0.1796875": 0.006530687411995259,
+  "dien_tich_duoi_0.5": 0.1962913344906877,
+  "dien_tich_duoi_1.0": 0.502742908646239,
+  "dien_tich_duoi_2.5": 0.96842844910567,
+  "nhan_ngoai_mang_dinh": 0,
+  "cham": true
+ },
+ "V_te_bao_chat_um3": 923.3804332850254,
+ "giay": 344.5,
+ "md5_sdf": "6e74f25158a7698316e8045c5211cdc4"
+}

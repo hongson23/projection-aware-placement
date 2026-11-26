@@ -1,0 +1,111 @@
+# DONG BANG bo_kiem_v3
+ngay: 2026-11-15 09:03:51 (gio server)
+trang thai: 16/11 — DOI NHAN KY VONG THUC VAT (PI 16/11): 10/12 dot bien TV1 chi bat o tham so doi dot_bien -> st_dat_ts_truot tren ket qua co san (khong chay lai; chi doi kieu trong cay_loi_tv.py + ap trong tong_hop_cong_v3b.py; ly do tung ca: sua_1611/doi_nhan_tv_1611.json); 2 Golgi nhom C (golgi_mot_phan_tam, golgi_gom_canh_nhan) GIU dot_bien (vi pham loi su that 5.6a, ve khong_hinh_hoc = khoang trong phu). Bang thuc vat moi: 71/71; muc su that 29/31; st_dat_ts_truot 15/15; doi chung 0/20; khong hop le 5; loi cay 0. Dong vat khong doi. Ra soat cheo doc lap sua_1611/ra_soat_doi_nhan/PHAN_QUYET.txt: vong 1 NOT READY (bac nhom C + so ca tac dung phu) -> da sua -> vong 1b READY. md5 muc A kiem lai 16/11 KHOP 16/16 (danh sach md5 duoi KHONG doi; md5 moi muc C: sua_1611/md5_1611.txt). || Truoc do: DONG BANG MA CHAM (muc A) 15/11, md5 muc A kiem lai 15/11 chieu KHOP 16/16; ra soat cheo vong 2 (15/11 chieu, sua_1511/ra_soat_vong2/PHAN_QUYET.txt): B1 DONG — READY (goc g45 moi dat ca hai ve 4.5b, 4 dot bien hn5_* chi truot moi 4.5b@su_that, dung ve; bang cong dv 113/113, su that 55/55, khong hop le 2); B2 DONG — van ban sua theo vong 2 + 2b (0,0151->0,0155; san 0,0100-0,0105; nguon q6_*.json); ban cuoi chi doi chieu diff, khong ra lai noi dung. Muc C: cay_loi.py, tong_hop_cong_v3b.py, TOM_TAT_CONG_V3_CUOI.md, cong_v3_cuoi.json DA DOI sau ban md5 duoi (md5 moi + hn5_*: sua_1511/ra_soat_1511.txt)
+
+## A. Tep dung khi CHAM (duong cham_lo.sh -> cham_mot.py -> kiem3/kiem2/kiem_thucvat/do_khuon/tang_toc) — md5
+697716712df8d3d640f232f66c49792c  bo_kiem_v3/kiem3.py
+66a0d250f753595257451fccc1620a31  bo_kiem_v3/kiem2.py
+d75cfcc4b2d00b0b3e10e2147dcc6d6c  bo_kiem_v3/kiem_thucvat.py
+d99bd6eca7a9a8f437c4a6cf745f2ca0  bo_kiem_v3/luat_v12.py
+6ec279b2dadbb9c2723fc2b7b6b758b1  bo_kiem_v3/do_khuon.py
+c261fdba7377a1e70b2fc8265bcabb83  bo_kiem_v3/tang_toc.py
+dd3b3e6de13c3fdcf4aecfdfd916e9d8  bo_kiem_v3/cham_mot.py
+1a379c8e260d5685a1b0939f889f4367  bo_kiem_v3/cham_lo.sh
+5c35191d9e48e66a3f36429bb5111e43  bo_kiem_v3/tao_ban_mu.py
+2486ce3cc19ea627f99b80286be6d9a5  bo_kiem_v3/luat_v41.json
+5e9fb8e591188faf93a6bc22bd20e8ee  bo_kiem_v3/luat_thucvat_v14_van_ban.json
+eed4f1b5c102ac2030f9c1dd85b06d29  bo_kiem_v3/luat_v12/luat_su_that_dong_vat_v1_2_20261111.json
+c22f015563b13b4c6755afe47b25af9c  bo_kiem_v3/luat_v12/luat_su_that_thuc_vat_v1_2_20261111.json
+b08aa1bd0b8d0a3eb50eb3dfc9b119a4  bo_kiem_v3/luat_v12/tham_so_quy_uoc_v1_2_20261111.json
+67347f373cd39ea7fd53e236a44797f3  bo_kiem_v3/luat_v12/khuon_thuc_vat_bo_sung_v1_2_20261111.json
+f30df2ca7572bdca3453ddd176ad99fb  ../chay_gpu.sh
+
+Khuon AI (do_khuon doc qua khuon_thuc_vat_bo_sung, kiem sha256 luc chay):
+sha256 b847e0a3c32db7e43b8d2f6570597ee829197c7b1d67fcd14b114f499e6f1b18  ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh2__g6.0__s2.npz
+sha256 784c1b72a6c4913963e474bf30d595bc4e6f6a5d64fe091d0499ebf28c82726e  ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh__g3.5__s1.npz
+sha256 7303b6b1edd1ccf2ed6327305f46d6c3ede88c23e3bc3c86b86344f61a178ce1  ch3_tebao_dep/ai/khuon_tv/peroxisome__hinh__g6.0__s1.npz
+sha256 78548c376bc448369a0db3c5bfc628d7f16e767f4e5e3d9815fe8de6441ec040  ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g3.5__s2.npz
+sha256 d70c52c262e070f0df5ee374dad2dee7673ae403f9d4dff091dc38c11ee36042  ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g6.0__s1.npz
+sha256 2240112116f48e85e3e43402a7609402e91d969a480b530a8e670876eb49a2cf  ch3_tebao_dep/ai/khuon_tv/peroxisome__sgk__g6.0__s2.npz
+sha256 92d94d0a714bc08f764a52bb5c55a6d569dacd0d9b6a98a512e415e33a35893d  ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g3.5__s1.npz
+sha256 e9928833d64dfd490b463d13e78c290d6b10f4e79e543fff766f2b902e8729eb  ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g3.5__s2.npz
+sha256 a310231a370da88876bcdb382d3d60e28d2fd03e68c6f66bee2a5b7985579dca  ch3_tebao_dep/ai/khuon_tv/peroxisome__sinh_hinh__g6.0__s1.npz
+sha256 88d3054efd0ec0e6dfb28c8e730d834e51c3f4e2f8ce70910c290e9008ff132b  ch3_tebao_dep/ai/khuon_tv/nhan_s1.npz
+sha256 99902537a35519452e89612ab7cd0e3c66287a13faee384a6c739a3f3670bdb9  ch3_tebao_dep/ai/khuon_tv/nhan_s4.npz
+sha256 019a4a67e3adf5aa34abb735d07a77e34c06cc92dc865f6ab3a9d30c91ebb4dc  ch3_tebao_dep/ai/khuon_tv/ti_the_s1.npz
+sha256 257046147cc70b7bc84063aa2df77dc73cca510a3af2e56326b8bdf19bc0fefa  ch3_tebao_dep/ai/khuon_tv/ti_the_s2.npz
+sha256 7e4c984ea79b2f8232829c1eca3b96c5bf23f62a2c40bb73daf450d03c84958e  ch3_tebao_dep/ai/khuon_tv/ti_the_s4.npz
+
+## B. Tep phu tro (khong nam trong duong cham_mot; ghi de doi chieu) — md5
+22bf4c66e0550aa3bac9a6bc6fa917bb  kiem_giu_rieng.py
+99c74b33b43935d07e439648b6c7b262  chan_doan_gc.py
+25dae17aee975ddf293f53b36563aee9  chan_doan_gc_chinh/NGUONG_DONG_BANG.json
+bfaa29527a43f7638d0cdddc9a6b646c  luat_v12/khuon_bo_sung_atlas_v1_2_20261112.json
+925194679fd883d008249168e66f3c2a  luat_v12/DoiChieu_LuatSuThat_BoKiem_v1_2_20261111.md
+
+## C. Ma va ket qua cong dot bien — md5
+7d27a8ce42676e28227fd607ce1811ac  cay_loi.py
+95c77c9ee3cef05bfb9e12d320d63041  cay_loi_tv.py
+ee41cb296103df5a18782e7be67ba016  v3_cay_loi_chung.py
+4e405a741284dd8eaf54839225d2c56f  dung_tv_thu.py
+05c133530c1463b24a7ee600a0f421ac  tong_hop_cong_v3.py
+e7f689f5bc80718d6faaa1335014b9a6  tong_hop_cong_v3b.py
+4bacb6e8519fb2ac41d9c74d4de24d4d  TOM_TAT_CONG_V3.md
+ecaabf6f649d2c9ed24bfcce9b0c770c  TOM_TAT_CONG_V3_CUOI.md
+6674e6b217ab03121913858102f80f45  cong_v3_cuoi.json
+eb9da74c558a78b55e266e2886c4a221  hn3_D1_td_1001_p0/cay_loi_ket_qua.json
+9c3d30830d1041f612055fabca35093a  hn3_D1_td_1001_p1/cay_loi_ket_qua.json
+823a8c76885d5d1ecedbb3b956054aea  hn3_D4A2_td_1001_p0/cay_loi_ket_qua.json
+984627e65820377b80d2dc9a8efb04df  hn3_D4A2_td_1001_p1/cay_loi_ket_qua.json
+c2bd6444ed679483cb9e8e2702f5e5ac  hn3_D4A2_td_1001_p2/cay_loi_ket_qua.json
+933d54a36dc360ccd3cb23034c3afd3f  hn3_D4A2_td_1001_p3/cay_loi_ket_qua.json
+1b592a9ecdd5c3802ee167d25acc9c67  hn3_TV1_p0/cay_loi_tv_ket_qua.json
+0a92c46ad814daf273c32475514bef60  hn3_TV1_p1/cay_loi_tv_ket_qua.json
+e877a4c366c332e7f6a6f02dbc760a3b  hn3_TV2/cay_loi_tv_ket_qua.json
+98d58f1009dc9c1ddc86f388385131bb  hn3_TV6_p0/cay_loi_tv_ket_qua.json
+9640cd5bb4cb338544dc5bc8370573f7  hn3_TV6_p1/cay_loi_tv_ket_qua.json
+cec70d74bc7bb3b923c7866c8b1f93a8  hn4_D1_td_1001/cay_loi_ket_qua.json
+b2f29e78dcb1f0fe33b734730497dedc  hn4_D1_td_1001_b/cay_loi_ket_qua.json
+a9283ddcdb1619033a94a645acbc0a46  hn4_D4A2_td_1001_p1/cay_loi_ket_qua.json
+f2ae7162a5d1779cd4e37aabd50c74b0  hn4_D4A2_td_1001_p2/cay_loi_ket_qua.json
+c9d9e104210b740c05ed666695e133f5  hn4_D4A2_td_1001_p3/cay_loi_ket_qua.json
+a2c0c633828fa360c5ca701a8f52d907  hn4_D4A2_td_1001_p4/cay_loi_ket_qua.json
+266c7dbc37413bdc025895ed51e9f3e5  hn4_D4A2_td_1001_p5/cay_loi_ket_qua.json
+d6220d6ca3f8b3c85e362d1b58ec6c9a  hn4_TV1/cay_loi_tv_ket_qua.json
+
+## D. Moi truong
+python: ~/miniforge3/envs/b2demo/bin/python 3.11.16
+numpy 2.4.6
+scipy 1.17.1
+trimesh 5.1.0
+manifold3d ?
+igl ?
+torch 2.11.0+cu128
+skimage 0.26.0
+
+## E. Ra soat cheo doc lap (agent rieng, nhan ma + du lieu + danh sach viec, KHONG nhan ket luan)
+Agent ra soat doc lap (15/11/2026), nhan: ma + diff voi .bak + du lieu tho hn3/hn4 + danh sach 7 viec; KHONG nhan ket luan cua nguoi sua.
+PHAN QUYET: NOT READY — 2 muc chan.
+- Viec 1–5 va muc them (luc_lap_chi_4_mat_doi_chung): DUNG nhu mo ta, khong lam yeu bo kiem (duong genus 0 khong doi; dem M.c0 tren goc hn3 = hn4).
+- Tu tinh lai bang cong tu JSON tho: KHOP TOM_TAT_CONG_V3_CUOI.md. Dong vat: phat hien 111/111; muc su that 53/53; st_dat_ts_truot 16/16; doi chung bao gia 0/26
+  (2/26 neu coi KKD la vi pham — nguoi sua dem lai: 4/26 gom ca 2 dc_nhan_khoan_ham giong 1); khong hop le 4; loi cay 0.
+  Thuc vat: 81/81; muc su that 29/41; 5/5; 0/20; khong hop le 5; loi cay 0. Thay the hn3->hn4 du va 1:1 (32 + 6), khong trung, goc giong het.
+- B1 (CHAN): 4.5b ve 1 "khe Golgi–nhan < khe Golgi–mang" KHONG co dot bien hop le: goc rieng g45 truot dung ve nay (khe nhan 2,1 > khe mang 1,25 D1 / 1,55 D4A2)
+  nen ca hai v12_golgi_sat_mang_4.5b khong hop le; 4.5b trong cong chi dua tren ve "tam trung the trong bao loi Golgi". Sua goc g45 roi chay lai, hoac PI chap nhan tuong minh.
+- B2 (CHAN): sua van ban TOM_TAT_CONG_V3_CUOI.md truoc khi dong bang: (i) dc_nhan_khoet_rong sach chi nho luat KKD nhan; (ii) doan do nhay:
+  sai so lay mau ≲ 1 nm (k=8 vs k=32), phan hut ~25 % o D4A2 do bo cay (_er_loi doi dinh theo huong tam, khong theo phap tuyen); san thuc ≈ 0,0105–0,011 µm.
+- Khong chan: khoang trong phu muc su that (dv 1.2a, 4.3b, 4.5a, M.e; tv 2.2a, 2.7d, 5.1a, 5.6a, 10.1a, 10.2a; ve "≥ 3 mat" cua 2.7b);
+  12 dot bien thuc vat la ky vong sai chua doi nhan; cong khac san xuat (xoa bo phan dua vao bo_phan_du_kien cua cong — cham_mot dat = bo phan co mat
+  nen khong bao "thieu bo phan"; thuc vat cong dung "cha" khai bao, san xuat suy cha theo chua); TV1 khong dai dien bo dung v1.2; luat KKD nhan rong
+  (bo ca khoi giong 1 chinh xac; 4.3a/1.4a/4.2a van dung cung khoi dac; thuc vat khong co luat tuong ung; can dem KKD theo nhanh); cham_lo.sh lay lai
+  viec loi vo han va canh df loi; lam mu chi o muc quy trinh (lien ket cung lo inode/mtime; KHOA_MU cung nguoi dung; kiem ten khuon trong tu_the co ma hoa nhanh khong).
+- Khong thay ro dap an (luat_v12 chi doc truong chu; luat KKD dung khoi dac cua chinh kiem2). Ket qua 100 %/0 la kiem nhat quan, KHONG phai uoc luong khong chech
+  (moi that bai hn3 deu giai bang doi ky vong/dot bien/luat KKD; mau nho: 2 te bao dong vat, thuc vat chu yeu TV1).
+
+Xu ly sau ra soat (15/11, CHUA ra soat lai):
+- B2: da sua tong_hop_cong_v3b.py va sinh lai TOM_TAT_CONG_V3_CUOI.md (dong 'bao gia neu coi KKD la vi pham' 4/26 + ghi chu; doan do nhay theo so do cua ra soat; ghi chu 12 ky vong sai thuc vat).
+- cham_lo.sh: sua 2 loi ra soat chi ra (khong lay lai viec da loi tru CHAY_LAI_LOI=1; df loi → coi het dia → dung).
+- B1: CHUA sua (ngoai danh sach 7 viec) — cho PI chon: (a) sua goc g45 (dat Golgi khe nhan 2,1 o phia mang xa > 2,6 µm) + chay lai 4 viec 4.5b o D1/D4A2 (~30 phut), hoac (b) chap nhan tuong minh.
+  Sua (a) chi cham cay_loi.py (ma cong, muc C), KHONG doi tep cham o muc A.
+
+PI (anh Sơn) 15/11 09:08: CHO CHẤM lượt chính động vật ngay bằng mã mục A (md5 không đổi). B1 (đột biến 4.5b vế 1) xử lý sau trong cay_loi.py, không đổi mục A; B2 rà lại sau.
